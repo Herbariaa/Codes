@@ -10,7 +10,7 @@ _flow_index:
       hidden: true
       icon: ionic
       mod: _flow_index_fwhg
-      children:
+      children:  
         index:
           title: 流程中心
         view:

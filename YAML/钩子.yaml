@@ -1,0 +1,157 @@
+---
+- 
+  condition:
+    firm_label:
+      operator: =
+      value: 上实资本
+    hetonglx_label:
+      operator: in
+      value:
+        - 财务
+        - 行政
+        - 人事
+        - IR
+        - 法务
+        - PR
+        - 战略发展
+        - 党办
+        - 战略情报
+  goto: h3mtyg678q
+- 
+  condition:
+    firm_label:
+      operator: in
+      value:
+        - 上海生物医药基金
+        - 上海生物医药基金GP
+    hetonglx_label:
+      operator: '!in'
+      value:
+        - PE
+        - VC
+  goto: hfqt3y5gfm
+- 
+  condition:
+    firm_label:
+      operator: in
+      value:
+        - 香港生物科技基金
+    hetonglx_label:
+      operator: '!in'
+      value:
+        - 美元
+  goto: hyojhuz15h
+- 
+  condition:
+    firm_label:
+      operator: in
+      value:
+        - 上海生物医药基金
+        - 上海生物医药基金GP
+    hetonglx_label:
+      operator: in
+      value:
+        - PE
+        - VC
+  goto: h3mtyg66pa
+- 
+  condition:
+    firm_label:
+      operator: in
+      value:
+        - 香港生物科技基金
+    hetonglx_label:
+      operator: in
+      value:
+        - 美元
+  goto: hyojhuz15h
+- 
+  condition:
+    firm_label:
+      operator: in
+      value:
+        - 转化基金
+        - 转化基金GP
+        - 转化基金二期
+        - 转化基金二期GP
+        - >
+          上海上实二期生物医药创业投资合伙企业（有限合伙）
+  goto: hfqt3y5ams
+- 
+  condition:
+    szfirm_label:
+      operator: =
+      value: 上实资本
+    wenjianlx_label:
+      operator: in
+      value:
+        - 财务
+        - 行政
+        - 人事
+        - IR
+        - 法务
+        - PR
+        - 战略发展
+        - 党办
+        - 战略情报
+  goto: h3mtyg678q
+- 
+  condition:
+    szfirm_label:
+      operator: in
+      value:
+        - 上海生物医药基金
+        - 上海生物医药基金GP
+    wenjianlx_label:
+      operator: '!in'
+      value:
+        - PE
+        - VC
+  goto: hfqt3y5gfm
+- 
+  condition:
+    szfirm_label:
+      operator: in
+      value:
+        - 香港生物科技基金
+    wenjianlx_label:
+      operator: '!in'
+      value:
+        - 美元
+  goto: hyojhuz15h
+- 
+  condition:
+    szfirm_label:
+      operator: in
+      value:
+        - 上海生物医药基金
+        - 上海生物医药基金GP
+    wenjianlx_label:
+      operator: in
+      value:
+        - PE
+        - VC
+  goto: h3mtyg66pa
+- 
+  condition:
+    szfirm_label:
+      operator: in
+      value:
+        - 香港生物科技基金
+    wenjianlx_label:
+      operator: in
+      value:
+        - 美元
+  goto: hyojhuz15h
+- 
+  condition:
+    szfirm_label:
+      operator: in
+      value:
+        - 转化基金
+        - 转化基金二期
+        - 转化基金GP
+        - 转化基金二期GP
+        - >
+          上海上实二期生物医药创业投资合伙企业（有限合伙）
+  goto: hfqt3y5ams

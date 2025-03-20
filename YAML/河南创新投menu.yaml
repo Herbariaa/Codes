@@ -1,0 +1,5326 @@
+---
+home:
+  title: 首页
+  init_route: jsc
+  children:
+    index:
+      title: 工作台
+    jsc:
+      title: 投资看板
+      type: load
+      url: ?/hnic_new_str
+      hidden_mobile: true
+    ldjsc:
+      title: 投资看板
+      hidden: true
+      type: load
+      url: ?/hnic_str/sharehold_item_board
+      hidden_mobile: true
+    tzrlt:
+      title: 投资热力图
+      type: load
+      url: ?/rlt/index
+      hidden_mobile: true
+    industry_new:
+      title: 新闻资讯company_after
+      hidden: true
+      type: load
+      url: ?/industry_news/search/
+      hidden_mobile: true
+fund_zg_mjj_muji:
+  title: 母基金
+  hidden: true
+  mod: fund_zg
+  view: fund_zg_mjj_muji
+  filter:
+    jjlx:
+      - 母基金
+    jjxz: 自管类
+  icon: earth
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: fund_zg_add/add/
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        fund_zg_clba:
+          title: 设立备案
+          type: ext
+        fund_zg_mj:
+          title: 基金募集
+          type: ext
+        fund_zg_tzqk:
+          title: 投资情况
+          type: ext
+        fofzuhe:
+          title: 投资组合
+          type: ext
+          show_count: true
+          mod: fofzuhe
+          filter:
+            fof: eid
+        fof_operation_report:
+          title: 私募产品运行表
+          hidden: true
+          type: ext
+        memo:
+          title: Activity
+          hidden: true
+          type: data
+          mod: memo
+          filter:
+            glian: eid
+        foflp:
+          title: 投资人情况
+          hidden: true
+          type: data
+          show_count: true
+          mod: foflp
+          filter:
+            fof: eid
+        cashflow_fof:
+          title: 现金流管理
+          mod: cashflow_fof
+          type: ext
+        flowindex_fund_zg:
+          title: 流程管理
+          type: flowindex
+          flow: fund_zg
+          children:
+            index:
+              title: 列表
+        doc:
+          title: 文档
+        memo2:
+          title: 日程
+          type: data
+          hidden: true
+          mod: calendar
+          filter:
+            company: eid
+fund_zg_tgjj_add:
+  title: 政府托管基金新增
+  icon: stats-bars
+  mod: fund_zg_tgjj
+  view: fund_zg_tgjj_add
+  hidden: true
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        doc:
+          title: 文档
+sys080601:
+  title: 基金管理
+  type: ul
+fund_zg_mjj:
+  title: 母基金
+  mod: fund_zg
+  view: fund_zg_mjj_muji
+  filter:
+    jjlx:
+      - 母基金
+    jjxz: 自管类
+  icon: earth
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: fund_zg_add/add/
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        fund_zg_clba:
+          title: 设立备案
+          type: ext
+        fund_zg_mj:
+          title: 基金募集
+          type: ext
+        fund_zg_tzqk:
+          title: 投资情况
+          type: ext
+        fofzuhe:
+          title: 投资组合
+          type: ext
+          show_count: true
+          hidden: true
+          mod: fofzuhe
+          filter:
+            fof: eid
+        fof_operation_report:
+          title: 私募产品运行表
+          hidden: true
+          type: ext
+        memo:
+          title: Activity
+          hidden: true
+          type: data
+          mod: memo
+          filter:
+            glian: eid
+        foflp:
+          title: 投资人情况
+          hidden: true
+          type: data
+          show_count: true
+          mod: foflp
+          filter:
+            fof: eid
+        cashflow_fof:
+          title: 现金流管理
+          mod: cashflow_fof
+          type: ext
+        flowindex_fund_zg:
+          title: 流程管理
+          type: flowindex
+          flow: fund_zg
+          children:
+            index:
+              title: 列表
+        doc:
+          title: 文档
+        memo2:
+          title: 日程
+          hidden: true
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+
+fund_yd:
+  title: 引导基金
+  mod: fund_yd
+  icon: earth
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: fund_yd_add/add/
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        fof_operation_report:
+          title: 私募产品运行表
+          hidden: true
+          type: ext
+        memo:
+          title: Activity
+          hidden: true
+          type: data
+          mod: memo
+          filter:
+            glian: eid
+        foflp:
+          title: 投资人
+          type: data
+          show_count: true
+          hidden: true
+          mod: foflp
+          filter:
+            fof: eid
+        fund_zg:
+          title: 投资组合
+          hidden: true
+          type: data
+          mod: fund_zg
+          view: fund_zg_mjj_muji
+          filter:
+            jjfamc: eid
+          show_count: true
+        cashflow_fof:
+          title: 现金流管理
+          mod: cashflow_fof
+          hidden: true
+          type: ext
+        doc:
+          title: 文档
+        memo2:
+          title: 日程
+          type: data
+          hidden: true
+          mod: calendar
+          filter:
+            company: eid
+sys080612:
+  title: 母基金
+  type: ule
+fund_yd_add:
+  title: 引导基金新增
+  icon: stats-bars
+  mod: fund_yd
+  view: fund_yd_add
+  hidden: true
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        doc:
+          title: 文档
+sys5:
+  title: 直投基金
+  type: ul
+fund_touch:
+  title: 入库基金
+  mod: fund
+  hidden: true
+  board_filter: state
+  default_s1: all
+  board_limit: 4
+  no_add_btn: true
+  draggable: false
+  board_新增: false
+  init_route: index
+  board_new: modal
+  board_item_template:
+    default: board_2
+    调研储备:
+      template: board_2
+      field:
+        tags: province_label
+        update_date: xmcjsj
+    已立项:
+      template: board_2
+      field:
+        tags: province_label
+        update_date: xmcjsj
+    初审会:
+      template: board_2
+      field:
+        tags: province_label
+        update_date: xmcjsj
+    初步尽调:
+      template: board_2
+      field:
+        tags: province_label
+        update_date: xmcjsj
+    全面尽调:
+      template: board_2
+      field:
+        tags: province_label
+        update_date: xmcjsj
+    风控会:
+      template: board_2
+      field:
+        tags: province_label
+        update_date: xmcjsj
+    已投决:
+      template: board_2
+      field:
+        tags: province_label
+        update_date: xmcjsj
+    投资:
+      template: board_2
+      field:
+        tags: province_label
+        update_date: xmcjsj
+    投后:
+      template: board_2
+      field:
+        tags: province_label
+        update_date: xmcjsj
+  view: fund_touch
+  icon: ios-star-outline
+  filter_merge: true
+  children:
+    index:
+      title: 概况
+    add:
+      title: 新增
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        screening:
+          type: ext
+          hidden: true
+          title: 小问卷发送
+        dd_list:
+          type: ext
+          hidden: true
+          title: 大问卷发送
+        s0_meeting:
+          title: 会议
+          mod: s0_meeting
+          type: data
+          filter:
+            fund: eid
+        doc:
+          title: 文档
+        flowindex_fund:
+          title: 流程管理
+          type: flowindex
+          flow: jj
+          children:
+            index:
+              title: 列表
+        evaluation_sheet:
+          hidden: true
+          type: ext
+          title: 投前打分
+post_filling_qs:
+  title: 基金总览
+  hidden: true
+  mod: fund
+  view: post_filling_qs
+  icon: aperture
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: fund/add/
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        flowindex_cbjj:
+          title: 流程管理
+          type: flowindex
+          flow: cbjj
+          children:
+            index:
+              title: 列表
+fund_zl:
+  title: 基金总览
+  hidden: true
+  mod: fund
+  view: fund_after
+  icon: aperture
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: fund/add/
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        flowindex_cbjj:
+          title: 流程管理
+          type: flowindex
+          flow: cbjj
+          children:
+            index:
+              title: 列表
+fund_touch_history:
+  title: 历史入库
+  hidden: true
+  mod: fund
+  icon: ios-star-outline
+  view: fund_touch
+  filter:
+    state:
+      - 历史入库
+  filter_merge: true
+  default_s1: all
+  no_add_btn: true
+  board_新增: false
+  children:
+    index:
+      title: 概况
+fund_before1:
+  title: 母基金
+  mod: fund_zg
+  hidden: true
+  icon: ios-star-half
+  view: fund_zg_mjj
+  filter:
+    jjlx: 母基金
+    jjxz: 市场化
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: fund_zg_add/add/
+            new: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        tzrlb:
+          title: 投资人
+          type: data
+          mod: tzr
+          filter:
+            fund: eid
+        fofzuhe:
+          title: 投资组合
+          type: ext
+          mod: fofzuhe
+        screening:
+          type: ext
+          hidden: true
+          title: 小问卷发送
+        dd_list:
+          type: ext
+          hidden: true
+          title: 大问卷发送
+        cashflow_portfolio:
+          title: 现金流管理
+          mod: cashflow_portfolio
+          type: data
+          filter:
+            fund: eid
+        flowindex_fund:
+          title: 流程管理
+          type: flowindex
+          flow: jj
+          children:
+            index:
+              title: 列表
+        doc:
+          title: 文档
+        s0_meeting:
+          title: 会议
+          mod: s0_meeting
+          type: data
+          filter:
+            fund: eid
+        evaluation_sheet:
+          type: ext
+          title: 投前打分
+          hidden: true
+fund_before_2:
+  title: 投前基金
+  mod: fund
+  hidden: true
+  icon: ios-star-half
+  view: fund_before
+  filter:
+    state:
+      - 已立项
+      - 已预审
+      - 已投决
+  default_s1: all
+  no_add_btn: true
+  board_新增: false
+  children:
+    index:
+      title: 概况
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        screening:
+          type: ext
+          hidden: true
+          title: 小问卷发送
+        dd_list:
+          type: ext
+          hidden: true
+          title: 大问卷发送
+        s0_meeting:
+          title: 会议
+          mod: s0_meeting
+          type: data
+          filter:
+            fund: eid
+        doc:
+          title: 文档
+        flowindex_fund:
+          title: 流程管理
+          type: flowindex
+          flow: jj
+          children:
+            index:
+              title: 列表
+        evaluation_sheet:
+          type: ext
+          title: 投前打分
+          hidden: true
+fund_name:
+  title: 名称对照表
+  icon: ios-star
+  hidden: true
+  mod: fund
+  view: fund_name
+  filter:
+    state:
+      - 投后
+      - 签约
+  children:
+    index:
+      title: 概况
+fundd:
+  title: 自管直投基金
+  icon: stats-bars
+  mod: fund_zg
+  view: fund_zg_zt_muji
+  filter:
+    jjlx:
+      - 直投基金
+    jjxz: 自管类
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: fund_zg_add/add/
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        fund_zg_clba:
+          title: 设立备案
+          type: ext
+        fund_zg_mj:
+          title: 基金募集
+          type: ext
+        fof_operation_report:
+          title: 私募产品运行表
+          hidden: true
+          type: ext
+        fund_zg_tzqk_ztjj:
+          title: 投资情况
+          type: ext
+        fofzuhe:
+          title: 投资组合
+          type: data
+          mod: company
+          view: subcompany_zjjdcxm_view
+          filter:
+            czzt: eid
+          hidden_add: true
+          hidden_edit: true
+          hidden_del: true
+        foflp:
+          title: 投资人情况
+          hidden: true
+          type: data
+          mod: foflp
+          show_count: true
+          filter:
+            fof: eid
+        companyd:
+          title: 投资组合
+          type: data
+          mod: company
+          view: view_company
+          hidden: true
+          hidden_add: true
+          filter:
+            czzt: eid
+        cashflow_fundd:
+          title: 现金流管理
+          mod: cashflow_fundd
+          type: ext
+        flowindex_fund_zg:
+          title: 流程管理
+          type: flowindex
+          flow: fund_zg
+          children:
+            index:
+              title: 列表
+        doc:
+          title: 文档
+fund_before:
+  title: 市场化直投基金
+  mod: fund_zg
+  icon: ios-star-half
+  view: fund_after_ztjj
+  default_s1: all
+  no_add_btn: true
+  board_新增: false
+  filter:
+    jjlx: 直投基金
+    jjxz: 市场化
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: fund_zg_zjj_add/add/
+            new: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        glrqk:
+          title: 管理人情况
+          type: ext
+          mod: glrqk_zjj
+        glxx:
+          title: 基金管理信息
+          type: ext
+          mod: jjglcc_zjj
+        jjzbxx:
+          title: 基金指标信息
+          type: ext
+          mod: jjzbxm-zjj
+        tzr:
+          title: 投资人
+          type: data
+          mod: tzr
+          filter:
+            fund: eid
+        fofzuhe:
+          title: 投资组合
+          type: data
+          mod: company
+          view: subcompany_zjjdcxm_view
+          filter:
+            czzt: eid
+          hidden_add: true
+          hidden_edit: true
+        cashflow_portfolio:
+          title: 现金流管理
+          mod: cashflow_portfolio
+          type: data
+          filter:
+            fund: eid
+        flowindex_fund:
+          title: 流程管理
+          type: flowindex
+          flow: jj
+          children:
+            index:
+              title: 列表
+        doc:
+          title: 文档
+        s0_meeting:
+          title: 会议
+          mod: s0_meeting
+          type: data
+          filter:
+            fund: eid
+        jjfxgl:
+          title: 基金风险管理
+          type: data
+          mod: jjfkgl
+          filter:
+            fund: eid
+        screening:
+          type: ext
+          hidden: true
+          title: 小问卷发送
+        dd_list:
+          type: ext
+          hidden: true
+          title: 大问卷发送
+        evaluation_sheet:
+          type: ext
+          title: 投前打分
+          hidden: false
+        zbjgjsqkb:
+          title: 资本投后情况信息
+          type: ext
+          mod: zbjgjsqkb
+          view: zbjgjsqkb
+          hidden: true
+          children:
+            index:
+              title: 列表
+temporary_filling:
+  title: 临时填报
+  hidden: true
+  mod: fund
+  view: temporary_filling
+  filter:
+    state:
+      - 投后
+  children:
+    index:
+      title: 概况
+      page_size: 20
+      btns:
+        发送邮件: ?/temporary_filling/batch_sendpm/kcjj
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+jidukuaibao:
+  title: 快报发送
+  hidden: true
+  icon: ios-list-outline
+  mod: fund
+  view: jidukuaibao
+  filter:
+    state:
+      - 投后
+  children:
+    index:
+      title: 子基金快报填报
+      btns:
+        填报状态重置: ?/jidukuaibao/reset_pm_state/未发送
+        发送邮件: ?/jidukuaibao/batch_sendpm/kcjj
+    jidukuaibao_history:
+      type: load
+      title: 子基金快报历史
+      hidden: true
+      url: ?/jidukuaibao_history/index
+    create_tianbao_history:
+      title: 生成历史
+      hidden: true
+      type: load
+      url: >
+        ?/service/vendor_bridge/g1vifeawxh/kcjj/create_tianbao_history/
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+jidukuaibao_count:
+  title: 填报完成度
+  icon: ios-list-outline
+  hidden: true
+  mod: fund
+  view: jidukuaibao
+  filter:
+    state:
+      - 投后
+    manager_confirm:
+      - 否
+    sql: '`data`->>"$.code">"0"'
+  children:
+    index:
+      title: 概况
+kuaibao:
+  title: 快报
+  hidden: true
+  mod: kuaibao
+  children:
+    index:
+      title: 列表
+      page_size: 10
+      modal: 1
+      btns_top:
+      hidden:
+        item:
+          new:
+            label: 下载
+    add:
+      title: 新增
+    export:
+      title: 导出
+    stat:
+      title: 统计
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        confirm:
+          title: leader确认
+          hidden: true
+          type: ext
+          mod: kuaibao_confirm
+kuaibao_confirm:
+  title: 快报确认
+  hidden: true
+  icon: leaf
+  mod: kuaibao
+  filter:
+    dleader: uid
+    state: 待确认
+  children:
+    index:
+      title: 列表
+      page_size: 10
+      modal: 1
+    add:
+      title: 新增
+    export:
+      title: 导出
+    stat:
+      title: 统计
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        confirm:
+          title: leader确认
+          hidden: true
+          type: ext
+          mod: kuaibao_confirm
+jidukuaibao_history:
+  title: 快报历史
+  hidden: true
+  icon: ios-list-outline
+  mod: jidukuaibao_history
+  children:
+    index:
+      title: 概况
+      page_size: 20
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+    del:
+      title: 删除
+    view:
+      title: 查看
+subcompany_jibao_view:
+  mod: company
+  view: subcompany_jibao_view
+  title: fund_location
+  hidden: true
+subcompany_jibao_view_history:
+  mod: company_history
+  view: subcompany_jibao_view_history
+  title: fund_location
+  hidden: true
+bbrisk_warning:
+  title: 风控管理
+  icon: alert
+  mod: bbrisk_warning
+  hidden: true
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        zbjk:
+          title: 指标预警
+          type: ext
+          mod: zbjk
+        monitoring:
+          title: 舆情监控
+          type: ext
+          mod: monitoring
+        clause_monitor:
+          title: 条款执行监控
+          type: ext
+          mod: clause_monitor
+zbjk:
+  title: 指标监控
+  mod: zbjk
+  hidden: true
+  children:
+    index:
+      title: 总览
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+clause_monitor:
+  title: 指标监控
+  mod: clause_monitor
+  hidden: true
+  children:
+    index:
+      title: 总览
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+company_deal:
+  title: 投资项次
+  mod: company_deal
+  hidden: true
+  children:
+    index:
+      title: 概况
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 修改
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+company_deal_1:
+  title: 投资项次
+  hidden: true
+  mod: company_deal
+  filter:
+    fof:
+      - godna618iv
+  children:
+    index:
+      title: 二期投资项次
+    company_deal_2:
+      type: load
+      title: 一期投资项次
+      url: ?/company_deal_2/index
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 修改
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+company_deal_2:
+  title: 二期投资项次
+  mod: company_deal
+  filter:
+    fof:
+      - g1z36dwlvh
+  hidden: true
+  children:
+    index:
+      title: 概况
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 修改
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+one_page:
+  title: 一页纸
+  hidden: true
+  mod: fund
+  view: one_page
+  filter:
+    state:
+      - 签约
+      - 投后
+  children:
+    index:
+      title: 总览
+    add:
+      title: 新增
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 详情
+subcompanyd:
+  title: 一页纸
+  hidden: true
+  mod: companyd
+  view: subcompanyd
+  filter:
+    company_state:
+      - 投后
+  children:
+    index:
+      title: 总览
+    add:
+      title: 新增
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 详情
+past_fund:
+  hidden: true
+  title: 历史业绩
+  icon: ios-people
+  mod: past_fund
+  children:
+    index:
+      title: 概况
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+fund_gp_com:
+  title: 基金管理人
+  hidden: true
+fund_report:
+  title: 子基金统计
+  icon: none
+  hidden: true
+subcompany_report:
+  title: 项目统计
+  icon: none
+  hidden: true
+check:
+  title: 填报检查
+  icon: none
+  hidden: true
+sys6:
+  title: 基金投资管理
+  icon: ion-ios-world
+  type: ule
+fund-zftg:
+  title: 政府托管基金
+  mod: fund_zg_tgjj
+  view: fund_zg_tgjj
+  icon: earth
+  children:
+    index:
+      title: 列表
+      btns_top:
+      hidden:
+        item:
+          新增:
+            label: 新增
+            url: fund_zg_tgjj_add/add/
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        fof_operation_report:
+          title: 私募产品运行表
+          hidden: true
+          type: ext
+        memo:
+          title: Activity
+          hidden: true
+          type: data
+          mod: memo
+          filter:
+            glian: eid
+        foflp:
+          title: 投资人
+          type: data
+          show_count: true
+          mod: foflp
+          filter:
+            fof: eid
+        fofzuhe:
+          title: 投资组合
+          type: data
+          mod: tgjjtzzh
+          hidden_add: true
+          hidden_edit: true
+          hidden_del: true
+          filter:
+            jjmc: fund_full_name
+        cashflow_fof:
+          title: 现金流管理
+          mod: cashflow_fof
+          type: ext
+          hidden: true
+        doc:
+          title: 文档
+        memo2:
+          title: 日程
+          type: data
+          hidden: true
+          mod: calendar
+          filter:
+            company: eid
+sys080602:
+  title: 基金管理
+  type: ule
+subcompany_zjjdcxm_view:
+  title: 管理人
+  mod: company
+  view: subcompany_zjjdcxm_view
+  hidden: true
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        doc:
+          title: 文档
+view_company_zjj:
+  title: 管理人
+  mod: company
+  view: view_company_zjj
+  hidden: true
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        doc:
+          title: 文档
+view_fund:
+  title: 管理人
+  mod: fund
+  view: view_fund
+  hidden: true
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        doc:
+          title: 文档
+view_company:
+  title: 管理人
+  mod: company
+  view: view_company
+  hidden: true
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        doc:
+          title: 文档
+glgs_ld:
+  title: 管理人
+  hidden: true
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: glgs_ld/add/
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        hzjj:
+          title: 在管基金
+          type: data
+          mod: fund_zg
+          hidden_add: true
+          hidden: true
+          filter:
+            cyzt: eid
+        doc:
+          title: 文档
+glgs:
+  title: 管理人
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: glgs/add/
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        hzjj:
+          title: 在管基金
+          type: data
+          mod: fund_zg
+          hidden_add: true
+          hidden: true
+          filter:
+            cyzt: eid
+        doc:
+          title: 文档
+spvmk:
+  title: SPV
+  mod: fund_spv
+  view: spvmk
+  children:
+    index:
+      title: 总览
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: spvmk/add/
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 详情
+        fofzuhe:
+          title: 投资标的
+          type: ext
+          show_count: true
+          mod: fofzuhe
+
+sys7:
+  title: 项目投资管理
+  icon: ios-star-outline
+  type: ul
+company:
+  title: 项目总览
+  icon: aperture
+  mod: company
+  view: company_after
+  hidden: ture
+  board_filter: company_state
+  default_s1: all
+  board_limit: 4
+  no_add_btn: true
+  draggable: false
+  board_新增: false
+  init_route: index
+  board_new: modal
+  board_item_template:
+    default: board_1
+    项目储备:
+      template: board_1
+      field:
+        tags: province_label
+        update_date: xmcjsj
+    项目立项:
+      template: board_1
+      field:
+        tags: province_label
+        update_date: xmcjsj
+    项目入库:
+      template: board_1
+      field:
+        tags: province_label
+        update_date: xmcjsj
+    项目预审:
+      template: board_1
+      field:
+        tags: province_label
+        update_date: xmcjsj
+    项目尽调:
+      template: board_1
+      field:
+        tags: province_label
+        update_date: xmcjsj
+    项目投决:
+      template: board_1
+      field:
+        tags: province_label
+        update_date: xmcjsj
+    投资执行:
+      template: board_1
+      field:
+        tags: province_label
+        update_date: xmcjsj
+    项目划款:
+      template: board_1
+      field:
+        tags: province_label
+        update_date: xmcjsj
+    投后管理:
+      template: board_1
+      field:
+        tags: province_label
+        update_date: xmcjsj
+      background-color: blue
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: company/add/
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        flowindex_cbxm:
+          title: 流程管理
+          type: flowindex
+          flow: cbxm
+          children:
+            index:
+              title: 列表
+company_cb:
+  title: 储备项目
+  icon: aperture
+  mod: company
+  view: company_cb
+  filter:
+    company_state:
+      - 项目储备
+      - 立项中
+    xmlx2:
+      - 直投项目
+      - 自主管理类基金
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: company_cb/add/
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        flowindex_cbxm:
+          title: 流程管理
+          type: flowindex
+          flow: cbxm
+          children:
+            index:
+              title: 列表
+company_tq:
+  title: 投前项目
+  icon: aperture
+  hidden: true
+  mod: company
+  view: company_tq
+  open_view: company_tq
+  board_filter: company_state
+  default_s1: all
+  board_limit: 200
+  no_add_btn: true
+  draggable: false
+  board_新增: false
+  board_new: modal
+  board_item_template:
+    项目储备:
+      template: board_1
+      field:
+        tags: cjr_label
+        update_date: xmcjsj
+    项目入库:
+      template: board_1
+      field:
+        tags: cjr_label
+        update_date: xmcjsj
+    项目立项:
+      template: board_1
+      field:
+        tags: cjr_label
+        update_date: xmcjsj
+    项目预审:
+      template: board_1
+      field:
+        tags: cjr_label
+        update_date: xmcjsj
+    项目尽调:
+      template: board_1
+      field:
+        tags: cjr_label
+        update_date: xmcjsj
+    项目投决:
+      template: board_1
+      field:
+        tags: cjr_label
+        update_date: xmcjsj
+    投资执行:
+      template: board_1
+      field:
+        tags: cjr_label
+        update_date: xmcjsj
+    项目划款:
+      template: board_1
+      field:
+        tags: cjr_label
+        update_date: xmcjsj
+  filter:
+    company_state:
+      - 项目入库
+      - 项目立项
+      - 项目预审
+      - 项目尽调
+      - 项目投决
+      - 投资执行
+      - 项目划款
+    xmlx2:
+      - 直投项目
+      - 自主管理类基金
+  children:
+    index:
+      title: 列表
+    board:
+      title: 看板
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        tzqk:
+          title: 投资情况
+          type: ext
+          mod: tzqk_tqxm
+        flowindex_companyd:
+          title: 流程管理
+          type: flowindex
+          flow: company
+          children:
+            index:
+              title: 列表
+        qyk_cwpj:
+          title: 现金流
+          type: ext
+          mod: qyk_cwpj
+        monitoring:
+          title: 舆情监控
+          hidden: true
+          type: ext
+          mod: monitoring
+          filter:
+            companyd: eid
+        doc:
+          title: 文档
+        memo2:
+          title: 日程
+          hidden: true
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 列表
+        data_center:
+          title: 情报
+          hidden: true
+        s0_meeting:
+          title: 会议
+          mod: s0_meeting
+          type: data
+          filter:
+            fund: eid
+        gongshang:
+          title: 工商数据
+          type: ext
+gssj:
+  title: 工商数据
+  icon: ios-star-half
+  mod: gssj
+  hidden: true
+  children:
+    index:
+      title: 列表
+      page_size: 20
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+company_after:
+  title: 项目池
+  icon: ios-star-half
+  mod: company
+  view: company_after
+  filter:
+    company_state:
+      - 投后管理
+      - 项目退出
+      - 项目终止
+      - 项目入库
+      - 项目立项
+      - 项目预审
+      - 项目尽调
+      - 项目投决
+      - 投资执行
+      - 项目划款
+    xmlx2:
+      - 直投项目
+      - 自主管理类基金
+  children:
+    index:
+      title: 列表
+      page_size: 20
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: company_th/add/
+            new: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        tzqk:
+          title: 投资情况
+          type: ext
+          mod: tzqk_tqxm
+        xmgz:
+          title: 项目估值
+          type: ext
+          mod: xmgz
+        flowindex_companyd:
+          title: 流程管理
+          type: flowindex
+          flow: company
+          children:
+            index:
+              title: 列表
+        qyk_cwpj:
+          title: 现金流
+          type: data
+          mod: cashflow_portfolio
+          filter:
+            company: eid
+        doc:
+          title: 文档
+        memo2:
+          title: 日程
+          hidden: true
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        s0_meeting:
+          title: 会议
+          mod: s0_meeting
+          type: data
+          filter:
+            fund: eid
+        gongshang:
+          title: 工商数据
+          type: ext
+        financialreport_analysis_ext:
+          title: 财务分析
+          type: ext
+          hidden: true
+        jjfkgl_company:
+          title: 项目风险管理
+          type: data
+          mod: jjfkgl_company
+          filter:
+            fund: eid
+        zcfzb:
+          title: 资产负债表
+          layout: data_table_column
+          mod: caiwu_company
+          view: zcfzb
+          hidden: true
+          type: data
+          filter:
+            company: eid
+        lrb:
+          title: 利润表
+          mod: caiwu_company
+          layout: data_table_column
+          view: lrb
+          hidden: true
+          type: data
+          filter:
+            company: eid
+        xianjinliulb:
+          title: 现金流量表
+          mod: caiwu_company
+          layout: data_table_column
+          view: xianjinliulb
+          hidden: true
+          type: data
+          filter:
+            company: eid
+        guanjianbil:
+          title: 关键比率
+          mod: caiwu_company
+          view: guanjianbil
+          layout: data_table_column
+          type: data
+          hidden: true
+          filter:
+            company: eid
+        onepage_companyd:
+          title: 一页纸
+          type: ext
+          mod: companyd_post_filling_history
+          view: onepage_companyd
+          hidden: true
+          filter:
+            companyd: eid
+        companyd_post_filling:
+          title: 快报
+          type: ext
+          mod: companyd_post_filling
+          hidden: true
+          filter:
+            companyd: eid
+        companyd_post_filling_history:
+          title: 快报历史
+          type: data
+          mod: companyd_post_filling_history
+          hidden: true
+          filter:
+            companyd: eid
+          children:
+            index:
+              title: 列表
+        company_valuation:
+          title: 估值管理
+          mod: company_valuation
+          hidden: true
+          type: ext
+mycompany:
+  title: 个人项目
+  icon: aperture
+  mod: companyd
+  hidden: true
+  filter:
+    leader: uid
+    team_owner: uid
+    team_teams: uid
+  filter_merge: true
+  children:
+    index:
+      title: 列表
+      page_size: 20
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        monitoring:
+          title: 舆情监控
+          hidden: true
+          type: ext
+          mod: monitoring
+          filter:
+            companyd: eid
+        doc:
+          title: 文档
+        memo2:
+          title: 日程
+          hidden: true
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 列表
+        data_center:
+          title: 情报
+          hidden: true
+        s0_meeting:
+          title: 会议
+          mod: s0_meeting
+          type: data
+          filter:
+            fund: eid
+        flowindex_companyd:
+          title: 流程管理
+          type: flowindex
+          flow: company
+          children:
+            index:
+              title: 列表
+qyk:
+  title: 已投标的
+  mod: qyk
+  filter:
+    company_state: 投后管理
+    xmlx2: 直投项目
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        flowindex_thxm:
+          title: 流程管理
+          type: flowindex
+          flow: thxm
+          children:
+            index:
+              title: 列表
+        qyk_cwpj:
+          title: 财务报表
+          type: ext
+          mod: qyk_cwpj
+qyk_th:
+  title: 退出项目
+  mod: qyk
+  filter:
+    company_state: 项目退出
+    xmlx2: 直投项目
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        flowindex_thxm:
+          title: 流程管理
+          type: flowindex
+          flow: thxm
+          children:
+            index:
+              title: 列表
+        qyk_cwpj:
+          title: 财务报表
+          type: ext
+          mod: qyk_cwpj
+rlt:
+  title: 投资热力图
+  icon: ios-star-outline
+  type: load
+  hidden: true
+  url: ?/heat_map_of_fund/index
+pm1:
+  title: 投后填报
+  icon: ios-star-outline
+  mod: qyk
+  view: pm
+  children:
+    index:
+      title: 投后填报
+      page_size: 20
+      btns:
+        填报状态重置: ?/pm/reset_pm_state/未发送
+        发送邮件: ?/pm/batch_sendpm/pepm/sendpm_new
+    baogao:
+      title: 报告历史
+      type: load
+      url: ?/companyd_post_filling_history/index
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+subcompany3:
+  title: 市场化基金项目
+  mod: company
+  view: subcompany_jibao_view
+  filter:
+    xmlx2:
+      - 市场化基金项目
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          new:
+            label: 补录新增
+            icon: plus
+            url: schjjxm/add
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 修改
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        gongshang:
+          title: 工商数据
+          hidden: true
+          type: ext
+        monitoring:
+          title: 舆情监控
+          hidden: true
+          type: ext
+          mod: monitoring
+          filter:
+            subcompany: eid
+schjjxm:
+  title: 市场化基金项目
+  mod: company
+  view: subcompany
+  hidden: true
+  filter:
+    xmlx:
+      - 市场化基金项目
+    xmlx2:
+      - 子基金项目
+  children:
+    index:
+      title: 市场化基金项目
+      btns_top:
+        item:
+          new:
+            label: 新增
+            icon: plus
+            url: schjjxm/add
+companyd_post_filling_history:
+  title: 报告历史
+  mod: companyd_post_filling_history
+  hidden: true
+  children:
+    index:
+      title: 概况
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+di_report:
+  title: 项目统计
+  hidden: true
+  icon: none
+di_check:
+  title: 填报检查
+  hidden: true
+  icon: none
+sys8:
+  title: 项目投资管理
+  icon: ios-star-outline
+  type: ule
+thtz12:
+  title: 投后台账
+  hidden: true
+  type: ul
+tza:
+  title: 台账-中原海云
+  mod: qyk
+  view: tza
+  children:
+    index:
+      title: 列表
+      page_size: 20
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+tzab:
+  title: 投后项目台账
+  mod: qyk
+  view: xmtz
+  children:
+    index:
+      title: 列表
+      page_size: 20
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+thtz21:
+  title: 投后台账
+  type: ule
+sys81:
+  title: 对外报送
+  type: ul
+zftzjjtjb:
+  title: 政府投资基金统计
+  mod: fund
+  view: zftzjjtjb
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+ztxmtj:
+  title: 直投项目统计
+  mod: company
+  view: zjtzxmqkb
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+zbjgjsqkb:
+  title: 资本结构减少统计
+  mod: fund
+  view: zbjgjsqkb
+  hidden: true
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+jjtchz:
+  title: 基金退出汇总
+  mod: fund
+  view: jjtzqktchzb
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+jjfpqkb:
+  title: 基金分配情况
+  mod: jjfpqkb
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: jjfpqkb/add/
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+zjjsljhb:
+  title: 子基金设立计划
+  mod: zjjsljhb
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: zjjsljhb/add/
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+xztzxmbaqkb:
+  title: 新增项目备案
+  mod: company
+  view: xztzxmbaqkb
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+jjstglbg:
+  title: 基金受托管理报告
+  mod: fund
+  view: jjstglbg
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+sys82:
+  title: 对外报送
+  type: ule
+yyzbg1:
+  title: 一页纸报告
+  icon: pie-graph
+  hidden_mobile: true
+  type: ul
+jjyyzbg:
+  title: 基金报告
+  mod: fund
+  view: onepage_fund
+  hidden_mobile: true
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+xmyyzbg:
+  title: 直投项目报告
+  mod: company
+  view: onepage_companyd
+  hidden_mobile: true
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+yyzbg:
+  title: 一页纸报告
+  hidden_mobile: true
+  type: ule
+company1:
+  title: 汇总导出
+  mod: company
+  view: company_after
+  children:
+    index:
+      title: 项目投资
+    fund_zl:
+      title: 基金投资
+      type: load
+      url: ?/fund_zl/index
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 修改
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+cashflow_portfolio:
+  title: 项目回收管理
+  icon: cube
+  mod: cashflow_portfolio
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: cashflow_portfolio/add/
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: false
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+fundd_lp:
+  title: 投资人现金流
+  hidden: true
+  mod: fundd_lp
+  children:
+    index:
+      title: 概况
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+cashflow_guanlifei:
+  title: 管理费现金流
+  hidden: true
+  mod: cashflow_guanlifei
+  children:
+    index:
+      title: 概况
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+cashflow_other:
+  title: 其他收入支出
+  hidden: true
+  mod: cashflow_other
+  children:
+    index:
+      title: 概况
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+sys11:
+  title: 估值管理
+  hidden: true
+  type: ul
+company_valuation_other:
+  title: 估值管理
+  hidden: true
+  mod: companyd
+  view: company_valuation_other
+  filter:
+    company_state:
+      - 投后
+  children:
+    index:
+      title: 概况
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: company_valuation_other/add/
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+companyd_post_filling:
+  title: 估值管理 2
+  mod: companyd
+  view: companyd_post_filling
+  open_view: companyd_post_filling_view
+  filter:
+    company_state:
+      - 投后
+  children:
+    index:
+      title: 概况
+      page_size: 20
+      btns:
+        填报状态重置: >
+          ?/companyd_post_filling/reset_pm_state/未发送
+        发送邮件: >
+          ?/companyd_post_filling/batch_sendpm/kcjj
+        填报完成度报告: ?/companyd_preview_kuaibao
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+view_thylb:
+  title: 指标数据
+  mod: companyd
+  view: view_thylb
+  filter:
+    company_state:
+      - 投后
+  children:
+    index:
+      title: 概况
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+sys12:
+  title: 估值管理
+  hidden: true
+  type: ule
+ipo_ipo:
+  title: 上市管理
+  hidden: true
+  mod: subcompany_item
+  view: ipo_ipo
+  filter:
+    reported_state:
+      - 已上市
+  children:
+    index:
+      title: 总览
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+sysfywlc:
+  title: 审批流程
+  hidden: true
+  icon: arrow-swap
+  type: flowindex
+  flow: sytb
+  children:
+    index:
+      title: 列表
+gjjt:
+  title: 公司主体
+  hidden: true
+  children:
+    gk:
+      title: 概况
+      type: load
+      url: ?/fofgp/view/about/h3q2kkmsw0
+    tzzlb:
+      title: 投资总览表
+      type: load
+      url: >
+        ?/fofgp/view/fof_portfolio_index/h3q2kkmsw0
+fofgp:
+  title: 母基金管理公司
+  hidden: true
+  icon: earth
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        memo:
+          title: 工作记录
+          type: data
+          mod: memo
+          filter:
+            relation: eid
+        fund:
+          title: 在管基金
+          type: data
+          mod: fund
+          filter:
+            glgs: eid
+        doc:
+          title: 归档文件
+gcpj:
+  title: 过程评价
+  hidden: true
+  mod: company
+  view: xmgcpj_view
+  children:
+    index:
+      title: 直投项目
+    add:
+      title: 新增
+      hidden: true
+    jjgcpj:
+      title: 基金项目
+      type: load
+      url: ?/jjgcpj_view/index
+    jjgcpj_view_add:
+      title: 新增
+      hidden: true
+      type: load
+      url: ?/jjgcpj_view/add
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+jjgcpj_view:
+  title: 走访/会谈记录
+  mod: fund
+  view: jjgcpj_view
+  hidden: true
+  children:
+    index:
+      title: 浏览
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+xmgz:
+  title: 估值管理
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: xmgz/add/
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+sys13:
+  title: 财务和估值
+  type: ul
+  hidden: true
+valuation:
+  title: 估值管理
+  icon: arrow-graph-up-right
+  children:
+    index:
+      title: 列表
+    add_cost:
+      title: 成本法
+      type: add
+      view: valuation_cost
+    add_pe:
+      title: PE估值法
+      type: add
+      view: valuation_pe
+    add_fmv:
+      title: FMV
+      type: add
+      view: valuation_fmv
+    add_latest:
+      title: 新一轮融资
+      type: add
+      view: valuation_latest
+    add_callable:
+      title: 可回收净值
+      type: add
+      view: valuation_callable
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+          elem_view:
+            field: v_method
+            condition:
+              成本法: valuation_cost
+              P/E Multiple: valuation_pe
+              FMV: valuation_fmv
+              新一轮融资: valuation_latest
+              可回收净值: valuation_callable
+sys14:
+  title: 财务和估值
+  icon: ios-star-outline
+  type: ule
+sys15:
+  title: 资源管理
+  icon: earth
+  type: ul
+zjhr_ds:
+  title: 中金汇融数据
+  mod: zjhr_ds
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+fund_gp:
+  title: GP管理
+  icon: ios-people
+  mod: gp
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: gp/add/
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        fund:
+          title: 关联基金
+          type: data
+          mod: fund
+          filter:
+            fund_gp: eid
+        fund_gp_com:
+          title: 基金管理人
+          type: data
+          mod: fund_gp_com
+          hidden: true
+          filter:
+            fund_gp: eid
+        gp_post:
+          title: GP问卷
+          type: ext
+          mod: gp_post
+          hidden: true
+        s0_meeting:
+          title: 会议
+          mod: s0_meeting
+          type: data
+          filter:
+            fund: eid
+        doc:
+          title: 文档
+        memo2:
+          title: 日程
+          hidden: true
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        registration:
+          title: 工商数据
+          hidden: true
+          type: ext
+gp_post:
+  title: gp填报
+  mod: fund_gp
+  view: gp_post
+  hidden: true
+  children:
+    index:
+      title: 概况
+    apply:
+      title: Apply
+      hidden: true
+    add:
+      title: 新增
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+screening:
+  title: 小问卷
+  hidden: true
+  mod: fund
+  view: screening
+  children:
+    index:
+      title: 概况
+dd_list:
+  title: 大问卷
+  hidden: true
+  mod: fund
+  view: dd_list
+  children:
+    index:
+      title: 概况
+evaluation_sheet:
+  title: 投前打分
+  hidden: true
+  mod: evaluation_sheet
+  children:
+    index:
+      title: 概况
+zhongjie:
+  title: 中介机构
+  icon: earth
+  mod: zhongjie
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: zhongjie/add/
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+zgjjlp:
+  title: 投资人管理
+  icon: cloud
+  mod: zgjjlp
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: zgjjlp/add/
+            new: true
+    potential_customer:
+      title: 潜在LP
+      hidden: true
+      type: load
+      url: ?/potential_customer
+    due_diligence_customer:
+      title: 尽调中LP
+      hidden: true
+      type: load
+      url: ?/due_diligence_customer
+    contracted_customer:
+      title: 已有LP
+      hidden: true
+      type: load
+      url: ?/contracted_customer
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+potential_customer:
+  hidden: true
+  title: 潜在LP
+  icon: cloud
+  mod: zgjjlp
+  view: zgjjlp
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: zgjjlp/add/
+            new: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        memo:
+          title: 工作记录
+          type: data
+          mod: memo
+          filter:
+            relation: eid
+        doc:
+          title: 归档文件
+due_diligence_customer:
+  hidden: true
+  title: 尽调中LP
+  icon: cloud
+  mod: zgjjlp
+  view: zgjjlp
+  filter:
+    lp_state:
+      - 尽调中
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: zgjjlp/add/
+            new: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        memo:
+          title: 工作记录
+          type: data
+          mod: memo
+          filter:
+            relation: eid
+        doc:
+          title: 归档文件
+contracted_customer:
+  hidden: true
+  title: 已有LP
+  icon: cloud
+  mod: zgjjlp
+  view: zgjjlp
+  filter:
+    lp_state:
+      - 签约
+  children:
+    index:
+      title: 列表
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: zgjjlp/add/
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        memo:
+          title: 工作记录
+          type: data
+          mod: memo
+          filter:
+            relation: eid
+        cashflow_customer:
+          title: 出资情况
+          type: data
+          mod: cashflow_customer
+          filter:
+            customer: eid
+        doc:
+          title: 归档文件
+htfw:
+  title: 合同法务
+  mod: htfw
+  children:
+    index:
+      title: 概况
+      page_size: 20
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+sys16:
+  title: 资源管理
+  type: ule
+sys17:
+  title: 基金测算
+  hidden: true
+  type: ul
+income_calculations:
+  title: 收益测算
+  hidden: true
+  mod: fund
+  view: income_calculations
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+allocation_calculations:
+  title: 分配测算
+  mod: fund
+  view: allocation_calculations
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+sys18:
+  title: 分配测算
+  type: ule
+list_subfunds:
+  title: 子基金一览表
+  hidden: true
+  icon: earth
+  mod: fund
+  view: list_subfunds
+  filter:
+    state: 投后
+  children:
+    index:
+      title: 概况
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+sig_charts:
+  title: 统计分析
+  icon: pie-graph
+  hidden: true
+  children:
+    qishi:
+      type: load
+      title: 基金年份配置
+      url: ?/kcjj_str/index/g1z36dwlvh/qishi
+    fund_industry:
+      type: load
+      title: 基金行业配置
+      url: >
+        ?/kcjj_str/fund_str/g1z36dwlvh/fund_industry
+    industry:
+      type: load
+      title: 穿透行业配置
+      url: ?/kcjj_str/index/g1z36dwlvh/industry
+    shengfen:
+      type: load
+      title: 穿透地域配置
+      url: ?/kcjj_str/index/g1z36dwlvh/shengfen
+    fund_phase:
+      type: load
+      title: 基金阶段配置
+      url: >
+        ?/kcjj_str/fund_str/g1z36dwlvh/fund_phase
+    touzi:
+      type: load
+      title: 穿透阶段配置
+      url: >
+        ?/kcjj_str/index/g1z36dwlvh/touzi/false/false/true
+    renjiao:
+      type: load
+      title: 基金规模配置
+      url: ?/kcjj_str/index/g1z36dwlvh/renjiao
+fund_cal:
+  title: 基金计算
+  hidden: true
+  mod: fund
+  view: fund_cal
+  filter:
+    state:
+      - 立项
+      - 投决
+      - 签约
+      - 投后
+  children:
+    index:
+      title: 概况
+transfer:
+  title: 单位换算
+  hidden: true
+  mod: fund
+  view: transfer
+  filter:
+    state:
+      - 签约
+      - 投后
+  children:
+    index:
+      title: 概况
+companyd_cal:
+  title: 项目计算
+  hidden: true
+  mod: companyd
+  view: companyd_cal
+  filter:
+    company_state:
+      - 立项
+      - 投决
+      - 投后
+  children:
+    index:
+      title: 概况
+subcompany_item:
+  title: 企业库
+  hidden: true
+  mod: subcompany_item
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+contact:
+  title: 通讯录
+  hidden: true
+  icon: ios ion-person-stalker
+  children:
+    index:
+      title: 通讯录
+    add:
+      title: 新增
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+operations:
+  title: 运营板块
+  hidden: true
+  mod: fund
+  view: operations
+  filter:
+    state:
+      - 投后
+  children:
+    index:
+      title: 概况
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        screening:
+          type: ext
+          title: 小问卷
+        dd_list:
+          type: ext
+          title: 大问卷
+        s0_meeting:
+          title: 会议
+          mod: s0_meeting
+          type: data
+          filter:
+            fund: eid
+        doc:
+          title: 文档
+        jidukuaibao:
+          title: 快报
+          type: ext
+          mod: jidukuaibao
+          open_view: view_kuaibao
+        post_filling:
+          title: 投后填报
+          type: ext
+          mod: post_filling_sig
+        post_filling_history:
+          mod: post_filling_history
+          type: data
+          title: 填报历史
+sys21:
+  title: 我的项目
+  hidden: true
+  icon: ios ion-ios-person-outline
+  type: ul
+myfund:
+  title: 子基金
+  icon: ios-star-half
+  mod: fund
+  view: fund_after
+  filter:
+    sig_manager: uid
+    team_contact: uid
+    team_rmm: uid
+    team_owner: uid
+    team_manager: uid
+    team_teams: uid
+    s7_leader: uid
+    s7_manager: uid
+    s7_risk_manager: uid
+  filter_merge: true
+  default_s1: all
+  no_add_btn: true
+  board_新增: false
+  children:
+    index:
+      title: 概况
+    board:
+      title: 看板
+      hidden: true
+    add:
+      title: 新增
+      hidden: true
+    fund_s0:
+      type: load
+      title: 新增
+      url: ?/fund_touch/add
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        screening:
+          type: ext
+          hidden: true
+          title: 小问卷发送
+        dd_list:
+          type: ext
+          hidden: true
+          title: 大问卷发送
+        s0_meeting:
+          title: 会议
+          mod: s0_meeting
+          type: data
+          filter:
+            fund: eid
+        doc:
+          title: 文档
+        jidukuaibao:
+          title: 快报
+          type: ext
+          mod: jidukuaibao
+          open_view: view_kuaibao
+        post_filling:
+          title: 投后填报
+          type: ext
+          mod: post_filling_sig
+        post_filling_history:
+          mod: post_filling_history
+          type: data
+          title: 填报历史
+mycompanyd:
+  title: 直投
+  icon: ios-list-outline
+  mod: companyd
+  view: mycompanyd
+  filter:
+    team_owner: uid
+    team_contact: uid
+    leader: uid
+    post_manager: uid
+    risk_manager: uid
+  filter_merge: true
+  children:
+    index:
+      title: 概况
+      page_size: 20
+    add:
+      title: 新增
+      hidden: true
+    companyd_s0:
+      type: load
+      title: 新增
+      hidden: true
+      url: ?/companyd_s0/add
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    docx:
+      title: 下载docx
+      hidden: true
+    pdf:
+      title: 下载pdf
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        registration:
+          title: 工商数据
+          hidden: true
+          type: ext
+          mod: registration
+        monitoring:
+          title: 舆情监控
+          type: ext
+          hidden: true
+          mod: monitoring
+          filter:
+            companyd: eid
+        doc:
+          title: 文档
+        memo2:
+          title: 日程
+          type: data
+          hidden: true
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 列表
+        data_center:
+          title: 情报
+          hidden: true
+        s0_meeting:
+          title: 会议
+          mod: s0_meeting
+          type: data
+          filter:
+            fund: eid
+sys22:
+  title: 我的项目
+  icon: ion-ios-world
+  type: ule
+sys23:
+  title: 绩效评价
+  hidden: true
+  icon: ios-monitor
+  type: ul
+performance_evaluation:
+  title: 绩效评价
+  mod: fund
+  view: performance_evaluation
+  open_view: performance_evaluation_view
+  filter:
+    fof:
+      - godna618iv
+    state:
+      - 投后
+  children:
+    index:
+      title: 二期基金
+      page_size: 20
+      btns:
+        填报状态重置: >
+          ?/performance_evaluation/reset_pm_state/未发送
+        发送邮件: >
+          ?/performance_evaluation/batch_sendpm/kcjj
+    performance_evaluation2:
+      title: 一期基金
+      type: load
+      url: ?/performance_evaluation2/index
+    export:
+      title: 导出
+      hidden: true
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+performance_evaluation2:
+  title: 一期基金
+  mod: fund
+  view: performance_evaluation2
+  open_view: performance_evaluation_view
+  hidden: true
+  filter:
+    fof:
+      - g1z36dwlvh
+    state:
+      - 投后
+  children:
+    index:
+      title: 概况
+      page_size: 20
+      btns:
+        填报状态重置: >
+          ?/performance_evaluation/reset_pm_state/未发送
+        发送邮件: >
+          ?/performance_evaluation/batch_sendpm/kcjj
+    export:
+      title: 导出
+      hidden: true
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+post_submission_questionnaire:
+  title: 子基金业绩填写
+  hidden: true
+  mod: post_submission_questionnaire
+  children:
+    index:
+      title: 概况
+      page_size: 20
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+performance_benchmarking:
+  title: 业绩标杆
+  mod: performance_benchmarking
+  hidden: true
+  children:
+    index:
+      title: 概况
+      page_size: 20
+    import:
+      title: 导入
+    export:
+      title: 导出
+      hidden: true
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+kuisun:
+  title: 业绩标杆
+  mod: kuisun
+  children:
+    index:
+      title: 概况
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+performance1:
+  title: 打分表
+  mod: performance
+  filter:
+    fof:
+      - godna618iv
+  children:
+    index:
+      title: 二期基金
+    performance2:
+      title: 一期基金
+      type: load
+      url: ?/performance2/index
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+performance2:
+  title: 一期
+  mod: performance
+  hidden: true
+  filter:
+    fof:
+      - g1z36dwlvh
+  children:
+    index:
+      title: 概况
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+performance_view:
+  title: 打分表视图
+  mod: performance
+  view: performance_view
+  hidden: true
+  children:
+    index:
+      title: 概况
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+sys24:
+  title: 绩效评价
+  hidden: true
+  type: ule
+fund_after_manager:
+  hidden: true
+  title: 投后经理
+  icon: ios ion-android-checkbox-outline
+  type: data
+  mod: fund
+  view: fund_after_manager
+  filter:
+    state:
+      - 投后
+      - 签约
+  children:
+    index:
+      title: 子基金
+    companyd_th_manager:
+      title: 直投
+      type: load
+      url: ?/companyd_th_manager/index
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+companyd_th_manager:
+  title: 直投
+  hidden: true
+  type: data
+  mod: companyd
+  view: companyd_th_manager
+  filter:
+    company_state:
+      - 投后
+      - 退出
+  children:
+    index:
+      title: 概况
+    add:
+      title: 新增
+    import:
+      title: 导入
+    export:
+      title: 导出
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+valuation_management:
+  title: 估值管理
+  hidden: true
+  mod: valuation_management
+  children:
+    index:
+      title: 概况
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+sys25:
+  title: 报告输出
+  type: ul
+  hidden: true
+onepage_fund:
+  title: 基金报告
+  mod: fund
+  view: post_filling
+  filter_merge: true
+  default_s1: all
+  no_add_btn: true
+  board_新增: false
+  filter:
+    state:
+      - 投后
+  children:
+    index:
+      title: 一页纸报告
+      page_size: 20
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+onepage_companyd:
+  title: 项目报告
+  mod: company
+  view: jdtb
+  filter:
+    company_state:
+      - 投后
+  children:
+    index:
+      title: 一页纸报告
+      page_size: 20
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+view_pethylb:
+  title: 项目一览表
+  mod: company
+  view: company
+  filter:
+    company_state:
+      - 投后
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+sys26:
+  title: 报告输出
+  icon: android-contact
+  type: ule
+sys27:
+  title: 统计分析
+  type: ul
+  hidden: true
+charts:
+  title: 图表分析
+  icon: ios-medical-outline
+  children:
+    index:
+      title: 列表
+    add:
+      title: 创建图表
+sys28:
+  title: 投资分析
+  icon: ios-star-outline
+  type: ule
+sys29:
+  title: 投资研究
+  type: ul
+  hidden: true
+industryweekly:
+  title: 行研汇报
+  mod: industryweekly
+  children:
+    index:
+      title: 周报
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: industryweekly/add/
+            new: true
+    industrymonth:
+      title: 月报
+      type: load
+      url: ?/industrymonth/index
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+industrymonth:
+  title: 月报
+  hidden: true
+  mod: industrymonth
+  children:
+    index:
+      title: 月报
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: industrymonth/add/
+            new: true
+sys30:
+  title: 投资研究
+  icon: ios-star-outline
+  type: ule
+sys31:
+  title: 知识管理
+  type: ul
+  hidden: true
+doc:
+  title: 公共文档
+  icon: folder
+  type: doc
+  children:
+    index:
+      title: 列表
+sys32:
+  title: 知识管理
+  icon: ios-star-outline
+  type: ule
+fund_sail_yj:
+  title: 基金业绩
+  hidden: true
+  mod: fund_sail_yj
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+income_management:
+  title: 收益管理
+  hidden: true
+  mod: income_management
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+sys38:
+  title: 绩效管理
+  hidden: true
+  icon: icon ion-person-stalker
+  type: ul
+human_resources:
+  title: 人力资源
+  icon: icon ion-person-stalker
+  mod: human_resources
+  filter:
+    states: 在职
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        view_jixiaogl:
+          title: 团队考核
+          mod: view_jixiaogl
+          type: ext
+        fund_pingfen:
+          title: 子基金绩效考核
+          mod: fund_pingfen
+          type: data
+        doc:
+          title: 归档文件
+view_jixiaogl:
+  title: 绩效考核
+  icon: icon ion-person-stalker
+  mod: human_resources
+  view: view_jixiaogl
+  hidden: true
+  filter:
+    work_guanx:
+      - 正式
+      - 派遣
+    states: 在职
+  children:
+    index:
+      title: 列表
+      btns:
+        数据封存: >
+          ?/view_jixiaogl/entity_snapshot|view_jixiaogl
+    jixiaogl_jieguo:
+      title: 绩效历史
+      type: load
+      url: ?/jixiaogl_jieguo/
+    jixiaogl_jieguo_export:
+      title: 结果导出
+      type: load
+      url: ?/jixiaogl_jieguo/export
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+human_assess:
+  title: 评估人维护
+  icon: crop
+  mod: human_resources
+  view: human_assess
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+sys39:
+  title: 绩效管理
+  icon: icon ion-person-stalker
+  type: ule
+sys35:
+  title: 协同管理
+  icon: android-contact
+  type: ul
+weekly_s1:
+  title: 周例会
+  nosub_count: 5
+  mod: weekly_s0
+  icon: icon ion-document-text
+  type: load
+  url: ?/weekly_s0/view/about/hozciu95si
+  children:
+    index:
+      title: 概况
+    add:
+      title: 新增
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 浏览
+weekly_s0:
+  title: 周例会
+  hidden: true
+  mod: weekly_s0
+  icon: icon ion-document-text
+  children:
+    index:
+      title: 概况
+    add:
+      title: 新增
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 浏览
+lsk:
+  hidden: true
+  title: 周例会
+  mod: company
+  view: lsk
+  children:
+    index:
+      title: 概况
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+lsk_jj:
+  hidden: true
+  title: 周例会
+  mod: fund
+  view: lsk_jj
+  children:
+    index:
+      title: 概况
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+lsk_zg:
+  hidden: true
+  title: 周例会
+  mod: fund_zg
+  view: lsk_zg
+  children:
+    index:
+      title: 概况
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+weekly_fund:
+  title: 基金周例会
+  hidden: true
+  mod: fund
+  view: weekly_fund
+  filter:
+    fav_list:
+      sql: '<>""'
+  children:
+    index:
+      title: 浏览
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+risk_warning:
+  title: 智能提醒
+  hidden: true
+  mod: calendar_mon_project
+  children:
+    index:
+      title: 事件预警
+      page_size: 20
+      btns_top:
+        item:
+          new:
+            label: 新增
+            icon: plus
+            url: calendar_mon_project/add
+    zhibiaoyujing:
+      title: 指标预警
+      type: load
+      url: ?/zhibiao
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+zhibiao:
+  title: 指标预警
+  hidden: true
+  mod: kpi_monitor_pri_project
+  children:
+    index:
+      title: 事件预警
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: kpi_monitor_pri_project/add/
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+calendar:
+  title: 日程管理
+  icon: calendar
+  children:
+    index:
+      title: 日程
+    week:
+      title: 周日程
+    list2:
+      title: 查询
+    add:
+      title: 新增
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+s0_meeting:
+  title: 会议纪要
+  icon: clipboard
+  badge: true
+  children:
+    index:
+      title: 概况
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: s0_meeting/add
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 列表
+company_th:
+  title: 储备项目
+  icon: aperture
+  mod: company
+  view: company_th
+  hidden: true
+  children:
+    index:
+      title: 概况
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+memo:
+  title: 通知公告
+  icon: clipboard
+  badge: true
+  children:
+    index:
+      title: 概况
+      btns_top:
+        item:
+          新增:
+            label: 新增
+            url: memo/add
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 列表
+sys36:
+  title: 协同管理
+  hidden: true
+  icon: android-contact
+  type: ule
+trash:
+  title: 回收站
+  icon: ios-trash-outline
+  haschild: false
+  children:
+    index:
+      title: 文档
+    entity:
+      title: 对象
+institution:
+  title: 合作机构库
+  icon: android-navigate
+  hidden: true
+  children:
+    index:
+      title: 概况
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        memo2:
+          title: 日程
+          hidden: true
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+account:
+  title: 帐号
+  icon: android-contact
+  children:
+    index:
+      title: 帐号
+    edit:
+      title: 编辑资料
+      icon-mobile: android-create
+    chpwd:
+      title: 修改密码
+      icon-mobile: android-lock
+    style:
+      title: 偏好设置
+      icon-mobile: heart
+sys34:
+  title: 个人
+  icon: android-contact
+  type: ule
+xtgl:
+  title: 系统管理
+  type: ul
+config:
+  title: 基础管理
+  icon: checkmark
+  children:
+    setting:
+      title: 配置
+    space:
+      title: 机构设置
+    usr:
+      title: 用户
+      children:
+        about:
+          title: 查看
+        edit:
+          title: 编辑
+    trace:
+      title: 访问日志
+    usr_analytics:
+      title: 用户分析
+    file_state:
+      title: 预览情况
+    devtools:
+      title: 系统工具
+meeting:
+  title: 会议管理
+  icon: ios ion-clock
+  hidden: true
+  children:
+    index:
+      title: 概况
+    add:
+      title: 新增
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+data_center:
+  title: 数据字典
+  mod: data_center
+  children:
+    index:
+      title: 概况
+      page_size: 20
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+role1:
+  title: 分级授权
+  type: load
+  url: ?/config/_role
+industry_new:
+  title: 舆情监控
+  type: load
+  url: %3
+xtgl1:
+  title: 系统管理
+  type: ule
+msg:
+  title: 通知
+  icon: chatbubbles
+  badge: true
+  children:
+    todo:
+      title: 我的待办
+    index:
+      title: 未读消息
+    mine:
+      title: 我的申请
+    done:
+      title: 我的已办
+    all:
+      title: 全部消息
+flow_msg:
+  title: 流程中心
+  icon: chatbubbles
+  hidden: true
+  hidden_mobile: true
+  badge: true
+  children:
+    todo:
+      title: 我的待办
+    index:
+      title: 未读消息
+    all:
+      title: 全部消息
+    done:
+      title: 我的已办
+    mine:
+      title: 我的申请
+logout:
+  title: 登出系统
+  hidden: true
+  icon: power
+  children:
+    index:
+      title: Logout
+      canvas: '#remodal'
+team_view:
+  title: Team填报
+  hidden: true
+  mod: team
+  view: team_view
+fund_lp_view:
+  title: Fund_lp填报
+  hidden: true
+  mod: fund_lp
+  view: fund_lp_view
+rmbFund_view:
+  title: rmb历史业绩填报
+  hidden: true
+  mod: rmbFund
+  view: rmbFund_view
+usdFund_view:
+  title: usd历史业绩填报
+  hidden: true
+  mod: usdFund
+  view: usdFund_view
+co_invest_view:
+  title: co_invest
+  hidden: true
+  mod: company
+  view: co_invest_view
+s0_meeting_view:
+  title: s0_meeting_view
+  hidden: true
+  mod: s0_meeting
+  view: s0_meeting_view
+mail_list:
+  title: mail_list
+  hidden: true
+  mod: fund
+  view: mail_list
+  filter:
+    state:
+      - 投后
+other:
+  title: other
+  hidden: true
+  mod: lp
+  view: other
+other_view:
+  title: other_view
+  hidden: true
+  mod: lp
+  view: other_view
+company_deal_view:
+  title: company_deal
+  hidden: true
+  mod: company_deal
+  view: company_deal_view
+monitoring:
+  title: monitoring
+  hidden: true
+  mod: subcompany
+  view: monitoring
+province:
+  title: province
+  hidden: true
+  mod: province
+city:
+  title: city
+  hidden: true
+  mod: city
+post_filling_sig:
+  title: post_filling_sig
+  hidden: true
+  mod: fund
+  view: post_filling_sig
+  filter:
+    state:
+      - 投后
+out_participating_organization:
+  title: out_participating_organization
+  hidden: true
+  mod: out_participating_organization
+  children:
+    index:
+      title: 概况
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+external_departments:
+  title: external_departments
+  hidden: true
+  mod: external_departments
+  children:
+    index:
+      title: 概况
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+out_participants:
+  title: out_participants
+  hidden: true
+  mod: out_participants
+  children:
+    index:
+      title: 概况
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+kc_participating_organization:
+  title: kc_participating_organization
+  hidden: true
+  mod: kc_participating_organization
+  children:
+    index:
+      title: 概况
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+fund_location:
+  title: fund_location
+  hidden: true
+  mod: fund
+  view: fund_location
+  filter:
+    state:
+      - 投后
+file:
+  title: 文件权限
+  icon: file
+  hidden: true
+  children:
+    view:
+      title: 查看文档
+    manage:
+      title: 管理文档
+    getwm:
+      title: 下载水印文件
+    get:
+      title: 下载
+    get_excel:
+      title: 下载excel
+ssic_cv_implement:
+  title: 估值方法
+  mod: ssic_cv_implement
+  hidden: true
+  children:
+    view:
+      title: 估值方法
+ssic_cv_implement_type_1:
+  title: 最新一轮估值价格法
+  mod: ssic_cv_implement
+  view: ssic_cv_implement_type_1
+  hidden: true
+  children:
+    view:
+      title: 最新一轮估值价格法
+ssic_cv_implement_type_2:
+  title: 已上市股价法
+  mod: ssic_cv_implement
+  view: ssic_cv_implement_type_2
+  hidden: true
+  children:
+    view:
+      title: 已上市股价法
+ssic_cv_implement_type_3:
+  title: 最新一轮估值价格法
+  mod: ssic_cv_implement
+  view: ssic_cv_implement_type_3
+  hidden: true
+  children:
+    view:
+      title: 市场乘数法
+ssic_cv_implement_type_4:
+  title: 已上市股价法
+  mod: ssic_cv_implement
+  view: ssic_cv_implement_type_4
+  hidden: true
+  children:
+    view:
+      title: 现金流折现法
+company_valuation_history:
+  title: 估值历史
+  mod: company_valuation_history
+  hidden: true
+  children:
+    index:
+      title: 概况
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+ssic_cv_implement_type_1_history:
+  title: 最新一轮估值价格法
+  mod: ssic_cv_implement_history
+  view: ssic_cv_implement_type_1_history
+  hidden: true
+  children:
+    view:
+      title: 最新一轮估值价格法
+ssic_cv_implement_type_2_history:
+  title: 已上市股价法
+  mod: ssic_cv_implement_history
+  view: ssic_cv_implement_type_2_history
+  hidden: true
+  children:
+    view:
+      title: 已上市股价法
+ssic_cv_implement_type_3_history:
+  title: 最新一轮估值价格法
+  mod: ssic_cv_implement_history
+  view: ssic_cv_implement_type_3_history
+  hidden: true
+  children:
+    view:
+      title: 市场乘数法
+ssic_cv_implement_type_4_history:
+  title: 已上市股价法
+  mod: ssic_cv_implement_history
+  view: ssic_cv_implement_type_4_history
+  hidden: true
+  children:
+    view:
+      title: 现金流折现法
+historical_valuation_results:
+  mod: companyd_post_filling_history
+  view: historical_valuation_results
+  hidden: true
+
+
+
+
+
+mod:fund
+view:view_fund
+filter:
+  zcjj:eid
+
+mod:company
+view:subcompany_zjjdcxm_view
+filter:
+  czzt:eid
+hidden_add:true
+hidden_edit:true
+hidden_del:true
+
+
+view_fund_zg:
+  title: 自管子基金
+  icon: stats-bars
+  mod: fund
+  view: view_fund
+  filter:
+    jjfx: 自主管理类基金项目
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        doc:
+          title: 文档
+view_fund_sch:
+  title: 市场化子基金
+  icon: stats-bars
+  mod: fund
+  view: view_fund
+  filter:
+    jjfx: 市场化基金项目
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        doc:
+          title: 文档
+subcompany_zjjdcxm_view:
+  title: 直投项目
+  icon: stats-bars
+  mod: company
+  view: subcompany_zjjdcxm_view
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        doc:
+          title: 文档

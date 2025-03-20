@@ -1,0 +1,21 @@
+arg:(json:QueryMultiReferenceListArg)
+{
+	context:
+	objectDescribeApiName:
+	dataId:
+	multiReferenceDataListQueries:[
+		pageSize:
+		pageNum:
+		orders:[
+			{
+				fieldName:
+				subFieldName:
+				indexName:
+				isAsc:
+				isReference:
+				fieldType:
+			}
+		]
+		relatedListName:
+		targetDescribeApiName:
+		filters:[

@@ -1,0 +1,5868 @@
+---
+home:
+  title: 首页
+  hidden: true
+  children:
+    index:
+      title: 总览
+sys_manager_ztgl_1:
+  title: 主体管理
+  type: ul
+jituan:
+  title: 自有资金
+  icon: earth
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: jituan/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        jituan_tzzh:
+          title: 投资组合
+          type: ext
+          hidden_del: true
+          hidden_add: true
+          view: jituan_tzzh
+        cashflow_zyzj:
+          title: 现金流
+          mod: cashflow_zyzj
+          type: ext
+        doc:
+          title: 文档
+fof:
+  title: 先进制造业基金
+  icon: earth
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: fof/add
+            new: true
+    add:
+      title: 新增
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        meeting:
+          title: 会议
+          type: data
+          mod: meeting
+          filter:
+            object: eid
+        efrom:
+          title: 基金投资人
+          type: data
+          mod: efrom
+          filter:
+            fund: eid
+        fof_tzzh:
+          title: 投资组合
+          type: ext
+          mod: fof_tzzh
+        cashflow_fof:
+          title: 现金流
+          mod: cashflow_fof
+          type: ext
+        doc:
+          title: 文档
+fof_gm:
+  ccre_url: ?/fof_gm
+  title: 国贸产业基金
+  icon: earth
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: fof_gm/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        meeting:
+          title: 会议
+          type: data
+          mod: meeting
+          filter:
+            object: eid
+        company:
+          title: 投资组合
+          type: data
+          hidden_add: true
+          hidden_edit: true
+          hidden_del: true
+          mod: company
+          filter:
+            type_chuzi: 国贸产业基金项目
+        cashflow_fof_gm:
+          title: 现金流
+          mod: cashflow_fof_gm
+          type: ext
+        doc:
+          title: 文档
+manager_fund:
+  title: 管理型子基金
+  ccre_url: ?/fund_manager_ysl
+  children:
+    fund_manager_ysl:
+      title: 已设立基金
+      show_menu: true
+      type: load
+      url: ?/fund_manager_ysl
+    fund_manager_nsl:
+      title: 拟设立基金
+      show_menu: true
+      type: load
+      url: ?/fund_manager_nsl
+sys_manager_ztgl_2:
+  title: 主体管理
+  type: ule
+sys_xmgl_1:
+  title: 项目投资
+  type: ul
+company_manager_xmtj1:
+  title: 推荐/储备项目
+  type: load
+  url: ?/company_manager_xmtj
+company_manager_xmrk1:
+  title: 入库项目
+  type: load
+  url: ?/company_manager_xmrk
+company_manager_xmtq1:
+  title: 投前项目
+  type: load
+  url: ?/company_manager_xmtq
+company_manager_after1:
+  title: 投后项目
+  type: load
+  url: ?/company_manager_after
+company_manager_exit1:
+  title: 退出项目
+  type: load
+  url: ?/company_manager_exit
+company_manager_sm1:
+  title: 涉密项目
+  type: load
+  url: ?/company_manager_sm
+pm_company_manager1:
+  title: 外部填报
+  type: load
+  url: ?/pm_company_manager
+other_tzyw:
+  ccre_url: ?/ckgqy_manager
+  title: 其他投资业务
+  children:
+    ckgqy_manager:
+      show_menu: true
+      title: 参控股企业管理
+      type: load
+      url: ?/ckgqy_manager
+      ccre_url: ?/ckgqy_manager
+    unbiao_tz:
+      show_menu: true
+      title: 非标投资业务
+      type: load
+      url: ?/unbiao_tz
+    gup_manager:
+      show_menu: true
+      title: 股票管理
+      type: load
+      url: ?/gup_manager
+sys_xmgl_2:
+  title: 项目投资
+  type: ule
+sys_jjtz_1:
+  title: 基金投资
+  type: ul
+fundd_manager_tuijain1:
+  title: 推荐/储备基金
+  type: load
+  url: ?/fundd_manager_tuijain
+fundd_manager_chubei1:
+  title: 入库基金
+  type: load
+  url: ?/fundd_manager_chubei
+fundd_manager_before1:
+  title: 投前基金
+  type: load
+  url: ?/fundd_manager_before
+fundd_manager_after1:
+  title: 投后基金
+  type: load
+  url: ?/fundd_manager_after
+fundd_manager_exit1:
+  title: 退出基金
+  type: load
+  url: ?/fundd_manager_exit
+fundd_manager_sm1:
+  title: 涉密基金
+  type: load
+  url: ?/fundd_manager_sm
+fundd_manager_subcompany1:
+  title: 底层项目
+  type: load
+  url: ?/fundd_manager_subcompany
+fund_manager_post_filling1:
+  title: 外部填报
+  type: load
+  url: ?/fund_manager_post_filling
+fundd_manager_back_company1:
+  title: 返投管理
+  type: load
+  url: ?/fundd_manager_back_company
+sys_jjtz_2:
+  title: 基金投资
+  type: ule
+sys_ztgl_1:
+  title: 主体管理
+  type: ul
+jituan1:
+  title: 自有资金
+  type: load
+  url: ?/jituan
+fof1:
+  title: 先进制造业基金
+  type: load
+  url: ?/fof
+fof_gm1:
+  title: 国贸产业基金
+  type: load
+  url: ?/fof_gm
+sys_ztgl_2:
+  title: 主体管理
+  type: ule
+sys_cytz_1:
+  title: 产业投资
+  type: ul
+fundd_hyzt_after1:
+  title: 基金投资
+  type: load
+  url: ?/fundd_hyzt_after
+gqtzxm_zyzz:
+  title: 股权投资项目
+  children:
+    company_gqtz_pool:
+      show_menu: true
+      title: 项目池
+      type: load
+      url: ?/company_gqtz_pool
+    company_gqtz_tj:
+      show_menu: true
+      title: 推荐/储备项目
+      type: load
+      url: ?/company_gqtz_tj
+    companyd_gqtz_xmcb:
+      show_menu: true
+      title: 入库项目
+      type: load
+      url: ?/companyd_gqtz_xmcb
+    company_gqtz_xmtq:
+      show_menu: true
+      title: 投前项目
+      type: load
+      url: ?/company_gqtz_xmtq
+    companyd_gqtz_after:
+      show_menu: true
+      title: 投后项目
+      type: load
+      url: ?/companyd_gqtz_after
+    company_gqtz_exit:
+      show_menu: true
+      title: 退出项目
+      type: load
+      url: ?/company_gqtz_exit
+    company_gqtz_sm:
+      show_menu: true
+      title: 涉密项目
+      type: load
+      url: ?/company_gqtz_sm
+    pm_xm_gqtz:
+      show_menu: true
+      title: 外部填报
+      type: load
+      url: ?/pm_xm_gqtz
+sys_cytz_2:
+  title: 产业投资
+  type: ule
+cyjj_menu_1:
+  title: 产业基金
+  icon: android-playstore
+  type: ul
+cyjj_fof_1:
+  title: 母基金业务
+  icon: android-playstore
+  type: ul
+cyjj_zdzsxm:
+  show_menu: true
+  title: 重大招商项目
+  children:
+    company_zdzs_pool:
+      show_menu: true
+      title: 项目池
+      type: load
+      url: ?/company_zdzs_pool
+    company_zdzs_tj:
+      show_menu: true
+      title: 推荐/储备项目
+      type: load
+      url: ?/company_zdzs_tj
+    companyd_zdzs_xmcb:
+      show_menu: true
+      title: 入库项目
+      type: load
+      url: ?/companyd_zdzs_xmcb
+    company_zdzs_xmtq:
+      show_menu: true
+      title: 投前项目
+      type: load
+      url: ?/company_zdzs_xmtq
+    companyd_zdzs_after:
+      show_menu: true
+      title: 投后项目
+      type: load
+      url: ?/companyd_zdzs_after
+    company_zdzs_exit:
+      show_menu: true
+      title: 退出项目
+      type: load
+      url: ?/company_zdzs_exit
+    company_zdzs_sm:
+      show_menu: true
+      title: 涉密项目
+      type: load
+      url: ?/company_zdzs_sm
+    pm_xm_zdzs:
+      show_menu: true
+      title: 外部填报
+      type: load
+      url: ?/pm_xm_zdzs
+cyjj_glxzjj:
+  show_menu: true
+  title: 管理型子基金
+  children:
+    fund_ysl:
+      show_menu: true
+      title: 已设立基金
+      type: load
+      url: ?/fund_ysl
+    fund_nsl:
+      show_menu: true
+      title: 拟设立基金
+      type: load
+      url: ?/fund_nsl
+cyjj_glxzjjxm:
+  show_menu: true
+  title: 管理型子基金项目
+  children:
+    company_fund_pool:
+      show_menu: true
+      title: 项目池
+      type: load
+      url: ?/company_fund_pool
+    company_fund_tj:
+      show_menu: true
+      title: 推荐/储备项目
+      type: load
+      url: ?/company_fund_tj
+    companyd_fund_xmcb:
+      show_menu: true
+      title: 入库项目
+      type: load
+      url: ?/companyd_fund_xmcb
+    company_fund_xmtq:
+      show_menu: true
+      title: 投前项目
+      type: load
+      url: ?/company_fund_xmtq
+    companyd_fund_after:
+      show_menu: true
+      title: 投后项目
+      type: load
+      url: ?/companyd_fund_after
+    company_fund_exit:
+      show_menu: true
+      title: 退出项目
+      type: load
+      url: ?/company_fund_exit
+    company_fund_sm:
+      show_menu: true
+      title: 涉密项目
+      type: load
+      url: ?/company_fund_sm
+    pm_xm_fund:
+      show_menu: true
+      title: 外部填报
+      type: load
+      url: ?/pm_xm_fund
+cyjj_cyxzjj:
+  show_menu: true
+  title: 参与型子基金
+  children:
+    fundd_pool:
+      show_menu: true
+      title: 基金池
+      type: load
+      url: ?/fundd_pool
+    fundd_tuijain:
+      show_menu: true
+      title: 推荐/储备基金
+      type: load
+      url: ?/fundd_tuijain
+    fundd_chubei:
+      show_menu: true
+      title: 入库基金
+      type: load
+      url: ?/fundd_chubei
+    fundd_before:
+      show_menu: true
+      title: 投前基金
+      type: load
+      url: ?/fundd_before
+    fundd_after:
+      show_menu: true
+      title: 投后基金
+      type: load
+      url: ?/fundd_after
+    fundd_exit:
+      show_menu: true
+      title: 退出基金
+      type: load
+      url: ?/fundd_exit
+    fundd_sm:
+      show_menu: true
+      title: 涉密基金
+      type: load
+      url: ?/fundd_sm
+    subcompany:
+      show_menu: true
+      title: 底层项目
+      type: load
+      url: ?/subcompany
+    fund_post_filling:
+      show_menu: true
+      title: 外部填报
+      type: load
+      url: ?/fund_post_filling
+    fundd_back_company:
+      show_menu: true
+      title: 返投管理
+      type: load
+      url: ?/fundd_back_company
+cyjj_fof_2:
+  title: 母基金业务
+  icon: android-playstore
+  type: ule
+cyjj_gmcyjjxm:
+  title: 国贸产业基金业务
+  children:
+    company_gmcyjjyw_pool:
+      show_menu: true
+      title: 项目池
+      type: load
+      url: ?/company_gmcyjjyw_pool
+    company_gmcyjjyw_tj:
+      show_menu: true
+      title: 推荐/储备项目
+      type: load
+      url: ?/company_gmcyjjyw_tj
+    companyd_gmcyjjyw_xmcb:
+      show_menu: true
+      title: 入库项目
+      type: load
+      url: ?/companyd_gmcyjjyw_xmcb
+    company_gmcyjjyw_xmtq:
+      show_menu: true
+      title: 投前项目
+      type: load
+      url: ?/company_gmcyjjyw_xmtq
+    companyd_gmcyjjyw_after:
+      show_menu: true
+      title: 投后项目
+      type: load
+      url: ?/companyd_gmcyjjyw_after
+    company_gmcyjjyw_exit:
+      show_menu: true
+      title: 退出项目
+      type: load
+      url: ?/company_gmcyjjyw_exit
+    company_gmcyjjyw_sm:
+      show_menu: true
+      title: 涉密项目
+      type: load
+      url: ?/company_gmcyjjyw_sm
+    pm_xm_gmcyjjyw:
+      show_menu: true
+      title: 外部填报
+      type: load
+      url: ?/pm_xm_gmcyjjyw
+cyjj_menu_2:
+  title: 产业基金
+  icon: android-playstore
+  type: ule
+sys_lp_01:
+  title: 投资者关系
+  type: ul
+lp_menu_qy:
+  title: 签约 LP
+  type: load
+  url: ?/lp
+lp_menu_qz:
+  title: 潜在 LP
+  type: load
+  url: ?/lp_qz
+sys_lp_02:
+  title: 投资者关系
+  type: ule
+sys_jggl_1:
+  title: 机构管理
+  type: ul
+jggl_gpgl:
+  title: GP 管理
+  children:
+    fund_gp_yhz:
+      show_menu: true
+      title: 已合作 GP
+      type: load
+      url: ?/fund_gp_yhz
+    fund_gp_qz:
+      show_menu: true
+      title: 潜在 GP
+      type: load
+      url: ?/fund_gp_qz
+jggl_dsfjg:
+  title: 第三方机构管理
+  children:
+    institution_low:
+      show_menu: true
+      title: 律师事务所
+      type: load
+      url: ?/institution_low
+    institution_kj:
+      show_menu: true
+      title: 会计事务所
+      type: load
+      url: ?/institution_kj
+jggl_qtdfsjg:
+  title: 其他机构
+  type: load
+  url: ?/institution
+sys_jggl_2:
+  title: 机构管理
+  type: ule
+zht_menu_1:
+  title: 中后台
+  icon: android-playstore
+  type: ul
+zht_cw_menu_1:
+  title: 财务台账
+  icon: android-playstore
+  type: ul
+zht_xjlgl:
+  show_menu: true
+  title: 现金流管理
+  children:
+    lp_cashflow_portfolio:
+      show_menu: true
+      title: 投资人现金流
+      type: load
+      url: ?/lp_cashflow_portfolio
+    fundd_cashflow_portfolio:
+      show_menu: true
+      title: 参与型子基金现金流
+      type: load
+      url: ?/fundd_cashflow_portfolio
+    company_cashflow_portfolio:
+      show_menu: true
+      title: 项目现金流
+      type: load
+      url: ?/company_cashflow_portfolio
+    cashflow_guanlifei:
+      show_menu: true
+      title: 管理费现金流
+      type: load
+      url: ?/cashflow_guanlifei
+    cashflow_other:
+      show_menu: true
+      title: 其他现金流
+      type: load
+      url: ?/cashflow_other
+companyd_month_gz1:
+  title: 月度估值
+  show_menu: true
+  type: load
+  url: ?/companyd_month_gz
+companyd_month_gz_history1:
+  title: 估值历史
+  show_menu: true
+  type: load
+  url: ?/companyd_month_gz_history
+companyd_caiw_tz1:
+  title: 资本账户表
+  show_menu: true
+  type: load
+  url: ?/companyd_caiw_tz
+zht_cw_menu_2:
+  title: 财务台账
+  icon: android-playstore
+  type: ule
+zht_fxgl:
+  show_menu: true
+  title: 风险管理
+  children:
+    wiki:
+      show_menu: true
+      title: 内控制度
+      type: load
+      url: ?/wiki/view/about/ht4pthi6vl
+    information_yq:
+      show_menu: true
+      title: 舆情监控
+      type: load
+      url: ?/information_yq
+    kpi_monitor_pri_project:
+      show_menu: true
+      title: 风险指标监控
+      type: load
+      url: ?/kpi_monitor_pri_project
+    htgjxxjk:
+      show_menu: true
+      title: 协议条款监控
+      type: load
+      url: ?/htgjxxjk
+zht_bggl:
+  show_menu: true
+  title: 办公管理
+  children:
+    calendar:
+      show_menu: true
+      title: 日程管理
+      type: load
+      url: ?/calendar/list2
+    meeting:
+      show_menu: true
+      title: 会议管理
+      type: load
+      url: ?/meeting
+    meme:
+      show_menu: true
+      title: 通知公告
+      type: load
+      url: ?/meme
+zht_zlxt:
+  show_menu: true
+  title: 战略协同
+  children:
+    comapny_xt:
+      show_menu: true
+      title: 项目层面协同
+      type: load
+      url: ?/company_zlxt1
+    comapny_other_xt:
+      show_menu: true
+      title: 其他层面协同
+      type: load
+      url: ?/comapny_other_xt
+zht_tbgl:
+  show_menu: true
+  title: 战略管理
+  children:
+    fei_caiwuxing_zhanluemubiao:
+      title: 非财务性战略督办
+      show_menu: true
+      type: load
+      url: ?/fei_caiwuxing_zhanluemubiao
+    caiwuxing_zhanluemubiao:
+      title: 财务性战略督办
+      show_menu: true
+      type: load
+      url: ?/caiwuxing_zhanluemubiao
+    xietong_shixiang_baobiao:
+      title: 协同事项报表
+      show_menu: true
+      type: load
+      url: ?/xietong_shixiang_baobiao
+    xietong_baogao_baobiao:
+      title: 协同报告报表
+      show_menu: true
+      type: load
+      url: ?/xietong_baogao_baobiao
+    gongsi_big_shiji:
+      title: 公司大事记
+      show_menu: true
+      type: load
+      url: ?/gongsi_big_shiji
+zht_zhgl:
+  show_menu: true
+  title: 综合管理
+  children:
+    companys_folder:
+      show_menu: true
+      title: 项目文档清单
+      type: load
+      url: ?/companys_folder
+    chuchai_manager:
+      show_menu: true
+      title: 出差管理
+      type: load
+      url: ?/chuchai_manager
+    department_week_report:
+      show_menu: true
+      title: 部门周报
+      type: load
+      url: ?/department_week_report
+    recode_px:
+      show_menu: true
+      title: 培训记录
+      type: load
+      url: ?/recode_px
+    rlzy_gl:
+      show_menu: true
+      title: 人力资源台账
+      type: load
+      url: ?/rlzy_gl
+    gdzc_gl:
+      show_menu: true
+      title: 固定资产台账
+      type: load
+      url: ?/gdzc_gl
+    meetingroom:
+      show_menu: true
+      title: 会议室预约
+      type: load
+      url: ?/meetingroom/overview
+    expert_database:
+      show_menu: true
+      title: 专家库
+      type: load
+      url: ?/expert_database
+zht_zsk:
+  show_menu: true
+  title: 知识库
+  children:
+    doc4:
+      show_menu: true
+      title: 投资业务文档库
+      type: load
+      url: ?/doc4
+    doc1:
+      show_menu: true
+      title: 法律知识文档库
+      type: load
+      url: ?/doc1
+    doc2:
+      show_menu: true
+      title: 模板文档库
+      type: load
+      url: ?/doc2
+    doc3:
+      show_menu: true
+      title: 其他文档库
+      type: load
+      url: ?/doc3
+zht_menu_2:
+  title: 中后台
+  icon: android-playstore
+  type: ule
+sys_bbzx_1:
+  title: 报表中心
+  type: ul
+fund_thylb1:
+  title: 基金一览表
+  type: load
+  url: ?/fund_thylb
+company_thylb1:
+  title: 项目一览表
+  type: load
+  url: ?/company_thylb
+onepage_fund1:
+  title: 人员看板
+  type: load
+  url: ?/person_kanban/view/about/htsubq27il
+onepage_companyd1:
+  title: 例会看板【渠道划分】
+  type: load
+  url: ?/jsc_zypt/view/about/htn0pdsy1r
+onepage_companyd2:
+  title: 例会看板【投资划分】
+  type: load
+  url: ?/jsc_jjxmkb/view/about/hts0z9jgaz
+sys_bbzx_2:
+  title: 报表中心
+  type: ule
+sys_xtgl_1:
+  title: 系统管理
+  type: ul
+setting:
+  show_menu: true
+  title: 配置
+  type: load
+  url: ?/config/setting
+_flow_index:
+  title: 流程中心
+  mod: _flow_index
+  children:
+    index:
+      title: 所有流程
+    view:
+      title: 查看
+      hidden: true
+structure:
+  show_menu: true
+  title: 组织架构
+  type: load
+  url: ?/config/structure/g1vifqq8x1
+c_space:
+  show_menu: true
+  title: 机构设置
+  type: load
+  url: ?/config/space
+_role:
+  show_menu: true
+  title: 角色
+  type: load
+  url: ?/config/_role
+usr1:
+  show_menu: true
+  title: 用户
+  type: load
+  url: ?/config/usr
+trace1:
+  show_menu: true
+  title: 访问日志
+  type: load
+  url: ?/config/trace
+log1:
+  show_menu: true
+  title: 访问明细
+  type: load
+  url: ?/config/log
+usr_analytics1:
+  show_menu: true
+  title: 用户分析
+  type: load
+  url: ?/config/usr_analytics
+sys_xtgl_2:
+  title: 系统管理
+  type: ule
+sys_hidden_config_1:
+  title: 隐藏所有传统配置
+  hidden: true
+  type: ul
+company_manager_xmtj:
+  title: 项目管理-推荐/储备项目
+  icon: earth
+  mod: company
+  view: company_tj
+  filter:
+    is_not_shemi_label: 否
+    state_label:
+      - 推荐/储备
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: company_manager_xmtj/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        flowindex_company_ruku:
+          title: 流程管理
+          type: flowindex
+          flow: company_ruku
+          children:
+            index:
+              title: 浏览
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        doc:
+          title: 文档
+company_manager_xmrk:
+  title: 项目管理-入库项目
+  icon: ios-star-half
+  mod: company
+  view: company_cb
+  filter:
+    is_not_shemi_label: 否
+    state_label:
+      - 入库
+      - 初判
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_company:
+          title: 流程管理
+          type: flowindex
+          flow: company
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+company_manager_xmtq:
+  title: 项目管理-投前项目
+  icon: ios-star-half
+  mod: company
+  view: company_tq
+  filter:
+    is_not_shemi_label: 否
+    state_label:
+      - 立项
+      - 尽调
+      - 投决中
+      - 投决结束
+  children:
+    index:
+      title: 列表
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_company:
+          title: 流程管理
+          type: flowindex
+          flow: company
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+company_manager_after:
+  title: 项目管理-投后项目
+  icon: briefcase
+  mod: company_library
+  filter:
+    state:
+      - 投后
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        pm:
+          title: 季度填报
+          mod: pm
+          type: ext
+          hidden: true
+        pm_history:
+          title: 填报历史
+          mod: pm_history
+          hidden_add: true
+          type: data
+          filter:
+            company: eid
+        company_thylb:
+          title: 投后一览表
+          mod: company_thylb
+          type: ext
+        flowindex_company_library:
+          title: 流程管理
+          type: flowindex
+          flow: company_library
+          children:
+            index:
+              title: 浏览
+        company_library_visit:
+          title: 定期走访
+          mod: company_library_visit
+          type: data
+          filter:
+            company: eid
+        doc:
+          title: 文档
+company_manager_exit:
+  title: 项目管理-退出项目
+  icon: briefcase
+  mod: company_library
+  filter:
+    state:
+      - 退出
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        pm:
+          title: 季度填报
+          mod: pm
+          type: ext
+          hidden: true
+        pm_history:
+          title: 填报历史
+          mod: pm_history
+          hidden_add: true
+          type: data
+          filter:
+            company: eid
+        company_thylb:
+          title: 投后一览表
+          mod: company_thylb
+          type: ext
+        flowindex_company_library:
+          title: 流程管理
+          type: flowindex
+          flow: company_library
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+company_manager_sm:
+  title: 项目管理-涉密项目
+  icon: ios ion-clock
+  mod: company
+  filter:
+    is_not_shemi_label: 是
+    state_label:
+      - 推荐/储备
+      - 入库
+      - 初判
+      - 立项
+      - 尽调
+      - 投决中
+      - 投决结束
+      - 签约
+      - 出资
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_company:
+          title: 流程管理
+          type: flowindex
+          flow: company
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+pm_company_manager:
+  title: 项目管理-外部填报
+  icon: compose
+  mod: company_library
+  view: pm
+  filter:
+    state:
+      - 投后
+  children:
+    index:
+      title: 列表
+      btns:
+        1发送邮件: ?/pm/batch_sendpm/pepm/sendpm_new
+        2填报状态重置: ?/pm/reset_pm_state/未发送
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+fund_manager_ysl:
+  title: 直投基金-已设立基金
+  icon: planet
+  mod: fund
+  view: fund_ysl
+  filter:
+    state_label:
+      - 工商设立与开户
+      - 实缴与备案
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        efrom:
+          title: 基金投资人
+          type: data
+          mod: efrom
+          filter:
+            fund: eid
+        company:
+          title: 投资组合
+          type: data
+          mod: company
+          filter:
+            type_chuzi: 管理型子基金项目
+        cashflow_fund:
+          title: 现金流
+          mod: cashflow_fund
+          type: ext
+        flowindex_fund:
+          title: 流程管理
+          type: flowindex
+          flow: fund
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+fund_manager_nsl:
+  title: 直投基金-拟设立基金
+  icon: planet
+  mod: fund
+  view: fund_nsl
+  filter:
+    state_label:
+      - 筹备
+      - 遴选
+      - 立项
+      - 募资
+      - 投决中
+      - 投决结束
+      - 签约
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: fund_nsl/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_fund:
+          title: 流程管理
+          type: flowindex
+          flow: fund
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+fundd_manager_tuijain:
+  title: 子基金管理-推荐/储备基金
+  mod: fundd
+  view: fundd_tj
+  icon: ios-star-outline
+  filter:
+    is_not_shemi_label: 否
+    state:
+      - 推荐/储备
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: fundd_tuijain/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_fundd_ruku:
+          title: 流程管理
+          type: flowindex
+          flow: fundd_ruku
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+fundd_manager_chubei:
+  title: 子基金管理-入库基金
+  mod: fundd
+  view: fundd_cb
+  icon: ios-star-outline
+  filter:
+    is_not_shemi_label: 否
+    state:
+      - 入库
+      - 初筛
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_fundd:
+          title: 流程管理
+          type: flowindex
+          flow: fundd
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+fundd_manager_before:
+  title: 子基金管理-投前基金
+  mod: fundd
+  view: fundd_tq
+  icon: ios-star-half
+  filter:
+    is_not_shemi_label: 否
+    state:
+      - 遴选
+      - 立项
+      - 入库
+      - 尽调
+      - 投决中
+      - 投决结束
+      - 签约
+      - 出资
+  children:
+    index:
+      title: 列表
+      page_size: 15
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_fundd:
+          title: 流程管理
+          type: flowindex
+          flow: fundd
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+fundd_manager_after:
+  title: 子基金管理-投后基金
+  icon: ios-star
+  mod: fundd
+  filter:
+    state:
+      - 投后
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        fund_thylb:
+          title: 基金投后一览表
+          mod: fund_thylb
+          type: ext
+        fund_post_filling:
+          title: 外部填报
+          mod: fund_post_filling
+          type: ext
+        fund_post_filling_history:
+          title: 填报历史
+          mod: fund_post_filling_history
+          hidden_add: true
+          type: data
+          filter:
+            fundd: eid
+        fundd_back_company:
+          title: 返投情况
+          mod: fundd_back_company
+          type: ext
+        subcompany:
+          title: 已投项目信息
+          mod: subcompany
+          type: data
+          filter:
+            fund: eid
+        fundd_cashflow_portfolio:
+          title: 现金流
+          mod: fundd_cashflow_portfolio
+          type: data
+          filter:
+            fund: eid
+        flowindex_fundd:
+          title: 流程管理
+          type: flowindex
+          flow: fundd
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+fundd_manager_exit:
+  title: 子基金管理-退出基金
+  icon: ios-star
+  mod: fundd
+  filter:
+    state:
+      - 退出
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        fund_thylb:
+          title: 基金投后一览表
+          mod: fund_thylb
+          type: ext
+        fund_post_filling:
+          title: 外部填报
+          mod: fund_post_filling
+          type: ext
+        fund_post_filling_history:
+          title: 填报历史
+          mod: fund_post_filling_history
+          hidden_add: true
+          type: data
+          filter:
+            fundd: eid
+        fundd_back_company:
+          title: 返投情况
+          mod: fundd_back_company
+          type: ext
+        subcompany:
+          title: 已投项目信息
+          mod: subcompany
+          type: data
+          filter:
+            fund: eid
+        fundd_cashflow_portfolio:
+          title: 现金流
+          mod: fundd_cashflow_portfolio
+          type: data
+          filter:
+            fund: eid
+        flowindex_fundd:
+          title: 流程管理
+          type: flowindex
+          flow: fundd
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+fundd_manager_sm:
+  title: 子基金管理-涉密基金
+  icon: ios ion-clock
+  mod: fundd
+  filter:
+    is_not_shemi_label: 是
+    state_label:
+      - 推荐/储备
+      - 入库
+      - 初筛
+      - 遴选
+      - 立项
+      - 尽调
+      - 投决中
+      - 投决结束
+      - 签约
+      - 出资
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_fundd:
+          title: 流程管理
+          type: flowindex
+          flow: fundd
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+fundd_manager_subcompany:
+  title: 子基金管理-基金底层项目
+  mod: subcompany
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+fund_manager_post_filling:
+  title: 子基金管理-基金外部填报
+  icon: bonfire
+  mod: fundd
+  view: fund_post_filling
+  children:
+    index:
+      title: 列表
+      btns:
+        1填报状态重置: >
+          ?/fund_post_filling/reset_pm_state/未发送
+        2发送邮件: >
+          ?/fund_post_filling/batch_sendpm/pepm/sendpm_new
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+fundd_manager_back_company:
+  title: 子基金管理-基金返投管理
+  mod: fundd
+  view: fundd_back_company
+  icon: book
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+company_xmtj:
+  title: 外部推荐/储备池
+  icon:
+    is_not_shemi_label: 否
+  filter:
+    state_xmtj: 待分配
+  children:
+    index:
+      title: 列表
+    apply:
+      title: 外部申报
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        flowindex_company_xmtj:
+          title: 流程管理
+          type: flowindex
+          flow: company_xmtj
+          children:
+            index:
+              title: 浏览
+all_company:
+  title: 统一项目池
+  icon: earth
+  mod: company
+  children:
+    index:
+      title: 列表
+      page_size: 15
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_company:
+          title: 流程管理
+          type: flowindex
+          flow: company
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+all_fundd:
+  title: 统一基金池
+  icon: earth
+  mod: fundd
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+company_gqtz_pool:
+  title: 产业投资-股权投资项目池
+  icon: aperture
+  mod: company
+  filter:
+    type_chuzi_label:
+      - 股权投资项目
+    is_not_shemi_label: 否
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+company_gqtz_tj:
+  title: 产业投资-推荐/储备项目
+  icon: aperture
+  mod: company
+  view: company_tj
+  filter:
+    is_not_shemi_label: 否
+    state_label:
+      - 推荐/储备
+    type_chuzi_label:
+      - 股权投资项目
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: company_gqtz_tj/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        flowindex_company_ruku:
+          title: 流程管理
+          type: flowindex
+          flow: company_ruku
+          children:
+            index:
+              title: 浏览
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        doc:
+          title: 文档
+companyd_gqtz_xmcb:
+  title: 产业投资-入库项目
+  icon: ios-star-half
+  mod: company
+  view: company_cb
+  filter:
+    type_chuzi_label: 股权投资项目
+    is_not_shemi_label: 否
+    state_label:
+      - 入库
+      - 初判
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_company:
+          title: 流程管理
+          type: flowindex
+          flow: company
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+company_gqtz_xmtq:
+  title: 产业投资-投前项目
+  icon: ios-star-half
+  mod: company
+  view: company_tq
+  filter:
+    type_chuzi_label: 股权投资项目
+    is_not_shemi_label: 否
+    state_label:
+      - 立项
+      - 尽调
+      - 投决中
+      - 投决结束
+      - 签约
+      - 出资
+  children:
+    index:
+      title: 列表
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_company:
+          title: 流程管理
+          type: flowindex
+          flow: company
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+companyd_gqtz_after:
+  title: 产业投资-投后项目
+  icon: briefcase
+  mod: company_library
+  filter:
+    state:
+      - 投后
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        pm:
+          title: 季度填报
+          mod: pm
+          type: ext
+          hidden: true
+        pm_history:
+          title: 填报历史
+          mod: pm_history
+          hidden_add: true
+          type: data
+          filter:
+            company: eid
+        company_thylb:
+          title: 投后一览表
+          mod: company_thylb
+          type: ext
+        flowindex_company_library:
+          title: 流程管理
+          type: flowindex
+          flow: company_library
+          children:
+            index:
+              title: 浏览
+        company_library_visit:
+          title: 定期走访
+          mod: company_library_visit
+          type: data
+          filter:
+            company: eid
+        doc:
+          title: 文档
+company_gqtz_exit:
+  title: 产业投资-退出项目
+  icon: briefcase
+  mod: company_library
+  filter:
+    state:
+      - 退出
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        pm:
+          title: 季度填报
+          mod: pm
+          type: ext
+          hidden: true
+        pm_history:
+          title: 填报历史
+          mod: pm_history
+          hidden_add: true
+          type: data
+          filter:
+            company: eid
+        company_thylb:
+          title: 投后一览表
+          mod: company_thylb
+          type: ext
+        flowindex_company_library:
+          title: 流程管理
+          type: flowindex
+          flow: company_library
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+company_gqtz_sm:
+  title: 产业投资-涉密项目
+  icon: ios ion-clock
+  mod: company
+  filter:
+    type_chuzi_label: 股权投资项目
+    is_not_shemi_label: 是
+    state_label:
+      - 推荐/储备
+      - 入库
+      - 初判
+      - 立项
+      - 尽调
+      - 投决中
+      - 投决结束
+      - 签约
+      - 出资
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_company:
+          title: 流程管理
+          type: flowindex
+          flow: company
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+pm_xm_gqtz:
+  title: 产业投资-外部填报
+  icon: compose
+  mod: company_library
+  view: pm
+  filter:
+    state:
+      - 投后
+  children:
+    index:
+      title: 列表
+      btns:
+        1发送邮件: ?/pm/batch_sendpm/pepm/sendpm_new
+        2填报状态重置: ?/pm/reset_pm_state/未发送
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+ckgqy_manager:
+  title: 其他投资业务-参控股企业管理
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: ckgqy_manager/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+unbiao_tz:
+  title: 其他投资业务-非标投资业务
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: unbiao_tz/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+gup_manager:
+  title: 其他投资业务-股票管理
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: gup_manager/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+company_zdzs_pool:
+  title: 重大招商项目-项目池
+  icon: aperture
+  mod: company
+  filter:
+    type_chuzi_label:
+      - 重大招商项目
+    is_not_shemi_label: 否
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+company_zdzs_tj:
+  title: 重大招商项目-推荐/储备项目
+  icon: aperture
+  mod: company
+  view: company_tj
+  filter:
+    is_not_shemi_label: 否
+    state_label:
+      - 推荐/储备
+    type_chuzi_label:
+      - 重大招商项目
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: company_zdzs_tj/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        flowindex_company_ruku:
+          title: 流程管理
+          type: flowindex
+          flow: company_ruku
+          children:
+            index:
+              title: 浏览
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        doc:
+          title: 文档
+companyd_zdzs_xmcb:
+  title: 重大招商项目-入库项目
+  icon: ios-star-half
+  mod: company
+  view: company_cb
+  filter:
+    type_chuzi_label: 重大招商项目
+    is_not_shemi_label: 否
+    state_label:
+      - 入库
+      - 初判
+  children:
+    index:
+      title: 列表
+      page_size: 15
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_company:
+          title: 流程管理
+          type: flowindex
+          flow: company
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+company_zdzs_xmtq:
+  title: 重大招商项目-投前项目
+  icon: ios-star-half
+  mod: company
+  view: company_tq
+  filter:
+    type_chuzi_label: 重大招商项目
+    is_not_shemi_label: 否
+    state_label:
+      - 立项
+      - 尽调
+      - 投决中
+      - 投决结束
+      - 签约
+      - 出资
+  children:
+    index:
+      title: 列表
+      page_size: 15
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_company:
+          title: 流程管理
+          type: flowindex
+          flow: company
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+companyd_zdzs_after:
+  title: 重大招商项目-投后项目
+  icon: briefcase
+  mod: company_library
+  filter:
+    state:
+      - 投后
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        pm:
+          title: 季度填报
+          mod: pm
+          type: ext
+          hidden: true
+        pm_history:
+          title: 填报历史
+          mod: pm_history
+          hidden_add: true
+          type: data
+          filter:
+            company: eid
+        company_thylb:
+          title: 投后一览表
+          mod: company_thylb
+          type: ext
+        flowindex_company_library:
+          title: 流程管理
+          type: flowindex
+          flow: company_library
+          children:
+            index:
+              title: 浏览
+        company_library_visit:
+          title: 定期走访
+          mod: company_library_visit
+          type: data
+          filter:
+            company: eid
+        doc:
+          title: 文档
+company_zdzs_exit:
+  title: 重大招商项目-退出项目
+  icon: briefcase
+  mod: company_library
+  filter:
+    state:
+      - 退出
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        pm:
+          title: 季度填报
+          mod: pm
+          type: ext
+          hidden: true
+        pm_history:
+          title: 填报历史
+          mod: pm_history
+          hidden_add: true
+          type: data
+          filter:
+            company: eid
+        company_thylb:
+          title: 投后一览表
+          mod: company_thylb
+          type: ext
+        flowindex_company_library:
+          title: 流程管理
+          type: flowindex
+          flow: company_library
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+company_zdzs_sm:
+  title: 重大招商项目-涉密项目
+  icon: ios ion-clock
+  mod: company
+  filter:
+    type_chuzi_label: 重大招商项目
+    is_not_shemi_label: 是
+    state_label:
+      - 推荐/储备
+      - 入库
+      - 初判
+      - 立项
+      - 尽调
+      - 投决中
+      - 投决结束
+      - 签约
+      - 出资
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_company:
+          title: 流程管理
+          type: flowindex
+          flow: company
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+pm_xm_zdzs:
+  title: 重大招商项目-外部填报
+  icon: compose
+  mod: company_library
+  view: pm
+  filter:
+    state:
+      - 投后
+  children:
+    index:
+      title: 列表
+      btns:
+        2发送邮件: ?/pm/batch_sendpm/pepm/sendpm_new
+        1填报状态重置: ?/pm/reset_pm_state/未发送
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+fund_ysl:
+  title: 管理型子基金-已设立基金
+  icon: planet
+  mod: fund
+  view: fund_ysl
+  filter:
+    state_label:
+      - 工商设立与开户
+      - 实缴与备案
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        efrom:
+          title: 基金投资人
+          type: data
+          mod: efrom
+          filter:
+            fund: eid
+        company:
+          title: 投资组合
+          type: data
+          mod: company
+          filter:
+            type_chuzi: 管理型子基金项目
+        cashflow_fund:
+          title: 现金流
+          mod: cashflow_fund
+          type: ext
+        flowindex_fund:
+          title: 流程管理
+          type: flowindex
+          flow: fund
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+fund_nsl:
+  title: 管理型子基金-拟设立基金
+  icon: planet
+  mod: fund
+  view: fund_nsl
+  filter:
+    state_label:
+      - 筹备
+      - 遴选
+      - 立项
+      - 募资
+      - 投决中
+      - 投决结束
+      - 签约
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: fund_nsl/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_fund:
+          title: 流程管理
+          type: flowindex
+          flow: fund
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+company_fund_pool:
+  title: 管理型子基金项目-项目池
+  icon: aperture
+  mod: company
+  filter:
+    type_chuzi_label:
+      - 管理型子基金项目
+    is_not_shemi_label: 否
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+company_fund_tj:
+  title: >
+    管理型子基金项目-推荐/储备项目
+  icon: aperture
+  mod: company
+  view: company_tj
+  filter:
+    is_not_shemi_label: 否
+    state_label:
+      - 推荐/储备
+    type_chuzi_label:
+      - 管理型子基金项目
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: company_fund_tj/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        flowindex_company_ruku:
+          title: 流程管理
+          type: flowindex
+          flow: company_ruku
+          children:
+            index:
+              title: 浏览
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        doc:
+          title: 文档
+companyd_fund_xmcb:
+  title: 管理型子基金项目-入库项目
+  icon: ios-star-half
+  mod: company
+  view: company_cb
+  filter:
+    type_chuzi_label: 管理型子基金项目
+    is_not_shemi_label: 否
+    state_label:
+      - 入库
+      - 初判
+  children:
+    index:
+      title: 列表
+      page_size: 15
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_company:
+          title: 流程管理
+          type: flowindex
+          flow: company
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+company_fund_xmtq:
+  title: 管理型子基金项目-投前项目
+  icon: ios-star-half
+  mod: company
+  view: company_tq
+  filter:
+    type_chuzi_label: 管理型子基金项目
+    is_not_shemi_label: 否
+    state_label:
+      - 立项
+      - 尽调
+      - 投决中
+      - 投决结束
+      - 签约
+      - 出资
+  children:
+    index:
+      title: 列表
+      page_size: 15
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_company:
+          title: 流程管理
+          type: flowindex
+          flow: company
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+companyd_fund_after:
+  title: 管理型子基金项目-投后项目
+  icon: briefcase
+  mod: company_library
+  filter:
+    state:
+      - 投后
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        pm:
+          title: 季度填报
+          mod: pm
+          type: ext
+          hidden: true
+        pm_history:
+          title: 填报历史
+          mod: pm_history
+          hidden_add: true
+          type: data
+          filter:
+            company: eid
+        company_thylb:
+          title: 投后一览表
+          mod: company_thylb
+          type: ext
+        flowindex_company_library:
+          title: 流程管理
+          type: flowindex
+          flow: company_library
+          children:
+            index:
+              title: 浏览
+        company_library_visit:
+          title: 定期走访
+          mod: company_library_visit
+          type: data
+          filter:
+            company: eid
+        doc:
+          title: 文档
+company_fund_exit:
+  title: 管理型子基金项目-退出项目
+  icon: briefcase
+  mod: company_library
+  filter:
+    state:
+      - 退出
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        pm:
+          title: 季度填报
+          mod: pm
+          type: ext
+          hidden: true
+        pm_history:
+          title: 填报历史
+          mod: pm_history
+          hidden_add: true
+          type: data
+          filter:
+            company: eid
+        company_thylb:
+          title: 投后一览表
+          mod: company_thylb
+          type: ext
+        flowindex_company_library:
+          title: 流程管理
+          type: flowindex
+          flow: company_library
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+company_fund_sm:
+  title: 管理型子基金项目-涉密项目
+  icon: ios ion-clock
+  mod: company
+  filter:
+    type_chuzi_label: 管理型子基金项目
+    is_not_shemi_label: 是
+    state_label:
+      - 推荐/储备
+      - 入库
+      - 初判
+      - 立项
+      - 尽调
+      - 投决中
+      - 投决结束
+      - 签约
+      - 出资
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_company:
+          title: 流程管理
+          type: flowindex
+          flow: company
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+pm_xm_fund:
+  title: 管理型子基金项目-外部填报
+  icon: compose
+  mod: company_library
+  view: pm
+  filter:
+    state:
+      - 投后
+  children:
+    index:
+      title: 列表
+      btns:
+        1填报状态重置: ?/pm/reset_pm_state/未发送
+        2发送邮件: ?/pm/batch_sendpm/pepm/sendpm_new
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+fundd_pool:
+  title: 参与型子基金-基金池
+  mod: fundd
+  icon: ios-star-outline
+  filter:
+    is_not_shemi_label: 否
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+fundd_tuijain:
+  title: 参与型子基金-推荐/储备基金
+  mod: fundd
+  view: fundd_tj
+  icon: ios-star-outline
+  filter:
+    is_not_shemi_label: 否
+    state:
+      - 推荐/储备
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: fundd_tuijain/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_fundd_ruku:
+          title: 流程管理
+          type: flowindex
+          flow: fundd_ruku
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+fundd_chubei:
+  title: 参与型子基金-入库基金
+  mod: fundd
+  view: fundd_cb
+  icon: ios-star-outline
+  filter:
+    is_not_shemi_label: 否
+    state:
+      - 入库
+      - 初筛
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_fundd:
+          title: 流程管理
+          type: flowindex
+          flow: fundd
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+fundd_before:
+  title: 参与型子基金-投前基金
+  mod: fundd
+  view: fundd_tq
+  icon: ios-star-half
+  filter:
+    is_not_shemi_label: 否
+    state:
+      - 遴选
+      - 立项
+      - 入库
+      - 尽调
+      - 投决中
+      - 投决结束
+      - 签约
+      - 出资
+  children:
+    index:
+      title: 列表
+      page_size: 15
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_fundd:
+          title: 流程管理
+          type: flowindex
+          flow: fundd
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+fundd_after:
+  title: 参与型子基金-投后基金
+  icon: ios-star
+  mod: fundd
+  filter:
+    state:
+      - 投后
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        fund_thylb:
+          title: 基金投后一览表
+          mod: fund_thylb
+          type: ext
+        fund_post_filling:
+          title: 外部填报
+          mod: fund_post_filling
+          type: ext
+        fund_post_filling_history:
+          title: 填报历史
+          mod: fund_post_filling_history
+          hidden_add: true
+          type: data
+          filter:
+            fundd: eid
+        fundd_back_company:
+          title: 返投情况
+          mod: fundd_back_company
+          type: ext
+        subcompany:
+          title: 已投项目信息
+          mod: subcompany
+          type: data
+          filter:
+            fund: eid
+        fundd_cashflow_portfolio:
+          title: 现金流
+          mod: fundd_cashflow_portfolio
+          type: data
+          filter:
+            fund: eid
+        flowindex_fundd:
+          title: 流程管理
+          type: flowindex
+          flow: fundd
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+fundd_exit:
+  title: 参与型子基金-退出基金
+  icon: ios-star
+  mod: fundd
+  filter:
+    state:
+      - 退出
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        fund_thylb:
+          title: 基金投后一览表
+          mod: fund_thylb
+          type: ext
+        fund_post_filling:
+          title: 外部填报
+          mod: fund_post_filling
+          type: ext
+        fund_post_filling_history:
+          title: 填报历史
+          mod: fund_post_filling_history
+          hidden_add: true
+          type: data
+          filter:
+            fundd: eid
+        fundd_back_company:
+          title: 返投情况
+          mod: fundd_back_company
+          type: ext
+        subcompany:
+          title: 已投项目信息
+          mod: subcompany
+          type: data
+          filter:
+            fund: eid
+        fundd_cashflow_portfolio:
+          title: 现金流
+          mod: fundd_cashflow_portfolio
+          type: data
+          filter:
+            fund: eid
+        flowindex_fundd:
+          title: 流程管理
+          type: flowindex
+          flow: fundd
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+fundd_sm:
+  title: 参与型子基金-涉密基金
+  icon: ios ion-clock
+  mod: fundd
+  filter:
+    is_not_shemi_label: 是
+    state_label:
+      - 推荐/储备
+      - 入库
+      - 初筛
+      - 遴选
+      - 立项
+      - 尽调
+      - 投决中
+      - 投决结束
+      - 签约
+      - 出资
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_fundd:
+          title: 流程管理
+          type: flowindex
+          flow: fundd
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+subcompany:
+  title: 参与型子基金-基金底层项目
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+fund_post_filling:
+  title: 参与型子基金-基金外部填报
+  icon: bonfire
+  mod: fundd
+  view: fund_post_filling
+  children:
+    index:
+      title: 列表
+      btns:
+        1填报状态重置: >
+          ?/fund_post_filling/reset_pm_state/未发送
+        2发送邮件: >
+          ?/fund_post_filling/batch_sendpm/pepm/sendpm_new
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+fundd_back_company:
+  title: 参与型子基金-基金返投管理
+  mod: fundd
+  view: fundd_back_company
+  icon: book
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+company_gmcyjjyw_pool:
+  title: 国贸产业基金-项目池
+  icon: aperture
+  mod: company
+  filter:
+    type_chuzi_label:
+      - 国贸产业基金项目
+    is_not_shemi_label: 否
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+company_gmcyjjyw_tj:
+  title: 国贸产业基金-推荐/储备项目
+  icon: aperture
+  mod: company
+  view: company_tj
+  filter:
+    is_not_shemi_label: 否
+    state_label:
+      - 推荐/储备
+    type_chuzi_label:
+      - 国贸产业基金项目
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: company_gmcyjjyw_tj/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        flowindex_company_ruku:
+          title: 流程管理
+          type: flowindex
+          flow: company_ruku
+          children:
+            index:
+              title: 浏览
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        doc:
+          title: 文档
+companyd_gmcyjjyw_xmcb:
+  title: 国贸产业基金-入库项目
+  icon: ios-star-half
+  mod: company
+  view: company_cb
+  filter:
+    type_chuzi_label: 国贸产业基金项目
+    is_not_shemi_label: 否
+    state_label:
+      - 入库
+      - 初判
+  children:
+    index:
+      title: 列表
+      page_size: 15
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_company:
+          title: 流程管理
+          type: flowindex
+          flow: company
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+company_gmcyjjyw_xmtq:
+  title: 国贸产业基金-投前项目
+  icon: ios-star-half
+  mod: company
+  view: company_tq
+  filter:
+    type_chuzi_label: 国贸产业基金项目
+    is_not_shemi_label: 否
+    state_label:
+      - 立项
+      - 尽调
+      - 投决中
+      - 投决结束
+      - 签约
+      - 出资
+  children:
+    index:
+      title: 列表
+      page_size: 15
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_company:
+          title: 流程管理
+          type: flowindex
+          flow: company
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+companyd_gmcyjjyw_after:
+  title: 国贸产业基金-投后项目
+  icon: briefcase
+  mod: company_library
+  filter:
+    state:
+      - 投后
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        pm:
+          title: 季度填报
+          mod: pm
+          type: ext
+          hidden: true
+        pm_history:
+          title: 填报历史
+          mod: pm_history
+          hidden_add: true
+          type: data
+          filter:
+            company: eid
+        company_thylb:
+          title: 投后一览表
+          mod: company_thylb
+          type: ext
+        flowindex_company_library:
+          title: 流程管理
+          type: flowindex
+          flow: company_library
+          children:
+            index:
+              title: 浏览
+        company_library_visit:
+          title: 定期走访
+          mod: company_library_visit
+          type: data
+          filter:
+            company: eid
+        doc:
+          title: 文档
+company_gmcyjjyw_exit:
+  title: 国贸产业基金-退出项目
+  icon: briefcase
+  mod: company_library
+  filter:
+    state:
+      - 退出
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        pm:
+          title: 季度填报
+          mod: pm
+          type: ext
+          hidden: true
+        pm_history:
+          title: 填报历史
+          mod: pm_history
+          hidden_add: true
+          type: data
+          filter:
+            company: eid
+        company_thylb:
+          title: 投后一览表
+          mod: company_thylb
+          type: ext
+        flowindex_company_library:
+          title: 流程管理
+          type: flowindex
+          flow: company_library
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+company_gmcyjjyw_sm:
+  title: 国贸产业基金-涉密项目
+  icon: ios ion-clock
+  mod: company
+  filter:
+    type_chuzi_label: 国贸产业基金项目
+    is_not_shemi_label: 是
+    state_label:
+      - 推荐/储备
+      - 入库
+      - 初判
+      - 立项
+      - 尽调
+      - 投决中
+      - 投决结束
+      - 签约
+      - 出资
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_company:
+          title: 流程管理
+          type: flowindex
+          flow: company
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+pm_xm_gmcyjjyw:
+  title: 国贸产业基金-外部填报
+  icon: compose
+  mod: company_library
+  view: pm
+  filter:
+    state:
+      - 投后
+  children:
+    index:
+      title: 列表
+      btns:
+        1填报状态重置: ?/pm/reset_pm_state/未发送
+        2发送邮件: ?/pm/batch_sendpm/pepm/sendpm_new
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+lp:
+  title: 投资者关系-签约LP
+  icon: android-navigate
+  mod: lp
+  filter:
+    lp_state: 签约
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        meeting:
+          title: 会议
+          type: data
+          mod: meeting
+          filter:
+            object: eid
+        lp_memo:
+          title: 跟进记录
+          type: data
+          mod: lp_memo
+          filter:
+            object: eid
+        efrom:
+          title: 合作基金
+          type: data
+          hidden_add: true
+          hidden_edit: true
+          hidden_del: true
+          mod: efrom
+          filter:
+            lp: eid
+        lp_cashflow_portfolio:
+          title: 现金流
+          type: data
+          mod: lp_cashflow_portfolio
+          filter:
+            lp: eid
+        flowindex_lp:
+          title: 流程管理
+          type: flowindex
+          flow: lp
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+lp_qz:
+  title: 投资者关系-潜在LP
+  icon: android-navigate
+  mod: lp
+  filter:
+    lp_state: 潜在
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: lp_qz/add
+            new: true
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        meeting:
+          title: 会议
+          type: data
+          mod: meeting
+          filter:
+            object: eid
+        lp_memo:
+          title: 跟进记录
+          type: data
+          mod: lp_memo
+          filter:
+            object: eid
+        flowindex_lp:
+          title: 流程管理
+          type: flowindex
+          flow: lp
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+fund_gp_yhz:
+  title: GP管理-已合作GP
+  icon: ios-people
+  mod: fund_gp
+  filter:
+    state: 已合作
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        fund:
+          title: 关联基金
+          type: data
+          hidden_add: true
+          mod: fundd
+          filter:
+            gp: eid
+        doc:
+          title: 文档
+fund_gp_qz:
+  title: GP管理-潜在GP
+  icon: ios-people
+  mod: fund_gp
+  filter:
+    state: 潜在
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: fund_gp_qz/add
+            new: true
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        doc:
+          title: 文档
+institution_low:
+  title: 第三方机构管理-律师事务所
+  icon: android-navigate
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: institution_low/add
+            new: true
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+institution_kj:
+  title: 第三方机构管理-会计事务所
+  icon: android-navigate
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: institution_kj/add
+            new: true
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+institution:
+  title: 第三方机构管理-其他机构
+  icon: android-navigate
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: institution/add
+            new: true
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+lp_cashflow_portfolio:
+  title: 现金流管理-投资人现金流
+  icon: bonfire
+  mod: lp_cashflow_portfolio
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+fundd_cashflow_portfolio:
+  title: >
+    现金流管理-参与型子基金现金流
+  icon: bonfire
+  mod: fundd_cashflow_portfolio
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+company_cashflow_portfolio:
+  title: 现金流管理-项目现金流
+  icon: bonfire
+  mod: company_cashflow_portfolio
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+cashflow_guanlifei:
+  title: 现金流管理-管理费现金流
+  icon: bonfire
+  mod: cashflow_guanlifei
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+cashflow_other:
+  title: 现金流管理-其他现金流
+  icon: bonfire
+  mod: cashflow_other
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+companyd_month_gz:
+  title: 财务台账-项目月度估值
+  icon: android-navigate
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: companyd_month_gz/add
+            new: true
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+companyd_month_gz_history:
+  title: 财务台账-月度估值历史
+  icon: android-navigate
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+companyd_caiw_tz:
+  title: 财务台账-资本账户表
+  icon: android-navigate
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: companyd_caiw_tz/add
+            new: true
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+wiki:
+  title: 风险管理-内控制度
+  icon: ios-book-outline
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+kpi_monitor_pri_project:
+  title: 风险管理-风险指标监控
+  icon: android-send
+  mod: kpi_monitor_pri_project
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: kpi_monitor_pri_project/add
+            new: true
+    add:
+      title: 新增
+htgjxxjk:
+  title: 风险管理-协议条款监控
+  icon: android-send
+  mod: calendar_mon_project
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: htgjxxjk/add
+            new: true
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+calendar:
+  title: 办公管理-日程管理
+  icon: calendar
+  children:
+    index:
+      title: 日程
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: calendar/add
+            new: true
+    week:
+      title: 周日程
+    list2:
+      title: 查询
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+meeting:
+  title: 办公管理-会议管理
+  mod: meeting
+  icon: ios ion-clock
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: meeting/add
+            new: true
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+meme:
+  title: 办公管理-通知公告
+  mod: meme
+  icon: ios ion-clock
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: meme/add
+            new: true
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+company_zlxt1:
+  title: 战略协同-项目层面协同
+  mod: company_zlxt1
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: company_zlxt1/add
+            new: true
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+comapny_other_xt:
+  title: 战略协同-其他方面协同
+  mod: meeting
+  filter:
+    is_has_zlxt: 是
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+companys_folder:
+  title: 综合管理-项目文档清单
+  icon: star
+  mod: company
+  view: companys_folder
+  children:
+    index:
+      title: 浏览
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+chuchai_manager:
+  title: 综合管理-出差管理
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: chuchai_manager/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+department_week_report:
+  title: 综合管理-部门周报
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: department_week_report/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+recode_px:
+  title: 综合管理-培训记录
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: recode_px/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+rlzy_gl:
+  title: 综合管理-人力资源台账
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: rlzy_gl/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+gdzc_gl:
+  title: 综合管理-固定资产台账
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: gdzc_gl/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+meetingroom:
+  title: 综合管理-会议室预约
+  icon: ios-list
+  mod: meetingroom_reserve
+  children:
+    overview:
+      title: 日视图
+    week:
+      title: 周视图
+    index:
+      title: 浏览
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: meetingroom/add
+            new: true
+    add:
+      title: 新增
+expert_database:
+  title: 综合管理-专家库
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: expert_database/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+doc4:
+  title: 知识库-投资业务文档库
+  icon: folder
+  type: doc
+  doc_type: doc4
+  children:
+    index:
+      title: 列表
+doc1:
+  title: 知识库-法律知识文档库
+  icon: folder
+  type: doc
+  doc_type: doc1
+  children:
+    index:
+      title: 列表
+doc2:
+  title: 知识库-模板文档库
+  icon: folder
+  type: doc
+  doc_type: doc2
+  children:
+    index:
+      title: 列表
+doc3:
+  title: 知识库-其他文档库
+  icon: folder
+  type: doc
+  doc_type: doc3
+  children:
+    index:
+      title: 列表
+fei_caiwuxing_zhanluemubiao:
+  title: 提报管理-非财务性战略督办
+  icon: android-send
+  mod: fei_caiwuxing_zhanluemubiao
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: fei_caiwuxing_zhanluemubiao/add
+            new: true
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+    view:
+      title: 查看
+      hidden: true
+caiwuxing_zhanluemubiao:
+  title: 提报管理-财务性战略督办
+  icon: android-send
+  mod: caiwuxing_zhanluemubiao
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: caiwuxing_zhanluemubiao/add
+            new: true
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+    view:
+      title: 查看
+      hidden: true
+xietong_shixiang_baobiao:
+  title: 提报管理-协同事项报表
+  icon: android-send
+  mod: xietong_shixiang_baobiao
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: xietong_shixiang_baobiao/add
+            new: true
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+    view:
+      title: 查看
+      hidden: true
+xietong_baogao_baobiao:
+  title: 提报管理-协同报告报表
+  icon: android-send
+  mod: xietong_baogao_baobiao
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: xietong_baogao_baobiao/add
+            new: true
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+    view:
+      title: 查看
+      hidden: true
+gongsi_big_shiji:
+  title: 提报管理-公司大事记
+  icon: android-send
+  mod: gongsi_big_shiji
+  children:
+    index:
+      title: 列表
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增
+            icon: plus
+            url: gongsi_big_shiji/add
+            new: true
+    add:
+      title: 新增
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+    view:
+      title: 查看
+      hidden: true
+fund_thylb:
+  title: 报表中心-基金一览表
+  icon: android-navigate
+  mod: fundd
+  view: fund_thylb
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+onepage_fund:
+  title: 报表中心-基金一页纸
+  mod: fundd
+  view: onepage_fund
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+company_thylb:
+  title: 报表中心-项目一览表
+  icon: android-navigate
+  mod: company_library
+  view: company_thylb
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+onepage_companyd:
+  title: 报表中心-项目一页纸
+  mod: company
+  view: onepage_companyd
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+flow_msg:
+  title: 消息中心
+  icon: chatbubbles
+  hidden: true
+  hidden_mobile: true
+  badge: true
+  children:
+    todo:
+      title: 我的待办
+    index:
+      title: 未读消息
+company:
+  title: >
+    项目池-服务于企业库投资情况数据详情
+  icon: earth
+  children:
+    index:
+      title: 列表
+      page_size: 15
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+          children:
+            index:
+              title: 浏览
+        meeting:
+          title: 会议
+          mod: meeting
+          type: data
+          filter:
+            object: eid
+        flowindex_company:
+          title: 流程管理
+          type: flowindex
+          flow: company
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+fundd_hyzt_after:
+  title: >
+    参与型子基金-海翼直投-投后基金
+  icon: ios-star
+  mod: fundd
+  filter:
+    state:
+      - 投后
+    chuzi_zhuti_ni_label: 厦门海翼投资
+  children:
+    index:
+      title: 列表
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        calendar:
+          title: 日程
+          type: data
+          mod: calendar
+          filter:
+            company: eid
+        fund_thylb:
+          title: 基金投后一览表
+          mod: fund_thylb
+          type: ext
+        fund_post_filling:
+          title: 外部填报
+          mod: fund_post_filling
+          type: ext
+        fund_post_filling_history:
+          title: 填报历史
+          mod: fund_post_filling_history
+          hidden_add: true
+          type: data
+          filter:
+            fundd: eid
+        fundd_back_company:
+          title: 返投情况
+          mod: fundd_back_company
+          type: ext
+        subcompany:
+          title: 已投项目信息
+          mod: subcompany
+          type: data
+          filter:
+            fund: eid
+        fundd_cashflow_portfolio:
+          title: 现金流
+          mod: fundd_cashflow_portfolio
+          type: data
+          filter:
+            fund: eid
+        flowindex_fundd:
+          title: 流程管理
+          type: flowindex
+          flow: fundd
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+msg:
+  title: 通知
+  icon: chatbubbles
+  hidden: false
+  badge: true
+  children:
+    index:
+      title: 未读消息
+    all:
+      title: 全部消息
+    todo:
+      title: 我的待办
+    mine:
+      title: 我的申请
+    done:
+      title: 我的已办
+    copy:
+      title: 我的抄送
+sys_hidden_config_2:
+  title: 隐藏所有传统配置
+  type: ule

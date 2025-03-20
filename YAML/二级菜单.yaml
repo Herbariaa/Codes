@@ -1,0 +1,61 @@
+fund_yd_bs:
+  title: 财政厅月度报送
+  icon: stats-bars
+  mod: fund
+  view: fund_after_zg
+  children:
+    index:
+      title: 列表
+      hidden: true
+    fund_zgyd1:
+      title: 一级基金
+      type: load
+      url: ?/fund_zgyd/index
+    fund_ydgx1:
+      title: 子基金
+      type: load
+      url: ?/fund_ydgx/index
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+
+
+
+
+
+
+
+fund_zgyd:
+  title: 财政厅月度报送(自管/母)
+  hidden: ture
+  mod: fund_zg
+  view: fund_zgyd
+  children:
+    index:
+      title: 列表
+fund_ydgx:
+  title: 财政厅月度报送(子)
+  hidden: ture
+  mod: fund
+  view: fund_ydgx
+  children:
+    index:
+      title: 列表

@@ -1,0 +1,107 @@
+---
+pass:
+  - 
+    condition:
+      is_sign_change:
+        =: 是
+      sign_change_way:
+        =: 覆盖已有签约信息
+    func:
+      update_entity:
+        target:
+        data:
+          file_hhxy: file_hhxy_bc
+          money_tzje: money_tzje_bc
+      add_entity:
+        model: fund_qianyue_record
+        data:
+          fund: fund
+          fund_label: fund_label
+          add_time: add_time
+          chuzi_zhuti: chuzi_zhuti
+          chuzi_zhuti_label: chuzi_zhuti_label
+          time_qy: time_qy
+          money_tzje: money_tzje
+          file_hhxy: file_hhxy
+          yongyin_zhuti: yongyin_zhuti
+          yongyin_zhuti_label: yongyin_zhuti_label          
+          yinjian_type: yinjian_type
+          yinjian_type_label: yinjian_type_label
+          contract_number: contract_number
+          is_sign_change: is_sign_change
+          is_sign_change_label: is_sign_change_label
+          sign_change_way: sign_change_way
+          sign_change_way_label: sign_change_way_label
+          time_qy_bc: time_qy_bc
+          money_tzje_bc: money_tzje_bc
+          final_money_tzje: money_tzje_bc    
+          file_hhxy_bc: file_hhxy_bc
+  - 
+    condition:
+      is_sign_change:
+        =: 是
+      sign_change_way:
+        =: 与已有签约信息进行累加
+    func:
+      update_entity:
+        target:
+        data:
+          money_tzje: final_money_tzje
+          file_hhxy: file_hhxy_bc
+      add_entity:
+        model: fund_qianyue_record
+        data:
+          fund: fund
+          fund_label: fund_label
+          add_time: add_time
+          chuzi_zhuti: chuzi_zhuti
+          chuzi_zhuti_label: chuzi_zhuti_label
+          time_qy: time_qy
+          money_tzje: money_tzje
+          file_hhxy: file_hhxy
+          yongyin_zhuti: yongyin_zhuti
+          yongyin_zhuti_label: yongyin_zhuti_label          
+          yinjian_type: yinjian_type
+          yinjian_type_label: yinjian_type_label
+          contract_number: contract_number
+          is_sign_change: is_sign_change
+          is_sign_change_label: is_sign_change_label
+          sign_change_way: sign_change_way
+          sign_change_way_label: sign_change_way_label
+          time_qy_bc: time_qy_bc
+          money_tzje_bc: money_tzje_bc
+          final_money_tzje: final_money_tzje  
+          file_hhxy_bc: file_hhxy_bc
+  - 
+    condition:
+      is_sign_change:
+        =: 否
+    func:
+      update_entity:
+        target:
+        data:
+          file_hhxy: file_hhxy_bc
+      add_entity:
+        model: fund_qianyue_record
+        data:
+          fund: fund
+          fund_label: fund_label
+          add_time: add_time
+          chuzi_zhuti: chuzi_zhuti
+          chuzi_zhuti_label: chuzi_zhuti_label
+          time_qy: time_qy
+          money_tzje: money_tzje
+          file_hhxy: file_hhxy
+          yongyin_zhuti: yongyin_zhuti
+          yongyin_zhuti_label: yongyin_zhuti_label          
+          yinjian_type: yinjian_type
+          yinjian_type_label: yinjian_type_label
+          contract_number: contract_number
+          is_sign_change: is_sign_change
+          is_sign_change_label: is_sign_change_label
+          sign_change_way: sign_change_way
+          sign_change_way_label: sign_change_way_label
+          time_qy_bc: time_qy_bc
+          money_tzje_bc: money_tzje_bc
+          final_money_tzje: money_tzje  
+          file_hhxy_bc: file_hhxy_bc

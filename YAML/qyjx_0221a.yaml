@@ -1,0 +1,3966 @@
+---
+diycol_pc:
+diycol_iphone:
+bi_counting: >
+  hn14s4zhai,hn14tani70,hn14tl125i,hn14ttwdc8,hn14u3iscz
+bi_condition: hn13ctlfub
+bi_filter: >
+  hmxwjdxvb3,hhfyp2npdt,hhfy56nuk9,hhfylgsl0c
+openlink: 0
+name_rule:
+monitor_condition:
+monitor_update:
+bijoin: 1
+title_field:
+stepbar: [ ]
+dynform: [ ]
+collect: [ ]
+calc: [ ]
+css:
+js:
+script: [ ]
+ext: [ ]
+sms_template: [ ]
+openlink_title:
+openlink_button:
+email_notify:
+  - 
+email_notify_tem:
+openlink_content:
+pre_commit_content:
+tab_listen_key:
+tab_listen_rule: [ ]
+def_submit_btn_text:
+submit_redirect: 0
+submit_redirect_url:
+word_export:
+  word_custom_func:
+  word_export_name:
+  word_file:
+    - 
+  word_file_label:
+    - 
+api_address:
+api_list_key:
+api_request_key:
+api_response_key:
+api_display: match
+comment:
+  target: _self
+  doctype:
+  up_folder:
+  root_uid:
+  eid_link:
+  formats:
+  position: 1
+  attached_mod:
+  comment_title_tpl:
+  field_newest:
+  field_count:
+modbox:
+  position: 1
+  ext: [ ]
+notify_default:
+notify:
+  url_template:
+inherit_priv:
+privilege:
+  list:
+  import:
+  export:
+  detail:
+  edit:
+  delete:
+  docx:
+  pdf:
+  history:
+  openlink:
+  block_view_hho1n4ng75:
+  block_edit_hho1n4ng75:
+  block_view_hho1qwtx85:
+  block_edit_hho1qwtx85:
+  block_view_hho1sm3dsa:
+  block_edit_hho1sm3dsa:
+  block_view_hho1tq2t0w:
+  block_edit_hho1tq2t0w:
+  block_view_hho1uj6910:
+  block_edit_hho1uj6910:
+  block_view_hn13be7mu6:
+  block_edit_hn13be7mu6:
+diycol_back_list:
+list_count_block_fields:
+order_priority:
+page_size:
+fixed_col:
+fixed_col_mobile:
+addon_url:
+list_style: list_ajax
+link_type: canvas
+list_count:
+list_style_mobile: list_mobile
+py_search: no_more
+secondary_link_type: modal
+list_mobile_mod: default
+diycard_config: [ ]
+button_config: [ ]
+feed_tpl:
+feed_mobile_tpl:
+feed_tpl_css:
+feed_tpl_js:
+css_config:
+js_config:
+merged_cell_key:
+merged_cell_list:
+merge_exclude_code:
+list_img_name:
+list_img_img:
+list_img_date:
+list_img_content:
+super_object:
+replace_comment_update_col:
+replace_comment_max_col:
+replace_comment_notify: 3
+created_sth:
+filter:
+always_show:
+filter_mobile:
+item:
+  hmxwjdxvb3:
+    id: hmxwjdxvb3
+    name: 企业名称
+    type: text
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    required: 1
+    ext:
+      mod: qyjx_qggyqy_qhy
+      filter:
+        hmyjjf07lr: eid
+  hgp3s8sh39:
+    id: hgp3s8sh39
+    name: 行业分类
+    type: select_new
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    required: 1
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        全国国有企业
+        工业
+        煤炭工业
+        石油石化工业
+        天然原油和天然气开采业
+        石油加工及炼焦业
+        冶金工业
+        黑色金属矿采选业
+        有色金属矿采选业
+        黑色金属冶炼业
+        有色金属冶炼业
+        建材工业
+        建筑用矿石采选业
+        水泥制造业
+        水泥及石膏制品制造业
+        砖瓦石材及其他建筑材料制造业
+        平板玻璃制品业
+        结构性金属制品业
+        建筑用金属制品业
+        化学工业
+        基础化学原料制造业
+        肥料制造业
+        日用和化学产品制造业
+        化纤制造业
+        橡胶制品业
+        塑料制品业
+        农药制造业
+        森林工业
+        食品工业
+        食品加工业
+        食品制造业
+        纺织工业
+        棉化纤纺织业
+        毛纺织业
+        麻纺织业
+        丝绢纺织业
+        医药工业
+        化学药品制造业
+        中药材及中成药加工业
+        机械工业
+        金属制品业
+        金属工具制造业
+        通用设备制造业
+        锅炉及原动机制造业
+        金属加工机械制造业
+        其他通用设备制造业
+        轴承制造业
+        专用设备制造业
+        冶金矿山建筑设备制造业
+        矿山机械制造业
+        建筑工程用机械制造业
+        冶金专用设备制造业
+        化工木材非金属加工设备制造业
+        轻纺设备制造业
+        农林牧渔水利业机械制造业
+        医疗仪器设备制造业
+        电子和电工机械专用设备制造业
+        交通运输设备制造业
+        铁路运输设备制造业
+        汽车制造业
+        汽车整车制造业
+        汽车零部件及配件制造业
+        摩托车制造业
+        自行车制造业
+        船舶制造业
+        电气机械及器材制造业
+        电机制造业
+        输配电及控制设备制造业
+        电工器材制造业
+        家用电器制造业
+        照明器具制造业
+        仪器仪表及文化办公用制造业
+        通用仪器仪表制造业
+        专用仪器仪表制造业
+        钟表制造业
+        电子工业
+        通信设备制造业
+        广播电视设备制造业
+        电子计算机制造业
+        电子元器件制造业
+        家用影视设备制造业
+        电力热力燃气工业
+        电力生产业
+        火力发电业
+        水力发电业
+        电力供应业
+        热力生产和供应业
+        燃气生产和供应业
+        水生产与供应业
+        轻工业
+        采盐业
+        酒和饮料制造业
+        白酒制造业
+        啤酒制造业
+        制茶业
+        纺织服装服饰业
+        皮革毛皮羽绒及其制品业
+        家具制造业
+        造纸及纸制品业
+        印刷业记录媒介的复制业
+        文教体育用品制造业
+        工艺品及其他制造业
+        其他工业
+        建筑业
+        房屋和土木工程建筑业
+        房屋建筑业
+        土木工程建筑业
+        建筑安装业
+        建筑装饰业
+        交通运输仓储及邮政业
+        铁路运输业
+        道路运输业
+        高速公路
+        城市公共交通业
+        公共电汽车客运业
+        轨道交通业
+        水上运输业
+        港口业
+        航空运输业
+        机场
+        仓储业
+        信息技术服务业
+        电信业
+        计算机服务与软件业
+        批发和零售贸易业
+        商业贸易
+        食品、饮料及烟草制品批发与零售
+        纺织、服装及日用品批发与零售
+        文化、体育用品及器材批发与零售
+        医药及医疗器材批发与零售
+        综合零售
+        物资贸易
+        矿产品、建材及化工产品批发
+        机械设备、五金及电子产品批发
+        汽车、摩托车、燃料及零配件专门零售
+        粮食业
+        粮油批发与零售
+        粮油仓储
+        住宿和餐饮业
+        住宿业
+        餐饮业
+        房地产业
+        房地产开发业
+        物业管理业
+        社会服务业
+        信息咨询服务业
+        公共设施管理业
+        科研设计企业
+        工程管理服务业
+        大旅游
+        投资公司
+        地质勘查业
+        人力资源服务业
+        汽车修理与维护服务业
+        传播与文化业
+        出版业
+        广播电影电视业
+        文化艺术业
+        农林牧渔业
+        农业
+        林业
+        畜牧业
+        渔业
+        地方国有企业
+        地方工业
+        地方煤炭工业
+        地方冶金工业
+        地方建材工业
+        地方化学工业
+        地方森林工业
+        地方食品工业
+        地方纺织工业
+        地方医药工业
+        地方机械工业
+        地方汽车制造业
+        地方电子工业
+        地方电力热力燃气工业
+        地方水生产与供应业
+        地方轻工业
+        地方建筑业
+        地方交通运输仓储及邮政业
+        地方批发和零售贸易业
+        地方住宿和餐饮业
+        地方房地产业
+        地方社会服务业
+        地方传播与文化业
+        地方农林牧渔业
+      page_size: 0
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max: 0
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size: 0
+      feed_mobile_page_size: 0
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: qyjx_qggyqy_qhy
+      filter:
+        hhfyp2n2pdt: eid
+  hgp3s96b7o:
+    id: hgp3s96b7o
+    name: 企业规模
+    type: select_new
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    required: 1
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        全行业: 全行业
+        大型企业: 大型企业
+        中型企业: 中型企业
+        小型企业: 小型企业
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 是
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    ext:
+      mod: qyjx_qggyqy_qhy
+      filter:
+        hhfyp2npdut: eid
+  hhfyp2npdt:
+    id: hhfyp2npdt
+    name: 财报年份
+    type: yearpicker
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    listed: 1
+  hhfy56nuk9:
+    id: hhfy56nuk9
+    name: 季报/年报
+    type: select_new
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        季报: 季报
+        年报: 年报
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic: |
+        季报:
+          - hhfylgsl0c
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label:
+      list_color_label_label:
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis:
+      ellipsis_label:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    listed: 1
+  hhfylgsl0c:
+    id: hhfylgsl0c
+    name: 季度
+    type: select_new
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        一季度: 一季度
+        二季度: 二季度
+        三季度: 三季度
+        四季度: 四季度
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label:
+      list_color_label_label:
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis:
+      ellipsis_label:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    listed: 1
+  hhfyn4i1xp:
+    id: hhfyn4i1xp
+    name: 财务报表上传
+    type: upload
+    width: 3
+    prompt_file:
+      - hhfyod6evj
+    prompt_file_label:
+      - 财务报表合并模版.xlsx
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target:
+      target_label:
+      doc_type:
+      show_path: 否
+      choose: 否
+      up_folder:
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+    listed: 1
+  hho1n4ng75:
+    id: hho1n4ng75
+    name: 一、盈利能力状况
+    type: section
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1o80vix:
+    id: hho1o80vix
+    name: 净资产收益率（%）
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur99:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1oln9vh:
+    id: hho1oln9vh
+    name: 总资产报酬率（%）
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur992:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis:
+      ellipsis_label:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o2:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1p215a6:
+    id: hho1p215a6
+    name: 销售（营业）利润率（%）
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur993:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o3:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1pfd8zq:
+    id: hho1pfd8zq
+    name: 盈余现金保障倍数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur994:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o4:
+    id: hmyjlh349o
+    name: 参考值
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1pnb7ju:
+    id: hho1pnb7ju
+    name: 成本费用利润率（%）
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur995:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o5:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1pxw5sh:
+    id: hho1pxw5sh
+    name: 资本收益率（%）
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur996:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o6:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14s4zhai01:
+    id: hn14s4zhai
+    name: 评价为优的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14tani701:
+    id: hn14tani70
+    name: 评价为良的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14tl125i1:
+    id: hn14tl125i
+    name: 评价为中的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14ttwdc81:
+    id: hn14ttwdc8
+    name: 评价为低的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14u3iscz1:
+    id: hn14u3iscz
+    name: 评价为差的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1qwtx85:
+    id: hho1qwtx85
+    name: 二、资产质量状况
+    type: section
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1r9upno:
+    id: hho1r9upno
+    name: 总资产周转率(次)
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9914:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o14:
+    id: hmyjlh349o
+    name: 参考值
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1ry4yow:
+    id: hho1ry4yow
+    name: 应收账款周转率(次)
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9915:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o15:
+    id: hmyjlh349o
+    name: 参考值
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1s3se5l:
+    id: hho1s3se5l
+    name: 不良资产比率(%)
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9916:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o16:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1sazfai:
+    id: hho1sazfai
+    name: 流动资产周转率(次)
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9917:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o17:
+    id: hmyjlh349o
+    name: 参考值
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1sgmt5d:
+    id: hho1sgmt5d
+    name: 资产现金回收率(%)
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9918:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o18:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14s4zhai2:
+    id: hn14s4zhai
+    name: 评价为优的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14tani702:
+    id: hn14tani70
+    name: 评价为良的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14tl125i2:
+    id: hn14tl125i
+    name: 评价为中的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14ttwdc82:
+    id: hn14ttwdc8
+    name: 评价为低的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14u3iscz2:
+    id: hn14u3iscz
+    name: 评价为差的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1sm3dsa:
+    id: hho1sm3dsa
+    name: 三、债务风险状况
+    type: section
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1sr61vp:
+    id: hho1sr61vp
+    name: 资产负债率(%)
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9926:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o26:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1sxd0yz:
+    id: hho1sxd0yz
+    name: 已获利息倍数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9927:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o27:
+    id: hmyjlh349o
+    name: 参考值
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1t5xrse:
+    id: hho1t5xrse
+    name: 速动比率(%)
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9928:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o28:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1tauepf:
+    id: hho1tauepf
+    name: 现金流动负债比率(%)
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9929:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o29:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1tgatzf:
+    id: hho1tgatzf
+    name: 带息负债比率(%)
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9930:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o30:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1tl783i:
+    id: hho1tl783i
+    name: 或有负债比率(%)
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9931:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o31:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14s4zhai3:
+    id: hn14s4zhai
+    name: 评价为优的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14tani703:
+    id: hn14tani70
+    name: 评价为良的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14tl125i3:
+    id: hn14tl125i
+    name: 评价为中的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14ttwdc83:
+    id: hn14ttwdc8
+    name: 评价为低的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14u3iscz3:
+    id: hn14u3iscz
+    name: 评价为差的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1tq2t0w:
+    id: hho1tq2t0w
+    name: 四、经营增长状况
+    type: section
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1twm3no:
+    id: hho1twm3no
+    name: 销售(营业)增长率(%)
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9940:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o40:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1u12s08:
+    id: hho1u12s08
+    name: 资本保值增值率(%)
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9941:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o41:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1u5iq31:
+    id: hho1u5iq31
+    name: 销售(营业)利润增长率(%)
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9942:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o42:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1u9ub2v:
+    id: hho1u9ub2v
+    name: 总资产增长率(%)
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9943:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o43:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1ueoafu:
+    id: hho1ueoafu
+    name: 研发经费投入强度(%)
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9944:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o44:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14s4zhai4:
+    id: hn14s4zhai
+    name: 评价为优的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14tani704:
+    id: hn14tani70
+    name: 评价为良的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14tl125i4:
+    id: hn14tl125i
+    name: 评价为中的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14ttwdc84:
+    id: hn14ttwdc8
+    name: 评价为低的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14u3iscz4:
+    id: hn14u3iscz
+    name: 评价为差的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1uj6910:
+    id: hho1uj6910
+    name: 五、补充资料
+    type: section
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1uo61uw:
+    id: hho1uo61uw
+    name: 存货周转率(次)
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9952:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o52:
+    id: hmyjlh349o
+    name: 参考值
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1utimc6:
+    id: hho1utimc6
+    name: 两金占流动资产比重(%)
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9953:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o53:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1uyd4cy:
+    id: hho1uyd4cy
+    name: >
+      成本费用总额占营业总收入比重(%)
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9954:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o54:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1v33g19:
+    id: hho1v33g19
+    name: 经济增加值率(%)
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9955:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o55:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1v742l1:
+    id: hho1v742l1
+    name: EBITDA率(%)
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9956:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o56:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hho1vhbzuw:
+    id: hho1vhbzuw
+    name: 资本积累率(%)
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmyjlkur9957:
+    id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hmyjlh349o57:
+    id: hmyjlh349o
+    name: 参考值
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14s4zhai5:
+    id: hn14s4zhai
+    name: 评价为优的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14tani705:
+    id: hn14tani70
+    name: 评价为良的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14tl125i5:
+    id: hn14tl125i
+    name: 评价为中的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14ttwdc85:
+    id: hn14ttwdc8
+    name: 评价为低的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14u3iscz5:
+    id: hn14u3iscz
+    name: 评价为差的个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn13be7mu6:
+    id: hn13be7mu6
+    name: 评价数据分析
+    type: section
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14s4zhai:
+    id: hn14s4zhai
+    name: 评价为优的总个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14tani70:
+    id: hn14tani70
+    name: 评价为良的总个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14tl125i:
+    id: hn14tl125i
+    name: 评价为中的总个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14ttwdc8:
+    id: hn14ttwdc8
+    name: 评价为低的总个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn14u3iscz:
+    id: hn14u3iscz
+    name: 评价为差的总个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hn13ctlfub:
+    id: hn13ctlfub
+    name: 指标个数统计总图
+    type: charts
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      uuid: hn15dnh6ju
+      mfilter:
+        _rel:
+          rel_key: uuid
+          rel_val: eid
+    list_align: def
+import: [ ]
+pre_order: [ ]
+bi:
+  counting:
+    - hn14s4zhai
+    - hn14tani70
+    - hn14tl125i
+    - hn14ttwdc8
+    - hn14u3iscz
+  condition:
+    - hn13ctlfub
+  monitor_condition: [ ]
+  monitor_update: [ ]
+  filter:
+    - hmxwjdxvb3
+    - hhfyp2npdt
+    - hhfy56nuk9
+    - hhfylgsl0c

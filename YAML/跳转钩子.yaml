@@ -1,0 +1,49 @@
+---
+- 
+  condition: 
+    specialist_industry:
+      operator: in
+      value:
+        - 临床
+  goto: hqvy1urvye
+- 
+  condition: 
+    specialist_industry:
+      operator: in
+      value:
+        - 非临床
+  goto: hqvy1us11z
+- 
+  condition: 
+    specialist_industry:
+      operator: in
+      value:
+        - 多行业
+  goto: hqvy1urym6
+
+
+
+
+
+
+
+
+
+
+
+---
+- 
+  condition: 
+    industry:
+      operator: in
+      value:
+        - 临床
+  goto: hr2k5slydv
+- 
+  condition: 
+    industry:
+      operator: in
+      value:
+        - 非临床
+        - 中介
+  goto: hscqaap439

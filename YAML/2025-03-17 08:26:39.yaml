@@ -1,0 +1,27 @@
+---
+- 
+  condition:
+    corporate_seal_label:
+      operator: =
+      value: 是
+    wh_zhuanhua_label:
+      operator: =
+      value: 否
+    department:
+      operator: in
+      value:
+        - 财务
+        - 行政
+        - 法务
+  goto: h9hbjomqyl
+- 
+  condition:
+    corporate_seal_label:
+      operator: =
+      value: 是
+    wh_zhuanhua_label:
+      operator: =
+      value: 是
+  goto: h9hazf69ib
+
+

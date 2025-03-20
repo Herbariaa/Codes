@@ -1,0 +1,121 @@
+优:
+ bgcolor: green
+ color: white
+良:
+ bgcolor: blue
+ color: white
+中:
+ bgcolor: yellow
+ color: white
+低:
+ bgcolor: red
+ color: white
+差:
+ bgcolor: red
+ color: white
+
+
+
+
+优:
+ bordercolor: #006400
+ color: #006400
+良:
+ bordercolor: #00FF00
+ color: #00FF00
+中:
+ bordercolor: #FFD700
+ color: #FFD700
+低:
+ bordercolor: #A0522D
+ color: #A0522D
+差:
+ bordercolor: #FF0000
+ color: #FF0000
+
+优:
+ dotcolor: rgb(0,100,0)
+良:
+ dotcolor: rgb(0,255,0)
+中:
+ dotcolor: rgb(255,215,0)
+低:
+ dotcolor: rgb(210,105,30)
+差:
+ dotcolor: rgb(255,0,0)
+
+
+     id: hmyjlkur99
+    name: 评价值
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        优: 优
+        良: 良
+        中: 中
+        低: 低
+        差: 差
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 实心色块
+      list_color_label: colorall
+      list_color_label_ext: |
+        优:
+         bgcolor: green
+         color: white
+        良:
+         bgcolor: blue
+         color: white
+        中:
+         bgcolor: orange
+         color: white
+        低:
+         bgcolor: brown
+         color: white
+        差:
+         bgcolor: red
+         color: white
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:

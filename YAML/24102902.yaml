@@ -1,0 +1,137 @@
+sys71:
+  title: 投后事项
+  icon: cloud
+  type: ul
+
+
+
+
+
+jghyw1:
+  title: 04 交割后义务
+  icon: ios-star-outline
+  mod: jgywqd
+  hidden: true
+  filter:
+    sfzd:
+      - 是
+  children:
+    index:
+      title: 浏览
+    jghyw_add:
+      title: 新增
+      type: load
+      url: ?/thgl_add/apply/ho1cl89v1c/
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+huigou1:
+  title: 回购
+  hidden: true
+  icon: ios-star-outline
+  mod: huigou
+  filter:
+    sfzd:
+      - 是
+  children:
+    index:
+      title: 浏览
+    add:
+      title: 新增
+      hidden: true
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+company_zdsx:
+  title: 重大事项风险预警
+  children:
+    index:
+      title: 浏览
+    add:
+      title: 新增
+ssxx:
+  title: 08 标的风险纠纷
+  icon: ios-star-outline
+  mod: ssxx
+  hidden: true
+  filter:
+    sfzd:
+      - 是
+  children:
+    index:
+      title: 浏览
+    fxjf_add:
+      title: 新增
+      type: load
+      url: ?/thgl_add/apply/ho1ca6tnr7/
+    import:
+      title: 导入
+      hidden: true
+    export:
+      title: 导出
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+
+sys72:
+  title: 投后事项
+  icon: cloud
+  type: ule
+
+
+
+  种子轮: 种子轮
+  天使轮: 天使轮
+  Pre-A轮: Pre-A轮
+  A轮: A轮
+  A+轮: A+轮
+  Pre-B轮: Pre-B轮
+  B轮: B轮
+  B+轮: B+轮
+  Pre-C轮: Pre-C轮
+  C轮: C轮
+  C+轮: C+轮
+  D轮及以后: D轮及以后
+  Pre-IPO: Pre-IPO
+  IPO: IPO
+  其他: 其他

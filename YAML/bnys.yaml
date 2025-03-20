@@ -1,0 +1,458 @@
+---
+diycol_pc:
+diycol_iphone:
+bi_counting:
+bi_condition:
+bi_filter:
+openlink: 0
+name_rule:
+monitor_condition:
+monitor_update:
+title_field:
+stepbar: [ ]
+dynform: [ ]
+collect: [ ]
+calc: [ ]
+css:
+js:
+script: [ ]
+ext: [ ]
+sms_template: [ ]
+openlink_title:
+openlink_button:
+email_notify:
+  - [ ]
+email_notify_tem:
+openlink_content:
+pre_commit_content:
+_pm_deadline: 0
+tab_listen_key:
+tab_listen_rule: [ ]
+def_submit_btn_text:
+submit_redirect: 0
+submit_redirect_url:
+word_export:
+  word_custom_func:
+  word_export_name:
+  word_file:
+    - [ ]
+  word_file_label:
+    - [ ]
+api_address:
+api_list_key:
+api_request_key:
+api_response_key:
+api_display: match
+comment:
+  target: _self
+  doctype:
+  up_folder:
+  root_uid:
+  eid_link:
+  formats:
+  position: 1
+  attached_mod:
+  comment_title_tpl:
+  field_newest:
+  field_count:
+modbox:
+  position: 1
+  ext: [ ]
+notify_default:
+notify:
+  url_template:
+inherit_priv:
+privilege:
+  list:
+  import:
+  export:
+  detail:
+  edit:
+  delete:
+  docx:
+  pdf:
+  history:
+  openlink:
+diycol_back_list:
+list_count_block_fields:
+order_priority:
+page_size:
+fixed_col:
+fixed_col_mobile:
+addon_url:
+list_style: list_easy
+link_type: canvas
+list_count:
+list_style_mobile: list_mobile
+py_search: no_more
+secondary_link_type: modal
+list_mobile_mod: default
+diycard_config: [ ]
+button_config: [ ]
+feed_tpl:
+feed_mobile_tpl:
+feed_tpl_css:
+feed_tpl_js:
+css_config:
+js_config:
+merged_cell_key:
+merged_cell_list:
+merge_exclude_code:
+list_img_name:
+list_img_img:
+list_img_date:
+list_img_content:
+super_object:
+replace_comment_update_col:
+replace_comment_max_col:
+replace_comment_notify: 3
+created_sth:
+filter:
+always_show:
+filter_mobile:
+item:
+  hyj3b2ssew:
+    id: hyj3b2ssew
+    name: 本年预算
+    type: secondary_header
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    listed: 1
+    width: 1
+  hygnwu6dqc:
+    id: hygnwu6dqc
+    name: 项目计划投资总额
+    type: yuan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    listed: 1
+  hygnxu15ne:
+    id: hygnxu15ne
+    name: >
+      其中：上实集团系内企业计划投资总额
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hygnxude6w:
+    id: hygnxude6w
+    name: 持股比例
+    type: percent
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hygnxur2tb:
+    id: hygnxur2tb
+    name: >
+      预算年内新签投资
+      项目或追加投资项目
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hygnxv41gb:
+    id: hygnxv41gb
+    name: >
+      本年第一季
+      新增投资/收回投资额
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hygnxve9vr:
+    id: hygnxve9vr
+    name: >
+      本年第二季
+      新增投资/收回投资额
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hygnxvqwyb:
+    id: hygnxvqwyb
+    name: >
+      本年第三季
+      新增投资/收回投资额
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hygnxw1wg8:
+    id: hygnxw1wg8
+    name: >
+      本年第四季
+      新增投资/收回投资额
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hygnxwemrg:
+    id: hygnxwemrg
+    name: >
+      本年末预计
+      累计投入/收回投资额
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hygnxwprgk:
+    id: hygnxwprgk
+    name: 本年累计已投资金额
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hygnxx2ujx:
+    id: hygnxx2ujx
+    name: 本年预算 投资收益
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hygnyx2ofa:
+    id: hygnyx2ofa
+    name: 本年预算 投资收益率（%）
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hygnyxg32u:
+    id: hygnyxg32u
+    name: 被投资企业 行业板块分类
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hygnyxt4e1:
+    id: hygnyxt4e1
+    name: 被投资企业 所属行业
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hygnyy6fyd:
+    id: hygnyy6fyd
+    name: 投资 区域
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hygnzbsrvb:
+    id: hygnzbsrvb
+    name: 自贸区临港新片区 （是/否）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hygnzc6rx0:
+    id: hygnzc6rx0
+    name: >
+      长三角一体化示范区
+      （是/否）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hygnzcivyo:
+    id: hygnzcivyo
+    name: 五大新城
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hygnzkh31t:
+    id: hygnzkh31t
+    name: 国别
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hygnzkt9el:
+    id: hygnzkt9el
+    name: 境内/外
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hygnzl6gd3:
+    id: hygnzl6gd3
+    name: 所在省
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hygnztclf6:
+    id: hygnztclf6
+    name: 所在市区
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+import: [ ]
+pre_order: [ ]
+bi:
+  counting: [ ]
+  condition: [ ]
+  monitor_condition: [ ]
+  monitor_update: [ ]
+  filter: [ ]

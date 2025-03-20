@@ -1,0 +1,39 @@
+_flow_index:
+  title: 流程中心
+  icon: ionic
+  mod: _flow_index
+  children:
+    index:
+      title: 全部流程
+    _flow_index_fwhg:
+      title: 流程中心
+      hidden: true
+      icon: ionic
+      mod: _flow_index_fwhg
+      children:
+        index:
+          title: 流程中心
+        view:
+          title: 查看
+          hidden: true
+    view:
+      title: 查看
+      hidden: true
+
+
+
+
+
+    flowtype_label:
+      - 合同管理续签流程
+      - 合同签订流程
+      - 绩效考核
+      - 假期申请单
+      - 离职流程
+      - 人事工作事项审批
+      - 人事相关用印申请
+      - 入职流程
+      - 实习评估流程
+      - 实习生转正
+      - 销假申请单
+      - 招聘流程

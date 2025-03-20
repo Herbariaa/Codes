@@ -1,0 +1,2920 @@
+---
+diycol_pc:
+diycol_iphone:
+bi_counting:
+bi_condition:
+bi_filter:
+openlink: 0
+name_rule:
+monitor_condition:
+monitor_update:
+title_field:
+stepbar: [ ]
+dynform: [ ]
+collect: [ ]
+calc: [ ]
+css:
+js:
+script: [ ]
+ext: [ ]
+sms_template: [ ]
+openlink_title:
+openlink_button:
+email_notify:
+  - 
+email_notify_tem:
+openlink_content:
+pre_commit_content:
+tab_listen_key:
+tab_listen_rule: [ ]
+def_submit_btn_text:
+submit_redirect: 0
+submit_redirect_url:
+word_export:
+  word_custom_func:
+  word_export_name:
+  word_file:
+    - 
+  word_file_label:
+    - 
+api_address:
+api_list_key:
+api_request_key:
+api_response_key:
+api_display: match
+comment:
+  target: _self
+  doctype:
+  up_folder:
+  root_uid:
+  eid_link:
+  formats:
+  position: 1
+  attached_mod:
+  comment_title_tpl:
+  field_newest:
+  field_count:
+modbox:
+  position: 1
+  ext: [ ]
+notify_default:
+notify:
+  url_template:
+inherit_priv:
+privilege:
+  list:
+  import:
+  export:
+  detail:
+  edit:
+  delete:
+  docx:
+  pdf:
+  history:
+  openlink:
+  block_view_hgp3s805i3:
+  block_edit_hgp3s805i3:
+  block_view_hgptzwzjqe:
+  block_edit_hgptzwzjqe:
+  block_view_hhev18hbeo:
+  block_edit_hhev18hbeo:
+  block_view_hhsmilhr9o:
+  block_edit_hhsmilhr9o:
+  block_view_hhsqco8p77:
+  block_edit_hhsqco8p77:
+  block_view_hhsrqwsyv5:
+  block_edit_hhsrqwsyv5:
+  block_view_hhswykmlbj:
+  block_edit_hhswykmlbj:
+  block_view_hhsxvjv2sa:
+  block_edit_hhsxvjv2sa:
+  block_view_hhtj1b3cdp:
+  block_edit_hhtj1b3cdp:
+  block_view_hhtli6gm1e:
+  block_edit_hhtli6gm1e:
+  block_view_hhtravhx6k:
+  block_edit_hhtravhx6k:
+  block_view_hhttaca4gy:
+  block_edit_hhttaca4gy:
+  block_view_hhtu1nt08r:
+  block_edit_hhtu1nt08r:
+  block_view_hhtvhq5pn3:
+  block_edit_hhtvhq5pn3:
+  block_view_hhtxa538ca:
+  block_edit_hhtxa538ca:
+  block_view_hhu1x8dtwv:
+  block_edit_hhu1x8dtwv:
+  block_view_hhu6r5p7q0:
+  block_edit_hhu6r5p7q0:
+  block_view_hhuq8kuozh:
+  block_edit_hhuq8kuozh:
+  block_view_hhurbj5dlk:
+  block_edit_hhurbj5dlk:
+  block_view_hhuxd7adu3:
+  block_edit_hhuxd7adu3:
+  block_view_hhuyxq03ah:
+  block_edit_hhuyxq03ah:
+  block_view_hhuzthmwh2:
+  block_edit_hhuzthmwh2:
+  block_view_hhv0lbcxil:
+  block_edit_hhv0lbcxil:
+  block_view_hhv29em4mq:
+  block_edit_hhv29em4mq:
+  block_view_hhv345c2i6:
+  block_edit_hhv345c2i6:
+  block_view_hhvy0ywojm:
+  block_edit_hhvy0ywojm:
+  block_view_hhw8x40k67:
+  block_edit_hhw8x40k67:
+  block_view_hhwzu0vt0p:
+  block_edit_hhwzu0vt0p:
+  block_view_hhx1umzktc:
+  block_edit_hhx1umzktc:
+  block_view_hhx3tmk2i9:
+  block_edit_hhx3tmk2i9:
+  block_view_hhx9dbqbth:
+  block_edit_hhx9dbqbth:
+  block_view_hhxb4el36s:
+  block_edit_hhxb4el36s:
+  block_view_hhxc02p6mi:
+  block_edit_hhxc02p6mi:
+  block_view_hhxddo33ke:
+  block_edit_hhxddo33ke:
+  block_view_hi0gtf6unc:
+  block_edit_hi0gtf6unc:
+  block_view_hi1mau41qm:
+  block_edit_hi1mau41qm:
+  block_view_hi1ohll1c8:
+  block_edit_hi1ohll1c8:
+  block_view_hi1wl4d8vf:
+  block_edit_hi1wl4d8vf:
+  block_view_hi204dg090:
+  block_edit_hi204dg090:
+  block_view_hi2sxorpft:
+  block_edit_hi2sxorpft:
+  block_view_hi2uijyswi:
+  block_edit_hi2uijyswi:
+  block_view_hi2y92wf4t:
+  block_edit_hi2y92wf4t:
+  block_view_hi32ag8l3z:
+  block_edit_hi32ag8l3z:
+  block_view_hi3327fqd8:
+  block_edit_hi3327fqd8:
+  block_view_hi33ql4odp:
+  block_edit_hi33ql4odp:
+  block_view_hi34k09wgj:
+  block_edit_hi34k09wgj:
+  block_view_hi35ilxo6b:
+  block_edit_hi35ilxo6b:
+  block_view_hi36yp2oul:
+  block_edit_hi36yp2oul:
+  block_view_hi3cu5u1jy:
+  block_edit_hi3cu5u1jy:
+  block_view_hib69xityx:
+  block_edit_hib69xityx:
+  block_view_hib92aoqf4:
+  block_edit_hib92aoqf4:
+  block_view_hiq9dfwjcn:
+  block_edit_hiq9dfwjcn:
+  block_view_hiqb51gcip:
+  block_edit_hiqb51gcip:
+  block_view_hir358ry14:
+  block_edit_hir358ry14:
+  block_view_hir66b2cqv:
+  block_edit_hir66b2cqv:
+  block_view_hixbz0lar1:
+  block_edit_hixbz0lar1:
+  block_view_hixco535v0:
+  block_edit_hixco535v0:
+  block_view_hj0mpar5xc:
+  block_edit_hj0mpar5xc:
+  block_view_hj0olxk45k:
+  block_edit_hj0olxk45k:
+  block_view_hj1sq5z53e:
+  block_edit_hj1sq5z53e:
+  block_view_hj5j4pgotm:
+  block_edit_hj5j4pgotm:
+  block_view_hj65px4wok:
+  block_edit_hj65px4wok:
+  block_view_hj6hxct0rf:
+  block_edit_hj6hxct0rf:
+  block_view_hj8oqnc9vx:
+  block_edit_hj8oqnc9vx:
+  block_view_hj8ptuvdbk:
+  block_edit_hj8ptuvdbk:
+  block_view_hj8qivpzx5:
+  block_edit_hj8qivpzx5:
+  block_view_hj8rpkpzg9:
+  block_edit_hj8rpkpzg9:
+  block_view_hj8sf9suzn:
+  block_edit_hj8sf9suzn:
+  block_view_hj9mxczvpd:
+  block_edit_hj9mxczvpd:
+  block_view_hj9un48zjg:
+  block_edit_hj9un48zjg:
+  block_view_hj9wpxz44d:
+  block_edit_hj9wpxz44d:
+  block_view_hj9xi5eyul:
+  block_edit_hj9xi5eyul:
+  block_view_hj9y1suet2:
+  block_edit_hj9y1suet2:
+  block_view_hj9ymwq1i7:
+  block_edit_hj9ymwq1i7:
+  block_view_hjc3noo4h1:
+  block_edit_hjc3noo4h1:
+  block_view_hjc82kb8as:
+  block_edit_hjc82kb8as:
+  block_view_hjc8qlsrbk:
+  block_edit_hjc8qlsrbk:
+  block_view_hgpu2vbemq:
+  block_edit_hgpu2vbemq:
+  block_view_hgprdzphl3:
+  block_edit_hgprdzphl3:
+diycol_back_list:
+list_count_block_fields:
+order_priority:
+page_size:
+fixed_col:
+fixed_col_mobile:
+addon_url:
+list_style: list_ajax
+link_type: canvas
+list_count:
+list_style_mobile: list_mobile
+py_search: no_more
+secondary_link_type: modal
+list_mobile_mod: default
+diycard_config: [ ]
+button_config: [ ]
+feed_tpl:
+feed_mobile_tpl:
+feed_tpl_css:
+feed_tpl_js:
+css_config:
+js_config:
+merged_cell_key:
+merged_cell_list:
+merge_exclude_code:
+list_img_name:
+list_img_img:
+list_img_date:
+list_img_content:
+super_object:
+replace_comment_update_col:
+replace_comment_max_col:
+replace_comment_notify: 3
+created_sth:
+filter:
+always_show:
+filter_mobile:
+item:
+  hgp3s805i3:
+    id: hgp3s805i3
+    name: 企业绩效评价
+    type: section
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      tpl: '<p style="text-align: center;"><span style="font-size: 20px;"><strong>企业绩效评价标准</strong></span></p>'
+  hgptzwzjqe:
+    id: hgptzwzjqe
+    name: 企业绩效评价
+    type: tab
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmxwjdxvb3:
+    id: hmxwjdxvb3
+    listed: 1
+    name: 企业名称
+    type: text
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    required: 1
+  hgp3s8sh39:
+    id: hgp3s8sh39
+    listed: 1
+    name: 行业分类
+    type: select_new
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    required: 1
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        全国国有企业
+        工业
+        煤炭工业
+        石油石化工业
+        天然原油和天然气开采业
+        石油加工及炼焦业
+        冶金工业
+        黑色金属矿采选业
+        有色金属矿采选业
+        黑色金属冶炼业
+        有色金属冶炼业
+        建材工业
+        建筑用矿石采选业
+        水泥制造业
+        水泥及石膏制品制造业
+        砖瓦石材及其他建筑材料制造业
+        平板玻璃制品业
+        结构性金属制品业
+        建筑用金属制品业
+        化学工业
+        基础化学原料制造业
+        肥料制造业
+        日用和化学产品制造业
+        化纤制造业
+        橡胶制品业
+        塑料制品业
+        农药制造业
+        森林工业
+        食品工业
+        食品加工业
+        食品制造业
+        纺织工业
+        棉化纤纺织业
+        毛纺织业
+        麻纺织业
+        丝绢纺织业
+        医药工业
+        化学药品制造业
+        中药材及中成药加工业
+        机械工业
+        金属制品业
+        金属工具制造业
+        通用设备制造业
+        锅炉及原动机制造业
+        金属加工机械制造业
+        其他通用设备制造业
+        轴承制造业
+        专用设备制造业
+        冶金矿山建筑设备制造业
+        矿山机械制造业
+        建筑工程用机械制造业
+        冶金专用设备制造业
+        化工木材非金属加工设备制造业
+        轻纺设备制造业
+        农林牧渔水利业机械制造业
+        医疗仪器设备制造业
+        电子和电工机械专用设备制造业
+        交通运输设备制造业
+        铁路运输设备制造业
+        汽车制造业
+        汽车整车制造业
+        汽车零部件及配件制造业
+        摩托车制造业
+        自行车制造业
+        船舶制造业
+        电气机械及器材制造业
+        电机制造业
+        输配电及控制设备制造业
+        电工器材制造业
+        家用电器制造业
+        照明器具制造业
+        仪器仪表及文化办公用制造业
+        通用仪器仪表制造业
+        专用仪器仪表制造业
+        钟表制造业
+        电子工业
+        通信设备制造业
+        广播电视设备制造业
+        电子计算机制造业
+        电子元器件制造业
+        家用影视设备制造业
+        电力热力燃气工业
+        电力生产业
+        火力发电业
+        水力发电业
+        电力供应业
+        热力生产和供应业
+        燃气生产和供应业
+        水生产与供应业
+        轻工业
+        采盐业
+        酒和饮料制造业
+        白酒制造业
+        啤酒制造业
+        制茶业
+        纺织服装服饰业
+        皮革毛皮羽绒及其制品业
+        家具制造业
+        造纸及纸制品业
+        印刷业记录媒介的复制业
+        文教体育用品制造业
+        工艺品及其他制造业
+        其他工业
+        建筑业
+        房屋和土木工程建筑业
+        房屋建筑业
+        土木工程建筑业
+        建筑安装业
+        建筑装饰业
+        交通运输仓储及邮政业
+        铁路运输业
+        道路运输业
+        高速公路
+        城市公共交通业
+        公共电汽车客运业
+        轨道交通业
+        水上运输业
+        港口业
+        航空运输业
+        机场
+        仓储业
+        信息技术服务业
+        电信业
+        计算机服务与软件业
+        批发和零售贸易业
+        商业贸易
+        食品、饮料及烟草制品批发与零售
+        纺织、服装及日用品批发与零售
+        文化、体育用品及器材批发与零售
+        医药及医疗器材批发与零售
+        综合零售
+        物资贸易
+        矿产品、建材及化工产品批发
+        机械设备、五金及电子产品批发
+        汽车、摩托车、燃料及零配件专门零售
+        粮食业
+        粮油批发与零售
+        粮油仓储
+        住宿和餐饮业
+        住宿业
+        餐饮业
+        房地产业
+        房地产开发业
+        物业管理业
+        社会服务业
+        信息咨询服务业
+        公共设施管理业
+        科研设计企业
+        工程管理服务业
+        大旅游
+        投资公司
+        地质勘查业
+        人力资源服务业
+        汽车修理与维护服务业
+        传播与文化业
+        出版业
+        广播电影电视业
+        文化艺术业
+        农林牧渔业
+        农业
+        林业
+        畜牧业
+        渔业
+        地方国有企业
+        地方工业
+        地方煤炭工业
+        地方冶金工业
+        地方建材工业
+        地方化学工业
+        地方森林工业
+        地方食品工业
+        地方纺织工业
+        地方医药工业
+        地方机械工业
+        地方汽车制造业
+        地方电子工业
+        地方电力热力燃气工业
+        地方水生产与供应业
+        地方轻工业
+        地方建筑业
+        地方交通运输仓储及邮政业
+        地方批发和零售贸易业
+        地方住宿和餐饮业
+        地方房地产业
+        地方社会服务业
+        地方传播与文化业
+        地方农林牧渔业
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 是
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hgp3s96b7o:
+    id: hgp3s96b7o
+    listed: 1
+    name: 企业规模
+    type: select_new
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    required: 1
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        全行业: 全行业
+        大型企业: 大型企业
+        中型企业: 中型企业
+        小型企业: 小型企业
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 是
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hhev18hbeo:
+    id: hhev18hbeo
+    name: 财报详情
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size: 0
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max: 0
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 是
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size: 0
+      feed_mobile_page_size: 0
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: qyjx_qggyqy_qhy
+    listed: 1
+  hhsmilhr9o:
+    id: hhsmilhr9o
+    name: 全国国有企业大型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: qyjx_qggyqy_dxqy
+  hhsqco8p77:
+    id: hhsqco8p77
+    name: 全国国有企业中型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: qyjx_qggyqy_zxqy
+  hhsrqwsyv5:
+    id: hhsrqwsyv5
+    name: 全国国有企业小型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: qyjx_qggyqy_xxqy
+  hhswykmlbj:
+    id: hhswykmlbj
+    name: 工业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: qyjx_gy_qhy
+  hhsxvjv2sa:
+    id: hhsxvjv2sa
+    name: 工业大型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: qyjx_gy_dxqy
+  hhtj1b3cdp:
+    id: hhtj1b3cdp
+    name: 工业中型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: qyjx_gy_zxqy
+  hhtli6gm1e:
+    id: hhtli6gm1e
+    name: 工业小型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: qyjx_gy_xxqy
+  hhtravhx6k:
+    id: hhtravhx6k
+    name: 煤炭工业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: qyjx_mtgy_qhy
+  hhttaca4gy:
+    id: hhttaca4gy
+    name: 煤炭工业大型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: qyjx_mtgy_dxqy
+  hhtu1nt08r:
+    id: hhtu1nt08r
+    name: 煤炭工业中型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: qyjx_mtgy_zxqy
+  hhtvhq5pn3:
+    id: hhtvhq5pn3
+    name: 煤炭工业小型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: qyjx_mtgy_xxqy
+  hhtxa538ca:
+    id: hhtxa538ca
+    name: 石油石化工业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: qyjx_syshgy_qhy
+  hhu1x8dtwv:
+    id: hhu1x8dtwv
+    name: 石油石化工业大型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: qyjx_syshgy_dxqy
+  hhu6r5p7q0:
+    id: hhu6r5p7q0
+    name: 石油石化工业中型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: qyjx_syshgy_zxqy
+  hhuq8kuozh:
+    id: hhuq8kuozh
+    name: 石油石化工业小型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: qyjx_syshgy_xxqy
+  hhurbj5dlk:
+    id: hhurbj5dlk
+    name: >
+      天然原油和天然气开采业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: qyjx_tryyhtrq_qhy
+  hhuxd7adu3:
+    id: hhuxd7adu3
+    name: >
+      天然原油和天然气开采业大型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: qyjx_tryyhtrq_dxqy
+  hhuyxq03ah:
+    id: hhuyxq03ah
+    name: >
+      天然原油和天然气开采业中型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_tryyhtrq_zxqy
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+  hhuzthmwh2:
+    id: hhuzthmwh2
+    name: >
+      天然原油和天然气开采业小型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_tryyhtrq_xxqy
+    list_align: def
+  hhv0lbcxil:
+    id: hhv0lbcxil
+    name: 石油加工及炼焦业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_syjgjlj_qhy
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+  hhv29em4mq:
+    id: hhv29em4mq
+    name: 石油加工及炼焦业大型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_syjgjlj_dxqy
+    list_align: def
+  hhv345c2i6:
+    id: hhv345c2i6
+    name: 石油加工及炼焦业中型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_syjgjlj_zxqy
+    list_align: def
+  hhvy0ywojm:
+    id: hhvy0ywojm
+    name: 石油加工及炼焦业小型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_syjgjlj_xxqy
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+  hhw8x40k67:
+    id: hhw8x40k67
+    name: 冶金工业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_yjgy_qhy
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+  hhwzu0vt0p:
+    id: hhwzu0vt0p
+    name: 冶金工业大型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_yjgy_dxqy
+    list_align: def
+  hhx1umzktc:
+    id: hhx1umzktc
+    name: 冶金工业中型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_yjgy_zxqy
+    list_align: def
+  hhx3tmk2i9:
+    id: hhx3tmk2i9
+    name: 冶金工业小型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_yjgy_xxqy
+    list_align: def
+  hhx9dbqbth:
+    id: hhx9dbqbth
+    name: 黑色金属矿采选业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_hsjskc_qhy
+    list_align: def
+  hhxb4el36s:
+    id: hhxb4el36s
+    name: 有色金属矿采选业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_hsjskc_dxqy
+    list_align: def
+  hhxc02p6mi:
+    id: hhxc02p6mi
+    name: 黑色金属冶炼业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_hsjsyl_qhy
+    list_align: def
+  hhxddo33ke:
+    id: hhxddo33ke
+    name: 有色金属冶炼业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_ysjsyl_qhy
+    list_align: def
+  hi0gtf6unc:
+    id: hi0gtf6unc
+    name: 建材工业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_jcgy_qhy
+    list_align: def
+  hi1mau41qm:
+    id: hi1mau41qm
+    name: 建材工业大型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_jcgy_dxqy
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+  hi1ohll1c8:
+    id: hi1ohll1c8
+    name: 建材工业中型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_jcgy_zxqy
+    list_align: def
+  hi1wl4d8vf:
+    id: hi1wl4d8vf
+    name: 建材工业小型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_jcgy_xxqy
+    list_align: def
+  hi204dg090:
+    id: hi204dg090
+    name: 建筑用矿石采选业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_jzykscxy_qhy
+    list_align: def
+  hi2sxorpft:
+    id: hi2sxorpft
+    name: 水泥制造业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_snzzy_qhy
+    list_align: def
+  hi2uijyswi:
+    id: hi2uijyswi
+    name: 水泥制造业大型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_snzzy_dxqy
+    list_align: def
+  hi2y92wf4t:
+    id: hi2y92wf4t
+    name: 水泥制造业中型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_snzzy_zxqy
+    list_align: def
+  hi32ag8l3z:
+    id: hi32ag8l3z
+    name: 水泥制造业小型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_snzzy_xxqy
+    list_align: def
+  hi3327fqd8:
+    id: hi3327fqd8
+    name: 水泥及石膏制品制造业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_snjsgzp_qhy
+    list_align: def
+  hi33ql4odp:
+    id: hi33ql4odp
+    name: >
+      砖瓦石材及其他建筑材料全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_zwscjqtjzcl_qhy
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+  hi34k09wgj:
+    id: hi34k09wgj
+    name: 平板玻璃制品业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_pbblzp_qhy
+    list_align: def
+  hi35ilxo6b:
+    id: hi35ilxo6b
+    name: 结构性金属制品业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_jgxjs_qhy
+    list_align: def
+  hi36yp2oul:
+    id: hi36yp2oul
+    name: 建筑用金属制品业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_jzyjszp_qhy
+    list_align: def
+  hi3cu5u1jy:
+    id: hi3cu5u1jy
+    name: 化学工业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_hxgy_qhy
+    list_align: def
+  hib69xityx:
+    id: hib69xityx
+    name: 化学工业大型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_hxgy_dxqy
+    list_align: def
+  hib92aoqf4:
+    id: hib92aoqf4
+    name: 化学工业中型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_hxgy_zxqy
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+  hiq9dfwjcn:
+    id: hiq9dfwjcn
+    name: 化学工业小型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_hxgy_xxqy
+    list_align: def
+  hiqb51gcip:
+    id: hiqb51gcip
+    name: 基础化学原料制造业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_jchxyl_qhy
+    list_align: def
+  hir358ry14:
+    id: hir358ry14
+    name: 基础化学原料制造业大型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_jchxyl_dxqy
+    list_align: def
+  hir66b2cqv:
+    id: hir66b2cqv
+    name: 基础化学原料制造业中型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_jchxyl_zxqy
+    list_align: def
+  hixbz0lar1:
+    id: hixbz0lar1
+    name: 基础化学原料制造业小型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_jchxyl_xxqy
+    list_align: def
+  hixco535v0:
+    id: hixco535v0
+    name: 肥料制造业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_flzzy_qhy
+    list_align: def
+  hj0mpar5xc:
+    id: hj0mpar5xc
+    name: 日用和化学产品制造业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_ryhhxcp_qhy
+    list_align: def
+  hj0olxk45k:
+    id: hj0olxk45k
+    name: 化纤制造业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_hqzzy_qhy
+    list_align: def
+  hj1sq5z53e:
+    id: hj1sq5z53e
+    name: 橡胶制品业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_xjzpy_qhy
+    list_align: def
+  hj5j4pgotm:
+    id: hj5j4pgotm
+    name: 塑料制品业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_slzpy_qhy
+    list_align: def
+  hj65px4wok:
+    id: hj65px4wok
+    name: 农药制品业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_nyzpy_qhy
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+  hj6hxct0rf:
+    id: hj6hxct0rf
+    name: 森林工业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_slgy_qhy
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size:
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max:
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size:
+      feed_mobile_page_size:
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+  hj8oqnc9vx:
+    id: hj8oqnc9vx
+    name: 森林工业大型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_slgy_dxqy
+    list_align: def
+  hj8ptuvdbk:
+    id: hj8ptuvdbk
+    name: 森林工业中型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_slgy_zxqy
+    list_align: def
+  hj8qivpzx5:
+    id: hj8qivpzx5
+    name: 森林工业中型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_slgy_xxqy
+    list_align: def
+  hj8rpkpzg9:
+    id: hj8rpkpzg9
+    name: 食品工业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_spgy_qhy
+    list_align: def
+  hj8sf9suzn:
+    id: hj8sf9suzn
+    name: 食品工业大型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_spgy_dxqy
+    list_align: def
+  hj9mxczvpd:
+    id: hj9mxczvpd
+    name: 食品工业中型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_spgy_zxqy
+    list_align: def
+  hj9un48zjg:
+    id: hj9un48zjg
+    name: 食品工业小型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_spgy_xxqy
+    list_align: def
+  hj9wpxz44d:
+    id: hj9wpxz44d
+    name: 食品加工业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_spjgy_qhy
+    list_align: def
+  hj9xi5eyul:
+    id: hj9xi5eyul
+    name: 食品制造业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_spzzy_qhy
+    list_align: def
+  hj9y1suet2:
+    id: hj9y1suet2
+    name: 纺织工业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_fzgy_qhy
+    list_align: def
+  hj9ymwq1i7:
+    id: hj9ymwq1i7
+    name: 纺织工业大型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_fzgy_dxqy
+    list_align: def
+  hjc3noo4h1:
+    id: hjc3noo4h1
+    name: 纺织工业中型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_fzgy_zxqy
+    list_align: def
+  hjc82kb8as:
+    id: hjc82kb8as
+    name: 纺织工业小型企业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_fzgy_xxqy
+    list_align: def
+  hjc8qlsrbk:
+    id: hjc8qlsrbk
+    name: 棉化纤纺织业全行业
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: qyjx_mhxfzy_qhy
+    list_align: def
+  hgpu2vbemq:
+    id: hgpu2vbemq
+    name: 企业绩效评价指标计算公式
+    type: tab
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hgprdzphl3:
+    id: hgprdzphl3
+    name: 介绍
+    type: puretext
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      tpl: '<p style="margin-left: 24px; text-align: center;"><span style="font-size: 16px;"><strong><span style="font-family: 等线; color: #FF0000;">一、盈利能力状况</span></strong></span></p><p style="margin-left: 24px; text-align: center;"><span style="color: #FF0000; font-family: 等线; font-size: 14px;">(一)基本指标</span></p><p style="margin-left: 24px; text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">1、 净资产收益=归属于母公司所有者的净利润/平均归属于母公司所有者权益x100%</span></p><p style="margin-left: 24px; text-indent: 0px; text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">平均归属于母公司所有者权益=(年初归属于母公司所有者权益合计+年末归属于母公司所有者权益合计)+2</span></p><p style="margin-left: 24px; text-indent: 0px; text-align: center;"><span style="color: #FF0000; font-family: 等线; font-size: 14px;">2、 总资产报酬率=（息税前利润/平均资产总额）x100%</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">(二)修正指标</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">1、 销售(营业)利润率(%)=（销售(营业)利润/营业总收人）x100%</span></p><p style="text-indent: 28px; text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">销售(营业)利润=营业总收人-营业成本-税金及附加-销售费用-管理费用-研发费用-财务费用-资产减值损失-信用减值损失+其他收益+投资收益+净敞口套期收益+公允价值变动收益+资产处置收益</span></p><p style="margin-left: 24px; text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">2、 盈余现金保障倍数=经营现金净流量/净利润</span></p><p style="margin-left: 24px; text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">3、 成本费用利润率=（利润总额/成本费用总额）x100%</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">成本费用总额=营业成本+税金及附加+销售费用+管理费用+研发费用+财务费用</span></p><p style="margin-left: 24px; text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">4、 资本收益率=（归属于母公司所有者的净利润/平均资本）x100%</span></p><p style="margin-left: 24px; text-indent: 0px; text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">平均资本=（年初实收资本+年初资本公积）+（年末实收资本+年末资本公积）/2</span><span style="color: #FF0000; font-family: 等线; font-size: 14px;"> </span></p><p style="text-align: center;"><span style="font-size: 16px;"><strong><span style="font-family: 等线; color: #FF0000;">二、资产质量状况</span></strong></span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">(一)基本指标</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">1、总资产周转率(次)= 营业总收人/平均资产总额</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">2、应收账款周转率(次)= 营业总收入/应收账款平均余额</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">   应收账款平均余额=（年初应收账款净额+年初应收账款坏账准备）+（年末应收账款净额+年末应收账款坏账准备）/2</span><span style="color: #FF0000; font-family: 等线; font-size: 14px;"> </span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">(二)修正指标</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">1、不良资产比率=年末不良资产总额/（资产总额+资产减值准备余额）x 100%</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">   年末不良资产总额=资产减值准备余额+应提未提和应摊未摊的潜亏挂账+未处理资产损失</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">2、流动资产周转率(次)= 营业总收入/平均流动资产总额</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">   平均流动资产总额=(年初流动资产总额+年末流动资产总额)/2</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">3、资产现金回收率=（经营现金净流量/平均资产总额）x 100%</span><span style="color: #FF0000; font-family: 等线; font-size: 14px;"> </span></p><p style="text-align: center;"><span style="font-size: 16px;"><strong><span style="font-family: 等线; color: #FF0000;">三、债务风险状况</span></strong></span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">(一)基本指标</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">1、资产负债率=（负债总额/资产总额）x 100%</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">2、已获利息倍数=息税前利润/财务费用下的利息费用</span><span style="color: #FF0000; font-family: 等线; font-size: 14px;"> </span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">(二)修正指标</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">1、速动比率=（速动资产/流动负债）x 100%</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">   速动资产=流动资产-存货</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">2、现金流动负债比率=（经营现金净流量/年末流动负债）x 100%</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">3、带息负债比率=（年末带息负债/负债总额）x 100%</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">   年末带息负债=短期借款+一年内到期的非流动负债+交易性金融负债+其他带息流动负债+长期借款+应付债券+其他带息非流动负债</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">4、或有负债比率= （或有负债余额/所有者权益）x 100%</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">   或有负债余额=已贴现承兑汇票+担保余额+贴现与担保外的被诉事项金额+其他或有负债</span><span style="color: #FF0000; font-family: 等线; font-size: 14px;"> </span></p><p style="text-align: center;"><span style="font-size: 16px;"><strong><span style="font-family: 等线; color: #FF0000;">四、经营增长状况</span></strong></span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">(一)基本指标</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">1、销售(营业)增长率=（本年营业总收入增长额/上年营业总收入）x 100%</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">2、资保值增值率=（扣除客观因后的国有资本及权益/年初国有资本及权益）x 100%</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">(二) 修正指标</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">1、总资产增长率= （年末资产总额-年初资产总额）/年初资产总额 x 100%</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">2、销售(营业)利润增长率=（本年销售 (营业)利润-上年销售(营业)利润）/上年销售(营业)利润x 100%</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">3、研发经费投人强度=（本年研发经费投入合计/营业总收人）x 100%</span></p><p style="text-align: center;"><span style="font-size: 16px;"><strong><span style="font-family: 等线; color: #FF0000;">五、补充资料</span></strong></span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">1、存货周转率(次)= 营业成本/存平均余额</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">2、两金占流动资产比重={（应收账款+存货）/流动资产 } x 100%</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">3、成本费用占营业总收人比重=（成本费用总额/营业总收入）x 100%</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">4、经济增加值率=（经济增加值/调整后资本）x 100%</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">   经济增加值=税后净营业利润-调整后资本X平均资本成本率</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">   税后净营业利润=净利润+(利息支出+研究开发费用调整项) x (1-25%)</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">   调整后资本=平均所有者权益+平均带息负债-银行、保险、证券企业平均带息负债-平均在建工程</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">   平均资本成本率=债权资本成本率X平均带息负债/（平均带息负债+平均所有者权限）x (1-25%)+股权资本成本率x平均所有者权益/（平均带息负债+平均所有者权限）</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">   债权资本成本率=利息支出总额-（平均带息负债-银行、保险、证券企业平均带息负债）</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">5、EBITDA率=（净利润+所得税+利息支出+固定资产折旧+无形资产摊销）/营业总收入 x 100%</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">6、资本积累率=（年末所有者权益-年初所有者权益）/年初所有者权益 x 100%</span></p><p style="text-align: center;"><span style="font-family: 等线; font-size: 14px; color: #FF0000;">   </span></p><p><br/></p>'
+    default_value: '一、盈利能力状况  (一)基本指标  1、 净资产收益=归属于母公司所有者的净利润/平均归属于母公司所有者权益x100%  平均归属于母公司所有者权益=(年初归属于母公司所有者权益合计+年末归属于母公司所有者权益合计)+2  2、 总资产报酬率=（息税前利润/平均资产总额）x100%  (二)修正指标  1、 销售(营业)利润率(%)=（销售(营业)利润/营业总收人）x100%  销售(营业)利润=营业总收人-营业成本-税金及附加-销售费用-管理费用-研发费用-财务费用-资产减值损失-信用减值损失+其他收益+投资收益+净敞口套期收益+公允价值变动收益+资产处置收益  2、 盈余现金保障倍数=经营现金净流量/净利润  3、 成本费用利润率=（利润总额/成本费用总额）x100%  成本费用总额=营业成本+税金及附加+销售费用+管理费用+研发费用+财务费用  4、 资本收益率=（归属于母公司所有者的净利润/平均资本）x100%  平均资本=（年初实收资本+年初资本公积）+（年末实收资本+年末资本公积）/2   二、资产质量状况  (一)基本指标  1、总资产周转率(次)= 营业总收人/平均资产总额  2、应收账款周转率(次)= 营业总收入/应收账款平均余额     应收账款平均余额=（年初应收账款净额+年初应收账款坏账准备）+（年末应收账款净额+年末应收账款坏账准备）/2   (二)修正指标  1、不良资产比率=年末不良资产总额/（资产总额+资产减值准备余额）x 100%     年末不良资产总额=资产减值准备余额+应提未提和应摊未摊的潜亏挂账+未处理资产损失  2、流动资产周转率(次)= 营业总收入/平均流动资产总额     平均流动资产总额=(年初流动资产总额+年末流动资产总额)/2  3、资产现金回收率=（经营现金净流量/平均资产总额）x 100%   三、债务风险状况  (一)基本指标  1、资产负债率=（负债总额/资产总额）x 100%  2、已获利息倍数=息税前利润/财务费用下的利息费用   (二)修正指标  1、速动比率=（速动资产/流动负债）x 100%     速动资产=流动资产-存货  2、现金流动负债比率=（经营现金净流量/年末流动负债）x 100%  3、带息负债比率=（年末带息负债/负债总额）x 100%     年末带息负债=短期借款+一年内到期的非流动负债+交易性金融负债+其他带息流动负债+长期借款+应付债券+其他带息非流动负债  4、或有负债比率= （或有负债余额/所有者权益）x 100%     或有负债余额=已贴现承兑汇票+担保余额+贴现与担保外的被诉事项金额+其他或有负债   四、经营增长状况  (一)基本指标  1、销售(营业)增长率=（本年营业总收入增长额/上年营业总收入）x 100%  2、资保值增值率=（扣除客观因后的国有资本及权益/年初国有资本及权益）x 100%  (二) 修正指标  1、总资产增长率= （年末资产总额-年初资产总额）/年初资产总额 x 100%  2、销售(营业)利润增长率=（本年销售 (营业)利润-上年销售(营业)利润）/上年销售(营业)利润x 100%  3、研发经费投人强度=（本年研发经费投入合计/营业总收人）x 100%  五、补充资料  1、存货周转率(次)= 营业成本/存平均余额  2、两金占流动资产比重={（应收账款+存货）/流动资产 } x 100%  3、成本费用占营业总收人比重=（成本费用总额/营业总收入）x 100%  4、经济增加值率=（经济增加值/调整后资本）x 100%     经济增加值=税后净营业利润-调整后资本X平均资本成本率     税后净营业利润=净利润+(利息支出+研究开发费用调整项) x (1-25%)     调整后资本=平均所有者权益+平均带息负债-银行、保险、证券企业平均带息负债-平均在建工程     平均资本成本率=债权资本成本率X平均带息负债/（平均带息负债+平均所有者权限）x (1-25%)+股权资本成本率x平均所有者权益/（平均带息负债+平均所有者权限）     债权资本成本率=利息支出总额-（平均带息负债-银行、保险、证券企业平均带息负债）  5、EBITDA率=（净利润+所得税+利息支出+固定资产折旧+无形资产摊销）/营业总收入 x 100%  6、资本积累率=（年末所有者权益-年初所有者权益）/年初所有者权益 x 100%     '
+import: [ ]
+pre_order: [ ]
+bi:
+  counting: [ ]
+  condition: [ ]
+  monitor_condition: [ ]
+  monitor_update: [ ]
+  filter: [ ]

@@ -1,0 +1,13 @@
+---
+co_sign_pass:
+  - 
+    condition:
+    func:
+      add_entity:
+        model: vclxjydfbd_new
+pass:
+  - 
+    condition:
+    func:
+      add_entity:
+        model: vclxjydfbd_new

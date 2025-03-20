@@ -1,0 +1,192 @@
+---
+pass:
+  - 
+    condition:
+    func:
+      update_entity:
+        target:
+        data:
+          state2: 是
+          state3: 否
+          time_remain: remain_time
+  - 
+    condition:
+      interview_channel:
+        =: 专家库
+      if_pay:
+        =: 是
+    func:
+      update_entity:
+        target: expert_database
+        data:
+          time_year: time_year_new
+          time_total: time_total_new
+      add_entity:
+        like_add: true
+        model: payment_records
+        data:
+          name: summary_number
+          epertinterview: epertinterview
+          epertinterview_label: epertinterview_label
+          applicant: applicant
+          applicant_label: applicant_label
+          summary_create: summary_create
+          summary_create_label: summary_create_label
+          company: company
+          company_label: company_label
+          think_tank: think_tank
+          think_tank_label: think_tank_label
+          expert_database: expert_database
+          expert_database_label: expert_database_label
+          industry: industry
+          industry_label: industry_label
+          if_pay: if_pay
+          if_pay_label: if_pay_label
+          contract_sign: contract_sign
+          contract_sign_label: contract_sign_label
+          interview_date: interview_date
+          interview_time: interview_time
+          filing_time: filing_time
+          labour_certificate: labour_certificate
+          payment_status: 未支付
+          payee: 上海外服（集团）有限公司
+  - 
+    condition:
+      interview_channel:
+        =: 专家库
+      if_pay:
+        =: 否
+    func:
+      update_entity:
+        target: expert_database
+        data:
+          time_year: time_year_new
+          time_total: time_total_new
+      add_entity:
+        like_add: true
+        model: payment_records
+        data:
+          name: summary_number
+          epertinterview: epertinterview
+          epertinterview_label: epertinterview_label
+          applicant: applicant
+          applicant_label: applicant_label
+          summary_create: summary_create
+          summary_create_label: summary_create_label
+          company: company
+          company_label: company_label
+          think_tank: think_tank
+          think_tank_label: think_tank_label
+          expert_database: expert_database
+          expert_database_label: expert_database_label
+          industry: industry
+          industry_label: industry_label
+          if_pay: if_pay
+          if_pay_label: if_pay_label
+          contract_sign: contract_sign
+          contract_sign_label: contract_sign_label
+          interview_date: interview_date
+          interview_time: interview_time
+          filing_time: filing_time
+          labour_certificate: labour_certificate
+          payment_status: 无需支付
+          payee: 上海外服（集团）有限公司
+  - 
+    condition:
+      interview_channel:
+        =: 智库
+      if_pay:
+        =: 是
+    func:
+      update_entity:
+        target: think_tank
+        data:
+          time_year: time_year_new
+          time_total: time_total_new
+      add_entity:
+        like_add: true
+        model: payment_records
+        data:
+          name: summary_number
+          epertinterview: epertinterview
+          epertinterview_label: epertinterview_label
+          applicant: applicant
+          applicant_label: applicant_label
+          summary_create: summary_create
+          summary_create_label: summary_create_label
+          company: company
+          company_label: company_label
+          think_tank: think_tank
+          think_tank_label: think_tank_label
+          expert_database: expert_database
+          expert_database_label: expert_database_label
+          industry: industry
+          industry_label: industry_label
+          if_pay: if_pay
+          if_pay_label: if_pay_label
+          contract_sign: contract_sign
+          contract_sign_label: contract_sign_label
+          interview_date: interview_date
+          interview_time: interview_time
+          filing_time: filing_time
+          labour_certificate: labour_certificate
+          payment_status: 未支付
+          payee: think_tank_label
+  - 
+    condition:
+      interview_channel:
+        =: 智库
+      if_pay:
+        =: 否
+    func:
+      update_entity:
+        target: think_tank
+        data:
+          time_year: time_year_new
+          time_total: time_total_new
+      add_entity:
+        like_add: true
+        model: payment_records
+        data:
+          name: summary_number
+          epertinterview: epertinterview
+          epertinterview_label: epertinterview_label
+          applicant: applicant
+          applicant_label: applicant_label
+          summary_create: summary_create
+          summary_create_label: summary_create_label
+          company: company
+          company_label: company_label
+          think_tank: think_tank
+          think_tank_label: think_tank_label
+          expert_database: expert_database
+          expert_database_label: expert_database_label
+          industry: industry
+          industry_label: industry_label
+          if_pay: if_pay
+          if_pay_label: if_pay_label
+          contract_sign: contract_sign
+          contract_sign_label: contract_sign_label
+          interview_date: interview_date
+          interview_time: interview_time
+          filing_time: filing_time
+          labour_certificate: labour_certificate
+          payment_status: 无需支付
+          payee: think_tank_label
+  - 
+    condition:
+    func:
+      vendor_bridge:
+        script: siic:sync_sn
+post_reject:
+  - 
+    condition:
+    func:
+      vendor_bridge:
+        script: siic:recover_sync_sn
+retract:
+  - 
+    condition:
+    func:
+      vendor_bridge:
+        script: siic:recover_sync_sn

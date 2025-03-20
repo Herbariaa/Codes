@@ -1,0 +1,82 @@
+---
+- 
+  condition:
+    jbr_label:
+      operator: =
+      value: 唐海昕
+    department_leader_label:
+      operator: =
+      value: 唐海昕
+  goto: h8qlwr6vka
+- 
+  condition:
+    jbr_label:
+      operator: =
+      value: 蔡姝凝
+    department_leader_label:
+      operator: =
+      value: 蔡姝凝
+  goto: h8qlwr6vka
+- 
+  condition:
+    jbr_label:
+      operator: =
+      value: 任华
+    department_leader_label:
+      operator: =
+      value: 任华
+  goto: h8qlwsdi14
+- 
+  condition:
+    jbr_label:
+      operator: =
+      value: 谭玲
+    department_leader_label:
+      operator: =
+      value: 谭玲
+  goto: h8qlwr6vka
+- 
+  condition:
+    jbr_label:
+      operator: =
+      value: 汪劼
+    department_leader_label:
+      operator: =
+      value: 汪劼
+  goto: h8qlwr6vka
+- 
+  condition:
+    jbr_label:
+      operator: =
+      value: 陈亚锋
+    department_leader_label:
+      operator: =
+      value: 陈亚锋
+  goto: h8qlwr6vka
+- 
+  condition:
+    jbr_label:
+      operator: =
+      value: 张晶
+    department_leader_label:
+      operator: =
+      value: 张晶
+  goto: h8qlwr6vka
+- 
+  condition:
+    department_label:
+      operator: =
+      value: PE
+  goto: h8qlwr6vka
+- 
+  condition:
+    department_label:
+      operator: =
+      value: VC
+  goto: h8qlwr6vka
+- 
+  condition:
+    department_label:
+      operator: =
+      value: 财务
+  goto: h8qlwr6vka

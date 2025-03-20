@@ -1,0 +1,328 @@
+---
+print_title:
+  tpl: 文件用印标准流程
+  style:
+    color: black
+    font-size: 30px
+    text-align: center
+flow_index_extra:
+  h3mtxrmnnv:
+    title: hetongmc
+select:
+  - 
+    condition:
+      shizorhetong: 合同文件用印申请
+    type: hetong
+  - 
+    condition:
+      shizorhetong: 实质文件用印申请
+    type: shizhi
+hetong:
+  - 
+    condition:
+      hetonglx_label:
+        - VC
+        - PE
+        - 转化
+        - 美元
+        - PR
+        - 香港生物科技基金
+    node:
+      - h3mtxrmnnv
+      - h3mtxrmose
+      - h3mtyg664k
+  - 
+    condition:
+      hetonglx_label:
+        - 法务
+        - 财务
+        - 行政
+        - 人事
+        - PR
+        - 董办
+        - 党办
+        - 战略情报
+        - IR
+    node:
+      - h3mtxrmnnv
+      - h3mtxrmo8m
+      - h3mtxrmose
+      - h3mtyg664k
+  - 
+    condition:
+      firm_label:
+        - 上实资本
+      hetonglx_label:
+        - VC
+        - PE
+        - 转化
+        - 美元
+        - 法务
+        - 财务
+        - 行政
+        - 人事
+        - PR
+        - 董办
+        - 战略情报
+        - IR
+        - 香港生物科技基金
+    node:
+      - h3mtyg678q
+      - h3mtyq97tr
+      - h3mtyq98ek
+      - h3mtyq98z0
+      - hayk4jehab
+  - 
+    condition:
+      firm_label:
+        - 上实资本
+      hetonglx_label:
+        - 党办
+    node:
+      - h3mtyg678q
+      - h3mtyq98ek
+      - h3mtyq98z0
+      - hayk4jehab
+  - 
+    condition:
+      firm_label:
+        - 上海生物医药基金
+        - 上海生物医药基金GP
+      hetonglx_label:
+        - PE
+    node:
+      - h3mtyg66pa
+      - hfqt3y5gfm
+  - 
+    condition:
+      firm_label:
+        - 香港生物科技有限合夥基金
+      hetonglx_label:
+        - 美元
+    node:
+      - h3mtyg66pa
+      - hfqt3y5gfm
+  - 
+    condition:
+      firm_label:
+        - 上海生物医药基金
+        - 上海生物医药基金GP
+      hetonglx_label:
+        - VC
+    node:
+      - hfqt3y5gfm
+  - 
+    condition:
+      firm_label:
+        - 上海生物医药基金
+        - 上海生物医药基金GP
+      hetonglx_label:
+        - 转化
+        - 法务
+        - 财务
+        - 行政
+        - 人事
+        - PR
+        - 董办
+        - 党办
+        - 战略情报
+        - IR
+        - 香港生物科技基金
+    node:
+      - hfqt3y5gfm
+  - 
+    condition:
+      wh_mtgt:
+        - 是
+    node:
+      - h3mtyq98ek
+      - h3mtyq98z0
+      - hayk4jehab
+  - 
+    condition:
+      wh_mtgt:
+        - 否
+    node:
+      - hfqtrda8jn
+      - h3mtyq98ek
+      - h3mtyq98z0
+      - hayk4jehab
+  - 
+    condition:
+      firm_label:
+        - 转化基金
+        - 转化基金GP
+        - 转化基金二期GP
+        - >
+          上海上实二期生物医药创业投资合伙企业（有限合伙）
+    node:
+      - hfqt3y5ams
+      - h3mtyq98ek
+      - h3mtyq98z0
+      - hayk4jehab
+  - 
+    condition:
+      firm_label:
+        - 香港生物科技基金
+    node:
+      - hxxjs7qz40
+      - hxxjs8yjkh
+      - h3mtyq98ek
+      - h3mtyq98z0
+      - hayk4jehab
+shizhi:
+  - 
+    condition:
+      wenjianlx_label:
+        - VC
+        - PE
+        - 转化
+        - 美元
+        - PR
+        - 香港生物科技基金
+    node:
+      - h3mtxrmnnv
+      - h3mtxrmose
+      - h3mtyg664k
+  - 
+    condition:
+      wenjianlx_label:
+        - 法务
+        - 财务
+        - 行政
+        - 人事
+        - PR
+        - 董办
+        - 党办
+        - 战略情报
+        - IR
+    node:
+      - h3mtxrmnnv
+      - h3mtxrmo8m
+      - h3mtxrmose
+      - h3mtyg664k
+  - 
+    condition:
+      szfirm_label:
+        - 上实资本
+      wenjianlx_label:
+        - VC
+        - PE
+        - 转化
+        - 美元
+        - 法务
+        - 财务
+        - 行政
+        - 人事
+        - PR
+        - 董办
+        - 战略情报
+        - IR
+        - 香港生物科技基金
+    node:
+      - h3mtyg678q
+      - h3mtyq97tr
+      - h3mtyq98ek
+      - h3mtyq98z0
+      - hayk4jehab
+  - 
+    condition:
+      szfirm_label:
+        - 上实资本
+      wenjianlx_label:
+        - 党办
+    node:
+      - h3mtyg678q
+      - h3mtyq98ek
+      - h3mtyq98z0
+      - hayk4jehab
+  - 
+    condition:
+      szfirm_label:
+        - 上海生物医药基金
+        - 上海生物医药基金GP
+      wenjianlx_label:
+        - PE
+    node:
+      - h3mtyg66pa
+      - hfqt3y5gfm
+  - 
+    condition:
+      szfirm_label:
+        - 香港生物科技有限合夥基金
+      wenjianlx_label:
+        - 美元
+    node:
+      - h3mtyg66pa
+      - hfqt3y5gfm
+  - 
+    condition:
+      szfirm_label:
+        - 上海生物医药基金
+        - 上海生物医药基金GP
+      wenjianlx_label:
+        - VC
+    node:
+      - hfqt3y5gfm
+  - 
+    condition:
+      szfirm_label:
+        - 上海生物医药基金
+        - 上海生物医药基金GP
+      wenjianlx_label:
+        - 转化
+        - 法务
+        - 财务
+        - 行政
+        - 人事
+        - PR
+        - 董办
+        - 党办
+        - 战略情报
+        - IR
+        - 香港生物科技基金
+    node:
+      - hfqt3y5gfm
+  - 
+    condition:
+      wh_shcrcsw:
+        - 是
+    node:
+      - h3mtyq98ek
+      - h3mtyq98z0
+      - hayk4jehab
+  - 
+    condition:
+      wh_shcrcsw:
+        - 否
+    node:
+      - hfqtrda8jn
+      - h3mtyq98ek
+      - h3mtyq98z0
+      - hayk4jehab
+  - 
+    condition:
+      szfirm_label:
+        - 转化基金
+        - 转化基金GP
+        - 转化基金二期GP
+        - >
+          上海上实二期生物医药创业投资合伙企业（有限合伙）
+    node:
+      - hfqt3y5ams
+      - h3mtyq98ek
+      - h3mtyq98z0
+      - hayk4jehab
+  - 
+    condition:
+      szfirm_label:
+        - 香港生物科技基金
+    node:
+      - hxxjs7qz40
+      - hxxjs8yjkh
+      - h3mtyq98ek
+      - h3mtyq98z0
+      - hayk4jehab
+addon_executor_msgtpl: '【用印审批】{applyname}- 发起 -{fname}- {title}{hetongmc}-{fnextstep_name}'
+addon_copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}- {title}{hetongmc}-{fnextstep_name}'
+addon_mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}   {title}{hetongmc}<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"

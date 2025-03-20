@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+<head>
+ <meta charset="utf-8">
+ <title>ECharts</title>
+ <!-- 引入 ECharts -->
+ <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+ <style>
+ .node-label {
+ display: flex;
+ align-items: center;
+ }
+
+ .node-name {
+ cursor: pointer;
+ color: #0066cc;
+ text-decoration: none; /* 移除下划线 */
+ }
+
+ .expand-collapse-btn {
+ margin-left: 5px;
+ font-size: 14px;
+ cursor: pointer;
+ }
+
+ </style>
+</head>
+<body style="height: 100%; margin: 0">
+ <!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+ <div id="main" style="height: 100%"></div>
+ <script type="text/javascript">
+ // 确保 ECharts 实例已经被创建
+ var myChart = echarts.init(document.getElementById('main'));
+
+ // 指定树的节点数据
+ var data = {
+ name: 'root',
+ children: [
+ {
+ name: 'child1',
+ url: 'http://example.com/child1',
+ children: [
+ {
+ name: 'grandchild1',
+ url: 'http://example.com/grandchild1'
+ },
+ {
+ name: 'grandchild2'
+ }
+ ]
+ },
+ {
+ name: 'child2'
+ }
+ ]
+ };
+
+ // 指定树的配置项
+ var option = {
+ tooltip: {
+ trigger: 'item',
+ triggerOn: 'mousemove'
+ },
+ series: [
+ {
+ type: 'tree',
+ data: [data],
+ top: '1%',
+ left: '7%',
+ bottom: '1%',
+ right: '20%',
+ symbolSize: 7,
+ label: {
+ position: 'left',
+ verticalAlign: 'middle',
+ align: 'right',
+ fontSize: 9
+ },
+ leaves: {
+ label: {
+ position: 'right',
+ verticalAlign: 'middle',
+ align: 'left'
+ }
+ },
+ expandAndCollapse: true,
+ animationDuration: 550,
+ animationDurationUpdate: 750,
+ layout: 'orthogonal',
+ lineStyle: {
+ color: '#ccc',
+ width: 1,
+ type: 'solid'
+ },
+ roam: true,
+ initialTreeDepth: -1, // 展开所有节点
+ labelLayout: {
+ hideOverlap: true
+ },
+ emphasis: {
+ focus: 'descendant'
+ },
+ tooltip: {
+ trigger: 'item',
+ triggerOn: 'mousemove'
+ }
+ }
+ ]
+};
+
+// 使用刚指定的配置项和数据显示图表。
+myChart.setOption(option);
+
+// 获取ZRender实例，用于捕获点击事件
+var zr = myChart.getZr();
+
+// 添加点击事件监听
+zr.on('click', function (params) {
+ var pointInPixel = [params.offsetX, params.offsetY];
+ var pointInGrid = myChart.convertFromPixel({ seriesIndex: 0 }, pointInPixel);
+
+ if (pointInGrid) {
+ var node = myChart.getModel().getSeriesByIndex(0).getData().tree.getNodeByCoord(pointInGrid);
+ if (node) {
+ // 检查点击的是展开/收起按钮还是节点名称
+ var target = params.target;
+ if (target && target.style && target.style.text) {
+ // 点击的是文本，即节点名称
+ var nodeName = target.style.text;
+ var nodeData = node.data;
+ if (nodeData.url) {
+ // 如果节点有URL，则打开新窗口
+ window.open(nodeData.url);
+ } else {
+ // 否则，切换节点的展开/收起状态
+ nodeData.collapsed = !nodeData.collapsed;
+ myChart.setOption({
+ series: [{
+ id: 0,
+ data: [data]
+ }]
+ });
+ }
+ }
+ }
+ }
+});
+
+// 自定义样式，移除 span 标签的背景色和其他属性
+myChart.on('finished', function () {
+ var nodes = document.querySelectorAll('.node-label .node-name');
+ nodes.forEach(function (node) {
+ node.style.backgroundColor = 'transparent';
+ node.style.padding = '0';
+ node.style.margin = '0';
+ });
+});
+
+</script>
+</body>
+</html>

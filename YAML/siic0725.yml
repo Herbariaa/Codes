@@ -1,0 +1,97 @@
+---
+set_options:
+  fill_label:
+    company_library:
+      round: round
+      company_number: company_number
+      full_name: full_name
+      state: state
+      wh_zhuijia: wh_zhuijia
+      wfhetongbd: wfhetongbd
+      se_industry: se_industry
+      summary: summary
+    shac_company:
+      round: round
+      company_number: company_number
+      full_name: full_name
+      state: state
+      wh_zhuijia: wh_zhuijia
+      wfhetongbd: wfhetongbd
+      se_industry: se_industry
+      summary: summary
+    vc_company:
+      round: round
+      company_number: company_number
+      full_name: full_name
+      state: state
+      wh_zhuijia: wh_zhuijia
+      wfhetongbd: wfhetongbd
+      se_industry: se_industry
+      summary: summary
+    pe_company:
+      round: round
+      company_number: company_number
+      full_name: full_name
+      state: state
+      wh_zhuijia: wh_zhuijia
+      wfhetongbd: wfhetongbd
+      se_industry: se_industry
+      summary: summary
+
+
+
+
+
+
+PE项目池:
+  mod: pe_company
+  filter: 
+    state:
+      -预立项
+      -立项
+      -外部尽调
+      -投资方案确认
+      -投决
+      -交易签约
+      -交割
+      -投后
+      -退出
+VC项目池:
+  mod: vc_company
+  filter: 
+    state:
+      -预立项
+      -立项
+      -外部尽调
+      -投资方案确认
+      -投决
+      -交易签约
+      -交割
+      -投后
+      -退出
+转化基金项目池:
+  mod: shac_company
+  filter: 
+    state:
+      -预立项
+      -立项
+      -外部尽调
+      -投资方案确认
+      -投决
+      -交易签约
+      -交割
+      -投后
+      -退出
+企业库:
+  mod: company_library
+  filter: 
+    state:
+      -预立项
+      -立项
+      -外部尽调
+      -投资方案确认
+      -投决
+      -交易签约
+      -交割
+      -投后
+      -退出

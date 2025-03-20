@@ -1,0 +1,3879 @@
+---
+diycol_pc:
+diycol_iphone:
+bi_counting: >
+  fx0n4fjlso,fx0n4h2224,fx0n8ljbwy,fx0na3xnes,fx0nh06q7j,fx0nj7xzqr,hfm8j87adg
+bi_condition: fund
+bi_filter: fund
+openlink: 0
+name_rule:
+monitor_condition:
+monitor_update:
+float_btn: 1
+bijoin: 1
+title_field:
+stepbar: [ ]
+dynform: [ ]
+collect: [ ]
+calc:
+  - '{hfkyxbbe4n}={hfkxx575a3}+{hfkyoe5ceo}+{hfkyogij9j}+{hfkyogij9j21}+{hfkyogij9j22}+{hfkyogij9j23}+{hfkyogij9j24}+{hfkyogij9j25}+{hfkyogij9j26}+{hfkyogij9j27}+{hfkyogij9j28}+{hfkyogij9j29}'
+  - '{hfkz5a74i6}={hfkz51y8pt}+{hfkz548ahx}'
+  - '{hfl0hlhuxn}={hfkzty9r40}+{hfkzuuoumd}'
+  - '{hfl0nrli69}={hfl0moqlm1}+{hfl0n53ovi}+{hfl0nhvnvr}+{hfl0nhvnvr21}+{hfl0nhvnvr22}+{hfl0nhvnvr23}'
+  - '{hfl0pim0lh}={hfl0oey97t}+{hfl0ownbft}+{hfl0p91mm5}'
+  - '{hfl0secm1m}={hfl0pl3cyr}+{hfl0pmzr1r}+{hfl0rtp9yk}'
+  - '{hfl0secm1m11}={hfl0pl3cyr11}+{hfl0pmzr1r11}+{hfl0rtp9yk11}'
+  - '{hfl173gobo}={hfkyxbbe4n}+{hfkz5a74i6}+{hfl0hlhuxn}+{hfl0nrli69}+{hfl0pim0lh}+{hfl0secm1m}+{hfl0secm1m11}'
+  - '{fx0n4fjlso52}={hfkyxbbe4n}'
+  - '{fx0n4h222452}={hfkz5a74i6}'
+  - '{fx0n8ljbwy52}={hfl0hlhuxn}'
+  - '{fx0na3xnes52}={hfl0nrli69}'
+  - '{fx0nh06q7j52}={hfl0pim0lh}'
+  - '{fx0nj7xzqr52}={hfl0secm1m}'
+  - '{hfm8j87adg52}={hfl0secm1m11}'
+  - '{hfm8j87adg5211}={hfl173gobo}'
+  - '{fx0n4fjlso}=({hfkyxbbe4n}/35)*100'
+  - '{fx0n4h2224}=({hfkz5a74i6}/4)*100'
+  - '{fx0n8ljbwy}=({hfl0hlhuxn}/4)*100'
+  - '{fx0na3xnes}=({hfl0nrli69}/29)*100'
+  - '{fx0nh06q7j}=({hfl0pim0lh}/15)*100'
+  - '{fx0nj7xzqr}=({hfl0secm1m}/6)*100'
+  - '{hfm8j87adg}=({hfl0secm1m11}/7)*100'
+  - '{hfm8j87adg11}={hfl173gobo}'
+css: |
+  .pepm-table .label{
+  text-align:left;
+  }
+  a{
+  font-weight:bolder;
+  }
+js:
+script: [ ]
+ext:
+  confirm: true
+  sendpm_pre_info:
+    mod: evaluation
+sms_template: [ ]
+openlink_title:
+openlink_button:
+email_notify:
+  - 
+email_notify_tem:
+openlink_content:
+pre_commit_content:
+tab_listen_key:
+tab_listen_rule: [ ]
+def_submit_btn_text:
+submit_redirect: 0
+submit_redirect_url:
+word_export:
+  word_custom_func:
+  word_export_name:
+  word_file:
+    - 
+  word_file_label:
+    - 
+api_address:
+api_list_key:
+api_request_key:
+api_response_key:
+api_display: match
+comment:
+  target: _self
+  doctype:
+  up_folder:
+  root_uid:
+  eid_link:
+  formats:
+  position: 1
+  attached_mod:
+  comment_title_tpl:
+  field_newest:
+  field_count:
+modbox:
+  position: 1
+  ext: [ ]
+notify_default:
+notify:
+  url_template:
+inherit_priv:
+privilege:
+  list:
+  import:
+  export:
+  detail:
+  edit:
+  delete:
+  docx:
+  pdf:
+  history:
+  openlink:
+  block_view_hfkxobdogx:
+  block_edit_hfkxobdogx:
+  block_view_hfkxtnsdqm:
+  block_edit_hfkxtnsdqm:
+  block_view_hn6rn4mdeb:
+  block_edit_hn6rn4mdeb:
+  block_view_hfkxwe23lz:
+  block_edit_hfkxwe23lz:
+  block_view_hfkz4djmjb:
+  block_edit_hfkz4djmjb:
+  block_view_hfkzobqnth:
+  block_edit_hfkzobqnth:
+  block_view_hn6rnb8v8d:
+  block_edit_hn6rnb8v8d:
+  block_view_hfl0lbsx2e:
+  block_edit_hfl0lbsx2e:
+  block_view_hfl0nuhye0:
+  block_edit_hfl0nuhye0:
+  block_view_hfl0pj4pjr:
+  block_edit_hfl0pj4pjr:
+  block_view_hfl0pj4pjr11:
+  block_edit_hfl0pj4pjr11:
+  block_view_hfl4yzdy4811:
+  block_edit_hfl4yzdy4811:
+diycol_back_list:
+list_count_block_fields:
+order_priority:
+page_size:
+fixed_col:
+fixed_col_mobile:
+addon_url:
+list_style: list_ajax
+link_type: canvas
+list_count: top
+list_style_mobile: list_mobile
+py_search: no_more
+secondary_link_type: modal
+list_mobile_mod: default
+diycard_config: [ ]
+button_config: [ ]
+feed_tpl:
+feed_mobile_tpl:
+feed_tpl_css:
+feed_tpl_js:
+css_config:
+js_config:
+merged_cell_key:
+merged_cell_list:
+merge_exclude_code:
+list_img_name:
+list_img_img:
+list_img_date:
+list_img_content:
+super_object:
+replace_comment_update_col:
+replace_comment_max_col:
+replace_comment_notify: 3
+created_sth:
+filter:
+always_show:
+filter_mobile:
+item:
+  hfkxobdogx:
+    id: hfkxobdogx
+    name: '<center>引导基金考核评价表(主题母基金)<center>'
+    type: title
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  fund:
+    id: fund
+    name: 评价对象
+    type: select_new
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source: fund
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+      tags_add_view:
+    width: 1
+    listed: 1
+  hfkxt56h73:
+    id: hfkxt56h73
+    name: 评价日期
+    type: datepicker
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hfkxtcg4f0:
+    id: hfkxtcg4f0
+    name: 评价人
+    type: select_new
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+    default_value: uid
+    props:
+      type_optgroup:
+      type_label: 用户
+      type: usr
+      data_source:
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+      tags_add_view:
+  hfkxtnsdqm:
+    id: hfkxtnsdqm
+    name: 评分标准
+    type: br
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hfkybje06y11:
+    id: hfkybje06y
+    name: '<a>评分维度</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: center
+    width: 1
+  hfkybs0qrs1101:
+    id: hfkybs0qrs
+    name: '<a>得分</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: center
+    width: 1
+  hfkybs0qrs11:
+    id: hfkybs0qrs
+    name: '<a>得分率(%)</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: center
+    width: 1
+  hfkybp0x8x11:
+    id: hfkybp0x8x
+    name: '<a>多维雷达图</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: center
+    width: 2
+  fx0n4fjlso52:
+    id: fx0n4fjlso
+    name: 合规管理
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+  fx0n4fjlso:
+    id: fx0n4fjlso
+    name: 合规管理
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 0
+    val_width: 1
+    list_align: def
+    readonly: 1
+  fxhyy47x2m:
+    id: fxhyy47x2m
+    name: 评价图
+    type: charts
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 8
+    label_width: 0
+    ext:
+      uuid: hn7tnfg9jt
+      style:
+        height: 400
+        width: 80%
+      mfilter:
+        _rel:
+          rel_key: uuid
+          rel_val: eid
+    val_width: 3
+    list_align: center
+    list_header_align: center
+  fx0n4h222452:
+    id: fx0n4h2224
+    name: 风险控制
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+  fx0n4h2224:
+    id: fx0n4h2224
+    name: 风险控制
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 0
+    val_width: 1
+    list_align: def
+    readonly: 1
+  fx0n8ljbwy52:
+    id: fx0n8ljbwy
+    name: 投资管理
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+  fx0n8ljbwy:
+    id: fx0n8ljbwy
+    name: 投资管理
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 0
+    val_width: 1
+    list_align: def
+    readonly: 1
+  fx0na3xnes52:
+    id: fx0na3xnes
+    name: 政策效益
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+  fx0na3xnes:
+    id: fx0na3xnes
+    name: 政策效益
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 0
+    val_width: 1
+    list_align: def
+    readonly: 1
+  fx0nh06q7j52:
+    id: fx0nh06q7j
+    name: 经济效益
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+  fx0nh06q7j:
+    id: fx0nh06q7j
+    name: 经济效益
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 0
+    val_width: 1
+    list_align: def
+    readonly: 1
+  fx0nj7xzqr52:
+    id: fx0nj7xzqr
+    name: 社会效益
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+  fx0nj7xzqr:
+    id: fx0nj7xzqr
+    name: 社会效益
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 0
+    val_width: 1
+    list_align: def
+    readonly: 1
+  hfm8j87adg52:
+    id: hfm8j87adg
+    name: 加分事项
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+  hfm8j87adg:
+    id: hfm8j87adg
+    name: 加分事项
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    readonly: 1
+  hfm8j87adg5211:
+    id: hfm8j87adg
+    name: 总分
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+  hfm8j87adg11:
+    id: hfm8j87adg
+    name: 总分
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    readonly: 1
+  hn6rn4mdeb:
+    id: hn6rn4mdeb
+    name: 一、管理运营指标
+    type: title
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hfkxwe23lz:
+    id: hfkxwe23lz
+    name: 合规管理
+    type: section
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hfkyben2n9:
+    id: hfkyben2n9
+    name: '<a>子维度</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkybje06y3:
+    id: hfkybje06y
+    name: '<a>考评内容</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkybje06y:
+    id: hfkybje06y
+    name: '<a>评分标准</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkybs0qrs:
+    id: hfkybs0qrs
+    name: '<a>满分</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkybp0x8x:
+    id: hfkybp0x8x
+    name: '<a>打分</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkxx1dcof:
+    id: hfkxx1dcof
+    name: 管理机构
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkxxc1too1:
+    id: hfkxxc1too
+    name: >
+      是否按市场化原则遴选子基金管理机构或按规定自行管理。
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkxxc1too:
+    id: hfkxxc1too
+    name: >
+      得分=符合要求的子基金数量÷子基金总数量×本项分值
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkxxwqeif:
+    id: hfkxxwqeif
+    name: 8（分）
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 8
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkxx575a3:
+    id: hfkxx575a3
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 8
+      contain: all
+    label_width: 0
+    val_width: 1
+    ext:
+      unit: 分
+    list_align: def
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    width: 1
+    required: 1
+  hfkyoc6i5q:
+    id: hfkyoc6i5q
+    name: 穿透核查
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyocy3zm:
+    id: hfkyocy3zm
+    name: >
+      是否按照相关规定，对母基金出资人和子基金管理人实施穿透核查。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyocy3zm1:
+    id: hfkyocy3zm
+    name: '1.未出现违法违规行为和资本无序扩张的，得满分；<br>2.出现违法违规行为和资本无序扩张的，不得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyodij3n:
+    id: hfkyodij3n
+    name: 2（分）
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyoe5ceo:
+    id: hfkyoe5ceo
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh:
+    id: hfkyoeosbh
+    name: 基金托管
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj51:
+    id: hfkyofhxj51
+    name: >
+      是否委托省内取得基金托管资格的金融机构担任母基金托管人。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj5:
+    id: hfkyofhxj5
+    name: '1.符合要求的，得满分；<br>2.不符合要求的，不得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x4:
+    id: hfkyog13x4
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j:
+    id: hfkyogij9j
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh21:
+    id: hfkyoeosbh
+    name: 管理费用
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5121:
+    id: hfkyofhxj51
+    name: >
+      是否按照相关规定提取或返还管理费。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj521:
+    id: hfkyofhxj5
+    name: '1.符合要求的，得满分；<br>2.不符合要求的，不得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x421:
+    id: hfkyog13x4
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j21:
+    id: hfkyogij9j21
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 5
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh22:
+    id: hfkyoeosbh
+    name: 投资限制
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5122:
+    id: hfkyofhxj51
+    name: >
+      是否违反投资限制的相关要求。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj522:
+    id: hfkyofhxj5
+    name: '1.未违反要求的，得满分；<br>2.违反要求的，不得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x422:
+    id: hfkyog13x4
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j22:
+    id: hfkyogij9j22
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh23:
+    id: hfkyoeosbh
+    name: 闲置资金
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5123:
+    id: hfkyofhxj51
+    name: >
+      是否按照相关规定进行闲置资金管理。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj523:
+    id: hfkyofhxj5
+    name: '1.符合规定的，得满分；<br>2.不符合规定的，不得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x423:
+    id: hfkyog13x4
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j23:
+    id: hfkyogij9j23
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh24:
+    id: hfkyoeosbh
+    name: 信息披露
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5124:
+    id: hfkyofhxj51
+    name: >
+      是否按照私募基金监管要求，及时办理信息披露事宜，包括但不限于基金季报、年报等。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj524:
+    id: hfkyofhxj5
+    name: '1.符合要求的，得满分；<br>2.每发生一次迟报或漏报情形，扣1分，扣完为止。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x424:
+    id: hfkyog13x4
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j24:
+    id: hfkyogij9j24
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 3
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh25:
+    id: hfkyoeosbh
+    name: 数据报送
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5125:
+    id: hfkyofhxj51
+    name: '是否按要求完成数据报送工作；<br>填报内容是否真实准确完整。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj525:
+    id: hfkyofhxj5
+    name: '1.符合要求的，得满分；<br>2.每发生一次错报、漏报、晚报情形，扣1分，扣完为止。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x425:
+    id: hfkyog13x4
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j25:
+    id: hfkyogij9j25
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 5
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh26:
+    id: hfkyoeosbh
+    name: 监管处罚
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5126:
+    id: hfkyofhxj51
+    name: >
+      是否存在被监管机构或行业自律组织等相关部门处罚情形。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj526:
+    id: hfkyofhxj5
+    name: '1.无此情形的，得满分；<br>2.存在此情形的，不得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x426:
+    id: hfkyog13x4
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j26:
+    id: hfkyogij9j26
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh27:
+    id: hfkyoeosbh
+    name: 配合程度
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5127:
+    id: hfkyofhxj51
+    name: >
+      管理机构与引导基金合作情况，包括但不限于日常信息沟通，受邀到会参会、配合重要活动等。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj527:
+    id: hfkyofhxj5
+    name: >
+      每次发生一次配合问题，扣1分，扣完为止。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x427:
+    id: hfkyog13x4
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j27:
+    id: hfkyogij9j27
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 3
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh28:
+    id: hfkyoeosbh
+    name: 清理机制
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5128:
+    id: hfkyofhxj51
+    name: '是否建立子基金清理机制；<br>每年进行子基金梳理并开展清理工作。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj528:
+    id: hfkyofhxj5
+    name: '1.建立子基金清理机制的，得1分；<br>2.开展子基金梳理工作，得1分；<br>3.梳理后不存在应清理情形或存在应清理情形并已开展清理工作的，得1分；<br>本项得分为上述累计得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x428:
+    id: hfkyog13x4
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j28:
+    id: hfkyogij9j28
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 3
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh29:
+    id: hfkyoeosbh
+    name: 考核机制
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5129:
+    id: hfkyofhxj51
+    name: >
+      是否建立子基金考核评价机制，每年开展子基金考核评价工作。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj529:
+    id: hfkyofhxj5
+    name: '1.建立子基金考核评价机制的，得1分；<br>2.开展子基金考核评价工作的，得1分；<br>3.出具考核评价报告的，得1分；<br>本项得分为上述累计得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x429:
+    id: hfkyog13x4
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j29:
+    id: hfkyogij9j29
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 3
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyw88wtw:
+    id: hfkyw88wtw
+    name: 小计
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 6
+    val_width: def
+    list_align: def
+  hfkyx4ggyw:
+    id: hfkyx4ggyw
+    name: 35（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyxbbe4n:
+    id: hfkyxbbe4n
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    readonly: 1
+  hfkz4djmjb:
+    id: hfkz4djmjb
+    name: 风险控制
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hfl0bvxpqa:
+    id: hfl0bvxpqa
+    name: '<a>子维度</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0bwny8g1:
+    id: hfl0bwny8g
+    name: '<a>考评内容</a>'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfl0bwny8g:
+    id: hfl0bwny8g
+    name: '<a>评分标准</a>'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfl0bx8lzh:
+    id: hfl0bx8lzh
+    name: '<a>满分</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0by2cr9:
+    id: hfl0by2cr9
+    name: '<a>打分</a>'
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  hfkz4z3aeg:
+    id: hfkz4z3aeg
+    name: 制度建设
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkz50kmg31:
+    id: hfkz50kmg3
+    name: >
+      是否针对直投项目及子基金不同特点，差异化建立完善的风险控制制度。
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfkz50kmg3:
+    id: hfkz50kmg3
+    name: '1.优秀的，得2分；<br>2.一般的，得1分；<br>3.较差的，不得分。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfkz51bcxc:
+    id: hfkz51bcxc
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkz51y8pt:
+    id: hfkz51y8pt
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfkz52gpjl:
+    id: hfkz52gpjl
+    name: 制度执行
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkz530jas1:
+    id: hfkz530jas
+    name: >
+      直投项目及子基金管理相关风控制度执行情况
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfkz530jas:
+    id: hfkz530jas
+    name: '1.优秀的，得2分；<br>2.一般的，得1分；<br>3.较差的，不得分。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfkz53hyyd:
+    id: hfkz53hyyd
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkz548ahx:
+    id: hfkz548ahx
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfkz58vjp6:
+    id: hfkz58vjp6
+    name: 小计
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 4
+    val_width: -1
+    list_align: def
+  hfkz59kq8b:
+    id: hfkz59kq8b
+    name: 4（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkz5a74i6:
+    id: hfkz5a74i6
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    readonly: 1
+  hfkzobqnth:
+    id: hfkzobqnth
+    name: 投资管理
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hfl0e8jyba:
+    id: hfl0e8jyba
+    name: '<a>子维度</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0e99j56:
+    id: hfl0e99j56
+    name: '<a>考评内容</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0e99j561:
+    id: hfl0e99j56
+    name: '<a>评分标准</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0e9qsqw:
+    id: hfl0e9qsqw
+    name: '<a>满分</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0ea92bq:
+    id: hfl0ea92bq
+    name: '<a>打分</a>'
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  hfkztjazsw:
+    id: hfkztjazsw
+    name: 制度建设
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfkztnrxh31:
+    id: hfkztnrxh3
+    name: >
+      是否建立了完善的投资管理制度，包括但不限于立项、尽职调查、投资决策、关联交易、投后管理、退出管理等。
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfkztnrxh3:
+    id: hfkztnrxh3
+    name: '1.优秀的，得2分；<br>2.一般的，得1分；<br>3.较差的，不得分。'
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfkztt7rs2:
+    id: hfkztt7rs2
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkzty9r40:
+    id: hfkzty9r40
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfkzu1g3l7:
+    id: hfkzu1g3l7
+    name: 制度执行
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkzu4gqkh:
+    id: hfkzu4gqkh
+    name: >
+      直投项目及子基金投资管理制度执行情况
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkzui0xdk:
+    id: hfkzui0xdk
+    name: '1.优秀的，得2分；<br>2.一般的，得1分；<br>3.较差的，不得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkzultugp:
+    id: hfkzultugp
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkzuuoumd:
+    id: hfkzuuoumd
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0h9o5bj:
+    id: hfl0h9o5bj
+    name: 小计
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 4
+    val_width: def
+    list_align: def
+  hfl0hez4b5:
+    id: hfl0hez4b5
+    name: 4（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0hlhuxn:
+    id: hfl0hlhuxn
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    readonly: 1
+  hn6rnb8v8d:
+    id: hn6rnb8v8d
+    name: 二、效益指标
+    type: title
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hfl0lbsx2e:
+    id: hfl0lbsx2e
+    name: 政策效益
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hfl0lj3128:
+    id: hfl0lj3128
+    name: '<a>子维度</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0ljrs771:
+    id: hfl0ljrs77
+    name: '<a>考评内容</a>'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfl0ljrs77:
+    id: hfl0ljrs77
+    name: '<a>评分标准</a>'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfl0lkdo2n:
+    id: hfl0lkdo2n
+    name: '<a>满分</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0ll1fer:
+    id: hfl0ll1fer
+    name: '<a>打分</a>'
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  hfl0mf5qwq:
+    id: hfl0mf5qwq
+    name: 撬动比例
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0mhp0ak1:
+    id: hfl0mhp0ak
+    name: >
+      引导基金出资撬动情况（累计数）。
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfl0mhp0ak:
+    id: hfl0mhp0ak
+    name: '得分=(母子基金实缴出资总额÷引导基金实缴出资)÷4.5×本项分值。<br>①母基金实缴出资至子基金部分不重复计算。<br>②本项得分上限为本项分值的2倍。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfl0mke20q:
+    id: hfl0mke20q
+    name: 8（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0moqlm1:
+    id: hfl0moqlm1
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 16
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0mtz032:
+    id: hfl0mtz032
+    name: 募资进度
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfl0mypykm1:
+    id: hfl0mypykm
+    name: >
+      年度募资计划完成情况（年度数）。
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfl0mypykm:
+    id: hfl0mypykm
+    name: '1.完成比例高于100%（含）的，得满分；<br>2.每少完成10%，扣1分，扣完为止。<br>①年度募资计划完成比例=本年度母基金新增实缴出资金额÷本年度募资计划金额<br>②年度募资计划以上报并经引导基金审核确定数为准。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfl0n01kof:
+    id: hfl0n01kof
+    name: 5（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0n53ovi:
+    id: hfl0n53ovi
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 5
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0n85hsl:
+    id: hfl0n85hsl
+    name: 投资定位
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0nbi2hq1:
+    id: hfl0nbi2hq
+    name: >
+      符合投资定位的项目投资完成情况（累计数）。
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfl0nbi2hq:
+    id: hfl0nbi2hq
+    name: '1.完成70%（含）以上的，得满分；<br>2.每低于5%的，扣1分，扣完为止。<br>①本项指标穿透至子基金计算。<br>②符合定位的投资额=符合定位的母基金直投金额+符合定位的子基金投资额×母基金对子基金实缴出资比例。<br>③完成比例=符合定位的投资额÷对外投资总额。对外投资总额比照上述计算方式。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfl0nebrlj:
+    id: hfl0nebrlj
+    name: 5（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0nhvnvr:
+    id: hfl0nhvnvr
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 5
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0n85hsl21:
+    id: hfl0n85hsl
+    name: 年度投资进度
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0nbi2hq121:
+    id: hfl0nbi2hq
+    name: >
+      年度投资计划完成情况（年度数）。
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfl0nbi2hq21:
+    id: hfl0nbi2hq
+    name: '1.完成年度投资计划90%的，得满分；<br>2.每少完成5%的，扣1分，扣完为止。<br>①本项指标穿透至子基金计算。<br>②年度投资额=本年度直投金额+本年度子基金投资额×母基金对子基金实缴出资比例。以资金实际交割计算。<br>③年度投资计划以上报并经引导基金审核确定数为准。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfl0nebrlj21:
+    id: hfl0nebrlj
+    name: 5（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0nhvnvr21:
+    id: hfl0nhvnvr21
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 3
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0n85hsl22:
+    id: hfl0n85hsl
+    name: 累计投资进度
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0nbi2hq122:
+    id: hfl0nbi2hq
+    name: >
+      累计投资计划完成情况（累计数）。
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfl0nbi2hq22:
+    id: hfl0nbi2hq
+    name: '1.完成累计投资计划90%（含）的，得满分；<br>2.每少完成5%的，扣1分，扣完为止。<br>①本项指标穿透至子基金计算。<br>②累计投资额=（累计直投金额+子基金累计投资额×母基金对子基金实缴出资比例）÷截至该年度投资计划总额。以资金实际交割计算。<br>③累计投资计划为各年度上报并经引导基金审核确定数之和。前一年度未投资完毕结转至下一年度的投资计划金额，不重复计算。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfl0nebrlj22:
+    id: hfl0nebrlj
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0nhvnvr22:
+    id: hfl0nhvnvr22
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 3
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0n85hsl23:
+    id: hfl0n85hsl
+    name: 返投比例
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0nbi2hq123:
+    id: hfl0nbi2hq
+    name: >
+      母基金直投部分加子基金合计对本省返投情况（累计数）。
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfl0nbi2hq23:
+    id: hfl0nbi2hq
+    name: '投资期（不含最后一年）得分=（母基金直投部分加子基金合计投资于返投范围内企业的投资总额÷母基金直投部分加子基金合计投资总额中引导基金穿透出资金额）÷1.2×本项分值<br>投资期最后一年得分=（母基金直投部分加子基金合计投资于返投范围内企业的投资总额÷引导基金对母基金的出资金额）÷1.2×本项分值<br>本项得分上限为本项分值的2倍'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfl0nebrlj23:
+    id: hfl0nebrlj
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0nhvnvr23:
+    id: hfl0nhvnvr23
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 6
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0nkkipb:
+    id: hfl0nkkipb
+    name: 小计
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 4
+    val_width: def
+    list_align: def
+  hfl0nncmch:
+    id: hfl0nncmch
+    name: 29（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0nrli69:
+    id: hfl0nrli69
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    readonly: 1
+  hfl0nuhye0:
+    id: hfl0nuhye0
+    name: 经济效益
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hfluv00ns4:
+    id: hfluv00ns4
+    name: '<a>子维度</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfluv0nyto1:
+    id: hfluv0nyto
+    name: '<a>考评内容</a>'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfluv0nyto:
+    id: hfluv0nyto
+    name: '<a>评分标准</a>'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfluv2ghz2:
+    id: hfluv2ghz2
+    name: '<a>满分</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfluv44djx:
+    id: hfluv44djx
+    name: '<a>打分</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0o2641f:
+    id: hfl0o2641f
+    name: 投后表现
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0o72kr01:
+    id: hfl0o72kr0
+    name: >
+      已投项目上市、后续股权融资情况。
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfl0o72kr0:
+    id: hfl0o72kr0
+    name: '1.已投项目上市的，每个项目得1分；<br>2.成功完成后续股权融资的，每个项目得1分。<br>3.得满为止。<br>①本项指标包括母基金直投并穿透至子基金计算。<br>②上市以发行日计算；后续融资以融资款全额到账日计算。<br>③单个项目多支基金均参与投资的，不重复计算。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfl0oa93jv:
+    id: hfl0oa93jv
+    name: 5（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0oey97t:
+    id: hfl0oey97t
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 5
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0ogvvyz:
+    id: hfl0ogvvyz
+    name: 已分配收益（DPI）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0olo04c1:
+    id: hfl0olo04c
+    name: >
+      DPI=引导基金回收现金总额÷引导基金应退出本金
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfl0olo04c:
+    id: hfl0olo04c
+    name: '1.DPI不低于1（含）时，得满分；<br>2.DPI低于1的，不得分。<br>①退出期内，引导基金应退出本金按累计年度退出计划计算。<br>②延长期内，引导基金应退出本金按实缴出资总额计算。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfl0opjtmq:
+    id: hfl0opjtmq
+    name: 5（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0ownbft:
+    id: hfl0ownbft
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 5
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0ozd36a:
+    id: hfl0ozd36a
+    name: 内部收益率（IRR）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0p28cti1:
+    id: hfl0p28cti
+    name: >
+      使引导基金已实现现金流入和预估现金流入现值总额与现金流出现值总额相等的贴现率。
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfl0p28cti:
+    id: hfl0p28cti
+    name: '1.IRR≥5.5%时，得满分；<br>2.IRR＜5.5%时，得分=IRR÷5.5%×本项分值。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfl0p5tme9:
+    id: hfl0p5tme9
+    name: 5（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0p91mm5:
+    id: hfl0p91mm5
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 5
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0phfc8t:
+    id: hfl0phfc8t
+    name: 小计
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 4
+    val_width: -1
+    list_align: def
+  hfl0phuu6u:
+    id: hfl0phuu6u
+    name: 15（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pim0lh:
+    id: hfl0pim0lh
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    readonly: 1
+  hfl0pj4pjr:
+    id: hfl0pj4pjr
+    name: 社会效益
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hfluv1xim3:
+    id: hfluv1xim3
+    name: '<a>子维度</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfluv189yn1:
+    id: hfluv189yn
+    name: '<a>考评内容</a>'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfluv189yn:
+    id: hfluv189yn
+    name: '<a>评分标准</a>'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfluv303wm:
+    id: hfluv303wm
+    name: '<a>满分</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfluv3klx1:
+    id: hfluv3klx1
+    name: '<a>打分</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pjluw6:
+    id: hfl0pjluw6
+    name: 就业增长率
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pk26cp:
+    id: hfl0pk26cp
+    name: >
+      所投省内注册企业的就业增长情况。
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfl0pk26cp1:
+    id: hfl0pk26cp
+    name: '1.≥基准值的，得满分；<br>2.＜基准值的，得分=就业增长率÷基准值×本项分值。<br>3.就业增长率为负时，得零分。<br>4.母基金设立未满一年的，本项得分下限为本项分值的60%。<br>①就业人数增长率按所投省内注册企业就业人数增长率加权平均计算。<br>②权重按母基金对单个企业投资额与母基金对省内注册企业总投资额的占比计算，其中子基金投资部分按母基金对子基金实缴出资比例穿透计算。<br>③单个企业就业人数增长率=（考核年末就业人数-上年末就业人数）÷上年末就业人数<br>④已退出项目延用上一年度考核数据。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfl0pkmg35:
+    id: hfl0pkmg35
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pl3cyr:
+    id: hfl0pl3cyr
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0plk1ck:
+    id: hfl0plk1ck
+    name: 纳税增长率
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pm06ce1:
+    id: hfl0pm06ce
+    name: >
+      所投省内注册企业的纳税增长情况。
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfl0pm06ce:
+    id: hfl0pm06ce
+    name: '1、≥基准值的，得满分；<br>2、＜基准值的，得分=纳税增长率÷基准值×本项分值。<br>3、纳税增长率为负时，得零分。<br>4、母基金设立未满一年的，本项得分下限为本项分值的60%。<br>①纳税增长率按所投省内注册企业纳税增长率加权平均计算。<br>②权重按母基金对单个企业投资额与母基金对省内注册企业总投资额的占比计算，其中子基金投资部分按母基金对子基金实缴出资比例穿透计算。<br>③单个企业纳税增长率=（考核年末纳税金额-上年末就业人数）÷上年末纳税金额<br>④已退出项目延用上一年度考核数据。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfl0pmhg8u:
+    id: hfl0pmhg8u
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pmzr1r:
+    id: hfl0pmzr1r
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0png3u4:
+    id: hfl0png3u4
+    name: 营业收入增长率
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pnwzmp1:
+    id: hfl0pnwzmp
+    name: >
+      所投省内注册企业的营业收入增长情况。
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfl0pnwzmp:
+    id: hfl0pnwzmp
+    name: '1.≥基准值的，得满分；<br>2.＜基准值的，得分=营业收入增长率÷基准值×本项分值。<br>3.营业收入增长率为负时，得零分。<br>4.母基金设立未满一年的，本项得分下限为本项分值的60%。<br>①营业收入增长率按所投省内注册企业营业收入增长率加权平均计算。<br>②权重按母基金对单个企业投资额与母基金对省内注册企业总投资额的占比计算，其中子基金投资部分按母基金对子基金实缴出资比例穿透计算。<br>③单个企业营业收入增长率=（考核年末纳税金额-上年末就业人数）÷上年末纳税金额<br>④已退出项目延用上一年度考核数据。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfl0pot8of:
+    id: hfl0pot8of
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0rtp9yk:
+    id: hfl0rtp9yk
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0s3nbrr:
+    id: hfl0s3nbrr
+    name: 小计
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 4
+    val_width: def
+    list_align: def
+  hfl0s8hf2p:
+    id: hfl0s8hf2p
+    name: 6（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0secm1m:
+    id: hfl0secm1m
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    readonly: 1
+  hfl0pj4pjr11:
+    id: hfl0pj4pjr
+    name: 三、加分事项
+    type: title
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hfluv1xim311:
+    id: hfluv1xim3
+    name: '<a>子维度</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfluv189yn111:
+    id: hfluv189yn
+    name: '<a>考评内容</a>'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfluv189yn11:
+    id: hfluv189yn
+    name: '<a>评分标准</a>'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfluv303wm11:
+    id: hfluv303wm
+    name: '<a>满分</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfluv3klx111:
+    id: hfluv3klx1
+    name: '<a>打分</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pjluw611:
+    id: hfl0pjluw6
+    name: 双招双引
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pk26cp11:
+    id: hfl0pk26cp
+    name: >
+      投资带动省外项目落地本省情况。
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfl0pk26cp111:
+    id: hfl0pk26cp
+    name: '每落地1个项目，加1分；加满为止。<br>①落地项目指列入“双招双引”纳统范围，且实收资本达到5000万元（含）以上的项目。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfl0pkmg3511:
+    id: hfl0pkmg35
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pl3cyr11:
+    id: hfl0pl3cyr11
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 3
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0plk1ck11:
+    id: hfl0plk1ck
+    name: 吸引社会资本
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pm06ce111:
+    id: hfl0pm06ce
+    name: 母子基金吸引社会资本情况
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfl0pm06ce11:
+    id: hfl0pm06ce
+    name: '得分=（母子基金中社会资本实缴出资÷引导基金实缴出资-2.27）/1.28×本项分值；加满为止。<br>①社会资本指除省市县三级财政资金、政府引导基金或母基金、地方国有独资企业以外的出资'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfl0pmhg8u11:
+    id: hfl0pmhg8u
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pmzr1r11:
+    id: hfl0pmzr1r11
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0png3u411:
+    id: hfl0png3u4
+    name: 承接国家大基金
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pnwzmp111:
+    id: hfl0pnwzmp
+    name: >
+      母子基金参与承接国家大基金落地本省情况。
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfl0pnwzmp11:
+    id: hfl0pnwzmp
+    name: '存在此情形的，加满分。<br>①以国家大基金在省内注册成立子基金为准。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfl0pot8of11:
+    id: hfl0pot8of
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0rtp9yk11:
+    id: hfl0rtp9yk11
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0s3nbrr11:
+    id: hfl0s3nbrr
+    name: 小计
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 4
+    val_width: def
+    list_align: def
+  hfl0s8hf2p11:
+    id: hfl0s8hf2p
+    name: 7（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0secm1m11:
+    id: hfl0secm1m11
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    readonly: 1
+  hfl4yzdy4811:
+    id: hfl4yzdy48
+    name: 1
+    type: br
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hfl16vbqgo:
+    id: hfl16vbqgo
+    name: 合计
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 4
+    val_width: -1
+    list_align: def
+  hfl16yenad:
+    id: hfl16yenad
+    name: 100（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl173gobo:
+    id: hfl173gobo
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    readonly: 1
+import: [ ]
+pre_order: [ ]
+bi:
+  counting:
+    - fx0n4fjlso
+    - fx0n4h2224
+    - fx0n8ljbwy
+    - fx0na3xnes
+    - fx0nh06q7j
+    - fx0nj7xzqr
+    - hfm8j87adg
+  condition:
+    - fund
+  monitor_condition: [ ]
+  monitor_update: [ ]
+  filter:
+    - fund

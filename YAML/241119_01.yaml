@@ -1,0 +1,221 @@
+---
+default_form: bjyj
+page_size:
+addon_buttons:
+  approve: 1
+  disapprove: 1
+  reject: 1
+  transfer: 1
+addon_node_pre_approver:
+  - 
+  - 
+flow_finish_copy_to:
+  - 
+  - 
+item:
+  h21vzr0nsy:
+    id: h21vzr0nsy
+    name: 发起环节
+    path_name:
+    type:
+    form: form_dollarxmzz
+    approver_optgroup: 其他
+    approver_label:
+      - 所有人
+    approver:
+      - other;all;所有人
+    copyto_optgroup: 用户组
+    copyto_label:
+      - 风险合规部负责人
+      - 财务管理部负责人
+      - 表单内部字段
+    copyto:
+      - structure;h3l3ylnp78;
+      - structure;h3uzx268kd;
+      - other;formid;表单内部字段
+    btn_setting:
+      commit: 1
+      reject: 1
+    co_sign_msg: 1
+    backToBackShowList_optgroup:
+    backToBackShowList:
+      - 
+    backToBackShowList_label:
+      - 
+    cosign_ypfj_optgroup:
+    cosign_ypfj:
+      - 
+    cosign_ypfj_label:
+      - 
+    obscureApprover:
+      - 
+      - 
+    obscure_can_see:
+      - 
+      - 
+    default_value:
+    ext:
+      assign_copyto: team_member,team_manager,superiors
+      executor_msgtpl: '【美元项目审批】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}  【{company_label}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook: [ ]
+    path: [ ]
+  h21vzr0occ:
+    id: h21vzr0occ
+    name: 分管合伙人审批
+    path_name:
+    type:
+    form: bjyj
+    approver_optgroup: 其他
+    approver_label:
+      - 表单内部字段
+    approver:
+      - other;formid;表单内部字段
+    copyto_optgroup:
+    copyto:
+      - 
+    copyto_label:
+      - 
+    btn_setting:
+      commit: 1
+      reject: 1
+    co_sign_msg: 1
+    backToBackShowList_optgroup:
+    backToBackShowList:
+      - 
+    backToBackShowList_label:
+      - 
+    cosign_ypfj_optgroup:
+    cosign_ypfj:
+      - 
+    cosign_ypfj_label:
+      - 
+    obscureApprover:
+      - 
+      - 
+    obscure_can_see:
+      - 
+      - 
+    default_value:
+    ext:
+      assign: superiors
+      executor_msgtpl: '【美元项目审批】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}  【{company_label}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook: [ ]
+    path: [ ]
+  h21vzr0otf:
+    id: h21vzr0otf
+    name: 上海生物医药基金总裁审批
+    path_name:
+    type:
+    form: bjyj
+    approver_optgroup: 用户组
+    approver_label:
+      - 上海生物医药基金总裁
+    approver:
+      - structure;h3v05srbgo;
+    copyto_optgroup: 其他
+    copyto_label:
+      - 发起人
+    copyto:
+      - other;apply_pp;发起人
+    btn_setting:
+      commit: 1
+      reject: 1
+    co_sign_msg: 1
+    backToBackShowList_optgroup:
+    backToBackShowList:
+      - 
+    backToBackShowList_label:
+      - 
+    cosign_ypfj_optgroup:
+    cosign_ypfj:
+      - 
+    cosign_ypfj_label:
+      - 
+    obscureApprover:
+      - 
+      - 
+    obscure_can_see:
+      - 
+      - 
+    default_value:
+    ext:
+      executor_msgtpl: '【美元项目审批】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}  【{company_label}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook:
+      pass:
+        - 
+          condition:
+          func:
+            update_entity:
+              target:
+              data:
+                state: 终止
+                state_label: 终止
+    path: [ ]
+js:
+pre_match_rule: [ ]
+ext:
+  flow_index_extra:
+    h21vzr0nsy:
+      title: company_label
+  addon_executor_msgtpl: '【美元项目审批】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+  addon_copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+  addon_mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}  【{company_label}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+lsitems: [ ]
+list_structure: [ ]
+flow_center_tpl: [ ]
+search_item: [ ]
+privilege:
+  list:
+    - h46ht41b1q
+    - h3l3ylnp78
+    - h3uzx268kd
+    - same_structure
+    - usr_create
+    - approve
+    - copyto
+  detail:
+    - h46ht41b1q
+    - h3l3ylnp78
+    - h3uzx268kd
+    - same_structure
+    - usr_create
+    - approve
+    - copyto
+  delete:
+    - usr_create
+    - approve
+    - copyto
+  abolish:
+    - usr_create
+    - approve
+    - copyto
+  pdf_down:
+    - usr_create
+    - approve
+    - copyto
+comment:
+  target: _self
+  doctype:
+  up_folder:
+  root_uid:
+  eid_link:
+  formats:
+  flow_default_notify_optgroup:
+  flow_default_notify:
+    - 
+  flow_default_notify_label:
+    - 
+word_export:
+  word_custom_func:
+  word_export_name:
+  word_file:
+    - 
+  word_file_label:
+    - 
+msgtpl: [ ]

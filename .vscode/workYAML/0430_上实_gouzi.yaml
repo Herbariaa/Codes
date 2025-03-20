@@ -1,0 +1,81 @@
+---
+pass:
+  - 
+    condition:
+      shizorhetong: 
+        =: 合同文件用印申请
+      hetonglx:
+        !=: 人事
+    func:
+      add_entity:
+        model: contract_management
+        data:
+          hetongmc: hetongmc
+          firm:	firm
+          firm_label: firm_label
+          hetongbh:	hetongbh
+          firm_eng:	firm_eng
+          firm_eng_label:	firm_eng_label
+          jingbbm:	jingbbm
+          jingbbm_label:	jingbbm_label
+          jingbr:	jingbr
+          contract_type:	contract_type
+          contract_type_label:	contract_type_label
+          hetongbdy:	hetongbdy
+          biz:	biz
+          biz_label:	biz_label
+          dinglirq:	dinglirq
+          effective_date:	effective_date
+          htdte:	htdte
+          wofangqy:	wofangqy
+          wofangqy_label:	wofangqy_label
+          duifangqy:	duifangqy
+          qiansmd:	qiansmd
+          remark01:	remark01
+  - 
+    condition:
+      shizorhetong: 
+        =: 合同文件用印申请
+      hetonglx:
+        =: 人事
+    func:
+      add_entity:
+        model: hr_contract_management
+        data:
+          hetongmc: hetongmc
+          firm:	firm
+          firm_label:	firm_label
+          hetongbh:	hetongbh
+          firm_eng:	firm_eng
+          firm_eng_label:	firm_eng_label
+          jingbbm:	jingbbm
+          jingbbm_label:	jingbbm_label
+          jingbr:	jingbr
+          contract_type:	contract_type
+          contract_type_label:	contract_type_label
+          hetongbdy:	hetongbdy
+          biz:	biz
+          biz_label:	biz_label
+          dinglirq:	dinglirq
+          effective_date:	effective_date
+          htdte:	htdte
+          wofangqy:	wofangqy
+          wofangqy_label:	wofangqy_label
+          duifangqy:	duifangqy
+          qiansmd:	qiansmd
+          remark01:	remark01
+
+
+
+
+
+
+          xiangglc:	xiangglc
+          state:	state
+          state_label:	state_label
+          state_pull:	state_pull
+          state_pull_label:	state_pull_label
+          repeat_other:	repeat_other
+          time_mark: time_mark
+          ho7ku4j80s:	ho7ku4j80s
+          file_location:	file_location

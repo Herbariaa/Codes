@@ -1,0 +1,46 @@
+---
+- '{hn14s4zhai}={hn14s4zhai01}+{hn14s4zhai2}+{hn14s4zhai3}+{hn14s4zhai4}+{hn14s4zhai5}'
+- '{hn14tani70}={hn14tani701}+{hn14tani702}+{hn14tani703}+{hn14tani704}+{hn14tani705}'
+- '{hn14tl125i}={hn14tl125i1}+{hn14tl125i2}+{hn14tl125i3}+{hn14tl125i4}+{hn14tl125i5}'
+- '{hn14ttwdc8}={hn14ttwdc81}+{hn14ttwdc82}+{hn14ttwdc83}+{hn14ttwdc84}+{hn14ttwdc85}'
+- '{hn14u3iscz}={hn14u3iscz1}+{hn14u3iscz2}+{hn14u3iscz3}+{hn14u3iscz4}+{hn14u3iscz5}'
+
+---
+- '{hfkyxbbe4n}={hfkxx575a3}+{hfkyoe5ceo}+{hfkyogij9j}+{hfkyogij9j21}+{hfkyogij9j22}+{hfkyogij9j23}+{hfkyogij9j24}+{hfkyogij9j25}+{hfkyogij9j26}+{hfkyogij9j27}+{hfkyogij9j28}+{hfkyogij9j29}'
+- '{hfkz5a74i6}={hfkz51y8pt}+{hfkz548ahx}'
+- '{hfl0hlhuxn}={hfkzty9r40}+{hfkzuuoumd}'
+- '{hfl0nrli69}={hfl0moqlm1}+{hfl0n53ovi}+{hfl0nhvnvr}+{hfl0nhvnvr21}+{hfl0nhvnvr22}+{hfl0nhvnvr23}'
+- '{hfl0pim0lh}={hfl0oey97t}+{hfl0ownbft}+{hfl0p91mm5}'
+- '{hfl0secm1m}={hfl0pl3cyr}+{hfl0pmzr1r}+{hfl0rtp9yk}'
+- '{hfl0secm1m11}={hfl0pl3cyr11}+{hfl0pmzr1r11}+{hfl0rtp9yk11}'
+- '{hfl173gobo}={hfkyxbbe4n}+{hfkz5a74i6}+{hfl0hlhuxn}+{hfl0nrli69}+{hfl0pim0lh}+{hfl0secm1m}+{hfl0secm1m11}'
+- '{fx0n4fjlso}={hfkyxbbe4n}'
+- '{fx0n4h2224}={hfkz5a74i6}'
+- '{fx0n8ljbwy}={hfl0hlhuxn}'
+- '{fx0na3xnes}={hfl0nrli69}'
+- '{fx0nh06q7j}={hfl0pim0lh}'
+- '{fx0nj7xzqr}={hfl0secm1m}'
+- '{hfm8j87adg}={hfl0secm1m11}'
+
+
+---
+- '{hfkyxbbe4n}={hfkyogij9j}+{hfkyoe5ceo}+{hfkxx575a3}'
+- '{hfkz5a74i6}={hfkz51y8pt}+{hfkz548ahx}+{hfkz56dyri}+{hfkzgpqwz6}'
+- '{hfl0hlhuxn}={hfkzty9r40}+{hfkzuuoumd}+{hfkzvf11bh}+{hfkzwtktk3}'
+- '{hfl0nrli69}={hfl0moqlm1}+{hfl0n53ovi}+{hfl0nhvnvr}'
+- '{hfl0pim0lh}={hfl0oey97t}+{hfl0ownbft}+{hfl0p91mm5}+{hfl0pf3cmo}+{hfl0pgz29d}'
+- '{hfl0secm1m}={hfl0pl3cyr}+{hfl0pmzr1r}+{hfl0rtp9yk}'
+- '{hfl173gobo}={hfl0secm1m}+{hfl0pim0lh}+{hfl0nrli69}+{hfl0hlhuxn}+{hfkz5a74i6}+{hfkyxbbe4n}+{hfl16mtm4c}'
+- '{hflslokq4v}={hfkyxbbe4n}'
+- '{hflslp7nkz}={hfkz5a74i6}'
+- '{hflslpqhcd}={hfl0hlhuxn}'
+- '{hflslq8xfu}={hfl0nrli69}'
+- '{hflslqspn8}={hfl0pim0lh}'
+- '{hflsmht2is}={hfl0secm1m}'
+- '{hfmb6s48s3}={hfl16mtm4c}'
+- '{hfmzvi6hx7}={hfl173gobo}'
+
+
+
+---
+- '{total_score} = ({market_tec_score}*{weight1}+{team_score}*{weight2}+{investment_score}*{weight3}+{team_create_score}*{weight4}+{valuation_rationality_score}*{weight5}+{exit_determinacy_score}*{weight6})/100'

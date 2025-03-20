@@ -1,0 +1,3443 @@
+---
+diycol_pc:
+diycol_iphone:
+bi_counting:
+bi_condition:
+bi_filter:
+enable_privilege: 1
+openlink: 1
+export_unit: 1
+list_export_config: 1
+name_rule:
+monitor_condition:
+monitor_update:
+autosave: 1
+stash_ban_verify: 1
+title_field: '[title]'
+stepbar: [ ]
+dynform: [ ]
+collect: [ ]
+calc: [ ]
+css: |
+  .html{
+      margin: -10px 0 0px !important;
+      padding-left: 0% !important;
+  }
+js: |
+  $(function(){
+        var s7_manager_confirm=$("td[kid=s7_manager_confirm]").text();
+        var s7_risk_manager_confirm=$("td[kid=s7_risk_manager_confirm]").text();
+        if(s7_manager_confirm=='是'&&s7_risk_manager_confirm=='是'){
+  
+            $("button[action='snapshot']").show();
+        }else{
+            $("button[action='snapshot']").hide();
+        }
+  
+      });
+      $(function(){
+          if(seg1=="open"){
+              $("#_post_filling_state").val("待填报");
+          }
+      });
+  
+      $(function(){
+  
+        $(".pepm-action-btns button:first").on("click",function(e){
+  
+          var fund_inv = parseFloat($("#fund_inv").val().replace(/,|\s/g,''));
+  
+          var stock_balance = parseFloat($("#stock_balance").val().replace(/,|\s/g,''));
+  
+          var debt_balance = parseFloat($("#debt_balance").val().replace(/,|\s/g,''));
+          console.log(fund_inv,stock_balance+debt_balance);
+          if(fund_inv!=(stock_balance+debt_balance).toFixed(2)){
+  
+            layer.msg("项目投资总额（出资口径）不等于项目股权投资总额（出资口径）加项目债权投资总额（出资口径）。");
+  
+            return false;
+  
+          }
+  
+        });
+  
+      });
+  
+      $(function(){
+  
+        $(".pepm-action-btns button:first").on("click",function(e){
+  
+          var fund_dis_money = parseFloat($("#fund_dis_money").val().replace(/,|\s/g,''));
+  
+          var fund_dis_cost = parseFloat($("#fund_dis_cost").val().replace(/,|\s/g,''));
+  
+          var fund_cal3 = parseFloat($("#fund_cal3").val().replace(/,|\s/g,''));
+          console.log(fund_dis_money,(fund_dis_cost+fund_cal3));
+          if(fund_dis_money!=((fund_dis_cost+fund_cal3).toFixed(2))){
+  
+            layer.msg("项目累计分配金额不等于项目累计分配成本加项目累计分配收益。");
+  
+            return false;
+  
+          }
+  
+        });
+  
+      });
+  
+      $(function(){
+        $("#start_inv_date").change(function(){
+         var date_on=new Date($(this).val());
+            var year = date_on.getFullYear();
+            $("#inv_year").val(year);
+        });
+      });
+script:
+  add:
+    - 'kcjj:post_filling_cal|{eid}'
+    - 'kcjj:fund_cal|{eid}'
+    - 'kcjj:system_fund_subcompany|{eid}'
+  update:
+    - 'kcjj:post_filling_cal|{eid}'
+    - 'kcjj:fund_cal|{eid}'
+    - 'kcjj:system_fund_subcompany|{eid}'
+ext:
+  dashboard:
+    block:
+      b:
+        type: ajax
+        class: block3
+        url: >
+          kcjj_percentage/render_jidu_dashboard_table/jidu
+        hidden-title: true
+        icon: android-funnel
+  btp:
+    button:
+      docx:
+        title: Download Docx
+        is_hidden: true
+        mobile_hidden: true
+      pdf:
+        title: Download PDF
+        is_hidden: true
+        mobile_hidden: true
+      edit:
+        title: 修改
+        is_hidden: false
+      history:
+        title: 历史
+        is_hidden: false
+        mobile_hidden: true
+      submit:
+        title: 提交
+        is_hidden: false
+        mobile_hidden: true
+      cache:
+        title: 暂存
+        is_hidden: false
+        mobile_hidden: true
+      reset:
+        title: 重置
+        is_hidden: true
+        mobile_hidden: true
+      snapshot:
+        title: 生成快照
+        type: post_filling
+        is_hidden: true
+        mobile_hidden: true
+  sendpm_pre_info:
+    mod: post_filling
+    view: postfilling
+    item:
+      - post_update_date
+      - gize8x8b21
+      - _pm_type
+      - _pm_extra
+  param_setting:
+    state: _post_filling_state
+  reset_map:
+    _post_filling_state: 未发送
+    s7_risk_manager_confirm: 否
+    s7_risk_manager_confirm_label: 否
+    s7_manager_confirm: 否
+    s7_manager_confirm_label: 否
+    jibao_kuaizhao: 否
+    jibao_kuaizhao_label: 否
+    risk_manager_modify: 否
+    risk_manager_modify_label: 否
+    manager_modify: 否
+    manager_modify_label: 否
+    jibao_caiwu_confirm: 否
+    jibao_caiwu_confirm_label: 否
+    jibao_caiwu_modify: 否
+    jibao_caiwu_modify_label: 否
+    manager_total:
+    manager_note:
+    manager_opinion:
+    risk_manager_total:
+    risk_manager_note:
+    jibao_kuaizhao_opinion:
+    jibao_caiwu_total:
+    jibao_caiwu_note:
+    jibao_caiwu_opinion:
+    report:
+    report1:
+    report2:
+    report3:
+    g4gt13ycd6:
+  sendpm_leader:
+    - fl4ylmxhni
+sms_template: [ ]
+openlink_user: 1
+openlink_state: 1
+openlink_title: '上海临芯项目【{name} {post_update_date} {_pm_type_label}】填报链接 （填报截止时间【{gize8x8b21}】）'
+openlink_button:
+email_notify:
+  - s7_manager
+  - s7_risk_manager
+email_notify_tem: '{title}  已填写完毕，请尽快查看。'
+openlink_content:
+pre_commit_content:
+tab_listen_key:
+tab_listen_rule: [ ]
+def_submit_btn_text:
+submit_redirect: 0
+submit_redirect_url:
+word_export:
+  word_custom_func:
+  word_export_name:
+  word_file:
+    - [ ]
+  word_file_label:
+    - [ ]
+api_address:
+api_list_key:
+api_request_key:
+api_response_key:
+api_display: match
+comment:
+  target: _self
+  choose: 1
+  doctype:
+  up_folder:
+  root_uid:
+  eid_link:
+  formats:
+  position: 1
+  attached_mod:
+  comment_title_tpl:
+  field_newest:
+  field_count:
+modbox:
+  position: 1
+  ext: [ ]
+notify_default:
+notify:
+  url_template:
+inherit_priv:
+privilege:
+  list: >
+    usr_create,pepmAdmin,g1vifqrdfx,gbuz0thf9e,gnxkc5gjlb,gnxkeuum2d,gt5or01j1t,s7_manager,s7_risk_manager,team_teams,team_rmm,team_owner
+  import:
+  export:
+  detail: >
+    usr_create,pepmAdmin,g1vifqrdfx,gbuz0thf9e,gnxkc5gjlb,gnxkeuum2d,gt5or01j1t,s7_manager,s7_risk_manager,team_owner,team_rmm,team_teams
+  edit: >
+    usr_create,pepmAdmin,g1vifqrdfx,gnxkeuum2d,gt5or01j1t,s7_risk_manager,s7_manager
+  delete: g1vifqrdfx,pepmAdmin
+  docx:
+  pdf:
+  history:
+  openlink:
+  block_view_blank_1:
+  block_edit_blank_1:
+  block_view_post_filling:
+  block_edit_post_filling:
+  block_view_basic_info:
+  block_edit_basic_info:
+  block_view_gn147ouxdr:
+  block_edit_gn147ouxdr:
+  block_view_s7_duetime:
+  block_edit_s7_duetime:
+  block_view_records:
+  block_edit_records:
+  block_view_deal_report:
+  block_edit_deal_report:
+  block_view_statistical_data:
+  block_edit_statistical_data:
+  block_view_subcompanys:
+  block_edit_subcompanys:
+  block_view_subcompany:
+  block_edit_subcompany:
+  block_view_ggezq4744o:
+  block_edit_ggezq4744o:
+  block_view_gng8l8jvaq:
+  block_edit_gng8l8jvaq:
+  block_view_gu98rwzvi7:
+  block_edit_gu98rwzvi7:
+diycol: 1
+diycol_back_list:
+list_count_block_fields:
+order_priority:
+page_size:
+fixed_col:
+fixed_col_mobile:
+addon_url:
+list_style: list_ajax
+link_type: canvas
+list_count: top
+list_style_mobile: list_mobile
+py_search: no_more
+secondary_link_type: modal
+list_mobile_mod: default
+diycard_config: [ ]
+button_config: [ ]
+feed_tpl:
+feed_mobile_tpl:
+feed_tpl_css:
+feed_tpl_js:
+css_config:
+js_config: |
+  $(function(){
+      $('.content-main').on('click', '.layui-btn', function(e) {
+        e.preventDefault();
+        var script = $(this).attr('onclick');
+        if(script == undefined) return;//此判断避免报错
+        var index = script.indexOf('?');
+        var post = script.substring(index, script.length - 2);
+        var is_preview_jibao = script.indexOf('/preview_jibao') > 0 ? true : false;
+  
+        var data = $(this).closest('form').serialize();
+        var param_count = data.split('sid').length - 1;
+  
+        if(is_preview_jibao){
+          var jijin = '项目';
+          var type = '季报';
+          $.ajax({
+            type:'post',
+            url:'?/service/vendor_bridge/gj8enwwgz4/kcjj/chose_template',
+            data:{sid:websid,type:jijin},
+            success:function(data){
+              var chose = layer.open({
+                type: 1,
+                title:'请填选通知人员和模板',
+                area:'800px',
+                shade: [0.1, '#393D49'],
+                shadeClose: true,
+                skin: 'yourclass',
+                btn: ['确认', '取消'],
+                content: '<form id="sendpm_pre_info_inner" class="layui-form" @submit="submit" onsubmit="return false">'+data.data+'<button  hidden id="sendpm_pre_info_inner_submit" lay-submit type="submit"></button></form>',
+                success:function(layero,index){
+                  layui.form.render();
+                  layui.element.init();
+                },
+                yes:function(index, layero){
+                  var users = $("#users").val();
+                  var cc_users = $("#cc_users").val();
+                  var queren_template = $("#queren_template").val();
+                  if(users==''){
+                    layer.msg('请选择人员');
+                    return false;
+                  }
+                  var show_pad = layer.load(2);
+                  $.ajax({
+                    type:'post',
+                    url:'?/service/vendor_bridge/gj8enwwgz4/kcjj/preview_kuaibao',
+                    data:{sid:websid,type:type,queren_template:queren_template},
+                    success:function(data){
+                      layer.close(chose);
+                      layer.close(show_pad);
+                      var preview = layer.open({
+                        type: 1,
+                        title:false,
+                        area:'650px',
+                        shade: [0.1, '#393D49'],
+                        closeBtn:0,
+                        shadeClose: true,
+                        skin: 'yourclass',
+                        btn: ['发送邮件', '取消'],
+                        content:data.data,
+                        yes:function(index, layero){
+                          layer.msg('邮件创建中', {
+                            icon: 16,
+                            shade: 0.01,
+                            time:false
+                          });
+  
+                          $.ajax({
+                            type:'post',
+                            url:'?/service/vendor_bridge/gj8enwwgz4/kcjj/preview_send',
+                            data:{users:users,type:type,queren_template:queren_template,extra_data:data.extra_data,cc_users:cc_users},
+                            success:function(data){
+                              layer.close(preview);
+                              layer.msg('邮件创建成功');
+                            }
+                          });
+                          return false;
+                        },
+                        btn2:function(index){
+                          layer.closeAll();
+                        }
+                      });
+                    },
+                  });
+  
+                  return false;
+                },
+                btn2:function(index){
+                  layer.closeAll();
+                },
+              });
+            }
+          });
+        }
+      });
+    });
+merged_cell_key:
+merged_cell_list:
+merge_exclude_code:
+list_img_name:
+list_img_img:
+list_img_date:
+list_img_content:
+super_object:
+replace_comment_update_col:
+replace_comment_max_col:
+replace_comment_notify: 1
+created_sth:
+filter: >
+  member,_post_filling_state,s7_manager_confirm,s7_risk_manager_confirm
+always_show:
+filter_mobile:
+item:
+  blank_1:
+    id: blank_1
+    name: 空一行
+    type: br
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  post_filling:
+    id: post_filling
+    name: 尽职调查问卷
+    type: html
+    width: 3
+    default_value: '<p style="font-size:30px; color: #000;"  class="align-center">项目投后填报清单</p >'
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    val_width: def
+    list_align: def
+  basic_info:
+    id: basic_info
+    name: 基本信息
+    type: section
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    val_width: def
+  code:
+    id: code
+    listed: asc
+    name: 序号
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    readonly: 1
+  title:
+    id: title
+    listed: 1
+    name: 标题
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+    props:
+      id:
+      length: 3
+      reset_by_label:
+      reset_by:
+      tpl:
+      backend: 否
+  fund_gp:
+    id: fund_gp
+    name: 管理公司品牌
+    type: hidden
+    width: 1
+    props:
+      type_label: 模块
+      type: mod
+      data_source: 'mod: fund_gp'
+      payload: fund_gp
+      multiple: 否
+      ajax: 否
+      tags: 是
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      data_source_name: 否
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      dynamic:
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    index: 1
+    val_width: def
+    readonly: 1
+  post_update_date:
+    id: post_update_date
+    listed: 1
+    name: '<p><span class="ion-ios-medical required-input" style="color:blue" ></span>填报季度</p>'
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_label: 配置项
+      type: yaml
+      data_source: update_date
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_rules: 否
+      rel_sort_custon:
+    dsort: |
+      2018 Q1: 2018 Q1
+      2018 Q2: 2018 Q2
+      2018 Q3: 2018 Q3
+      2018 Q4: 2018 Q4
+      2019 Q1: 2019 Q1
+      2019 Q2: 2019 Q2
+      2019 Q3: 2019 Q3
+      2019 Q4: 2019 Q4
+      2020 Q1: 2020 Q1
+      2020 Q2: 2020 Q2
+      2020 Q3: 2020 Q3
+      2020 Q4: 2020 Q4
+      2021 Q1: 2021 Q1
+      2021 Q2: 2021 Q2
+      2021 Q3: 2021 Q3
+      2021 Q4: 2021 Q4
+    readonly: 1
+  gize8x8b21:
+    id: gize8x8b21
+    name: 截止时间
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    list_align: def
+  _pm_type:
+    id: _pm_type
+    name: 填报类型
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_label: 录入
+      type: raw
+      data_source: |
+        季报:季报
+        半年报:半年报
+        年度报告:年度报告
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 1
+    default_value: 季报
+    readonly: 1
+    list_align: def
+  _post_filling_state:
+    id: _post_filling_state
+    name: 填报状态
+    listed: 1
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    val_width: def
+    list_align: def
+  _pm_extra:
+    id: _pm_extra
+    name: 填报说明
+    type: muti
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  member:
+    id: member
+    name: 对方联系人
+    type: text
+    width: 1
+    props:
+      type_label:
+      type:
+      data_source:
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label:
+      ellipsis:
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    val_width: def
+    listed: 1
+    required: 1
+  member_phone:
+    id: member_phone
+    listed: 1
+    name: 联系人电话
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    required: 1
+  _pm_inputer:
+    id: _pm_inputer
+    listed: 1
+    name: 联系人邮箱
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    required: 1
+  s7_manager:
+    id: s7_manager
+    name: 投后项目经理
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_label: 用户
+      type: usr
+      multiple: 否
+      data_source:
+      payload:
+      ajax: 否
+      tags: 否
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      select_all: 否
+      check_priv: 否
+      import_autoadd: 否
+      import_rule:
+    listed: 1
+  s7_risk_manager:
+    id: s7_risk_manager
+    name: 投后风控经理
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_label: 用户
+      type: usr
+      multiple: 是
+      data_source:
+      payload:
+      ajax: 否
+      tags: 否
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      select_all: 否
+      check_priv: 否
+      import_autoadd: 否
+      import_rule:
+    listed: 1
+  caiwu:
+    id: caiwu
+    name: 财务经理
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_optgroup:
+      type_label: 用户
+      type: usr
+      data_source:
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 1
+  gmjutedr46:
+    id: gmjutedr46
+    listed: 1
+    name: 更新时间
+    type: systemdatetime
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+  fr2yxky7ld:
+    id: fr2yxky7ld
+    name: 确认状态
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    ext:
+      已确认: 已确认
+      未确认: 未确认
+    val_width: def
+    props:
+      type_label: 录入
+      type: raw
+      data_source: |
+        已确认: 已确认
+        未确认: 未确认
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+  remark:
+    id: remark
+    name: '<p><span class="ion-ios-medical required-input" style="color:blue" ></span>  报告简述</p>'
+    type: hidden
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  gn147ouxdr:
+    id: gn147ouxdr
+    name: 说明
+    type: html
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      tpl: '<p><span style="color: #FF0000;"><strong style="white-space: normal;"><span style="font-size: 20px;">  <span style="font-size: 20px;"></span>注意：以上附件仅上传本季度文件</span></strong></span><strong style="white-space: normal;"><span style="font-size: 20px; color: #7F7F7F;"></span><br/></strong></p>'
+    width: 3
+    default_value: ' <div class="pepm-content">   <div id="form">      <p style="text-indent:7em;color:black"><span class="ion-ios-medical required-input" style="color:red" ></span>Tips：下述项目运营管理报告、临芯项目资本账户表、项目财务报表、审批报告、托管报告仅需上传本季度报告。</p>   </div> </div>'
+  report:
+    id: report
+    name: 项目运营管理报告
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fund
+      show_path: 否
+      choose: 否
+      up_folder: doc9
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_list
+      del_list_label:
+      flow_pre_upload: 否
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+    required: 1
+  report1:
+    id: report1
+    name: 临芯项目资本账户表
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fund
+      show_path: 否
+      choose: 否
+      up_folder: doc9
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_list
+      del_list_label:
+      flow_pre_upload: 否
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+    list_align: def
+  report2:
+    id: report2
+    name: 项目财务报表
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fund
+      show_path: 否
+      choose: 否
+      up_folder: doc9
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_list
+      del_list_label:
+      flow_pre_upload: 否
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+    list_align: def
+  report3:
+    id: report3
+    name: 审计报告、托管报告
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fund
+      show_path: 否
+      choose: 否
+      up_folder: doc9
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_list
+      del_list_label:
+      flow_pre_upload: 否
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+    list_align: def
+  s7_duetime:
+    id: s7_duetime
+    name: 项目期限
+    type: section
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  fund_register_date:
+    id: fund_register_date
+    name: 项目工商注册日期
+    type: datepicker
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    required: 1
+  start_inv_date:
+    id: start_inv_date
+    name: 投资期起始日
+    type: datepicker
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    required: 1
+  inv_year:
+    id: inv_year
+    name: 投资期起始年份
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+    list_align: def
+  management_date:
+    id: management_date
+    name: 管理退出期开始日
+    type: datepicker
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    required: 1
+    list_align: def
+  investment_period:
+    id: investment_period
+    name: 投资期
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      unit: 年
+    props:
+      decimals: 2
+      t_divide: 是
+      padding: 否
+      currency_symbol: 否
+      right_align_optgroup:
+      right_align_label:
+      right_align:
+    width: 1
+    required: 1
+  exit_period:
+    id: exit_period
+    name: 退出期
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      unit: 年
+    width: 1
+    required: 1
+  extended_period:
+    id: extended_period
+    name: 延长期
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      unit: 年
+    width: 1
+    required: 1
+  s7_state:
+    id: s7_state
+    name: 项目所属阶段
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_label: 录入
+      type: raw
+      multiple: 否
+      data_source: |
+        投资期:投资期
+        退出期:退出期
+        投资延长期:投资延长期
+        退出延长期:退出延长期
+        清算:清算
+      payload:
+      ajax: 否
+      tags: 否
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      select_all: 否
+      check_priv: 否
+      import_autoadd: 否
+      import_rule:
+    required: 1
+  s7_closed:
+    id: s7_closed
+    name: 是否最终关闭
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_label: 录入
+      type: raw
+      multiple: 否
+      data_source: |
+        是:是
+        否:否
+      payload:
+      ajax: 否
+      tags: 否
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      select_all: 否
+      check_priv: 否
+      import_autoadd: 否
+      import_rule:
+    required: 1
+  years:
+    id: years
+    name: 投资期起始第几年
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    readonly: 1
+    list_align: def
+  years1:
+    id: years1
+    name: 投资期起始第几年
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+    list_align: def
+  delay_type:
+    id: delay_type
+    name: 延期方式
+    type: muti
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    required: 1
+  records:
+    id: records
+    name: 备案情况
+    type: section
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  record_code:
+    id: record_code
+    name: 项目备案编号
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    required: 1
+  record_date:
+    id: record_date
+    name: 项目备案最新更新日期
+    type: datepicker
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  vc:
+    id: vc
+    name: 是否备案为创业投资企业
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_label: 录入
+      type: raw
+      multiple: 否
+      data_source: |
+        是:是
+        否:否
+      payload:
+      ajax: 否
+      tags: 否
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      select_all: 否
+      check_priv: 否
+      import_autoadd: 否
+      import_rule:
+  record_summary:
+    id: record_summary
+    name: 项目备案最新变更说明
+    type: muti
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  g4gt13ycd6:
+    id: g4gt13ycd6
+    name: 项目备案最新变更说明
+    type: upload
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 3
+    props:
+      target: _self
+      target_label:
+      doc_type: fund
+      show_path: 否
+      choose: 否
+      up_folder: doc9
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      eid_link:
+      formats:
+      checklist:
+      del_list: del_list
+      del_list_label:
+      flow_pre_upload: 否
+  gp_code:
+    id: gp_code
+    name: 管理人登记编号
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    required: 1
+  gp_date:
+    id: gp_date
+    name: 管理人登记日期
+    type: datepicker
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  special_tips:
+    id: special_tips
+    name: 项目协会特别提示
+    type: muti
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  g4guc6vncb:
+    id: g4guc6vncb
+    name: 管理机构法人代表
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    required: 1
+  g4gucaom1n:
+    id: g4gucaom1n
+    name: 管理机构总经理
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    required: 1
+  g4gucc26fo:
+    id: g4gucc26fo
+    name: 管理机构风控负责人
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    required: 1
+  deal_report:
+    id: deal_report
+    name: 项目投资情况
+    type: section
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  fund_intention_size_gp:
+    id: fund_intention_size_gp
+    name: 项目认缴总额
+    type: wan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    required: 1
+  fund_intention_size:
+    id: fund_intention_size
+    name: 项目认缴金额
+    type: yuan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+  fund_inv_size:
+    id: fund_inv_size
+    name: 项目实缴总额
+    type: yuan
+    width: 1
+    counter: sum
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    val_width: def
+    required: 1
+    list_align: def
+  ratio_actual:
+    id: ratio_actual
+    name: 投资金额/实缴金额
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+    props:
+      decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+  ratio_sub:
+    id: ratio_sub
+    name: 投资金额/认缴金额
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+    props:
+      decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+    list_align: def
+  fund_inv:
+    id: fund_inv
+    name: 项目投资总额（出资口径）
+    type: yuan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+    required: 1
+    counter: sum
+  stock_balance:
+    id: stock_balance
+    name: >
+      项目股权投资总额（出资口径）
+    type: yuan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+  debt_balance:
+    id: debt_balance
+    name: >
+      项目债权投资总额（出资口径）
+    type: yuan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+  portfolio_count:
+    id: portfolio_count
+    name: 投资项目个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      decimals: 0
+      t_divide: 是
+      padding: 否
+      currency_symbol: 否
+    readonly: 1
+  deal_count:
+    id: deal_count
+    name: 项目投资项次
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      decimals: 0
+      t_divide: 是
+      padding: 否
+    readonly: 1
+  deal_value:
+    id: deal_value
+    name: 在投项目公允价值
+    type: yuan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+  total_value:
+    id: total_value
+    name: 项目累计公允价值
+    type: yuan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+    counter: sum
+  fund_dis_money:
+    id: fund_dis_money
+    name: 项目已分配金额(GP、LP合计）
+    type: yuan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    required: 1
+    list_align: def
+  fund_dis_cost:
+    id: fund_dis_cost
+    name: 项目已分配成本
+    type: yuan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    required: 1
+  fund_cal3:
+    id: fund_cal3
+    name: 项目已分配收益
+    type: yuan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    required: 1
+  fund_cal4:
+    id: fund_cal4
+    name: >
+      项目本期新增分配金额（GP、LP合计）
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  statistical_data:
+    id: statistical_data
+    name: 项目统计数据
+    type: section
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  net_assets:
+    id: net_assets
+    name: >
+      归属于合伙人的项目净资产(财务报表)
+    type: yuan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    required: 1
+  sig_net_ca_value:
+    id: sig_net_ca_value
+    name: 临芯资本账户净值
+    type: yuan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    required: 1
+  s7_tvpi:
+    id: s7_tvpi
+    name: TVPI
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+    props:
+      decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+  s7_rvpi:
+    id: s7_rvpi
+    name: RVPI
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+    props:
+      decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+  s7_moc:
+    id: s7_moc
+    name: MOC
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+    props:
+      decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+  s7_grossirr:
+    id: s7_grossirr
+    name: Gross IRR
+    type: percent
+    width: 1
+    num_range:
+      range: nonzero_number
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    tips: 项目IRR
+    props:
+      decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+    required: 1
+  s7_netirr:
+    id: s7_netirr
+    name: 项目Net IRR
+    type: percent
+    width: 1
+    num_range:
+      range: nonzero_number
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+    required: 1
+  s7_exitirr:
+    id: s7_exitirr
+    name: 已退项目IRR
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+    required: 1
+  s7_dpi:
+    id: s7_dpi
+    name: DPI
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+    props:
+      decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+  full_value:
+    id: full_value
+    name: 项目全值
+    type: yuan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+    props:
+      decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+  loan_ratio:
+    id: loan_ratio
+    name: 债权比例
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+    props:
+      decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+  ipo_number:
+    id: ipo_number
+    name: 已上市数量
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      decimals: 0
+      t_divide: 是
+      padding: 否
+      currency_symbol: 否
+    readonly: 1
+  pre_number:
+    id: pre_number
+    name: 已过会数量
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    readonly: 1
+  reported_number:
+    id: reported_number
+    name: 已报会数量
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      decimals: 0
+      t_divide: 是
+      padding: 否
+    readonly: 1
+  star_number:
+    id: star_number
+    name: 临芯板上市数量
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      decimals: 0
+      t_divide: 是
+      padding: 否
+    readonly: 1
+  subsequent_number:
+    id: subsequent_number
+    name: 后续轮融资数量
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      decimals: 0
+      t_divide: 是
+      padding: 否
+    tips: >
+      自项目成立至今，获得后续轮融资的项目数量
+    readonly: 1
+  fund_fins:
+    id: fund_fins
+    name: 项目财务
+    type: hidden
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+  actual_paid:
+    id: actual_paid
+    name: 项目实缴金额
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  audit:
+    id: audit
+    name: 账户净值是否经审计
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_label: 配置项
+      type: yaml
+      data_source: yesorno
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis:
+      ellipsis_label:
+  man_rate:
+    id: man_rate
+    name: 当期管理费率
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  man_expense:
+    id: man_expense
+    name: 当期管理费
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  total_man_expense:
+    id: total_man_expense
+    name: 累计管理费
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  operating_expenses:
+    id: operating_expenses
+    name: 当期项目运营费
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  total_oper_expenses:
+    id: total_oper_expenses
+    name: 累计运营费
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  raise_expenses:
+    id: raise_expenses
+    name: 募集费用
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  carry:
+    id: carry
+    name: 当期Carry
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  total_carry:
+    id: total_carry
+    name: 累计Carry
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  sig_fin:
+    id: sig_fin
+    name: 临芯财务
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  sig_book_cost:
+    id: sig_book_cost
+    name: 临芯账面项目成本
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  ca_value_audit:
+    id: ca_value_audit
+    name: 账户净值是否经审计
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_label: 配置项
+      type: yaml
+      data_source: yesorno
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis:
+      ellipsis_label:
+  holding_value:
+    id: holding_value
+    name: 临芯持有份额全值
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+  subcompanys:
+    id: subcompanys
+    name: 项目信息
+    type: section
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  subcompany:
+    id: subcompany
+    name: 项目信息
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: subcompany
+      filter:
+        fund: eid
+    props:
+      rel_del_ignore: 否
+      page_size: 0
+      layout_label: 列表(new)
+      layout: data_list_easy
+      layout_mobile_label:
+      layout_mobile:
+      rel_display:
+      rel_display_max: 0
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      editlist: 否
+  sig_deal:
+    id: sig_deal
+    name: 累计出资
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    val_width: def
+  fund_ratio:
+    id: fund_ratio
+    name: 项目实缴金额/认缴金额
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    val_width: def
+    readonly: 1
+  surplus_size:
+    id: surplus_size
+    name: 项目尚未出资金额
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+  fund_kc_size:
+    id: fund_kc_size
+    name: 临芯认缴金额
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+  sig_inv_money:
+    id: sig_inv_money
+    name: 临芯累计实缴金额
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+  sig_todo_size:
+    id: sig_todo_size
+    name: 临芯尚未出资金额
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+  sig_act_ratio:
+    id: sig_act_ratio
+    name: 临芯实缴比例
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+  intention_inv:
+    id: intention_inv
+    name: 本项目认缴金额占比
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  sig_distributions:
+    id: sig_distributions
+    name: 累计分配
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  fund_cal6:
+    id: fund_cal6
+    name: 项目最新回收率
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+  sig_dis_money:
+    id: sig_dis_money
+    name: 临芯累计分配金额
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+    required: 1
+  sig_dis_cost:
+    id: sig_dis_cost
+    name: 临芯累计分配成本
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+  sig_cal4:
+    id: sig_cal4
+    name: 临芯累计分配收益
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+  sig_cal3:
+    id: sig_cal3
+    name: 临芯最新回收率
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+  team_manager:
+    id: team_manager
+    name: 分管领导
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 0
+    index: 1
+    ext:
+      system: user
+    props:
+      type_label: 用户
+      type: usr
+      data_source:
+      payload:
+      multiple: 否
+      ajax: 是
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+    val_width: -1
+  team_owner:
+    id: team_owner
+    name: 项目小组负责人
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 0
+    index: 1
+    ext:
+      system: user
+    props:
+      type_label: 用户
+      type: usr
+      multiple: 否
+      data_source:
+      payload:
+      ajax: 否
+      tags: 否
+      ellipsis:
+      ellipsis_label:
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      select_all: 否
+      check_priv: 否
+      import_autoadd: 否
+      import_rule:
+    val_width: -1
+  team_teams:
+    id: team_teams
+    name: 项目小组成员
+    type: select_new
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 0
+    index: 1
+    ext:
+      system: user
+    props:
+      type_label: 用户
+      type: usr
+      multiple: 是
+      data_source:
+      payload:
+      ajax: 否
+      tags: 否
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      select_all: 否
+      check_priv: 否
+    val_width: -1
+  team_rmm:
+    id: team_rmm
+    name: 项目风控人员
+    type: select_new
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 0
+    index: 1
+    ext:
+      system: user
+    props:
+      type_label: 用户
+      type: usr
+      multiple: 是
+      data_source:
+      payload:
+      ajax: 否
+      tags: 否
+      ellipsis_label:
+      ellipsis:
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      select_all: 否
+      check_priv: 否
+      import_autoadd: 否
+      import_rule:
+    val_width: -1
+  ggezq4744o:
+    id: ggezq4744o
+    name: 投后项目经理
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+  s7_manager_confirm:
+    id: s7_manager_confirm
+    name: 投后项目经理确认
+    type: radio
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    default_value: 否
+    ext:
+      是: 是
+      否: 否
+    index: 1
+    listed: 1
+    counter: count
+  manager_modify:
+    id: manager_modify
+    name: 投后项目经理是否有修改
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    default_value: 否
+    props:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是: 是
+        否: 否
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic: |
+        是:
+          -manager_total
+          -manager_note
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  manager_total:
+    id: manager_total
+    name: 共修改几处
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    required: 1
+  manager_note:
+    id: manager_note
+    name: 修改内容说明
+    type: muti
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 3
+    required: 1
+  manager_opinion:
+    id: manager_opinion
+    name: 投后项目经理确认意见
+    type: muti
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gng8l8jvaq:
+    id: gng8l8jvaq
+    name: 投后风控经理
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+  s7_risk_manager_confirm:
+    id: s7_risk_manager_confirm
+    name: 投后风控经理确认
+    type: radio
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_label: 录入
+      type: raw
+      data_source:
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+    default_value: 否
+    ext:
+      是: 是
+      否: 否
+    index: 1
+    listed: 1
+  risk_manager_modify:
+    id: risk_manager_modify
+    name: 投后风控经理是否有修改
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    default_value: 否
+    props:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是: 是
+        否: 否
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic: |
+        是:
+          -risk_manager_total
+          -risk_manager_note
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  risk_manager_total:
+    id: risk_manager_total
+    name: 共修改几处
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    required: 1
+  risk_manager_note:
+    id: risk_manager_note
+    name: 修改内容说明
+    type: muti
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 3
+    required: 1
+  jibao_kuaizhao_opinion:
+    id: jibao_kuaizhao_opinion
+    name: 投后风控经理确认意见
+    type: muti
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gu98rwzvi7:
+    id: gu98rwzvi7
+    name: 财务经理
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+  jibao_caiwu_confirm:
+    id: jibao_caiwu_confirm
+    name: 财务经理确认
+    type: radio
+    default_value: 否
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    index: 1
+    ext:
+      是: 是
+      否: 否
+    width: 1
+  jibao_caiwu_modify:
+    id: jibao_caiwu_modify
+    name: 财务经理是否有修改
+    type: select_new
+    default_value: 否
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是: 是
+        否: 否
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic: |
+        是:
+          -jibao_caiwu_total
+          -jibao_caiwu_note
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis:
+      ellipsis_label:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 1
+  jibao_caiwu_total:
+    id: jibao_caiwu_total
+    name: 共修改几处
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    required: 1
+    width: 1
+  jibao_caiwu_note:
+    id: jibao_caiwu_note
+    name: 修改内容说明
+    type: muti
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    required: 1
+  jibao_caiwu_opinion:
+    id: jibao_caiwu_opinion
+    name: 财务经理确认意见
+    type: muti
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  jibao_kuaizhao:
+    id: jibao_kuaizhao
+    listed: 1
+    name: 是否已生成快照
+    type: radio
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      是: 是
+      否: 否
+    readonly: 1
+  jibao_kuaizhao_date:
+    id: jibao_kuaizhao_date
+    listed: 1
+    name: 快照生成时间
+    type: datetimepicker
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+  fof:
+    id: fof
+    name: 母项目
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source: 'mod: fof'
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 1
+  full_name:
+    id: full_name
+    name: 项目名称
+    type: text
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+  fund_gp_name:
+    id: fund_gp_name
+    name: 项目管理人
+    type: select_new
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    props:
+      type_label: 模块
+      type: mod
+      data_source: 'mod: fund_gp_com'
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_label: 不打开
+      open_type: no_open
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    list_align: def
+  keyman:
+    id: keyman
+    name: 关键人士
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    width: 3
+    list_align: def
+  fund_location:
+    id: fund_location
+    name: 项目注册省
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    props:
+      type_label: 模块
+      type: mod
+      data_source: mod:province
+      payload:
+      multiple: 否
+      ajax: 是
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_label: 不打开
+      open_type: no_open
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    list_align: def
+  fund_city:
+    id: fund_city
+    name: 项目注册市
+    type: select_new
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    index: 1
+    props:
+      type_label: 模块
+      type: mod
+      data_source: |
+        mod:city
+        filter:
+          province:fund_location
+      payload: fund_location
+      multiple: 否
+      ajax: 是
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_label: 不打开
+      open_type: no_open
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    label_width: 0
+    val_width: -1
+    list_width: 120
+    list_align: def
+  strategy:
+    id: strategy
+    name: 项目投资策略
+    type: muti
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    no_htmlspecialchars2: 1
+    props:
+      delimiter:
+      word_wrap: 否
+      list_line_number:
+      markdown_show: 否
+    list_align: def
+  light:
+    id: light
+    name: 项目亮点
+    type: muti
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+  listed_projects:
+    id: listed_projects
+    name: 已上市项目
+    type: select_new
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source: 'mod: subcompany'
+      payload:
+      multiple: 是
+      ajax: 是
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    index: 1
+    list_align: def
+  passed_projects:
+    id: passed_projects
+    name: 已过会项目
+    type: select_new
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source: 'mod: subcompany'
+      payload:
+      multiple: 是
+      ajax: 是
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis:
+      ellipsis_label:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    index: 1
+  accepted_projects:
+    id: accepted_projects
+    name: 已受理项目
+    type: select_new
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source: 'mod: subcompany'
+      payload:
+      multiple: 是
+      ajax: 是
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis:
+      ellipsis_label:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    index: 1
+    list_align: def
+  post_update_date1:
+    id: post_update_date1
+    name: 填报季度
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    props:
+      type_label: 配置项
+      type: yaml
+      data_source: update_date
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_rules: 否
+      rel_sort_custon:
+    dsort: |
+      2018 Q1: 2018 Q1
+      2018 Q2: 2018 Q2
+      2018 Q3: 2018 Q3
+      2018 Q4: 2018 Q4
+      2019 Q1: 2019 Q1
+      2019 Q2: 2019 Q2
+      2019 Q3: 2019 Q3
+      2019 Q4: 2019 Q4
+      2020 Q1: 2020 Q1
+      2020 Q2: 2020 Q2
+      2020 Q3: 2020 Q3
+      2020 Q4: 2020 Q4
+      2021 Q1: 2021 Q1
+      2021 Q2: 2021 Q2
+      2021 Q3: 2021 Q3
+      2021 Q4: 2021 Q4
+    list_align: def
+import: [ ]
+pre_order: [ ]
+bi:
+  counting: [ ]
+  condition: [ ]
+  monitor_condition: [ ]
+  monitor_update: [ ]
+  filter: [ ]

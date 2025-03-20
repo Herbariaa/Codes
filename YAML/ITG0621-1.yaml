@@ -1,0 +1,457 @@
+  fn27x2oe1p:
+    id: fn27x2oe1p
+    name: 专家信息
+    type: section
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    val_width: def
+    list_align: def
+  workrecordno:
+    id: workrecordno
+    name: 专家信息
+    type: sn
+    width: 3
+    props:
+      id: doctor_interview
+      length: 4
+      reset_by_optgroup:
+      reset_by_label: 年
+      reset_by: 年
+      tpl: '{name}-{externalparticipantunits}-{subdivision}'
+      backend: 否
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    index: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+  name:
+    id: name
+    name: 姓名
+    listed: 1
+    required: 1
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    val_width: 2
+    list_align: def
+  photograph:
+    id: photograph
+    name: 照片
+    type: pic
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    height: 1
+  externalparticipantunits:
+    id: externalparticipantunits
+    name: 所属单位
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    required: 1
+    listed: 1
+  location:
+    id: location
+    name: 单位所在地
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        中国: 中国
+        中国香港: 中国香港
+        国外: 国外
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    required: 1
+    width: 2
+    filter: enumerate
+    listed: 1
+  industry:
+    id: industry
+    name: 所属行业
+    type: select_new
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        临床: 临床
+        非临床: 非临床
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    required: 1
+    listed: 1
+  subdivision:
+    id: subdivision
+    name: 细分领域
+    type: select_new
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 配置项
+      type: yaml
+      data_source: subdivision
+      payload: industry
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 是
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    required: 1
+    listed: 1
+  position:
+    id: position
+    name: 职务
+    type: select_new
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 配置项
+      type: yaml
+      data_source: position1
+      payload: industry
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 是
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    required: 1
+  Input_source:
+    id: Input_source
+    name: 录入来源
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        自主寻找: 自主寻找
+        内部推荐: 内部推荐
+        外部机构推荐: 外部机构推荐
+        其他推荐: 其他推荐
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 1
+    required: 1
+  internalparticipants:
+    id: internalparticipants
+    name: 创建人
+    type: operator
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    index: 1
+    val_width: 5
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 人员
+      type: user
+      filter_structure_optgroup:
+      filter_structure:
+      filter_structure_label:
+      filter_role_optgroup:
+      filter_role: >
+        fyzbgbmhsb,g075xg3z7d,h46ht41b1q,h4utfsc7ma,h4uu0t4bhy,h4uuml8ho7,h5ovz83wm6,h5ozvlyotd,h5p039zn7y,h5p0g1y0tx,h5p0gd0vi7,h5ps29ttpm,h5q51nee1w
+      filter_role_label: >
+        总管理员，pepmAdmin，历史流程查看+，HR管理+，固定资产+，项目概况+，开放结果权限+，PE部+，VC部+，子管理员（HR），子管理员（非HR），转化基金部+，综合管理部+
+      radio: 否
+    readonly: 1
+  CV_Experts:
+    id: CV_Experts
+    name: 专家简历
+    type: rte
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    val_width: def
+    list_align: def
+    required: 1
+  file:
+    id: file
+    name: 附件上传
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type:
+      show_path: 否
+      choose: 否
+      up_folder: hqvqomhnv3
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:

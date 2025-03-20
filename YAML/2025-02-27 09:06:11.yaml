@@ -1,0 +1,215 @@
+companyd_gqxmysb_zqy:
+  title: 长期股权投资预算表
+  hidden: true
+  mod: companyd_gqxmysb
+  view: companyd_gqxmysb_zqy
+  children:
+    index:
+      title: 浏览
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 投资预算编制及上报
+            icon: plus
+            url: companyd_gqxmysb_zqy/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+    export:
+      title: 导出
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        flowindex_ysblcs1:
+          title: 项目阶段推进
+          hidden: true
+          nosub_count: 1
+          type: flowindex
+          flow: ysblcs1
+          children:
+            index:
+              title: 浏览
+companyd_gdzcysb_zqy:
+  title: 固定资产投资预算表
+  hidden: true
+  mod: companyd_gdzcysb
+  view: companyd_gdzcysb_zqy
+  children:
+    index:
+      title: 浏览
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 投资预算编制及上报
+            icon: plus
+            url: companyd_gdzcysb_zqy/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+    export:
+      title: 导出
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        flowindex_ysblcs2:
+          title: 项目阶段推进
+          hidden: true
+          nosub_count: 1
+          type: flowindex
+          flow: ysblcs2
+          children:
+            index:
+              title: 浏览
+companyd_fundysb_zqy:
+  title: 基金投资预算表
+  hidden: true
+  mod: companyd_fundysb
+  view: companyd_fundysb_zqy
+  children:
+    index:
+      title: 浏览
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 投资预算编制及上报
+            icon: plus
+            url: companyd_fundysb_zqy/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+    export:
+      title: 导出
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        flowindex_ysblcs3:
+          title: 项目阶段推进
+          hidden: true
+          nosub_count: 1
+          type: flowindex
+          flow: ysblcs3
+          children:
+            index:
+              title: 浏览
+companyd_tdtzysb_zqy:
+  title: 土地投资预算表
+  hidden: true
+  mod: companyd_tdtzysb
+  view: companyd_tdtzysb_zqy
+  children:
+    index:
+      title: 浏览
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 投资预算编制及上报
+            icon: plus
+            url: companyd_tdtzysb_zqy/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+    export:
+      title: 导出
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        flowindex_ysblcs4:
+          title: 项目阶段推进
+          hidden: true
+          nosub_count: 1
+          type: flowindex
+          flow: ysblcs4
+          children:
+            index:
+              title: 浏览
+companyd_jrscysb_zqy:
+  title: 金融市场投资预算表
+  hidden: true
+  mod: companyd_jrscysb
+  view: companyd_jrscysb_zqy
+  children:
+    index:
+      title: 浏览
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 投资预算编制及上报
+            icon: plus
+            url: companyd_jrscysb_zqy/add
+            new: true
+    add:
+      title: 新增
+    import:
+      title: 导入
+    export:
+      title: 导出
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        flowindex_ysblcs5:
+          title: 项目阶段推进
+          hidden: true
+          nosub_count: 1
+          type: flowindex
+          flow: ysblcs5
+          children:
+            index:
+              title: 浏览

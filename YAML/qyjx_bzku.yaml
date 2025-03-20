@@ -1,0 +1,3032 @@
+---
+diycol_pc:
+diycol_iphone:
+bi_counting: >
+  hhet3h2ufy,hhet5cnuei,hhet6o0alz,hhet74rhqv,hhet7edh9g,hhet7n2wm1,hhet80ghqx,hhet8datts,hhet8r0nkf,hhet90ssgg,hhet98kjm8,hhet9hm4ca,hhet9ukgjw,hhetaiphtm,hhetb5h08z,hhetbqzks6,hhetc2lk0g,hhetcc1mx0,hhetcmwgxo,hhetd0n7xg,hhetd9f7ba,hhetdpetyp,hhetenwhxc,hheteoe8cn,hhetf6xsm4,hhetfhwdta,hhetfjglv9,hhetfkn1z9,hhetflxlop,hhetfna86c,hhetgq5pib,hheth7fr7k,hheth7ygxb,hheth8b4sw,hheth8ooa5,hheth95ocv,hhetj0g337,hhetj9wvn8,hhetjje74q,hhetjkn5ys,hhetjlxdzi,hhetjn70q5,hhetjof6em,hhetkjrthw,hhetkwuuwt,hhetkxadzw,hhetkxnbzh,hhetky0htf,hhetkyd853,hhetlwwa61,hhetm5u7hc,hhetm6l2ko,hhetm6xdlm,hhetm7abmo,hhetm7lqam,hhetn8z197,hhetnkod73,hhetnl24yg,hhetnlds2o,hhetnlqchd,hhetnm1pcy,hhetogp2p4,hhetoh1iaw,hhetp970vr,hhetp9o9tl,hhetp9zz35,hhetpacvo8,hhetqbvtoq,hhetqnathx,hhetqv5j62,hhetqvgzzk,hhetqvth2t,hhetqw40sf,hhetqwgdow,hhets0lh4q,hhetsdj1wt,hhetsdv591,hhetse9jr2,hhetsemsi2,hhetsf24mh,hhettg62ju,hhetto4k8x,hhettohyas,hhettou7pd,hhettp5rul,hhettpj0zq,hhetuoyyp9,hhetv53div,hhetv5mauv,hhetv5yrmk,hhetv6av1g,hhetv6o01i,hhetw76qiv,hhetwkfnn6,hhetwl22dt,hhetwleraa,hhetwlro02,hhetwm41j3,hhetxinjbi,hhetxrtrog,hhetxs4z95,hhetxsj62k,hhetxsvfq4,hhetxt83fc,hhetzzjz5p,hheu0crv7j,hheu0d4dt5,hheu0qkzn5,hheu0qzah4,hheu0rdhtc,hheu0rq7ef,hheu5xiyrr,hheu6a54ow,hheu6ah23r,hheu6as557,hheu6b2fmk,hheu6bgvgz,hheuiwiu04,hheujtqwm2,hheuju2hxo,hheujuet9k,hheujutnqh,hheujvdyfc,hheur1kn7l,hheurfcgtv,hheurfr208,hheurgeqr9,hheurgrbn1,hheurh50j6,hheusgzr48,hheusu1lla,hheusuf8y5,hheusuq6yj,hheusv1nf1,hheusvcjzh,hheutuy0d4,hheuu6ej7x,hheuug6x3u,hheuughtgk,hheuugzk0z,hheuuh9o7g,hheuuhmg16,hheuveyk0q,hheuvu5e39,hheuvuhsef,hheuvuufvl,hheuvv5jsf,hheuvvidu9,hheuwsnmgi,hheux8heus,hheux8sukq,hheux936ne,hheux9e8wv,hheux9opie,hhsm54bds2,hhsm54x9v2,hhsm55czd5,hhsm55uzjq,hhsm56a2py,hhsm5ie2e1,hheuyd1wqk,hheuyopz73,hheuyp1x79,hheuypdcm7,hheuypmyw3,hheuypyohq,hheuzlfph9,hheuztnx9o,hheuzu0n7j,hheuzub9e7,hheuzumee7,hheuzux9ni
+bi_condition: >
+  hhet2qx2vx,hhet3h2ufy,hhet80ghqx,hhet9ukgjw,hhetcmwgxo,hhetf6xsm4,hhetgq5pib,hhetj0g337,hhetj9wvn8,hhetkjrthw,hhetlwwa61,hhetn8z197,hhetogp2p4,hhetqbvtoq,hhetqnathx,hhets0lh4q,hhettg62ju,hhetuoyyp9,hhetw76qiv,hhetxinjbi,hhetzzjz5p,hheu0crv7j,hheu5xiyrr,hheuiwiu04,hheur1kn7l,hheusgzr48,hheutuy0d4,hheuu6ej7x,hheuveyk0q,hheuwsnmgi,hhsm54bds2,hheuyd1wqk,hheuzlfph9
+bi_filter:
+openlink: 0
+name_rule:
+monitor_condition:
+monitor_update:
+bijoin: 1
+title_field:
+stepbar: [ ]
+dynform: [ ]
+collect: [ ]
+calc: [ ]
+css:
+js:
+script: [ ]
+ext: [ ]
+sms_template: [ ]
+openlink_title:
+openlink_button:
+email_notify:
+  - 
+email_notify_tem:
+openlink_content:
+pre_commit_content:
+tab_listen_key:
+tab_listen_rule: [ ]
+def_submit_btn_text:
+submit_redirect: 0
+submit_redirect_url:
+word_export:
+  word_custom_func:
+  word_export_name:
+  word_file:
+    - 
+  word_file_label:
+    - 
+api_address:
+api_list_key:
+api_request_key:
+api_response_key:
+api_display: match
+comment:
+  target: _self
+  doctype:
+  up_folder:
+  root_uid:
+  eid_link:
+  formats:
+  position: 1
+  attached_mod:
+  comment_title_tpl:
+  field_newest:
+  field_count:
+modbox:
+  position: 1
+  ext: [ ]
+notify_default:
+notify:
+  url_template:
+inherit_priv:
+privilege:
+  list:
+  import:
+  export:
+  detail:
+  edit:
+  delete:
+  docx:
+  pdf:
+  history:
+  openlink:
+diycol_back_list:
+list_count_block_fields:
+order_priority:
+page_size:
+fixed_col:
+fixed_col_mobile:
+addon_url:
+list_style: list_ajax
+link_type: canvas
+list_count:
+list_style_mobile: list_mobile
+py_search: no_more
+secondary_link_type: modal
+list_mobile_mod: default
+diycard_config: [ ]
+button_config: [ ]
+feed_tpl:
+feed_mobile_tpl:
+feed_tpl_css:
+feed_tpl_js:
+css_config:
+js_config:
+merged_cell_key:
+merged_cell_list:
+merge_exclude_code:
+list_img_name:
+list_img_img:
+list_img_date:
+list_img_content:
+super_object:
+replace_comment_update_col:
+replace_comment_max_col:
+replace_comment_notify: 3
+created_sth:
+filter:
+always_show:
+filter_mobile:
+item:
+  hgp3s8sh39:
+    id: hgp3s8sh39
+    name: 行业分类
+    type: select_new
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    required: 1
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        全国国有企业
+        工业
+        煤炭工业
+        石油石化工业
+        天然原油和天然气开采业
+        石油加工及炼焦业
+        冶金工业
+        黑色金属矿采选业
+        有色金属矿采选业
+        黑色金属冶炼业
+        有色金属冶炼业
+        建材工业
+        建筑用矿石采选业
+        水泥制造业
+        水泥及石膏制品制造业
+        砖瓦石材及其他建筑材料制造业
+        平板玻璃制品业
+        结构性金属制品业
+        建筑用金属制品业
+        化学工业
+        基础化学原料制造业
+        肥料制造业
+        日用和化学产品制造业
+        化纤制造业
+        橡胶制品业
+        塑料制品业
+        农药制造业
+        森林工业
+        食品工业
+        食品加工业
+        食品制造业
+        纺织工业
+        棉化纤纺织业
+        毛纺织业
+        麻纺织业
+        丝绢纺织业
+        医药工业
+        化学药品制造业
+        中药材及中成药加工业
+        机械工业
+        金属制品业
+        金属工具制造业
+        通用设备制造业
+        锅炉及原动机制造业
+        金属加工机械制造业
+        其他通用设备制造业
+        轴承制造业
+        专用设备制造业
+        冶金矿山建筑设备制造业
+        矿山机械制造业
+        建筑工程用机械制造业
+        冶金专用设备制造业
+        化工木材非金属加工设备制造业
+        轻纺设备制造业
+        农林牧渔水利业机械制造业
+        医疗仪器设备制造业
+        电子和电工机械专用设备制造业
+        交通运输设备制造业
+        铁路运输设备制造业
+        汽车制造业
+        汽车整车制造业
+        汽车零部件及配件制造业
+        摩托车制造业
+        自行车制造业
+        船舶制造业
+        电气机械及器材制造业
+        电机制造业
+        输配电及控制设备制造业
+        电工器材制造业
+        家用电器制造业
+        照明器具制造业
+        仪器仪表及文化办公用制造业
+        通用仪器仪表制造业
+        专用仪器仪表制造业
+        钟表制造业
+        电子工业
+        通信设备制造业
+        广播电视设备制造业
+        电子计算机制造业
+        电子元器件制造业
+        家用影视设备制造业
+        电力热力燃气工业
+        电力生产业
+        火力发电业
+        水力发电业
+        电力供应业
+        热力生产和供应业
+        燃气生产和供应业
+        水生产与供应业
+        轻工业
+        采盐业
+        酒和饮料制造业
+        白酒制造业
+        啤酒制造业
+        制茶业
+        纺织服装服饰业
+        皮革毛皮羽绒及其制品业
+        家具制造业
+        造纸及纸制品业
+        印刷业记录媒介的复制业
+        文教体育用品制造业
+        工艺品及其他制造业
+        其他工业
+        建筑业
+        房屋和土木工程建筑业
+        房屋建筑业
+        土木工程建筑业
+        建筑安装业
+        建筑装饰业
+        交通运输仓储及邮政业
+        铁路运输业
+        道路运输业
+        高速公路
+        城市公共交通业
+        公共电汽车客运业
+        轨道交通业
+        水上运输业
+        港口业
+        航空运输业
+        机场
+        仓储业
+        信息技术服务业
+        电信业
+        计算机服务与软件业
+        批发和零售贸易业
+        商业贸易
+        食品、饮料及烟草制品批发与零售
+        纺织、服装及日用品批发与零售
+        文化、体育用品及器材批发与零售
+        医药及医疗器材批发与零售
+        综合零售
+        物资贸易
+        矿产品、建材及化工产品批发
+        机械设备、五金及电子产品批发
+        汽车、摩托车、燃料及零配件专门零售
+        粮食业
+        粮油批发与零售
+        粮油仓储
+        住宿和餐饮业
+        住宿业
+        餐饮业
+        房地产业
+        房地产开发业
+        物业管理业
+        社会服务业
+        信息咨询服务业
+        公共设施管理业
+        科研设计企业
+        工程管理服务业
+        大旅游
+        投资公司
+        地质勘查业
+        人力资源服务业
+        汽车修理与维护服务业
+        传播与文化业
+        出版业
+        广播电影电视业
+        文化艺术业
+        农林牧渔业
+        农业
+        林业
+        畜牧业
+        渔业
+        地方国有企业
+        地方工业
+        地方煤炭工业
+        地方冶金工业
+        地方建材工业
+        地方化学工业
+        地方森林工业
+        地方食品工业
+        地方纺织工业
+        地方医药工业
+        地方机械工业
+        地方汽车制造业
+        地方电子工业
+        地方电力热力燃气工业
+        地方水生产与供应业
+        地方轻工业
+        地方建筑业
+        地方交通运输仓储及邮政业
+        地方批发和零售贸易业
+        地方住宿和餐饮业
+        地方房地产业
+        地方社会服务业
+        地方传播与文化业
+        地方农林牧渔业
+      page_size: 0
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max: 0
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size: 0
+      feed_mobile_page_size: 0
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: qyjx_qggyqy_qhy
+      filter:
+        hhfyp2n2pdt: eid
+  hgp3s96b7o:
+    id: hgp3s96b7o
+    name: 企业规模
+    type: select_new
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    required: 1
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        全行业: 全行业
+        大型企业: 大型企业
+        中型企业: 中型企业
+        小型企业: 小型企业
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 是
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    ext:
+      mod: qyjx_qggyqy_qhy
+      filter:
+        hhfyp2npdut: eid
+  hhet2qx2vx:
+    id: hhet2qx2vx
+    listed: 1
+    name: 一、盈利能力状况
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhet3h2ufy:
+    id: hhet3h2ufy
+    name: 净资产收益率（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhet5cnuei:
+    id: hhet5cnuei
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 12.1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+  hhet6o0alz:
+    id: hhet6o0alz
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 9.0
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+  hhet74rhqv:
+    id: hhet74rhqv
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 6.0
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhet7edh9g:
+    id: hhet7edh9g
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 1.6
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhet7n2wm1:
+    id: hhet7n2wm1
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: -9.3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhet80ghqx:
+    id: hhet80ghqx
+    name: 总资产报酬率（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhet8datts:
+    id: hhet8datts
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 7.9
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhet8r0nkf:
+    id: hhet8r0nkf
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 6.0
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhet90ssgg:
+    id: hhet90ssgg
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 4.1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhet98kjm8:
+    id: hhet98kjm8
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 0.8
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhet9hm4ca:
+    id: hhet9hm4ca
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: -6.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhet9ukgjw:
+    id: hhet9ukgjw
+    name: 销售（营业）利润率（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetaiphtm:
+    id: hhetaiphtm
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 17.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetb5h08z:
+    id: hhetb5h08z
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 11.1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetbqzks6:
+    id: hhetbqzks6
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 6.3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetc2lk0g:
+    id: hhetc2lk0g
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: -1.0
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetcc1mx0:
+    id: hhetcc1mx0
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: -8.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetcmwgxo:
+    id: hhetcmwgxo
+    name: 盈余现金保障倍数
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetd0n7xg:
+    id: hhetd0n7xg
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 6.8
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetd9f7ba:
+    id: hhetd9f7ba
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 3.3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetdpetyp:
+    id: hhetdpetyp
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 1.5
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetenwhxc:
+    id: hhetenwhxc
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: -1.8
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheteoe8cn:
+    id: hheteoe8cn
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: -3.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetf6xsm4:
+    id: hhetf6xsm4
+    name: 成本费用利润率（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetfhwdta:
+    id: hhetfhwdta
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 13.5
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetfjglv9:
+    id: hhetfjglv9
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 9.7
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetfkn1z9:
+    id: hhetfkn1z9
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 5.9
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetflxlop:
+    id: hhetflxlop
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 2.0
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetfna86c:
+    id: hhetfna86c
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: -3.9
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetgq5pib:
+    id: hhetgq5pib
+    name: 资本收益率（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheth7fr7k:
+    id: hheth7fr7k
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 12.7
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheth7ygxb:
+    id: hheth7ygxb
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 9.5
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheth8b4sw:
+    id: hheth8b4sw
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 6.8
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheth8ooa5:
+    id: hheth8ooa5
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 2.1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheth95ocv:
+    id: hheth95ocv
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: -5.3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetj0g337:
+    id: hhetj0g337
+    name: 二、资产质量状况
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetj9wvn8:
+    id: hhetj9wvn8
+    name: 总资产周转率（次）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetjje74q:
+    id: hhetjje74q
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 1.4
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetjkn5ys:
+    id: hhetjkn5ys
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 0.8
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetjlxdzi:
+    id: hhetjlxdzi
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 0.3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetjn70q5:
+    id: hhetjn70q5
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 0.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetjof6em:
+    id: hhetjof6em
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: 0.1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetkjrthw:
+    id: hhetkjrthw
+    name: 应收账款周转率（次）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetkwuuwt:
+    id: hhetkwuuwt
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 21.6
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetkxadzw:
+    id: hhetkxadzw
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 12.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetkxnbzh:
+    id: hhetkxnbzh
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 7.7
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetky0htf:
+    id: hhetky0htf
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 2.7
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetkyd853:
+    id: hhetkyd853
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: 1.5
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetlwwa61:
+    id: hhetlwwa61
+    name: 不良资产比率（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetm5u7hc:
+    id: hhetm5u7hc
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 0.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetm6l2ko:
+    id: hhetm6l2ko
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 0.8
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetm6xdlm:
+    id: hhetm6xdlm
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 2.5
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetm7abmo:
+    id: hhetm7abmo
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 5.4
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetm7lqam:
+    id: hhetm7lqam
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: 13.0
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetn8z197:
+    id: hhetn8z197
+    name: 流动资产周转率（次）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetnkod73:
+    id: hhetnkod73
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 2.1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetnl24yg:
+    id: hhetnl24yg
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 1.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetnlds2o:
+    id: hhetnlds2o
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 0.8
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetnlqchd:
+    id: hhetnlqchd
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 0.4
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetnm1pcy:
+    id: hhetnm1pcy
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: 0.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetogp2p4:
+    id: hhetogp2p4
+    name: 资产现金回收率（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetoh1iaw:
+    id: hhetoh1iaw
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 17.7
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetp970vr:
+    id: hhetp970vr
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 8.3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetp9o9tl:
+    id: hhetp9o9tl
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 2.6
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetp9zz35:
+    id: hhetp9zz35
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: -0.8
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetpacvo8:
+    id: hhetpacvo8
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: -10.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetqbvtoq:
+    id: hhetqbvtoq
+    name: 三、债务风险状况
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetqnathx:
+    id: hhetqnathx
+    name: 资产负债率（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetqv5j62:
+    id: hhetqv5j62
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 48.7
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetqvgzzk:
+    id: hhetqvgzzk
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 53.7
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetqvth2t:
+    id: hhetqvth2t
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 63.7
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetqw40sf:
+    id: hhetqw40sf
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 73.7
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetqwgdow:
+    id: hhetqwgdow
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: 88.7
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhets0lh4q:
+    id: hhets0lh4q
+    name: 已获利息倍数
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetsdj1wt:
+    id: hhetsdj1wt
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 5.6
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetsdv591:
+    id: hhetsdv591
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 4.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetse9jr2:
+    id: hhetse9jr2
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 2.9
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetsemsi2:
+    id: hhetsemsi2
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 0.8
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetsf24mh:
+    id: hhetsf24mh
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: -2.0
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhettg62ju:
+    id: hhettg62ju
+    name: 速动比率（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetto4k8x:
+    id: hhetto4k8x
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 141.8
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhettohyas:
+    id: hhettohyas
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 105.1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhettou7pd:
+    id: hhettou7pd
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 81.9
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhettp5rul:
+    id: hhettp5rul
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 64.5
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhettpj0zq:
+    id: hhettpj0zq
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: 43.6
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetuoyyp9:
+    id: hhetuoyyp9
+    name: 现金流动负债比率（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetv53div:
+    id: hhetv53div
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 23.0
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetv5mauv:
+    id: hhetv5mauv
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 16.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetv5yrmk:
+    id: hhetv5yrmk
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 6.7
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetv6av1g:
+    id: hhetv6av1g
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: -7.0
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetv6o01i:
+    id: hhetv6o01i
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: -13.6
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetw76qiv:
+    id: hhetw76qiv
+    name: 带息负债比率（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetwkfnn6:
+    id: hhetwkfnn6
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 19.6
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetwl22dt:
+    id: hhetwl22dt
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 31.1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetwleraa:
+    id: hhetwleraa
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 46.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetwlro02:
+    id: hhetwlro02
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 65.5
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetwm41j3:
+    id: hhetwm41j3
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: 78.5
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetxinjbi:
+    id: hhetxinjbi
+    name: 或有负债比率（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetxrtrog:
+    id: hhetxrtrog
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 0.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetxs4z95:
+    id: hhetxs4z95
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 1.5
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetxsj62k:
+    id: hhetxsj62k
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 4.8
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetxsvfq4:
+    id: hhetxsvfq4
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 11.4
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetxt83fc:
+    id: hhetxt83fc
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: 17.6
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhetzzjz5p:
+    id: hhetzzjz5p
+    name: 四、经营增长状况
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheu0crv7j:
+    id: hheu0crv7j
+    name: 销售（营业）增长率（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheu0d4dt5:
+    id: hheu0d4dt5
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 28.7
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheu0qkzn5:
+    id: hheu0qkzn5
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 21.9
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheu0qzah4:
+    id: hheu0qzah4
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 16.6
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheu0rdhtc:
+    id: hheu0rdhtc
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 4.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheu0rq7ef:
+    id: hheu0rq7ef
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: -7.6
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheu5xiyrr:
+    id: hheu5xiyrr
+    name: 资本保值增值率（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheu6a54ow:
+    id: hheu6a54ow
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 110.6
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheu6ah23r:
+    id: hheu6ah23r
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 107.1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheu6as557:
+    id: hheu6as557
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 104.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheu6b2fmk:
+    id: hheu6b2fmk
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 100.1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheu6bgvgz:
+    id: hheu6bgvgz
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: 89.8
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuiwiu04:
+    id: hheuiwiu04
+    name: 销售（营业）利润增长率（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheujtqwm2:
+    id: hheujtqwm2
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 31.1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuju2hxo:
+    id: hheuju2hxo
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 24.0
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheujuet9k:
+    id: hheujuet9k
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 18.9
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheujutnqh:
+    id: hheujutnqh
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 5.4
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheujvdyfc:
+    id: hheujvdyfc
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: -3.7
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheur1kn7l:
+    id: hheur1kn7l
+    name: 总资产增长率（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheurfcgtv:
+    id: hheurfcgtv
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 17.7
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheurfr208:
+    id: hheurfr208
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 14.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheurgeqr9:
+    id: hheurgeqr9
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 8.9
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheurgrbn1:
+    id: hheurgrbn1
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: -4.8
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheurh50j6:
+    id: hheurh50j6
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: -13.3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheusgzr48:
+    id: hheusgzr48
+    name: 研发经费投入强度（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheusu1lla:
+    id: hheusu1lla
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 3.6
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheusuf8y5:
+    id: hheusuf8y5
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 2.6
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheusuq6yj:
+    id: hheusuq6yj
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 2.1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheusv1nf1:
+    id: hheusv1nf1
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 1.8
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheusvcjzh:
+    id: hheusvcjzh
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: 0.8
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheutuy0d4:
+    id: hheutuy0d4
+    name: 五、补充资料
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuu6ej7x:
+    id: hheuu6ej7x
+    name: 存货周转率（次）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuug6x3u:
+    id: hheuug6x3u
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 16.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuughtgk:
+    id: hheuughtgk
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 8.0
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuugzk0z:
+    id: hheuugzk0z
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 2.3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuuh9o7g:
+    id: hheuuh9o7g
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 0.4
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuuhmg16:
+    id: hheuuhmg16
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: 0.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuveyk0q:
+    id: hheuveyk0q
+    name: 两金占流动资产比重（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuvu5e39:
+    id: hheuvu5e39
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 8.3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuvuhsef:
+    id: hheuvuhsef
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 23.4
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuvuufvl:
+    id: hheuvuufvl
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 36.7
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuvv5jsf:
+    id: hheuvv5jsf
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 46.0
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuvvidu9:
+    id: hheuvvidu9
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: 56.6
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuwsnmgi:
+    id: hheuwsnmgi
+    name: >
+      成本费用总额占营业总收入比重（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheux8heus:
+    id: hheux8heus
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 88.7
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheux8sukq:
+    id: hheux8sukq
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 91.8
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheux936ne:
+    id: hheux936ne
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 94.9
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheux9e8wv:
+    id: hheux9e8wv
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 97.5
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheux9opie:
+    id: hheux9opie
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: 100.4
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhsm54bds2:
+    id: hhsm54bds2
+    name: 经济增加值率（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhsm54x9v2:
+    id: hhsm54x9v2
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 6.7
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhsm55czd5:
+    id: hhsm55czd5
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 2.9
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhsm55uzjq:
+    id: hhsm55uzjq
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: -2.0
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhsm56a2py:
+    id: hhsm56a2py
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: -3.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hhsm5ie2e1:
+    id: hhsm5ie2e1
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: -11.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuyd1wqk:
+    id: hheuyd1wqk
+    name: EBITDA率（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuyopz73:
+    id: hheuyopz73
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 25.8
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuyp1x79:
+    id: hheuyp1x79
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 15.4
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuypdcm7:
+    id: hheuypdcm7
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 8.2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuypmyw3:
+    id: hheuypmyw3
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 1.3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuypyohq:
+    id: hheuypyohq
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: -1.7
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuzlfph9:
+    id: hheuzlfph9
+    name: 资本积累率（%）
+    type: percent
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuztnx9o:
+    id: hheuztnx9o
+    name: 优秀值
+    type: percent
+    width: 1
+    default_value: 22.3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuzu0n7j:
+    id: hheuzu0n7j
+    name: 良好值
+    type: percent
+    width: 1
+    default_value: 13.4
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuzub9e7:
+    id: hheuzub9e7
+    name: 平均值
+    type: percent
+    width: 1
+    default_value: 7.9
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuzumee7:
+    id: hheuzumee7
+    name: 较低值
+    type: percent
+    width: 1
+    default_value: 0.1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hheuzux9ni:
+    id: hheuzux9ni
+    name: 较差值
+    type: percent
+    width: 1
+    default_value: -2.6
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+import: [ ]
+pre_order: [ ]
+bi:
+  counting:
+    - hhet3h2ufy
+    - hhet5cnuei
+    - hhet6o0alz
+    - hhet74rhqv
+    - hhet7edh9g
+    - hhet7n2wm1
+    - hhet80ghqx
+    - hhet8datts
+    - hhet8r0nkf
+    - hhet90ssgg
+    - hhet98kjm8
+    - hhet9hm4ca
+    - hhet9ukgjw
+    - hhetaiphtm
+    - hhetb5h08z
+    - hhetbqzks6
+    - hhetc2lk0g
+    - hhetcc1mx0
+    - hhetcmwgxo
+    - hhetd0n7xg
+    - hhetd9f7ba
+    - hhetdpetyp
+    - hhetenwhxc
+    - hheteoe8cn
+    - hhetf6xsm4
+    - hhetfhwdta
+    - hhetfjglv9
+    - hhetfkn1z9
+    - hhetflxlop
+    - hhetfna86c
+    - hhetgq5pib
+    - hheth7fr7k
+    - hheth7ygxb
+    - hheth8b4sw
+    - hheth8ooa5
+    - hheth95ocv
+    - hhetj0g337
+    - hhetj9wvn8
+    - hhetjje74q
+    - hhetjkn5ys
+    - hhetjlxdzi
+    - hhetjn70q5
+    - hhetjof6em
+    - hhetkjrthw
+    - hhetkwuuwt
+    - hhetkxadzw
+    - hhetkxnbzh
+    - hhetky0htf
+    - hhetkyd853
+    - hhetlwwa61
+    - hhetm5u7hc
+    - hhetm6l2ko
+    - hhetm6xdlm
+    - hhetm7abmo
+    - hhetm7lqam
+    - hhetn8z197
+    - hhetnkod73
+    - hhetnl24yg
+    - hhetnlds2o
+    - hhetnlqchd
+    - hhetnm1pcy
+    - hhetogp2p4
+    - hhetoh1iaw
+    - hhetp970vr
+    - hhetp9o9tl
+    - hhetp9zz35
+    - hhetpacvo8
+    - hhetqbvtoq
+    - hhetqnathx
+    - hhetqv5j62
+    - hhetqvgzzk
+    - hhetqvth2t
+    - hhetqw40sf
+    - hhetqwgdow
+    - hhets0lh4q
+    - hhetsdj1wt
+    - hhetsdv591
+    - hhetse9jr2
+    - hhetsemsi2
+    - hhetsf24mh
+    - hhettg62ju
+    - hhetto4k8x
+    - hhettohyas
+    - hhettou7pd
+    - hhettp5rul
+    - hhettpj0zq
+    - hhetuoyyp9
+    - hhetv53div
+    - hhetv5mauv
+    - hhetv5yrmk
+    - hhetv6av1g
+    - hhetv6o01i
+    - hhetw76qiv
+    - hhetwkfnn6
+    - hhetwl22dt
+    - hhetwleraa
+    - hhetwlro02
+    - hhetwm41j3
+    - hhetxinjbi
+    - hhetxrtrog
+    - hhetxs4z95
+    - hhetxsj62k
+    - hhetxsvfq4
+    - hhetxt83fc
+    - hhetzzjz5p
+    - hheu0crv7j
+    - hheu0d4dt5
+    - hheu0qkzn5
+    - hheu0qzah4
+    - hheu0rdhtc
+    - hheu0rq7ef
+    - hheu5xiyrr
+    - hheu6a54ow
+    - hheu6ah23r
+    - hheu6as557
+    - hheu6b2fmk
+    - hheu6bgvgz
+    - hheuiwiu04
+    - hheujtqwm2
+    - hheuju2hxo
+    - hheujuet9k
+    - hheujutnqh
+    - hheujvdyfc
+    - hheur1kn7l
+    - hheurfcgtv
+    - hheurfr208
+    - hheurgeqr9
+    - hheurgrbn1
+    - hheurh50j6
+    - hheusgzr48
+    - hheusu1lla
+    - hheusuf8y5
+    - hheusuq6yj
+    - hheusv1nf1
+    - hheusvcjzh
+    - hheutuy0d4
+    - hheuu6ej7x
+    - hheuug6x3u
+    - hheuughtgk
+    - hheuugzk0z
+    - hheuuh9o7g
+    - hheuuhmg16
+    - hheuveyk0q
+    - hheuvu5e39
+    - hheuvuhsef
+    - hheuvuufvl
+    - hheuvv5jsf
+    - hheuvvidu9
+    - hheuwsnmgi
+    - hheux8heus
+    - hheux8sukq
+    - hheux936ne
+    - hheux9e8wv
+    - hheux9opie
+    - hhsm54bds2
+    - hhsm54x9v2
+    - hhsm55czd5
+    - hhsm55uzjq
+    - hhsm56a2py
+    - hhsm5ie2e1
+    - hheuyd1wqk
+    - hheuyopz73
+    - hheuyp1x79
+    - hheuypdcm7
+    - hheuypmyw3
+    - hheuypyohq
+    - hheuzlfph9
+    - hheuztnx9o
+    - hheuzu0n7j
+    - hheuzub9e7
+    - hheuzumee7
+    - hheuzux9ni
+  condition:
+    - hhet2qx2vx
+    - hhet3h2ufy
+    - hhet80ghqx
+    - hhet9ukgjw
+    - hhetcmwgxo
+    - hhetf6xsm4
+    - hhetgq5pib
+    - hhetj0g337
+    - hhetj9wvn8
+    - hhetkjrthw
+    - hhetlwwa61
+    - hhetn8z197
+    - hhetogp2p4
+    - hhetqbvtoq
+    - hhetqnathx
+    - hhets0lh4q
+    - hhettg62ju
+    - hhetuoyyp9
+    - hhetw76qiv
+    - hhetxinjbi
+    - hhetzzjz5p
+    - hheu0crv7j
+    - hheu5xiyrr
+    - hheuiwiu04
+    - hheur1kn7l
+    - hheusgzr48
+    - hheutuy0d4
+    - hheuu6ej7x
+    - hheuveyk0q
+    - hheuwsnmgi
+    - hhsm54bds2
+    - hheuyd1wqk
+    - hheuzlfph9
+  monitor_condition: [ ]
+  monitor_update: [ ]
+  filter: [ ]

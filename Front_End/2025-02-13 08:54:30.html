@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 ECharts -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+</head>
+<body style="height: 100%; margin: 0">
+    <!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+    <div id="main" style="height: 100%"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+
+        // 节点名对应的URL映射
+        var nodeUrls = {
+            '长期股权管理': 'https://dev.vc800.com/?/Direct_investment_label/&page=0&state=20',
+            '固定资产管理': 'https://dev.vc800.com/?/companyd_view_gd/&page=0&state=20',
+            '项目入库': 'https://dev.vc800.com/?/company_ruku/',
+            '拓展库管理': 'https://dev.vc800.com/?/companyd_view_tz/&page=0&state=20',
+            '立项项目库管理': 'https://dev.vc800.com/?/companyd',
+            // ... 添加其他节点对应的URL
+        };
+
+        // 指定树的节点数据
+        var data = {
+            name: 'flare',
+            children: [
+                // ... 节点数据
+            ]
+        };
+
+        // 指定图表的配置项和数据
+        var option = {
+            // ... 其他配置项
+            series: [
+                {
+                    // ... 其他系列配置
+                    label: {
+                        // ... 其他标签配置
+                        formatter: function (params) {
+                            // 为节点名添加链接
+                            var url = nodeUrls[params.name];
+                            var link = url ? '{a|' + params.name + '}' : params.name;
+                            // 添加展开/收起按钮
+                            var toggle = params.data.children ? (params.datacollapsed ? '{b|+}' : '{b|-}') : '';
+                            return link + ' ' + toggle;
+                        },
+                        rich: {
+                            a: {
+                                color: '#0066cc',
+                                textDecoration: 'underline',
+                                cursor: 'pointer'
+                            },
+                            b: {
+                                color: '#999',
+                                cursor: 'pointer',
+                                fontSize: 16
+                            }
+                        }
+                    },
+                    // ... 其他系列配置
+                }
+            ]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+
+        // 添加点击事件监听
+        myChart.on('click', function (params) {
+            // 检查点击的是否为节点名
+            if (params.componentType === 'series') {
+                // 判断点击的是链接还是展开/收起按钮
+                if (params.name === params.data.name) {
+                    // 获取节点名对应的URL
+                    var url = nodeUrls[params.name];
+                    if (url) {
+                        // 跳转到对应的URL
+                        window.open(url);
+                    }
+                } else {
+                    // 控制展开/收起
+                    params.datacollapsed = !params.datacollapsed;
+                    myChart.setOption(option);
+                }
+            }
+        });
+    </script>
+</body>
+</html>

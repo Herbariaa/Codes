@@ -1,0 +1,63 @@
+        state_upload_fundd:
+          title: 各阶段文件上传
+          type: ext
+          hidden: true
+          hidden_del: true
+          hidden_add: true
+          view: state_upload_fundd
+        state_upload_fundd_lixiang:
+          title: 各阶段文件上传
+          type: ext
+          hidden: true
+          hidden_del: true
+          hidden_add: true
+          view: state_upload_fundd_lixiang
+        state_upload_fundd_jindiao:
+          title: 各阶段文件上传
+          type: ext
+          hidden: true
+          hidden_del: true
+          hidden_add: true
+          view: state_upload_fundd_jindiao
+        state_upload_fundd_hyjtxmpsh:
+          title: 各阶段文件上传
+          type: ext
+          hidden: true
+          hidden_del: true
+          hidden_add: true
+          view: state_upload_fundd_hyjtxmpsh
+        state_upload_fundd_hyjtdwh:
+          title: 各阶段文件上传
+          type: ext
+          hidden: true
+          hidden_del: true
+          hidden_add: true
+          view: state_upload_fundd_hyjtdwh
+        state_upload_fundd_zyzxwyh:
+          title: 各阶段文件上传
+          type: ext
+          hidden: true
+          hidden_del: true
+          hidden_add: true
+          view: state_upload_fundd_zyzxwyh
+        state_upload_fundd_gmkgdwh:
+          title: 各阶段文件上传
+          type: ext
+          hidden: true
+          hidden_del: true
+          hidden_add: true
+          view: state_upload_fundd_gmkgdwh
+        state_upload_fundd_tzjcwyh:
+          title: 各阶段文件上传
+          type: ext
+          hidden: true
+          hidden_del: true
+          hidden_add: true
+          view: state_upload_fundd_tzjcwyh
+        state_upload_fundd_hhrhy:
+          title: 各阶段文件上传
+          type: ext
+          hidden: true
+          hidden_del: true
+          hidden_add: true
+          view: state_upload_fundd_hhrhy

@@ -1,0 +1,2562 @@
+---
+diycol_pc: >
+  update_time,screenName,current_cost,current_ratio,current_value,date_methods,value_methods,latest_value,holding_value,float_value,value_round,value_date,value_money,is_market,has_rel_condition,is_self_exit,exit_sud,reduction_conditions,gqcnotes,big_memo
+diycol_iphone:
+bi_counting:
+bi_condition:
+bi_filter:
+openlink: 0
+name_rule:
+monitor_condition:
+monitor_update:
+title_field:
+stepbar: [ ]
+dynform: [ ]
+collect: [ ]
+calc: [ ]
+css:
+js:
+script:
+  update:
+    - 'qcci:update_library_data|{eid}'
+    - 'space:space_cal_fill_data|{eid}'
+    - 'space:space_back_update_company_data|{eid}'
+    - 'space:holding_value_update_company_and_library|{eid}'
+    - 'space:update_market_holding_value_and_library|{eid}'
+ext:
+  btp:
+    button:
+      docx:
+        title: Download Docx
+        is_hidden: true
+        mobile_hidden: true
+      pdf:
+        title: Download PDF
+        is_hidden: true
+        mobile_hidden: true
+      edit:
+        title: 修改
+        is_hidden: false
+        mobile_hidden: true
+      history:
+        title: 历史
+        is_hidden: false
+        mobile_hidden: true
+      submit:
+        title: 保存
+        is_hidden: false
+      cache:
+        title: 暂存
+        mobile_hidden: true
+      reset:
+        title: Reset
+        is_hidden: true
+        mobile_hidden: true
+sms_template: [ ]
+openlink_title:
+openlink_button:
+email_notify:
+  - [ ]
+email_notify_tem:
+openlink_content:
+pre_commit_content:
+tab_listen_key:
+tab_listen_rule: [ ]
+def_submit_btn_text:
+submit_redirect: 0
+submit_redirect_url:
+word_export:
+  word_custom_func:
+  word_export_name:
+  word_file:
+    - [ ]
+  word_file_label:
+    - [ ]
+api_address:
+api_list_key:
+api_request_key:
+api_response_key:
+api_display: match
+comment:
+  target: _self
+  doctype:
+  up_folder:
+  root_uid:
+  eid_link:
+  formats:
+  position: 1
+  attached_mod:
+  field_newest:
+  field_count:
+modbox:
+  position: 1
+  ext: [ ]
+notify_default:
+notify:
+  url_template:
+inherit_priv:
+privilege:
+  list:
+  import:
+  export:
+  detail:
+  edit:
+  delete:
+  docx:
+  pdf:
+  history:
+  openlink:
+  block_view_company_deals:
+  block_edit_company_deals:
+  block_view_hmdz5tw5oo:
+  block_edit_hmdz5tw5oo:
+  block_view_hou3ohssai:
+  block_edit_hou3ohssai:
+  block_view_fund_aspect:
+  block_edit_fund_aspect:
+  block_view_hr8vqcw5k4:
+  block_edit_hr8vqcw5k4:
+  block_view_hou4xp3koa:
+  block_edit_hou4xp3koa:
+  block_view_qcci_aspect:
+  block_edit_qcci_aspect:
+  block_view_hr8kctvmsk:
+  block_edit_hr8kctvmsk:
+  block_view_business_aspect:
+  block_edit_business_aspect:
+  block_view_hqur8kgrp5:
+  block_edit_hqur8kgrp5:
+  block_view_hqur9vswpw:
+  block_edit_hqur9vswpw:
+  block_view_exit_detail:
+  block_edit_exit_detail:
+  block_view_exit_details:
+  block_edit_exit_details:
+  block_view_hmdz5adkxp:
+  block_edit_hmdz5adkxp:
+  block_view_hjegt5n6xo:
+  block_edit_hjegt5n6xo:
+  block_view_hmd8cmcsp5:
+  block_edit_hmd8cmcsp5:
+  block_view_hmd8cmtncu:
+  block_edit_hmd8cmtncu:
+diycol: 1
+diycol_back_list:
+list_count_block_fields:
+order_priority:
+page_size:
+fixed_col:
+fixed_col_mobile:
+addon_url:
+list_style: list_ajax
+link_type: canvas
+list_count:
+list_style_mobile: list_mobile
+py_search: no_more
+secondary_link_type: modal
+list_mobile_mod: default
+diycard_config: [ ]
+button_config: [ ]
+feed_tpl:
+feed_mobile_tpl:
+feed_tpl_css:
+feed_tpl_js:
+css_config:
+js_config:
+merged_cell_key:
+merged_cell_list:
+merge_exclude_code:
+list_img_name:
+list_img_img:
+list_img_date:
+list_img_content:
+super_object:
+replace_comment_update_col:
+replace_comment_max_col:
+replace_comment_notify: 3
+created_sth:
+filter:
+always_show:
+filter_mobile:
+item:
+  investment_subject:
+    id: investment_subject
+    name: 出资主体
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块(分组)
+      type: mod_group
+      data_source: |
+        母基金:
+          mod: fof
+          filter:
+            qcci_fund_type_label: 母基金
+        管理主体:
+          mod: jituan
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 是
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 是
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 2
+    readonly: 1
+  update_time:
+    id: update_time
+    name: 更新时间
+    type: systemdatetime
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+    listed: asc
+  screenName:
+    id: screenName
+    name: 项目全称
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+  companylibrary:
+    id: companylibrary
+    name: 项目简称
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    listed: 1
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source: mod:company
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 是
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 是
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    readonly: 1
+  company_mark:
+    id: company_mark
+    name: 项目类型
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        直投项目: 直投项目
+        子基金项目: 子基金项目
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label:
+      list_color_label_label:
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis:
+      ellipsis_label:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    readonly: 1
+  creditCode:
+    id: creditCode
+    name: 统一社会信用代码
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    readonly: 1
+  company_introduce:
+    id: company_introduce
+    name: 项目介绍
+    type: muti
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  company_deals:
+    id: company_deals
+    name: 投资交易信息
+    type: tab
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmdz5tw5oo:
+    id: hmdz5tw5oo
+    name: 介绍文字
+    type: puretext
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      tpl: '<p><span style="font-size: 18px; color: #C00000;"><strong>蓝色字段需要定期手动更新，请检查更新</strong></span></p><p><span style="font-size: 18px; color: #C00000;"><strong>绿色字段提交后自动触发计算</strong></span><span style="font-size: 18px; color: #95B3D7;"><strong><span style="font-size: 18px;"></span></strong></span></p>'
+  hou3ohssai:
+    id: hou3ohssai
+    name: 投时信息
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  inv_type:
+    id: inv_type
+    name: 投资类型
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        财务投资: 财务投资
+        战略投资: 战略投资
+        股权:股权
+        可转债:可转债
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    list_align: def
+    readonly: 1
+  inv_date:
+    id: inv_date
+    name: '  首次投资时间 '
+    type: datepicker
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_width: 120
+    list_align: def
+    readonly: 1
+  inv_round:
+    id: inv_round
+    listed: 1
+    name: '  首次投资轮次 '
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    props:
+      type_label: 配置项
+      type: yaml
+      multiple: 否
+      data_source: round
+      payload:
+      ajax: 否
+      tags: 否
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      select_all: 否
+      check_priv: 否
+      import_autoadd: 否
+      import_rule:
+    list_width: 120
+    list_align: def
+    readonly: 1
+  first_ratio:
+    id: first_ratio
+    listed: 1
+    name: 基金首次持股比例
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_width: 120
+    list_align: def
+    props:
+      decimals: 6
+      view_decimals: 6
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    readonly: 1
+  fund_first_amount:
+    id: fund_first_amount
+    name: 基金首次投资金额
+    type: currency
+    ext:
+      unit: 万元
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    listed: 1
+    readonly: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  qcci_first_ratio:
+    id: qcci_first_ratio
+    name: 上实首次穿透持股比例
+    type: percent
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    listed: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    readonly: 1
+  qcci_first_amount:
+    id: qcci_first_amount
+    name: 上实首次穿透投资金额
+    type: currency
+    ext:
+      unit: 万元
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    listed: 1
+    readonly: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  post_value:
+    id: post_value
+    name: 投时企业投后估值(万元)
+    type: currency
+    ext:
+      unit: 万元
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    listed: 1
+    list_width: 180
+    list_align: def
+    readonly: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  is_zjtx:
+    id: is_zjtx
+    name: '<span  style="color:blue"> 所投企业是否为专精特新企业 </span>'
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是: 是
+        否: 否
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  fund_aspect:
+    id: fund_aspect
+    name: 基金层面
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  q_dpi:
+    id: q_dpi
+    listed: 1
+    name: '<span style="color: green;">DPI</span>'
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    readonly: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  moc:
+    id: moc
+    name: '<span style="color: green;">MOIC</span>'
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    listed: 1
+    list_align: def
+    readonly: 1
+  q_irr:
+    id: q_irr
+    name: '<span style="color: green;">IRR</span>'
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    list_align: def
+    listed: 1
+    readonly: 1
+  total_cost:
+    id: total_cost
+    listed: 1
+    name: '<span style="color: green;">累计投资成本(万元)</span>'
+    type: currency
+    ext:
+      unit: 万元
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_width: 160
+    counter: sum
+    list_align: def
+    readonly: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  exit_money:
+    id: exit_money
+    listed: 1
+    name: '<span style="color: green;">累计退出金额(万元)</span>'
+    type: currency
+    ext:
+      unit: 万元
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_width: 150
+    counter: sum
+    list_align: def
+    readonly: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  exit_cost:
+    id: exit_cost
+    listed: 1
+    name: '<span style="color: green;">累计退出成本(万元)</span>'
+    type: currency
+    ext:
+      unit: 万元
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_width: 150
+    counter: sum
+    list_align: def
+    readonly: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  exit_gains:
+    id: exit_gains
+    listed: 1
+    name: '<span style="color: green;">累计退出收益(万元)</span>'
+    type: currency
+    ext:
+      unit: 万元
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_width: 150
+    counter: sum
+    list_align: def
+    readonly: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  total_bonus:
+    id: total_bonus
+    listed: 1
+    name: '<span style="color: green;">累计分红金额(万元)</span>'
+    type: currency
+    ext:
+      unit: 万元
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_width: 150
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    counter: sum
+    list_align: def
+    readonly: 1
+  hr8vqcw5k4:
+    id: hr8vqcw5k4
+    name: 报告期内回流情况
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  this_year_exit_money:
+    id: this_year_exit_money
+    name: '<span style="color: green;">本报告期退出金额</span>'
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    ext:
+      unit: 万元
+    list_align: def
+    width: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  this_year_exit_cb:
+    id: this_year_exit_cb
+    name: '<span style="color: green;">本报告期退出成本</span>'
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    ext:
+      unit: 万元
+    list_align: def
+    width: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  this_year_exit_sy:
+    id: this_year_exit_sy
+    name: '<span style="color: green;">本报告期退出收益</span>'
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    ext:
+      unit: 万元
+    list_align: def
+    width: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  this_year_fh:
+    id: this_year_fh
+    name: '<span style="color: green;">本报告期当期分红</span>'
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    ext:
+      unit: 万元
+    list_align: def
+    width: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  hou4xp3koa:
+    id: hou4xp3koa
+    name: 空
+    type: br
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  current_cost:
+    id: current_cost
+    listed: 1
+    name: '<span  style="color:blue">  当前账面投资成本（基金层面）</span>'
+    type: currency
+    ext:
+      unit: 万元
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_width: 150
+    counter: sum
+    list_align: def
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  fund_current_ratio:
+    id: fund_current_ratio
+    name: '<span style="color:blue">在投持股比例（基金层面）</span>'
+    type: percent
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    width: 1
+  fund_current_number:
+    id: fund_current_number
+    name: '<span style="color:blue">在投持股数量（基金层面）（万股）</span>'
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  fund_holding_value:
+    id: fund_holding_value
+    name: '<span style="color:blue">在持份额最新估值（基金层面）</span>'
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      unit: 万元
+    list_align: def
+    width: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  fund_float_value:
+    id: fund_float_value
+    name: '<span style="color:blue">浮盈（基金层面）</span>'
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      unit: 万元
+    list_align: def
+    width: 1
+    readonly: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  qcci_aspect:
+    id: qcci_aspect
+    name: 上实层面
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  qcci_total_cost:
+    id: qcci_total_cost
+    listed: 1
+    name: '<span style="color: green;">累计投资成本(万元)</span>'
+    type: currency
+    ext:
+      unit: 万元
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_width: 160
+    counter: sum
+    list_align: def
+    readonly: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  qcci_exit_money:
+    id: qcci_exit_money
+    listed: 1
+    name: '<span style="color: green;">累计退出金额(万元)</span>'
+    type: currency
+    ext:
+      unit: 万元
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_width: 150
+    counter: sum
+    list_align: def
+    readonly: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  qcci_exit_cost:
+    id: qcci_exit_cost
+    listed: 1
+    name: '<span style="color: green;">累计退出成本(万元)</span>'
+    type: currency
+    ext:
+      unit: 万元
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_width: 150
+    counter: sum
+    list_align: def
+    readonly: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  qcci_exit_gains:
+    id: qcci_exit_gains
+    listed: 1
+    name: '<span style="color: green;">累计退出收益(万元)</span>'
+    type: currency
+    ext:
+      unit: 万元
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_width: 150
+    counter: sum
+    list_align: def
+    readonly: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  qcci_total_bonus:
+    id: qcci_total_bonus
+    listed: 1
+    name: '<span style="color: green;">累计分红金额(万元)</span>'
+    type: currency
+    ext:
+      unit: 万元
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_width: 150
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    counter: sum
+    list_align: def
+    readonly: 1
+  fund_rj:
+    id: fund_rj
+    name: 基金认缴金额
+    type: wan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  jituan_rj:
+    id: jituan_rj
+    name: 集团认缴金额
+    type: wan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  hr8kctvmsk:
+    id: hr8kctvmsk
+    name: 介绍文字
+    type: puretext
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      tpl: '<p><span style="color: #FF0000;"><strong>如选择使用上实集团持股比例来自动计算，请先确保基金层面的数值填写完毕，否则会出现计算后的数值为 0 的情况</strong></span></p>'
+  is_use_qcci_ratio:
+    id: is_use_qcci_ratio
+    name: >
+      是否采用上实集团持股比例进行计算
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是: 是
+        否: 否
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 是
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label:
+      list_color_label_label:
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis:
+      ellipsis_label:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 3
+    required: 1
+    tips: '如选择‘是’，上实层面指标会按照基金层面所填写的指标 * 上实对基金的持股比例进行自动计算'
+  current_value:
+    id: current_value
+    listed: 1
+    name: '<span  style="color:blue"> 当前账面投资成本（穿透集团） </span>'
+    type: currency
+    ext:
+      unit: 万元
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_width: 150
+    counter: sum
+    list_align: def
+    tips: 穿透上实的投资成本
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  current_ratio:
+    id: current_ratio
+    listed: 1
+    name: '<span  style="color:blue">  在投持股比例（穿透集团） </span>'
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_width: 120
+    list_align: def
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  gushu_value:
+    id: gushu_value
+    name: '<span  style="color:blue"> 在投持股数量（穿透集团）（万股）</span>'
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  holding_value:
+    id: holding_value
+    name: '<span  style="color:blue">在持份额最新估值（穿透集团）</span>'
+    type: currency
+    ext:
+      unit: 万元
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  float_value:
+    id: float_value
+    name: '<span  style="color:blue"> 浮盈（穿透集团）</span>'
+    type: currency
+    ext:
+      unit: 万元
+    tips: 在持份额最新估值-账面成本
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+    readonly: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  business_aspect:
+    id: business_aspect
+    name: 企业最新融资信息
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  value_round:
+    id: value_round
+    name: '<span  style="color:blue">     最新融资轮次</span>'
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_optgroup:
+      type_label: 配置项
+      type: yaml
+      data_source: round
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis:
+      ellipsis_label:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    listed: 1
+    list_width: 100
+    list_align: def
+  value_money:
+    id: value_money
+    name: '<span  style="color:blue">     最新轮次融资金额</span>'
+    type: currency
+    ext:
+      unit: 万元
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 2
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  value_date:
+    id: value_date
+    name: '<span  style="color:blue">     最新融资时间</span>'
+    type: datepicker
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    listed: 1
+    list_width: 130
+    list_align: def
+  date_methods:
+    id: date_methods
+    name: '<span  style="color:blue">   最新估值更新时间</span>'
+    type: datepicker
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  value_methods:
+    id: value_methods
+    name: '<span  style="color:blue">   最新估值方法</span>'
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_optgroup:
+      type_label: 配置项
+      type: yaml
+      data_source: val_method
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label:
+      list_color_label_label:
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 2
+    list_align: def
+  latest_value:
+    id: latest_value
+    name: '<span  style="color:blue">   企业最新投后估值(万元)</span>'
+    type: currency
+    ext:
+      unit: 万元
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    listed: 1
+    list_width: 160
+    tips: 企业最新估值
+    list_align: def
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  fund_holding_value1:
+    id: fund_holding_value1
+    name: '<span style="color:blue">在持份额最新估值（基金层面）</span>'
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      unit: 万元
+    list_align: def
+    width: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    readonly: 1
+  holding_value1:
+    id: holding_value1
+    name: '<span style="color:blue">在持份额最新估值（穿透集团）</span>'
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      unit: 万元
+    list_align: def
+    width: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    readonly: 1
+  hqur8kgrp5:
+    id: hqur8kgrp5
+    name: 企业上市进展
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  declare_progress:
+    id: declare_progress
+    name: '<span  style="color:blue">  申报进展</span>'
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        未申报: 未申报
+        已申报: 已申报
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic: |
+        已申报:
+          - declare_date
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label:
+      list_color_label_label:
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis:
+      ellipsis_label:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    required: 1
+    default_value: 未申报
+  declare_date:
+    id: declare_date
+    name: '<span  style="color:blue">  申报日期</span>'
+    type: datepicker
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    required: 1
+  is_market:
+    id: is_market
+    name: '<span  style="color:blue">  是否上市</span>'
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 3
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是: 是
+        否: 否
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic: |
+        是:
+          - shangshi_board
+          - market_type
+          - market_date
+          - market_code
+          - market_name
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    required: 1
+  shangshi_board:
+    id: shangshi_board
+    name: '<span  style="color:blue">  上市板块</span>'
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 配置项
+      type: yaml
+      data_source: shangshi_board
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label:
+      list_color_label_label:
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis:
+      ellipsis_label:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    listed: 1
+    required: 1
+  market_type:
+    id: market_type
+    name: '<span style="color:blue">上市划分</span>'
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        A股: A股
+        港股: 港股
+        美股: 美股
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 1
+    required: 1
+  market_date:
+    id: market_date
+    name: '<span style="color:blue">上市时间</span>'
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    required: 1
+  market_name:
+    id: market_name
+    name: '<span style="color:blue">股票名称</span>'
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    required: 1
+  market_code:
+    id: market_code
+    name: '<span style="color:blue">股票代码</span>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    required: 1
+    tips: >
+      请填写股票的数字代码，如：300750
+  hqur9vswpw:
+    id: hqur9vswpw
+    name: 退出情况
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  has_rel_condition:
+    id: has_rel_condition
+    listed: 1
+    name: '<span  style="color:blue">  具备变现条件时间</span>'
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        已具备: 已具备
+        6个月以下:6个月以下
+        6-12个月: 6-12个月
+        12-24个月: 12-24个月
+        24个月以上: 24个月以上
+        无变现计划: 无变现计划
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  is_self_exit:
+    id: is_self_exit
+    listed: 1
+    name: '<span  style="color:blue">  是否自主决策退出</span>'
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是: 是
+        否: 否
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  exit_sud:
+    id: exit_sud
+    name: '<span  style="color:blue">退出进展</span>'
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        未退出: 未退出
+        部分退出: 部分退出
+        完全退出: 完全退出
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic: |
+        部分退出:
+          - exit_detail
+          - exit_details
+        完全退出:
+          - exit_detail
+          - exit_details
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    required: 1
+  exit_detail:
+    id: exit_detail
+    name: 退出明细
+    type: section
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  exit_details:
+    id: exit_details
+    name: 退出明细
+    type: data
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: company_exit_detail
+      filter:
+        company: companylibrary
+    list_align: def
+  qcci_fund_type:
+    id: qcci_fund_type
+    name: qcci_fund_type
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        子基金: 子基金
+        母基金: 母基金
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label:
+      list_color_label_label:
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis:
+      ellipsis_label:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  reduction_conditions:
+    id: reduction_conditions
+    name: '<span  style="color:blue"> 减持条件</span>'
+    type: text
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  gqcnotes:
+    id: gqcnotes
+    name: 备注
+    type: muti
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  big_memo:
+    id: big_memo
+    name: '<span  style="color:blue"> 项目进展/重大事项</span>'
+    type: muti
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hmdz5adkxp:
+    id: hmdz5adkxp
+    name: 投资项次
+    type: tab
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hjegt5n6xo:
+    id: hjegt5n6xo
+    name: 投资项次
+    type: data
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: company_deal
+      view: company_deal_zhitou
+      hidden_edit: true
+      hidden_add: true
+      hidden_del: true
+      filter:
+        company_mark: company_mark
+        creditCode: creditCode
+        fof: investment_subject
+    list_align: def
+    width: 1
+  hmd8cmcsp5:
+    id: hmd8cmcsp5
+    name: 企业财务信息
+    type: tab
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hmd8cmtncu:
+    id: hmd8cmtncu
+    name: 财务指标
+    type: data
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: company_cwzb_year_quarter
+      view: cwzb_year_quarter
+      filter:
+        creditCode: creditCode
+        year: year
+    list_align: def
+    width: 1
+  year:
+    id: year
+    name: 年度
+    type: yearpicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  quarter:
+    id: quarter
+    name: 季度
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 配置项
+      type: yaml
+      data_source: quarter
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic: |
+        Q4:
+          -hmd8cmcsp5
+          -hmd8cmtncu
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 1
+import: [ ]
+pre_order: [ ]
+bi:
+  counting: [ ]
+  condition: [ ]
+  monitor_condition: [ ]
+  monitor_update: [ ]
+  filter: [ ]

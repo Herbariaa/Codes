@@ -1,0 +1,128 @@
+companyd_view_tuichu:
+  title: 退出管理
+  icon: ios-star-outline
+  mod: companyd
+  view: gx_companyd_add
+  filter:
+    company_state:
+      - 退出
+  children:
+    index:
+      title: 总览
+    companyd_view_tz101:
+      title: 长期股权投资
+      type: load
+      url: companyd_view_tz101
+    companyd_view_tz102:
+      title: 固定资产投资
+      type: load
+      url: companyd_view_tz102
+    companyd_view_tz103:
+      title: 土地投资
+      type: load
+      url: companyd_view_tz103
+    companyd_view_tz104:
+      title: 基金投资
+      type: load
+      url: companyd_view_tz104
+    companyd_view_tz105:
+      title: 金融市场投资
+      type: load
+      url: companyd_view_tz105
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        tuozhan:
+          title: 拓展材料收集
+          type: ext
+          mod: tuozhan
+        lixiang:
+          title: 立项材料收集
+          type: ext
+        flowindex_tqxmlc:
+          title: 业务流程
+          nosub_count: 1
+          type: flowindex
+          flow: tqxmlc
+          children:
+            index:
+              title: 浏览
+        gongshang:
+          title: 工商数据
+          type: ext
+        doc:
+          title: 文档
+          type: doc
+          mod: doc_companyd
+        yuqing:
+          title: 舆情
+          type: ext
+          mod: yuqing
+companyd_view_tz101:
+  title: 长期股权投资
+  hidden: true
+  mod: companyd
+  view: Direct_investment_label
+  filter:
+    company_state:
+      - 退出
+    Product_category:
+      - 长期股权投资
+  children:
+    index:
+      title: 总览
+companyd_view_tz102:
+  title: 固定资产投资
+  hidden: true
+  mod: companyd
+  view: companyd_view_gd
+  filter:
+    company_state:
+      - 退出
+    Product_category:
+      - 固定资产投资
+  children:
+    index:
+      title: 总览
+companyd_view_tz103:
+  title: 土地投资
+  hidden: true
+  mod: companyd
+  view: companyd_view_td
+  filter:
+    company_state:
+      - 退出
+    Product_category:
+      - 土地投资
+  children:
+    index:
+      title: 总览
+companyd_view_tz104:
+  title: 基金投资
+  hidden: true
+  mod: companyd
+  view: companyd_view_fund
+  filter:
+    company_state:
+      - 退出
+    Product_category:
+      - 基金投资
+  children:
+    index:
+      title: 总览
+companyd_view_tz105:
+  title: 金融市场投资
+  hidden: true
+  mod: companyd
+  view: companyd_view_jrzc
+  filter:
+    company_state:
+      - 退出
+    Product_category:
+      - 金融市场投资
+  children:
+    index:
+      title: 总览

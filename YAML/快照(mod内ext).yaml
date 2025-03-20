@@ -1,0 +1,154 @@
+---
+btp:
+  button:
+    docx:
+      title: Download Docx
+      is_hidden: true
+      mobile_hidden: true
+    pdf:
+      title: Download PDF
+      is_hidden: true
+      mobile_hidden: true
+    edit:
+      title: 修改
+      is_hidden: false
+      mobile_hidden: true
+    history:
+      title: 历史
+      is_hidden: false
+      mobile_hidden: true
+    submit:
+      title: 保存
+      is_hidden: false
+    cache:
+      title: 暂存
+      mobile_hidden: true
+    reset:
+      title: Reset
+      is_hidden: true
+      mobile_hidden: true
+entity_snapshot:
+  month_valuation:
+    view: month_valuation
+    to_mod: month_valuation_history
+    _rel: eid
+    _rel_view: type
+    map:
+      fof: eid
+      fof_label: name
+    relevancy:
+      zhitou_company_value:
+        mod: company
+        view: zhitou_company_value
+        to_mod: zhitou_company_value_history
+        filter:
+          fund: eid
+        map:
+          company: eid
+          company_label: name
+      fund_valuation:
+        mod: fund
+        view: fund_valuation
+        to_mod: fund_valuation_history
+        filter:
+          fof: eid
+        map:
+          fund: eid
+          fund_label: name
+        relevancy:
+          subfund_company_value:
+            mod: company
+            view: subfund_company_value
+            filter:
+              fund: eid
+              fof: fof
+              company_mark: 子基金项目
+              company_mark_label: 子基金项目
+            to_mod: subfund_company_value_history
+            map:
+              company: eid
+              company_label: name
+      fof_company_value:
+        mod: company
+        view: fof_company_value
+        to_mod: fof_company_value_history
+        filter:
+          fof: eid
+          company_mark: 直投项目
+          company_mark_label: 直投项目
+        map:
+          company: eid
+          company_label: name
+  fund_post_filling:
+    view: fund_post_filling
+    to_mod: post_filling_history
+    _rel: eid
+    _rel_view: type
+    map:
+      fof: eid
+      fof_label: name
+    relevancy:
+      post_filling_fund:
+        mod: fund
+        view: post_filling_fund
+        to_mod: post_filling_fund_history
+        filter:
+          fof: eid
+        map:
+          fund: eid
+          fund_label: name
+      holding_value_zhitou:
+        mod: holding_value
+        view: holding_value_zhitou
+        to_mod: holding_value_zhitou_history
+        filter:
+          investment_subject: eid
+          company_mark_label: 直投项目
+          company_mark: 直投项目
+        relevancy:
+          company_deal_zhitou:
+            mod: company_deal
+            view: company_deal_zhitou
+            filter:
+              company_mark_label: 直投项目
+              company_mark: 直投项目
+              creditCode: creditCode
+              fof: investment_subject
+            to_mod: company_deal_zhitou_history
+      holding_value_subcompany:
+        mod: holding_value
+        view: holding_value_subcompany
+        to_mod: holding_value_subcompany_history
+        filter:
+          investment_subject: eid
+          company_mark_label: 子基金项目
+          company_mark: 子基金项目
+        relevancy:
+          company_deal_zjj:
+            mod: company_deal
+            view: company_deal_zjj
+            filter:
+              company_mark_label: 子基金项目
+              company_mark: 子基金项目
+              creditCode: creditCode
+              fund: fund
+              fof: investment_subject
+            to_mod: company_deal_zjj_history
+      holding_value_ctzjj:
+        mod: holding_value
+        view: holding_value_ctzjj
+        to_mod: holding_value_ctzjj_history
+        filter:
+          fund: eid
+          company_mark_label: 子基金项目
+          company_mark: 子基金项目
+        relevancy:
+          company_deal_ctzjj:
+            mod: company_deal
+            view: company_deal_ctzjj
+            filter:
+              company_mark_label: 子基金项目
+              company_mark: 子基金项目
+              creditCode: creditCode
+              fund: fund
+            to_mod: company_deal_ctzjj_history

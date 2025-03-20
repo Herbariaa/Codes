@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 ECharts -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+</head>
+<body style="height: 100%; margin: 0">
+    <!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+    <div id="main" style="height: 100%"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+
+        // 节点名对应的URL映射
+        var nodeUrls = {
+            '长期股权管理': 'https://dev.vc800.com/?/Directinvestmentlabel/&page0&state20',
+            '固定资产管理': 'https://dev.vc800.com/?/companyd...'
+            // 其他节点URL映射
+        };
+
+        // ECharts配置项
+        var option = {
+            // ... 其他配置项
+            series: [{
+                // ... 其他系列配置
+                data: [
+                    // ... 节点数据
+                ],
+                label: {
+                    normal: {
+                        formatter: function (params) {
+                            // 添加特殊标志和链接
+                            var url = nodeUrls[params.name];
+                            var symbol = params.data.children ? (params.datacollapsed ? ' + ' : ' - ') : '';
+                            return '{a|' + params.name + '}' + '{symbol|' + symbol + '}';
+                        },
+                        rich: {
+                            symbol: {
+                                color: '#999',
+                                fontSize: 14,
+                                fontWeight: 'bold',
+                                cursor: 'pointer',
+                                padding: [0, 0, 0, 5] // 与节点名保持一定间距
+                            },
+                            a: {
+                                color: '#0066cc',
+                                textDecoration: 'underline',
+                                cursor: 'pointer'
+                            }
+                        }
+                    }
+                },
+                // ... 其他配置
+            }]
+            // ... 其他配置项
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+
+        // 添加点击事件监听
+        myChart.on('click', function (params) {
+            // 检查点击的是否为节点名
+            if (params.componentType === 'series') {
+                // 获取点击的文本内容
+                var clickedText = params.name;
+                // 获取节点名对应的URL
+                var url = nodeUrls[clickedText];
+                // 判断点击的是特殊标志还是节点名
+                if (params.data.children && (clickedText === ' + ' || clickedText === ' - ')) {
+                    // 展开或收起节点
+                    params.datacollapsed = !params.datacollapsed;
+                    myChart.setOption(option);
+                } else if (url) {
+                    // 跳转到对应的URL
+                    window.open(url);
+                }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,805 @@
+---
+diycol_pc:
+diycol_iphone:
+bi_counting:
+bi_condition:
+bi_filter:
+enable_privilege: 1
+openlink: 0
+name_rule:
+monitor_condition:
+monitor_update:
+title_field:
+stepbar: [ ]
+dynform: [ ]
+collect: [ ]
+calc: [ ]
+css:
+js:
+script: [ ]
+ext:
+  btp:
+    button:
+      docx:
+        title: Download Docx
+        is_hidden: true
+        mobile_hidden: true
+      pdf:
+        title: Download PDF
+        is_hidden: true
+        mobile_hidden: true
+      edit:
+        title: 修改
+        is_hidden: true
+      history:
+        title: 历史
+        is_hidden: false
+      submit:
+        title: 提交
+        is_hidden: false
+      cache:
+        title: 暂存
+        is_hidden: true
+        mobile_hidden: true
+      reset:
+        title: Reset
+        is_hidden: true
+        mobile_hidden: true
+sms_template: [ ]
+openlink_title:
+openlink_button:
+email_notify: [ ]
+email_notify_tem:
+openlink_content:
+pre_commit_content:
+tab_listen_key:
+tab_listen_rule: [ ]
+def_submit_btn_text:
+submit_redirect: 0
+submit_redirect_url:
+word_export:
+  word_custom_func:
+  word_export_name:
+  word_file:
+    - [ ]
+  word_file_label:
+    - [ ]
+api_address:
+api_list_key:
+api_request_key:
+api_response_key:
+api_display: match
+comment:
+  target: _self
+  doctype:
+  up_folder:
+  root_uid:
+  eid_link:
+  formats:
+  position: 1
+  attached_mod:
+  field_newest:
+  field_count:
+modbox:
+  position: 1
+  ext: [ ]
+notify_default: newg0u9g7vlie,newteam_manager
+notify:
+  url_template:
+inherit_priv:
+privilege:
+  list:
+  import:
+  export:
+  detail:
+  edit:
+  delete:
+  docx:
+  pdf:
+  history:
+  openlink:
+  block_view_hi9s1t6pd0:
+  block_edit_hi9s1t6pd0: giq1vg1l94
+  block_view_hgzpx6qeet:
+  block_edit_hgzpx6qeet: team_manager
+  block_view_hgzpxjaz75:
+  block_edit_hgzpxjaz75: newteam_manager
+  block_view_hh0ym24thd:
+  block_edit_hh0ym24thd: newteam_manager
+  block_view_hh0ymwtxmw:
+  block_edit_hh0ymwtxmw: newteam_manager
+diycol_back_list:
+list_count_block_fields:
+order_priority:
+page_size:
+fixed_col:
+fixed_col_mobile:
+addon_url:
+list_style: list_ajax
+link_type: canvas
+list_count: top
+list_style_mobile: list_mobile
+py_search: no_more
+secondary_link_type: modal
+list_mobile_mod: default
+diycard_config: [ ]
+button_config: [ ]
+feed_tpl:
+feed_mobile_tpl:
+feed_tpl_css:
+feed_tpl_js:
+css_config:
+js_config:
+merged_cell_key:
+merged_cell_list:
+merge_exclude_code:
+list_img_name:
+list_img_img:
+list_img_date:
+list_img_content:
+super_object:
+replace_comment_update_col:
+replace_comment_max_col:
+replace_comment_notify: 1
+created_sth: '【变更通知】【{gy8llhlz46_label}】创建了【{lp_label}】变更事宜，请及时处理！'
+filter:
+always_show:
+filter_mobile:
+item:
+  hi9s1t6pd0:
+    id: hi9s1t6pd0
+    name: LP变更详细
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  name:
+    id: name
+    name: 变更标题
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 3
+    listed: 1
+    list_align: def
+  company:
+    id: company
+    listed: 1
+    name: LP名称
+    type: select_new
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    index: 1
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source: company
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 是
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    list_align: def
+  team_manager:
+    id: team_manager
+    listed: 1
+    name: 原负责人
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_optgroup:
+      type_label: 用户
+      type: usr
+      data_source:
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    list_align: def
+  g0u9g7vlie:
+    id: g0u9g7vlie
+    listed: 1
+    name: 原项目小组
+    type: select_new
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_optgroup:
+      type_label: 用户
+      type: usr
+      data_source:
+      payload:
+      multiple: 是
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    list_align: def
+  newteam_manager:
+    id: newteam_manager
+    listed: 1
+    name: 现负责人
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_optgroup:
+      type_label: 用户
+      type: usr
+      data_source:
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    list_align: def
+  newg0u9g7vlie:
+    id: newg0u9g7vlie
+    listed: 1
+    name: 现项目小组
+    type: select_new
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_optgroup:
+      type_label: 用户
+      type: usr
+      data_source:
+      payload:
+      multiple: 是
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    list_align: def
+  hgzppg324g:
+    id: hgzppg324g
+    name: 共同管理期限
+    type: datepicker
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        三个月: 三个月
+        一年: 一年
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hgzpp6lqke:
+    id: hgzpp6lqke
+    name: LP变更原因
+    type: muti
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  gy8ljnqmg5:
+    id: gy8ljnqmg5
+    listed: desc
+    name: 拟变更发起日期
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    required: 1
+    width: 1
+    list_align: def
+  gy8llhlz46:
+    id: gy8llhlz46
+    listed: 1
+    name: 拟变更发起人
+    type: select_new
+    width: 1
+    default_value: uid
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_optgroup:
+      type_label: 用户
+      type: usr
+      data_source:
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    list_align: def
+  jiaojie_state:
+    id: jiaojie_state
+    name: 变更状态
+    type: select_new
+    width: 1
+    default_value: 过渡期
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        过渡期: 过渡期
+        已完成: 已完成
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic: |
+        已完成:
+          - hgzpx6qeet
+          - hgzppezbtc
+          - hgzpxjaz75
+          - hgzppdvsm0
+          - hgzppek74r
+          - hgzppff638
+          - hh200o5liq
+          - hh200p212g
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    listed: 1
+  mark:
+    id: mark
+    name: 发送标记
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  hh200o5liq:
+    id: hh200o5liq
+    name: 正式变更发起日期
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hh200p212g:
+    id: hh200p212g
+    name: 正式变更发起人
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 用户
+      type: usr
+      data_source:
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 1
+  hgzpx6qeet:
+    id: hgzpx6qeet
+    name: 原负责人填写内容
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hgzppezbtc:
+    id: hgzppezbtc
+    name: 原项目小组变更情况
+    type: muti
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hgzpxjaz75:
+    id: hgzpxjaz75
+    name: 现负责人填写内容
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hgzppff638:
+    id: hgzppff638
+    name: 现项目小组变更情况
+    type: muti
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hh0ym24thd:
+    id: hh0ym24thd
+    name: 新负责人拜访记录
+    type: section
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hh0ymwtxmw:
+    id: hh0ymwtxmw
+    name: 新负责人拜访记录
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: visit_record
+      filter:
+        company_handover: eid
+    list_align: def
+  gy8llzv2qc:
+    id: gy8llzv2qc
+    name: 记录日期
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  remind_time:
+    id: remind_time
+    name: 提醒日期
+    type: hidden
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+import: [ ]
+pre_order: [ ]
+bi:
+  counting: [ ]
+  condition: [ ]
+  monitor_condition: [ ]
+  monitor_update: [ ]
+  filter: [ ]

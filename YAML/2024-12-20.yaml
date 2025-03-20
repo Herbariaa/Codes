@@ -1,0 +1,2098 @@
+---
+diycol_pc:
+diycol_iphone:
+bi_counting:
+bi_condition:
+bi_filter:
+openlink: 0
+name_rule:
+monitor_condition:
+monitor_update:
+title_field:
+stepbar: [ ]
+dynform: [ ]
+collect: [ ]
+calc: [ ]
+css:
+js:
+script: [ ]
+ext:
+  secondary_header: 1
+sms_template: [ ]
+openlink_title:
+openlink_button:
+email_notify:
+  - 
+email_notify_tem:
+openlink_content:
+pre_commit_content:
+_pm_deadline: 0
+tab_listen_key:
+tab_listen_rule: [ ]
+def_submit_btn_text:
+submit_redirect: 0
+submit_redirect_url:
+word_export:
+  word_custom_func:
+  word_export_name:
+  word_file:
+    - 
+  word_file_label:
+    - 
+api_address:
+api_list_key:
+api_request_key:
+api_response_key:
+api_display: match
+comment:
+  target: _self
+  doctype:
+  up_folder:
+  root_uid:
+  eid_link:
+  formats:
+  position: 1
+  attached_mod:
+  comment_title_tpl:
+  field_newest:
+  field_count:
+modbox:
+  position: 1
+  ext: [ ]
+notify_default:
+notify:
+  url_template:
+inherit_priv:
+privilege:
+  list:
+  import:
+  export:
+  detail:
+  edit:
+  delete:
+  docx:
+  pdf:
+  history:
+  openlink:
+  block_view_hwqby3p3po:
+  block_edit_hwqby3p3po:
+  block_view_xbt_10:
+  block_edit_xbt_10:
+  block_view_erjistart_10:
+  block_edit_erjistart_10:
+  block_view_erjiend_10:
+  block_edit_erjiend_10:
+diycol: 1
+diycol_back_list:
+list_count_block_fields:
+order_priority:
+page_size:
+fixed_col:
+fixed_col_mobile:
+addon_url:
+list_style: list_easy
+link_type: canvas
+list_count:
+list_style_mobile: list_mobile
+py_search: no_more
+secondary_link_type: modal
+list_mobile_mod: default
+diycard_config: [ ]
+button_config: [ ]
+feed_tpl:
+feed_mobile_tpl:
+feed_tpl_css:
+feed_tpl_js:
+css_config:
+js_config:
+merged_cell_key:
+merged_cell_list:
+merge_exclude_code:
+list_img_name:
+list_img_img:
+list_img_date:
+list_img_content:
+super_object:
+replace_comment_update_col:
+replace_comment_max_col:
+replace_comment_notify: 3
+created_sth:
+filter:
+always_show:
+filter_mobile:
+item:
+  company:
+    id: company
+    name: 项目名称
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source: company
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      select_all: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 1
+    listed: 1
+    ext:
+      mod: company
+      set_options:
+        fill_label:
+          team_manager: team_manager
+          team_manager_label: team_manager_label
+          currency: currency
+          currency_label: currency_label
+    fill_label: 1
+  currency:
+    id: currency
+    name: 所属基金
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source: fund
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      select_all: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 1
+    listed: 1
+  team_manager:
+    id: team_manager
+    name: 项目负责人
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 用户
+      type: usr
+      data_source:
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      select_all: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 1
+    listed: 1
+  year:
+    id: year
+    name: 填报年度
+    type: yearpicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    default_value: now
+    listed: desc
+  indicators_count:
+    id: indicators_count
+    name: 指标个数
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        1: 1
+        2: 2
+        3: 3
+        4: 4
+        5: 5
+        6: 6
+        7: 7
+        8: 8
+        9: 9
+        10: 10
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      select_all: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic: |
+        1:
+           -number_01
+           -name_01
+           -logic_01
+           -value_01
+           -unit_01
+           -real_01
+        2:
+           -number_01
+           -name_01
+           -logic_01
+           -value_01
+           -unit_01
+           -real_01
+           -number_02
+           -name_02
+           -logic_02
+           -value_02
+           -unit_02
+           -real_02
+        3:
+           -number_01
+           -name_01
+           -logic_01
+           -value_01
+           -unit_01
+           -real_01
+           -number_02
+           -name_02
+           -logic_02
+           -value_02
+           -unit_02
+           -real_02
+           -number_03
+           -name_03
+           -logic_03
+           -value_03
+           -unit_03
+           -real_03
+        4:
+           -number_01
+           -name_01
+           -logic_01
+           -value_01
+           -unit_01
+           -real_01
+           -number_02
+           -name_02
+           -logic_02
+           -value_02
+           -unit_02
+           -real_02
+           -number_03
+           -name_03
+           -logic_03
+           -value_03
+           -unit_03
+           -real_03
+           -number_04
+           -name_04
+           -logic_04
+           -value_04
+           -unit_04
+           -real_04
+        5:
+           -number_01
+           -name_01
+           -logic_01
+           -value_01
+           -unit_01
+           -real_01
+           -number_02
+           -name_02
+           -logic_02
+           -value_02
+           -unit_02
+           -real_02
+           -number_03
+           -name_03
+           -logic_03
+           -value_03
+           -unit_03
+           -real_03
+           -number_04
+           -name_04
+           -logic_04
+           -value_04
+           -unit_04
+           -real_04
+           -number_05
+           -name_05
+           -logic_05
+           -value_05
+           -unit_05
+           -real_05
+        6:
+           -number_01
+           -name_01
+           -logic_01
+           -value_01
+           -unit_01
+           -real_01
+           -number_02
+           -name_02
+           -logic_02
+           -value_02
+           -unit_02
+           -real_02
+           -number_03
+           -name_03
+           -logic_03
+           -value_03
+           -unit_03
+           -real_03
+           -number_04
+           -name_04
+           -logic_04
+           -value_04
+           -unit_04
+           -real_04
+           -number_05
+           -name_05
+           -logic_05
+           -value_05
+           -unit_05
+           -real_05
+           -number_06
+           -name_06
+           -logic_06
+           -value_06
+           -unit_06
+           -real_06
+        7:
+           -number_01
+           -name_01
+           -logic_01
+           -value_01
+           -unit_01
+           -real_01
+           -number_02
+           -name_02
+           -logic_02
+           -value_02
+           -unit_02
+           -real_02
+           -number_03
+           -name_03
+           -logic_03
+           -value_03
+           -unit_03
+           -real_03
+           -number_04
+           -name_04
+           -logic_04
+           -value_04
+           -unit_04
+           -real_04
+           -number_05
+           -name_05
+           -logic_05
+           -value_05
+           -unit_05
+           -real_05
+           -number_06
+           -name_06
+           -logic_06
+           -value_06
+           -unit_06
+           -real_06
+           -number_07
+           -name_07
+           -logic_07
+           -value_07
+           -unit_07
+           -real_07
+        8:
+           -number_01
+           -name_01
+           -logic_01
+           -value_01
+           -unit_01
+           -real_01
+           -number_02
+           -name_02
+           -logic_02
+           -value_02
+           -unit_02
+           -real_02
+           -number_03
+           -name_03
+           -logic_03
+           -value_03
+           -unit_03
+           -real_03
+           -number_04
+           -name_04
+           -logic_04
+           -value_04
+           -unit_04
+           -real_04
+           -number_05
+           -name_05
+           -logic_05
+           -value_05
+           -unit_05
+           -real_05
+           -number_06
+           -name_06
+           -logic_06
+           -value_06
+           -unit_06
+           -real_06
+           -number_07
+           -name_07
+           -logic_07
+           -value_07
+           -unit_07
+           -real_07
+           -number_08
+           -name_08
+           -logic_08
+           -value_08
+           -unit_08
+           -real_08
+        9:
+           -number_01
+           -name_01
+           -logic_01
+           -value_01
+           -unit_01
+           -real_01
+           -number_02
+           -name_02
+           -logic_02
+           -value_02
+           -unit_02
+           -real_02
+           -number_03
+           -name_03
+           -logic_03
+           -value_03
+           -unit_03
+           -real_03
+           -number_04
+           -name_04
+           -logic_04
+           -value_04
+           -unit_04
+           -real_04
+           -number_05
+           -name_05
+           -logic_05
+           -value_05
+           -unit_05
+           -real_05
+           -number_06
+           -name_06
+           -logic_06
+           -value_06
+           -unit_06
+           -real_06
+           -number_07
+           -name_07
+           -logic_07
+           -value_07
+           -unit_07
+           -real_07
+           -number_08
+           -name_08
+           -logic_08
+           -value_08
+           -unit_08
+           -real_08
+           -number_09
+           -name_09
+           -logic_09
+           -value_09
+           -unit_09
+           -real_09
+        10:
+           -number_01
+           -name_01
+           -logic_01
+           -value_01
+           -unit_01
+           -real_01
+           -number_02
+           -name_02
+           -logic_02
+           -value_02
+           -unit_02
+           -real_02
+           -number_03
+           -name_03
+           -logic_03
+           -value_03
+           -unit_03
+           -real_03
+           -number_04
+           -name_04
+           -logic_04
+           -value_04
+           -unit_04
+           -real_04
+           -number_05
+           -name_05
+           -logic_05
+           -value_05
+           -unit_05
+           -real_05
+           -number_06
+           -name_06
+           -logic_06
+           -value_06
+           -unit_06
+           -real_06
+           -number_07
+           -name_07
+           -logic_07
+           -value_07
+           -unit_07
+           -real_07
+           -number_08
+           -name_08
+           -logic_08
+           -value_08
+           -unit_08
+           -real_08
+           -number_09
+           -name_09
+           -logic_09
+           -value_09
+           -unit_09
+           -real_09
+           -number_10
+           -name_10
+           -logic_10
+           -value_10
+           -unit_10
+           -real_10
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 1
+    listed: 1
+    default_value: 3
+  hwqby3p3po:
+    id: hwqby3p3po
+    name: 返投指标和统计值详情
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  h8xo94uddy:
+    id: h8xo94uddy
+    name: '<b><font size="3">序号</font></b>'
+    type: text
+    default_value: 小标题
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  h8xod0j25x:
+    id: h8xod0j25x
+    name: '<b><font size="3">指标名</font></b>'
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  h8xodv3bsf:
+    id: h8xodv3bsf
+    name: '<b><font size="3">判断逻辑</font></b>'
+    type: text
+    default_value: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  h8xo4343:
+    id: h8xo4343
+    name: '<b><font size="3">指标值</font></b>'
+    type: text
+    default_value: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  h8xo4341:
+    id: h8xo4341
+    name: '<b><font size="3">指标单位</font></b>'
+    type: text
+    default_value: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  h8xo43415:
+    id: h8xo43415
+    name: '<span style="color: blue;"><b><font size="3">统计值</font></b></span>'
+    type: text
+    default_value: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  xbt_01:
+    id: xbt_01
+    name: 指标1小标题
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  erjistart_01:
+    id: erjistart_01
+    name: 指标1
+    type: secondary_header
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  number_01:
+    id: number_01
+    name: '<b><font size="3">指标1</font></b>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  name_01:
+    id: name_01
+    name: 指标名
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    listed: 1
+  logic_01:
+    id: logic_01
+    name: 判断逻辑
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+  value_01:
+    id: value_01
+    name: 指标值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+  unit_01:
+    id: unit_01
+    name: 指标单位
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    prompt: 请填写单位
+  real_01:
+    id: real_01
+    name: 统计值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    listed: 1
+  erjiend_01:
+    id: erjiend_01
+    name: 指标1
+    type: end_secondary_header
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  xbt_02:
+    id: xbt_02
+    name: 指标2小标题
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  erjistart_02:
+    id: erjistart_02
+    name: 指标2
+    type: secondary_header
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  number_02:
+    id: number_02
+    name: '<b><font size="3">指标2</font></b>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  name_02:
+    id: name_02
+    name: 指标名
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    listed: 1
+  logic_02:
+    id: logic_02
+    name: 判断逻辑
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+  value_02:
+    id: value_02
+    name: 指标值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+  unit_02:
+    id: unit_02
+    name: 指标单位
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    prompt: 请填写单位
+  real_02:
+    id: real_02
+    name: 统计值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    listed: 1
+  erjiend_02:
+    id: erjiend_02
+    name: 指标2
+    type: end_secondary_header
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  xbt_03:
+    id: xbt_03
+    name: 指标3小标题
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  erjistart_03:
+    id: erjistart_03
+    name: 指标3
+    type: secondary_header
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  number_03:
+    id: number_03
+    name: '<b><font size="3">指标3</font></b>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  name_03:
+    id: name_03
+    name: 指标名
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    listed: 1
+  logic_03:
+    id: logic_03
+    name: 判断逻辑
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+  value_03:
+    id: value_03
+    name: 指标值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+  unit_03:
+    id: unit_03
+    name: 指标单位
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    prompt: 请填写单位
+  real_03:
+    id: real_03
+    name: 统计值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    listed: 1
+  erjiend_03:
+    id: erjiend_03
+    name: 指标3
+    type: end_secondary_header
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  xbt_04:
+    id: xbt_04
+    name: 指标4小标题
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  erjistart_04:
+    id: erjistart_04
+    name: 指标4
+    type: secondary_header
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  number_04:
+    id: number_04
+    name: '<b><font size="3">指标4</font></b>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  name_04:
+    id: name_04
+    name: 指标名
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    listed: 1
+  logic_04:
+    id: logic_04
+    name: 判断逻辑
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+  value_04:
+    id: value_04
+    name: 指标值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+  unit_04:
+    id: unit_04
+    name: 指标单位
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    prompt: 请填写单位
+  real_04:
+    id: real_04
+    name: 统计值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    listed: 1
+  erjiend_04:
+    id: erjiend_04
+    name: 指标4
+    type: end_secondary_header
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  xbt_05:
+    id: xbt_05
+    name: 指标5小标题
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  erjistart_05:
+    id: erjistart_05
+    name: 指标5
+    type: secondary_header
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  number_05:
+    id: number_05
+    name: '<b><font size="3">指标5</font></b>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  name_05:
+    id: name_05
+    name: 指标名
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    listed: 1
+  logic_05:
+    id: logic_05
+    name: 判断逻辑
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+  value_05:
+    id: value_05
+    name: 指标值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+  unit_05:
+    id: unit_05
+    name: 指标单位
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    prompt: 请填写单位
+  real_05:
+    id: real_05
+    name: 统计值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    listed: 1
+  erjiend_05:
+    id: erjiend_05
+    name: 指标5
+    type: end_secondary_header
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  xbt_06:
+    id: xbt_06
+    name: 指标6小标题
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  erjistart_06:
+    id: erjistart_06
+    name: 指标6
+    type: secondary_header
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  number_06:
+    id: number_06
+    name: '<b><font size="3">指标6</font></b>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  name_06:
+    id: name_06
+    name: 指标名
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    listed: 1
+  logic_06:
+    id: logic_06
+    name: 判断逻辑
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+  value_06:
+    id: value_06
+    name: 指标值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+  unit_06:
+    id: unit_06
+    name: 指标单位
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    prompt: 请填写单位
+  real_06:
+    id: real_06
+    name: 统计值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    listed: 1
+  erjiend_06:
+    id: erjiend_06
+    name: 指标6
+    type: end_secondary_header
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  xbt_07:
+    id: xbt_07
+    name: 指标7小标题
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  erjistart_07:
+    id: erjistart_07
+    name: 指标7
+    type: secondary_header
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  number_07:
+    id: number_07
+    name: '<b><font size="3">指标7</font></b>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  name_07:
+    id: name_07
+    name: 指标名
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    listed: 1
+  logic_07:
+    id: logic_07
+    name: 判断逻辑
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+  value_07:
+    id: value_07
+    name: 指标值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+  unit_07:
+    id: unit_07
+    name: 指标单位
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    prompt: 请填写单位
+  real_07:
+    id: real_07
+    name: 统计值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    listed: 1
+  erjiend_07:
+    id: erjiend_07
+    name: 指标7
+    type: end_secondary_header
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  xbt_08:
+    id: xbt_08
+    name: 指标8小标题
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  erjistart_08:
+    id: erjistart_08
+    name: 指标8
+    type: secondary_header
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  number_08:
+    id: number_08
+    name: '<b><font size="3">指标8</font></b>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  name_08:
+    id: name_08
+    name: 指标名
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    listed: 1
+  logic_08:
+    id: logic_08
+    name: 判断逻辑
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+  value_08:
+    id: value_08
+    name: 指标值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+  unit_08:
+    id: unit_08
+    name: 指标单位
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    prompt: 请填写单位
+  real_08:
+    id: real_08
+    name: 统计值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    listed: 1
+  erjiend_08:
+    id: erjiend_08
+    name: 指标8
+    type: end_secondary_header
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  xbt_09:
+    id: xbt_09
+    name: 指标9小标题
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  erjistart_09:
+    id: erjistart_09
+    name: 指标9
+    type: secondary_header
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  number_09:
+    id: number_09
+    name: '<b><font size="3">指标9</font></b>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  name_09:
+    id: name_09
+    name: 指标名
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    listed: 1
+  logic_09:
+    id: logic_09
+    name: 判断逻辑
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+  value_09:
+    id: value_09
+    name: 指标值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+  unit_09:
+    id: unit_09
+    name: 指标单位
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    prompt: 请填写单位
+  real_09:
+    id: real_09
+    name: 统计值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    listed: 1
+  erjiend_09:
+    id: erjiend_09
+    name: 指标9
+    type: end_secondary_header
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  xbt_10:
+    id: xbt_10
+    name: 指标10小标题
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  erjistart_10:
+    id: erjistart_10
+    name: 指标10
+    type: secondary_header
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  number_10:
+    id: number_10
+    name: '<b><font size="3">指标10</font></b>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  name_10:
+    id: name_10
+    name: 指标名
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    listed: 1
+  logic_10:
+    id: logic_10
+    name: 判断逻辑
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+  value_10:
+    id: value_10
+    name: 指标值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+  unit_10:
+    id: unit_10
+    name: 指标单位
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    prompt: 请填写单位
+  real_10:
+    id: real_10
+    name: 统计值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    listed: 1
+  erjiend_10:
+    id: erjiend_10
+    name: 指标10
+    type: end_secondary_header
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  xbt_control:
+    id: xbt_control
+    name: 永远控制小标题不出现
+    type: select_new
+    default_value: 永远控制小标题不出现
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        1: 1
+        2: 2
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      select_all: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic: |
+        1: 
+          -xbt_01
+          -xbt_02
+          -xbt_03
+          -xbt_04
+          -xbt_05
+          -xbt_06
+          -xbt_07
+          -xbt_08
+          -xbt_09
+          -xbt_10
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: off
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: off
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 1
+import: [ ]
+pre_order: [ ]
+bi:
+  counting: [ ]
+  condition: [ ]
+  monitor_condition: [ ]
+  monitor_update: [ ]
+  filter: [ ]

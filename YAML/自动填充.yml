@@ -1,0 +1,38 @@
+---
+set_options:
+  fill_label:
+    company_library:
+      full_name: full_name
+      full_name_label: full_name_label
+      position: position
+      position_label: position_label
+      state: state
+      state_label: state_label
+    shac_company:
+      full_name: full_name
+      full_name_label: full_name_label
+      position: position
+      position_label: position_label
+      state: state
+      state_label: state_label
+    vc_company:
+      full_name: full_name
+      full_name_label: full_name_label
+      position: position
+      position_label: position_label
+      state: state
+      state_label: state_label
+    pe_company:
+      full_name: full_name
+      full_name_label: full_name_label
+      position: position
+      position_label: position_label
+      state: state
+      state_label: state_label
+    dollar_company:
+      full_name: full_name
+      full_name_label: full_name_label
+      position: position
+      position_label: position_label
+      state: state
+      state_label: state_label

@@ -1,0 +1,630 @@
+---
+default_form: bjyj
+comment:
+  open: 1
+  target: _self
+  doctype:
+  up_folder:
+  root_uid:
+  eid_link:
+  formats:
+  flow_default_notify_optgroup:
+  flow_default_notify:
+    - [ ]
+  flow_default_notify_label:
+    - [ ]
+page_size:
+addon_buttons:
+  approve: 1
+  disapprove: 1
+  reject: 1
+  transfer: 1
+addon_node_pre_approver:
+  - [ ]
+  - [ ]
+flow_finish_copy_to:
+  - [ ]
+  - [ ]
+only_one: 1
+item:
+  h2euru4g7f:
+    id: h2euru4g7f
+    name: 财务尽调发起环节
+    path_name:
+    type:
+    form: form_cwjd
+    approver_optgroup: 其他
+    approver_label:
+      - 所有人
+    approver:
+      - other;all;所有人
+    copyto_optgroup: 用户组
+    copyto_label:
+      - 风险合规部负责人
+      - 表单内部字段
+    copyto:
+      - structure;h3l3ylnp78;
+      - other;formid;表单内部字段
+    btn_setting:
+      commit: 1
+      reject: 1
+    co_sign_msg: 1
+    backToBackShowList_optgroup:
+    backToBackShowList:
+      - [ ]
+    backToBackShowList_label:
+      - [ ]
+    cosign_ypfj_optgroup:
+    cosign_ypfj:
+      - [ ]
+    cosign_ypfj_label:
+      - [ ]
+    obscureApprover:
+      - [ ]
+      - [ ]
+    obscure_can_see:
+      - [ ]
+      - [ ]
+    default_value:
+    ext:
+      assign_copyto: team_member,team_manager,superiors
+      executor_msgtpl: '【美元项目审批】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}  【{company_label}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook: [ ]
+    path: [ ]
+  h4shmd5u9u:
+    id: h4shmd5u9u
+    name: 法务、运营负责人审批
+    path_name:
+    type:
+    form: bjyj
+    approver_optgroup: 用户组
+    approver_label:
+      - 风险合规部负责人
+      - 财务管理部负责人
+    approver:
+      - structure;h3l3ylnp78;
+      - structure;h3uzx268kd;
+    copyto_optgroup:
+    copyto:
+      - [ ]
+    copyto_label:
+      - [ ]
+    co_sign: 1
+    btn_setting:
+      approve: 1
+      disapprove: 1
+      reject: 1
+      addon_before: 1
+    co_sign_msg: 1
+    backToBackShowList_optgroup:
+    backToBackShowList:
+      - [ ]
+    backToBackShowList_label:
+      - [ ]
+    cosign_ypfj_optgroup:
+    cosign_ypfj:
+      - [ ]
+    cosign_ypfj_label:
+      - [ ]
+    obscureApprover:
+      - [ ]
+      - [ ]
+    obscure_can_see:
+      - [ ]
+      - [ ]
+    default_value:
+    ext:
+      cosign:
+        style: table
+        display: end
+        count_type: end
+        count_key: action
+        pass:
+          condition:
+            approve:
+              >: 1
+        fail:
+          condition:
+            disapprove:
+              >: 0
+          action:
+            goto: close
+      executor_msgtpl: '【美元项目审批】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}  【{company_label}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook: [ ]
+    path: [ ]
+  h2euru4hii:
+    id: h2euru4hii
+    name: 上海生物医药基金总裁审批
+    path_name:
+    type:
+    form: bjyj
+    approver_optgroup: 用户组
+    approver_label:
+      - 上海生物医药基金总裁
+    approver:
+      - structure;h3v05srbgo;
+    copyto_optgroup: 其他
+    copyto_label:
+      - 表单内部字段
+    copyto:
+      - other;formid;表单内部字段
+    btn_setting:
+      approve: 1
+      disapprove: 1
+    co_sign_msg: 1
+    backToBackShowList_optgroup:
+    backToBackShowList:
+      - [ ]
+    backToBackShowList_label:
+      - [ ]
+    cosign_ypfj_optgroup:
+    cosign_ypfj:
+      - [ ]
+    cosign_ypfj_label:
+      - [ ]
+    obscureApprover:
+      - [ ]
+      - [ ]
+    obscure_can_see:
+      - [ ]
+      - [ ]
+    default_value:
+    ext:
+      assign_copyto: team_manager,team_member
+      executor_msgtpl: '【美元项目审批】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}  【{company_label}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook:
+      approve:
+        - 
+          condition:
+            wh_cwpyqy_label:
+              =: 否
+          func:
+            update_entity:
+              target:
+              data:
+                cwjdzt: 财务已尽调
+                cwjdzt_label: 财务已尽调
+                cw_talk: cw_talk
+                cw_report: cw_report
+                team_manager: team_manager
+                team_manager_label: team_manager_label
+                team_member: team_member
+                team_member_label: team_member_label
+                tz_industry: tz_industry
+                tz_industry_label: tz_industry_label
+                se_industry: se_industry
+                se_industry_label: se_industry_label
+                cwstamped_document: stamped_document
+                cwstamped_document_label: stamped_document_label
+                cwduediligence_state: 财务已尽调
+        - 
+          condition:
+            wh_cwpyqy_label:
+              =: 否
+          func:
+            add_entity:
+              model: zhongjie
+              data:
+                company: company
+                company_label: company_label
+                jdtype: 财务
+                jdtype_label: 财务
+                zbjgname: cw_zbname
+                jgfy: cw_jgfy
+        - 
+          condition:
+            wh_cwpyqy_label:
+              =: 否
+            wh_cwjindiao_label:
+              =: 否
+          func:
+            update_entity:
+              target:
+              data:
+                cw_report: cw_report1
+        - 
+          condition:
+            wh_cwpyqy_label:
+              =: 否
+            wh_cwjindiao_label:
+              =: 是
+          func:
+            update_entity:
+              target:
+              data:
+                cw_report: cw_report
+    path:
+      - 
+        condition:
+          wh_cwpyqy_label:
+            operator: =
+            value: 否
+        goto: close
+  h5f4emzgla:
+    id: h5f4emzgla
+    name: 上实资本总裁用印审批
+    path_name:
+    type:
+    form: bjyj
+    approver_optgroup: 用户组
+    approver_label:
+      - 上实资本总裁
+    approver:
+      - structure;h3uz53pmre;
+    copyto_optgroup:
+    copyto:
+      - [ ]
+    copyto_label:
+      - [ ]
+    btn_setting:
+      commit: 1
+      reject: 1
+    co_sign_msg: 1
+    backToBackShowList_optgroup:
+    backToBackShowList:
+      - [ ]
+    backToBackShowList_label:
+      - [ ]
+    cosign_ypfj_optgroup:
+    cosign_ypfj:
+      - [ ]
+    cosign_ypfj_label:
+      - [ ]
+    obscureApprover:
+      - [ ]
+      - [ ]
+    obscure_can_see:
+      - [ ]
+      - [ ]
+    default_value:
+    ext:
+      executor_msgtpl: '【美元项目审批】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}  【{company_label}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook: [ ]
+    path: [ ]
+  h5f4emzhbo:
+    id: h5f4emzhbo
+    name: 用印
+    path_name:
+    type:
+    form: form_yonyinsh
+    approver_optgroup: 用户组
+    approver_label:
+      - 行政用印
+    approver:
+      - structure;h3uzti2pix;
+    copyto_optgroup:
+    copyto:
+      - [ ]
+    copyto_label:
+      - [ ]
+    btn_setting:
+      commit: 1
+    co_sign_msg: 1
+    backToBackShowList_optgroup:
+    backToBackShowList:
+      - [ ]
+    backToBackShowList_label:
+      - [ ]
+    cosign_ypfj_optgroup:
+    cosign_ypfj:
+      - [ ]
+    cosign_ypfj_label:
+      - [ ]
+    obscureApprover:
+      - [ ]
+      - [ ]
+    obscure_can_see:
+      - [ ]
+      - [ ]
+    default_value:
+    ext:
+      executor_msgtpl: '【美元项目审批】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}  【{company_label}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook: [ ]
+    path: [ ]
+  h5f4emzi1x:
+    id: h5f4emzi1x
+    name: 上传盖章文件
+    path_name:
+    type:
+    form: form_pecwjdgzwj
+    approver_optgroup: 其他
+    approver_label:
+      - 发起人
+    approver:
+      - other;apply_pp;发起人
+    copyto_optgroup:
+    copyto:
+      - [ ]
+    copyto_label:
+      - [ ]
+    btn_setting:
+      commit: 1
+    co_sign_msg: 1
+    backToBackShowList_optgroup:
+    backToBackShowList:
+      - [ ]
+    backToBackShowList_label:
+      - [ ]
+    cosign_ypfj_optgroup:
+    cosign_ypfj:
+      - [ ]
+    cosign_ypfj_label:
+      - [ ]
+    obscureApprover:
+      - [ ]
+      - [ ]
+    obscure_can_see:
+      - [ ]
+      - [ ]
+    default_value:
+    ext:
+      executor_msgtpl: '【美元项目审批】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}  【{company_label}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook: [ ]
+    path: [ ]
+  ht8ev056gw:
+    id: ht8ev056gw
+    name: 档案接收
+    path_name:
+    type:
+    form: form_archives
+    approver_optgroup: 用户
+    approver_label:
+      - 王磊
+    approver:
+      - usr;h3l49y2c2j;
+    copyto_optgroup: 其他
+    copyto_label:
+      - 发起人
+    copyto:
+      - other;apply_pp;发起人
+    btn_setting:
+      commit: 1
+    co_sign_msg: 1
+    backToBackShowList_optgroup:
+    backToBackShowList:
+      - [ ]
+    backToBackShowList_label:
+      - [ ]
+    cosign_ypfj_optgroup:
+    cosign_ypfj:
+      - [ ]
+    cosign_ypfj_label:
+      - [ ]
+    obscureApprover:
+      - [ ]
+      - [ ]
+    obscure_can_see:
+      - [ ]
+      - [ ]
+    default_value:
+    ext:
+      executor_msgtpl: '【美元项目审批】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}  【{company_label}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook:
+      commit:
+        - 
+          condition:
+          func:
+            update_entity:
+              target:
+              data:
+                cwjdzt: 财务已尽调
+                cwjdzt_label: 财务已尽调
+                cw_talk: cw_talk
+                cw_report: cw_report
+                team_manager: team_manager
+                team_manager_label: team_manager_label
+                team_member: team_member
+                team_member_label: team_member_label
+                tz_industry: tz_industry
+                tz_industry_label: tz_industry_label
+                se_industry: se_industry
+                se_industry_label: se_industry_label
+                cwstamped_document: cwstamped_document
+                cwduediligence_state: 财务已尽调
+                cwagain: 否
+                cwagain_label: 否
+        - 
+          condition:
+          func:
+            add_entity:
+              model: zhongjie
+              data:
+                company: company
+                company_label: company_label
+                jdtype: 财务
+                jdtype_label: 财务
+                zbjgname: cw_zbname
+                jgfy: cw_jgfy
+        - 
+          condition:
+            wh_cwjindiao_label:
+              =: 否
+          func:
+            update_entity:
+              target:
+              data:
+                cw_report: cw_report1
+                cw_report_gz: stamped_document1
+        - 
+          condition:
+            wh_cwjindiao_label:
+              =: 是
+          func:
+            update_entity:
+              target:
+              data:
+                cw_report: cw_report
+                cw_report_gz: stamped_document1
+    path: [ ]
+js: |
+  $(function(){
+    $("#hetongbd").on("change",function(){
+      var hetongbd = Number($(this).val());
+      var daxieje = digitUppercase(hetongbd);
+      if(parseInt(hetongbd) !== hetongbd) {
+        daxieje = daxieje.substring(0,daxieje.indexOf('整')) ? daxieje.substring(0,daxieje.indexOf('整')):daxieje
+      }
+      $("#daxieje").val(daxieje).trigger('change');
+    });
+  });
+  $(document).ready(function(){
+    $("#hetongbdy,#huil").on('input',function(){
+      var hetongbdy = $("#hetongbdy").val();
+      var hetongbdy = jQuery("#hetongbdy").val();
+      if(typeof hetongbdy === 'number'){
+        hetongbdy = Number(hetongbdy);
+      }else{
+        hetongbdy = Number(hetongbdy.replace(/,|\s/g,''));
+      }
+      var huili = $("#huil").val();
+      // var hetongbd = hetongbdy * huili
+      var hetongbd = accMul(hetongbdy,huili)
+      var biz = $('#biz').val()
+      if(biz != ''){
+        $("#hetongbd").val(hetongbd).trigger('change')
+      }
+    })
+    $("#biz").on('change',function(){
+      $("#hetongbdy").trigger('input')
+    })
+    function accMul(arg3,arg4){
+      var m=0,s3=arg3.toString(),s4=arg4.toString();
+      try{m+=s3.split(".")[1].length}catch(e){}
+      try{m+=s4.split(".")[1].length}catch(e){}
+      return Number(s3.replace(".",""))*Number(s4.replace(".",""))/Math.pow(10,m)
+    }
+  })
+  
+  
+  
+  $(function(){
+    $("#wfhetongbd").on("change",function(){
+      var wfhetongbd = Number($(this).val());
+      var wfdaxieje = digitUppercase(wfhetongbd);
+      if(parseInt(wfhetongbd) !== wfhetongbd) {
+        wfdaxieje = wfdaxieje.substring(0,wfdaxieje.indexOf('整')) ? wfdaxieje.substring(0,wfdaxieje.indexOf('整')):wfdaxieje
+      }
+      $("#wfdaxieje").val(wfdaxieje).trigger('change');
+    });
+  });
+  $(document).ready(function(){
+    $("#wfhetongbdy,#wfhuil").on('input',function(){
+      var wfhetongbdy = $("#wfhetongbdy").val();
+      var wfhetongbdy = jQuery("#wfhetongbdy").val();
+      if(typeof wfhetongbdy === 'number'){
+        wfhetongbdy = Number(wfhetongbdy);
+      }else{
+        wfhetongbdy = Number(wfhetongbdy.replace(/,|\s/g,''));
+      }
+      var wfhuili = $("#wfhuil").val();
+      // var wfhetongbd = wfhetongbdy * wfhuili
+      var wfhetongbd = accMul(wfhetongbdy,wfhuili)
+      var wfbiz = $('#wfbiz').val()
+      if(wfbiz != ''){
+        $("#wfhetongbd").val(wfhetongbd).trigger('change')
+      }
+    })
+    $("#wfbiz").on('change',function(){
+      $("#wfhetongbdy").trigger('input')
+    })
+    function accMul(arg3,arg4){
+      var m=0,s3=arg3.toString(),s4=arg4.toString();
+      try{m+=s3.split(".")[1].length}catch(e){}
+      try{m+=s4.split(".")[1].length}catch(e){}
+      return Number(s3.replace(".",""))*Number(s4.replace(".",""))/Math.pow(10,m)
+    }
+  })
+  
+  
+  
+  
+  //币种选择人民币汇率自动带出1
+   $(function(){
+    $('#biz').change(function(){
+      var bz = $('#biz').val()
+      if (bz == '人民币'){
+        $('#huil').val('1')
+      }else{
+        $('#huil').val('')
+      }
+      })
+  })
+   $(function(){
+    $('#wfbiz').change(function(){
+      var wfbz = $('#wfbiz').val()
+      if (wfbz == '人民币'){
+        $('#wfhuil').val('1')
+      }else{
+        $('#wfhuil').val('')
+      }
+      })
+  })
+pre_match_rule:
+  entity_condition:
+    keywords:
+      state:
+        in: 立项,投资方案确认,投决
+      cwagain:
+        in: 是
+ext:
+  flow_index_extra:
+    h2euru4g7f:
+      title: company_label
+  addon_executor_msgtpl: '【美元项目审批】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+  addon_copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}-【{company_label}】-{fnextstep_name}'
+  addon_mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}  【{company_label}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+lsitems: [ ]
+list_structure: [ ]
+flow_center_tpl: [ ]
+search_item: [ ]
+privilege:
+  list:
+    - g075xg3z7d
+    - h46ht41b1q
+    - fyzbgbmhsb
+    - same_structure
+    - usr_create
+    - approve
+    - copyto
+  detail:
+    - g075xg3z7d
+    - h46ht41b1q
+    - fyzbgbmhsb
+    - same_structure
+    - usr_create
+    - approve
+    - copyto
+  delete:
+    - usr_create
+    - approve
+    - copyto
+  abolish:
+    - usr_create
+    - approve
+    - copyto
+  pdf_down:
+    - usr_create
+    - approve
+    - copyto
+word_export:
+  word_custom_func:
+  word_export_name:
+  word_file:
+    - [ ]
+  word_file_label:
+    - [ ]
+msgtpl: [ ]

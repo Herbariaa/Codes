@@ -1,0 +1,3014 @@
+---
+diycol_pc:
+diycol_iphone:
+bi_counting: >
+  hflslokq4v11,hflslp7nkz11,hflslpqhcd11,hflslq8xfu11,hflslqspn811,hflsmht2is11,hfmb6s48s311
+bi_condition: fund
+bi_filter: fund
+openlink: 1
+name_rule:
+monitor_condition:
+monitor_update:
+float_btn: 1
+bijoin: 1
+title_field:
+stepbar: [ ]
+dynform: [ ]
+collect: [ ]
+calc:
+  - '{hfkyxbbe4n}={hfkyogij9j}+{hfkyoe5ceo}+{hfkxx575a3}'
+  - '{hfkz5a74i6}={hfkz51y8pt}+{hfkz548ahx}+{hfkz56dyri}+{hfkzgpqwz6}'
+  - '{hfl0hlhuxn}={hfkzty9r40}+{hfkzuuoumd}+{hfkzvf11bh}+{hfkzwtktk3}'
+  - '{hfl0nrli69}={hfl0moqlm1}+{hfl0n53ovi}+{hfl0nhvnvr}'
+  - '{hfl0pim0lh}={hfl0oey97t}+{hfl0ownbft}+{hfl0p91mm5}+{hfl0pf3cmo}+{hfl0pgz29d}'
+  - '{hfl0secm1m}={hfl0pl3cyr}+{hfl0pmzr1r}+{hfl0rtp9yk}'
+  - '{hfl173gobo}={hfl0secm1m}+{hfl0pim0lh}+{hfl0nrli69}+{hfl0hlhuxn}+{hfkz5a74i6}+{hfkyxbbe4n}+{hfl16mtm4c}'
+  - '{hflslokq4v}={hfkyxbbe4n}'
+  - '{hflslp7nkz}={hfkz5a74i6}'
+  - '{hflslpqhcd}={hfl0hlhuxn}'
+  - '{hflslq8xfu}={hfl0nrli69}'
+  - '{hflslqspn8}={hfl0pim0lh}'
+  - '{hflsmht2is}={hfl0secm1m}'
+  - '{hfmb6s48s3}={hfl16mtm4c}'
+  - '{hfmzvi6hx7}={hfl173gobo}'
+  - '{hflslokq4v11}=({hfkyxbbe4n}/30)*100'
+  - '{hflslp7nkz11}=({hfkz5a74i6}/20)*100'
+  - '{hflslpqhcd11}=({hfl0hlhuxn}/20)*100'
+  - '{hflslq8xfu11}=({hfl0nrli69}/10)*100'
+  - '{hflslqspn811}=({hfl0pim0lh}/10)*100'
+  - '{hflsmht2is11}=({hfl0secm1m}/5)*100'
+  - '{hfmb6s48s311}=({hfl16mtm4c}/5)*100'
+  - '{hfmzvi6hx711}={hfl173gobo}'
+css: |
+  .pepm-table .label{
+  text-align:left;
+  }
+  a{
+  font-weight:bolder;
+  }
+js:
+script: [ ]
+ext:
+  confirm: true
+  sendpm_pre_info:
+    mod: evaluation
+sms_template: [ ]
+openlink_title:
+openlink_button:
+email_notify:
+  - 
+email_notify_tem:
+openlink_content:
+pre_commit_content:
+tab_listen_key:
+tab_listen_rule: [ ]
+def_submit_btn_text:
+submit_redirect: 0
+submit_redirect_url:
+word_export:
+  word_custom_func:
+  word_export_name:
+  word_file:
+    - 
+  word_file_label:
+    - 
+api_address:
+api_list_key:
+api_request_key:
+api_response_key:
+api_display: match
+comment:
+  target: _self
+  doctype:
+  up_folder:
+  root_uid:
+  eid_link:
+  formats:
+  position: 1
+  attached_mod:
+  comment_title_tpl:
+  field_newest:
+  field_count:
+modbox:
+  position: 1
+  ext: [ ]
+notify_default:
+notify:
+  url_template:
+inherit_priv:
+privilege:
+  list:
+  import:
+  export:
+  detail:
+  edit:
+  delete:
+  docx:
+  pdf:
+  history:
+  openlink:
+  block_view_hfkxobdogx:
+  block_edit_hfkxobdogx:
+  block_view_hfkxtnsdqm:
+  block_edit_hfkxtnsdqm:
+  block_view_hfkxwe23lz:
+  block_edit_hfkxwe23lz:
+  block_view_hfkz4djmjb:
+  block_edit_hfkz4djmjb:
+  block_view_hfkzobqnth:
+  block_edit_hfkzobqnth:
+  block_view_hfl0lbsx2e:
+  block_edit_hfl0lbsx2e:
+  block_view_hfl0nuhye0:
+  block_edit_hfl0nuhye0:
+  block_view_hfl0pj4pjr:
+  block_edit_hfl0pj4pjr:
+  block_view_hfl0pj4pjr11:
+  block_edit_hfl0pj4pjr11:
+  block_view_hfl4yzdy48:
+  block_edit_hfl4yzdy48:
+diycol_back_list:
+list_count_block_fields:
+order_priority:
+page_size:
+fixed_col:
+fixed_col_mobile:
+addon_url:
+list_style: list_ajax
+link_type: canvas
+list_count: top
+list_style_mobile: list_mobile
+py_search: no_more
+secondary_link_type: modal
+list_mobile_mod: default
+diycard_config: [ ]
+button_config: [ ]
+feed_tpl:
+feed_mobile_tpl:
+feed_tpl_css:
+feed_tpl_js:
+css_config:
+js_config:
+merged_cell_key:
+merged_cell_list:
+merge_exclude_code:
+list_img_name:
+list_img_img:
+list_img_date:
+list_img_content:
+super_object:
+replace_comment_update_col:
+replace_comment_max_col:
+replace_comment_notify: 3
+created_sth:
+filter:
+always_show:
+filter_mobile:
+item:
+  hfkxobdogx:
+    id: hfkxobdogx
+    name: '<center>合作基金评价体系</center>'
+    type: title
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  fund:
+    id: fund
+    name: 评价对象
+    type: select_new
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source: mod:fund
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+      tags_add_view:
+    width: 1
+    listed: 1
+  hfkxt56h73:
+    id: hfkxt56h73
+    name: 评价日期
+    type: datepicker
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hfkxtcg4f0:
+    id: hfkxtcg4f0
+    name: 评价人
+    type: select_new
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+    props:
+      type_optgroup:
+      type_label: 用户
+      type: usr
+      data_source:
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+      tags_add_view:
+  hfkxtnsdqm:
+    id: hfkxtnsdqm
+    name: 评分标准
+    type: br
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hfkybje06y11:
+    id: hfkybje06y
+    name: '<a>评分维度</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: center
+    width: 1
+  hfkybs0qrs1101:
+    id: hfkybs0qrs
+    name: '<a>得分</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: center
+    width: 1
+  hfkybs0qrs11:
+    id: hfkybs0qrs
+    name: '<a>得分率(%)</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: center
+    width: 1
+  hfkybp0x8x11:
+    id: hfkybp0x8x
+    name: '<a>多维雷达图</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: center
+    width: 2
+  hflslokq4v:
+    id: hflslokq4v
+    name: 项目招引及赋能
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  hflslokq4v11:
+    id: hflslokq4v11
+    name: 项目招引及赋能
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    readonly: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  hflspoge8v:
+    id: hflspoge8v
+    name: 图表元素
+    type: charts
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 3
+    ext:
+      uuid: hn8z6vqjys
+      style:
+        height: 400
+        width: 80%
+      mfilter:
+        _rel:
+          rel_key: uuid
+          rel_val: eid
+    list_align: def
+    width: 2
+    height: 8
+  hflslp7nkz:
+    id: hflslp7nkz
+    name: 历史业绩
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  hflslp7nkz11:
+    id: hflslp7nkz11
+    name: 历史业绩
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    readonly: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  hflslpqhcd:
+    id: hflslpqhcd
+    name: 管理团队
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  hflslpqhcd11:
+    id: hflslpqhcd11
+    name: 管理团队
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    readonly: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  hflslq8xfu:
+    id: hflslq8xfu
+    name: 管理机构
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  hflslq8xfu11:
+    id: hflslq8xfu11
+    name: 管理机构
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    readonly: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  hflslqspn8:
+    id: hflslqspn8
+    name: 子基金策略及条款
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  hflslqspn811:
+    id: hflslqspn811
+    name: 子基金策略及条款
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    readonly: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  hflsmht2is:
+    id: hflsmht2is
+    name: 内部制度
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  hflsmht2is11:
+    id: hflsmht2is11
+    name: 内部制度
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    readonly: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  hfmb6s48s3:
+    id: hfmb6s48s3
+    name: 申报方案总体完整性
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+  hfmb6s48s311:
+    id: hfmb6s48s311
+    name: 申报方案总体完整性
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    readonly: 1
+  hfmzvi6hx7:
+    id: hfmzvi6hx7
+    name: 总分
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    readonly: 1
+  hfmzvi6hx711:
+    id: hfmzvi6hx711
+    name: 总分
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    readonly: 1
+  hfkxwe23lz:
+    id: hfkxwe23lz
+    name: 项目招引及赋能
+    type: section
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hfkyben2n9:
+    id: hfkyben2n9
+    name: '<a>子维度</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkybje06y:
+    id: hfkybje06y
+    name: '<a>量化标准</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkybs0qrs:
+    id: hfkybs0qrs
+    name: '<a>满分</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkybp0x8x:
+    id: hfkybp0x8x
+    name: '<a>打分</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkxx1dcof:
+    id: hfkxx1dcof
+    name: 招引项目质量
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkxxc1too:
+    id: hfkxxc1too
+    name: '1.子基金推荐的招引项目中，有1个获得产业局盖章版认可函的，得5分，每多1个项目获得盖章版认可函的，多得5分，满分15分； <br> 2.子基金推荐的招引项目中，有1个项目已签署落地协议，或已通过“一事一议”项目会议的，得15分。'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkxxwqeif:
+    id: hfkxxwqeif
+    name: 15（分）
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkxx575a3:
+    id: hfkxx575a3
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 15
+      contain: all
+    label_width: 0
+    val_width: 1
+    ext:
+      unit: 分
+    list_align: def
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    width: 1
+    required: 1
+  hfkyoc6i5q:
+    id: hfkyoc6i5q
+    name: 招引项目能级
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyocy3zm:
+    id: hfkyocy3zm
+    name: '子基金推荐的招引项目中：<br>  1.有1个“卡脖子”领域项目的，得5分，每增加1个多得5分；<br>  2.有1个国家认定的“专精特新”项目的，得2分，每增加1个多得2分；<br>  3.有1个属于先进制造业项目的，得2分，每增加1个多得2分；<br>  上述三类可累计得分，但本项总分不超过10分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyodij3n:
+    id: hfkyodij3n
+    name: 10（分）
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyoe5ceo:
+    id: hfkyoe5ceo
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 10
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh:
+    id: hfkyoeosbh
+    name: 对新经济创投赋能
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5:
+    id: hfkyofhxj5
+    name: >
+      可为新经济创投提供投研支持，包括但不限于投资策略交流、研究成果分享等，可为新经济创投提供共同投资机会，本项满分5分，1分为一个评分梯度。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x4:
+    id: hfkyog13x4
+    name: 5（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j:
+    id: hfkyogij9j
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 5
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyw88wtw:
+    id: hfkyw88wtw
+    name: 小计
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 6
+    val_width: def
+    list_align: def
+  hfkyx4ggyw:
+    id: hfkyx4ggyw
+    name: 30（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyxbbe4n:
+    id: hfkyxbbe4n
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    readonly: 1
+  hfkz4djmjb:
+    id: hfkz4djmjb
+    name: 历史业绩
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hfl0bvxpqa:
+    id: hfl0bvxpqa
+    name: '<a>子维度</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0bwny8g:
+    id: hfl0bwny8g
+    name: '<a>量化标准</a>'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+  hfl0bx8lzh:
+    id: hfl0bx8lzh
+    name: '<a>满分</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0by2cr9:
+    id: hfl0by2cr9
+    name: '<a>打分</a>'
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  hfkz4z3aeg:
+    id: hfkz4z3aeg
+    name: 历史管理规模
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkz50kmg3:
+    id: hfkz50kmg3
+    name: '管理人历史累计管理规模在：<br>  1.20亿元（含）-50亿元（不含）的，得3分；<br>  2.50亿元（含）-100亿元（不含）的，得3.5分；<br>  3.100亿元（含）-150亿元（不含）的，得4分；<br>  4.150亿元（含）-200亿元（不含）的，得4.5分；<br>  5.超过200亿元（含）的，得5分。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+  hfkz51bcxc:
+    id: hfkz51bcxc
+    name: 5（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkz51y8pt:
+    id: hfkz51y8pt
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 5
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfkz52gpjl:
+    id: hfkz52gpjl
+    name: 历史业绩
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkz530jas:
+    id: hfkz530jas
+    name: '管理人提供的在管基金中，选择成立时间超过4年的在管基金，按照基金规模加权计算内部收益率（IRR）或投资回报倍数（MOIC），以两种测算结果孰高进行评分。<br>  1.IRR低于15%（不含）的，不得分；<br>  2.IRR在15%（含）-18%（不含）或MOIC在3倍（含）-3.5倍（不含）的，得2分；<br>  3.IRR大于18%（含）或MOIC超过3.5倍（含）的，得4分，同时IRR每增加2%或MOIC每增加0.5的，额外得1分，满分6分。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+  hfkz53hyyd:
+    id: hfkz53hyyd
+    name: 6（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkz548ahx:
+    id: hfkz548ahx
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 6
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfkz54wlz9:
+    id: hfkz54wlz9
+    name: 上市项目覆盖情况
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkz55e9co:
+    id: hfkz55e9co
+    name: >
+      管理人已发行的基金中，有8个在主板、科创板、创业板上市项目的，得3分，每增加1个多得1分，满分5分。
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+  hfkz55wvx5:
+    id: hfkz55wvx5
+    name: 5（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkz56dyri:
+    id: hfkz56dyri
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 5
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 1
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfkz571h76:
+    id: hfkz571h76
+    name: 退出能力及现金分配情况
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkz57nu78:
+    id: hfkz57nu78
+    name: '管理人提供的在管基金中，选择成立时间超过4年的在管基金，按照基金规模加权计算DPI。<br>  1. DPI达到0.66（含）以上的，得2分；<br>  2. DPI每增加0.5多得1分，满分4分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkz586wc3:
+    id: hfkz586wc3
+    name: 4（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkzgpqwz6:
+    id: hfkzgpqwz6
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 4
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkz58vjp6:
+    id: hfkz58vjp6
+    name: 小计
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 4
+    val_width: -1
+    list_align: def
+  hfkz59kq8b:
+    id: hfkz59kq8b
+    name: 20（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkz5a74i6:
+    id: hfkz5a74i6
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    readonly: 1
+  hfkzobqnth:
+    id: hfkzobqnth
+    name: 管理团队
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hfl0e8jyba:
+    id: hfl0e8jyba
+    name: '<a>子维度</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0e99j56:
+    id: hfl0e99j56
+    name: '<a>量化标准</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0e9qsqw:
+    id: hfl0e9qsqw
+    name: '<a>满分</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0ea92bq:
+    id: hfl0ea92bq
+    name: '<a>打分</a>'
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  hfkzte1mbg:
+    id: hfkzte1mbg
+    name: 团队背景
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkztjazsw:
+    id: hfkztjazsw
+    name: 投资经历和教育背景
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfkztnrxh3:
+    id: hfkztnrxh3
+    name: >
+      管理团队有3名及以上成员具有5年及以上子基金拟投领域投资经验的，得5分。
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfkztt7rs2:
+    id: hfkztt7rs2
+    name: 5（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkzty9r40:
+    id: hfkzty9r40
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 5
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfkzu1g3l7:
+    id: hfkzu1g3l7
+    name: 团队背景
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkzu4gqkh:
+    id: hfkzu4gqkh
+    name: 投资经历和教育背景
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkzui0xdk:
+    id: hfkzui0xdk
+    name: >
+      管理团队有3名及以上成员具有子基金拟投领域专业教育背景获得硕士及以上学历学位的，得5分。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkzultugp:
+    id: hfkzultugp
+    name: 5（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkzuuoumd:
+    id: hfkzuuoumd
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 5
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfkzuxo633:
+    id: hfkzuxo633
+    name: 团队背景
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkzv3m7qo:
+    id: hfkzv3m7qo
+    name: 产业背景
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkzv7bbfc:
+    id: hfkzv7bbfc
+    name: >
+      管理团队有3名及以上成员具有拟投领域产业工作经历的，得5分。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkzva5ge2:
+    id: hfkzva5ge2
+    name: 5（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkzvf11bh:
+    id: hfkzvf11bh
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 5
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfkzvisp1i:
+    id: hfkzvisp1i
+    name: 关键人士及管理团队稳定性
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkzvnp1g3:
+    id: hfkzvnp1g3
+    name: '团队核心人员（或合伙人）共事时间<br>团队核心人员（或合伙人）共同管理基金历史<br>关键人士稳定性'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: left
+    width: 1
+  hfkzvufqde:
+    id: hfkzvufqde
+    name: >
+      管理团队有3名及以上成员彼此之间有3年及以上合作经历的，得5分。
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+  hfkzw0da8m:
+    id: hfkzw0da8m
+    name: 5（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkzwtktk3:
+    id: hfkzwtktk3
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 5
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0h9o5bj:
+    id: hfl0h9o5bj
+    name: 小计
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 4
+    val_width: def
+    list_align: def
+  hfl0hez4b5:
+    id: hfl0hez4b5
+    name: 20（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0hlhuxn:
+    id: hfl0hlhuxn
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    readonly: 1
+  hfl0lbsx2e:
+    id: hfl0lbsx2e
+    name: 管理机构
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hfl0lj3128:
+    id: hfl0lj3128
+    name: '<a>子维度</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0ljrs77:
+    id: hfl0ljrs77
+    name: '<a>量化标准</a>'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+  hfl0lkdo2n:
+    id: hfl0lkdo2n
+    name: '<a>满分</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0ll1fer:
+    id: hfl0ll1fer
+    name: '<a>打分</a>'
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  hfl0mf5qwq:
+    id: hfl0mf5qwq
+    name: 机构排名
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0mhp0ak:
+    id: hfl0mhp0ak
+    name: '1. 管理机构满足以下两类情况的，得5分：<br>    （1）在清科最近一年        创业投资机构、私募股权投资机构榜单中排名前20，        或早期投资机构榜单中排名前10，<br>    （2）属于PEI 300； 2. 管理机构在2021年清科先进制造、半导体、医疗健康、消费，人工智能、企业服务、碳中和细分领域投资机构榜单中的，得2分。 上述排名以孰高为准，双GP以子基金管理人或管理人所属投资平台为准。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+  hfl0mke20q:
+    id: hfl0mke20q
+    name: 5（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0moqlm1:
+    id: hfl0moqlm1
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 5
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0mtz032:
+    id: hfl0mtz032
+    name: 成立时间
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+  hfl0mypykm:
+    id: hfl0mypykm
+    name: >
+      管理机构成立时间超过5年的，得2分；成立计算时间的截止日以子基金公开遴选申报截止日为准。
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+  hfl0n01kof:
+    id: hfl0n01kof
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0n53ovi:
+    id: hfl0n53ovi
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0n85hsl:
+    id: hfl0n85hsl
+    name: LP类型
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0nbi2hq:
+    id: hfl0nbi2hq
+    name: '1. 管理机构历史上与社保基金或国家级基金合作1支（含）基金以上的，或社保基金、国家级基金确认参与本次拟申报子基金出资的，得3分；<br>  2. 管理机构未与社保基金或国家级基金合作，但与险资（人寿、人保、平安、泰康、新华、太平、太保）合作超过1支（含）基金以上的，或前述险资确认参与本次拟申报子基金出资的，得1分。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+  hfl0nebrlj:
+    id: hfl0nebrlj
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0nhvnvr:
+    id: hfl0nhvnvr
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 3
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0nkkipb:
+    id: hfl0nkkipb
+    name: 小计
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 4
+    val_width: def
+    list_align: def
+  hfl0nncmch:
+    id: hfl0nncmch
+    name: 10（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0nrli69:
+    id: hfl0nrli69
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    readonly: 1
+  hfl0nuhye0:
+    id: hfl0nuhye0
+    name: 子基金策略及条款
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hfluv00ns4:
+    id: hfluv00ns4
+    name: '<a>子维度</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfluv0nyto:
+    id: hfluv0nyto
+    name: '<a>量化标准</a>'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+  hfluv2ghz2:
+    id: hfluv2ghz2
+    name: '<a>满分</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfluv44djx:
+    id: hfluv44djx
+    name: '<a>打分</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0o2641f:
+    id: hfl0o2641f
+    name: 投资策略连续性
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0o72kr0:
+    id: hfl0o72kr0
+    name: >
+      子基金的投资策略与子基金管理人前序在管基金策略相同的，得2分。
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+  hfl0oa93jv:
+    id: hfl0oa93jv
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0oey97t:
+    id: hfl0oey97t
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0ogvvyz:
+    id: hfl0ogvvyz
+    name: 储备项目情况
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0olo04c:
+    id: hfl0olo04c
+    name: >
+      子基金储备项目的拟投资总额达到子基金目标认缴规模50%（含）的，得1分，每增加5%得多0.5分，满分2分。
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+  hfl0opjtmq:
+    id: hfl0opjtmq
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0ownbft:
+    id: hfl0ownbft
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0ozd36a:
+    id: hfl0ozd36a
+    name: 募资进度
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0p28cti:
+    id: hfl0p28cti
+    name: '1. 对于新设立的子基金，已募集规模达到子基金目标认缴总额50%（含）并可提供相关证明材料的，得2分；<br>  2. 对于已成立的子基金，已募集规模达到最终目标认缴总额80%（含）的，得2分。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+  hfl0p5tme9:
+    id: hfl0p5tme9
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0p91mm5:
+    id: hfl0p91mm5
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0pcldyx:
+    id: hfl0pcldyx
+    name: 关键人士锁定
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pe3lau:
+    id: hfl0pe3lau
+    name: '1. 管理层和执行层团队人员均有锁定，锁定人员配置与子基金规模、策略匹配度高的，得2分；<br>  2. 锁定部分人员，但锁定人员配置与子基金拟设规模、策略存在一定不匹配情况的，得1分；<br>  3. 关键人士暂不明确或无法锁定关键人士或未出具锁定关键人士承诺函的，不得分。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+  hfl0peljhc:
+    id: hfl0peljhc
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pf3cmo:
+    id: hfl0pf3cmo
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0pfkdpn:
+    id: hfl0pfkdpn
+    name: 子基金管理人或GP落地
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pg2022:
+    id: hfl0pg2022
+    name: '1. 子基金管理机构注册在机构所在地，在机构所在地设置固定办公场所并稳定派驻团队的，得1分；<br>  2. 子基金GP注册在机构所在地，在机构所在地设置固定办公场所并稳定派驻团队的，得1分，1、2可累计得分；<br>  3. 子基金管理人和GP相同，均注册在机构所在地，在机构所在地设置固定办公场所并稳定派驻团队的，得2分。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+  hfl0pghzqk:
+    id: hfl0pghzqk
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pgz29d:
+    id: hfl0pgz29d
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0phfc8t:
+    id: hfl0phfc8t
+    name: 小计
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 4
+    val_width: -1
+    list_align: def
+  hfl0phuu6u:
+    id: hfl0phuu6u
+    name: 10（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pim0lh:
+    id: hfl0pim0lh
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    readonly: 1
+  hfl0pj4pjr:
+    id: hfl0pj4pjr
+    name: 内部制度
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hfluv1xim3:
+    id: hfluv1xim3
+    name: '<a>子维度</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfluv189yn:
+    id: hfluv189yn
+    name: '<a>量化标准</a>'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+  hfluv303wm:
+    id: hfluv303wm
+    name: '<a>满分</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfluv3klx1:
+    id: hfluv3klx1
+    name: '<a>打分</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pjluw6:
+    id: hfl0pjluw6
+    name: 市场化激励机制和分配安排
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pk26cp:
+    id: hfl0pk26cp
+    name: >
+      有激励约束机制和跟投机制的，得1分。
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+  hfl0pkmg35:
+    id: hfl0pkmg35
+    name: 1（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pl3cyr:
+    id: hfl0pl3cyr
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 1
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0plk1ck:
+    id: hfl0plk1ck
+    name: 内控合规和规范管理
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pm06ce:
+    id: hfl0pm06ce
+    name: '有投资决策制度、风险控制制度、投后管理制度、信息披露制度的，得3分；<br> 缺少前述制度的，少一个制度少得1分，最低得0分，不额外倒扣分。'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+  hfl0pmhg8u:
+    id: hfl0pmhg8u
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pmzr1r:
+    id: hfl0pmzr1r
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 3
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0png3u4:
+    id: hfl0png3u4
+    name: 投后保障
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0pnwzmp:
+    id: hfl0pnwzmp
+    name: >
+      子基金管理人有专职投后管理团队的，得1分。
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+  hfl0pot8of:
+    id: hfl0pot8of
+    name: 1（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0rtp9yk:
+    id: hfl0rtp9yk
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 1
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl0s3nbrr:
+    id: hfl0s3nbrr
+    name: 小计
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 4
+    val_width: def
+    list_align: def
+  hfl0s8hf2p:
+    id: hfl0s8hf2p
+    name: 5（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0secm1m:
+    id: hfl0secm1m
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    readonly: 1
+  hfl0pj4pjr11:
+    id: hfl0pj4pjr
+    name: 申报方案总体完整性
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hfluv1xim311:
+    id: hfluv1xim3
+    name: '<a>子维度</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfluv189yn11:
+    id: hfluv189yn
+    name: '<a>量化标准</a>'
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+  hfluv303wm11:
+    id: hfluv303wm
+    name: '<a>满分</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfluv3klx111:
+    id: hfluv3klx1
+    name: '<a>打分</a>'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl0si4n4y:
+    id: hfl0si4n4y
+    name: 申报方案总体完整性
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl15tfouu:
+    id: hfl15tfouu
+    name: >
+      本项满分5分，1分为一个评价梯度。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 3
+    val_width: -1
+    list_align: def
+    width: 2
+  hfl16jim06:
+    id: hfl16jim06
+    name: 5（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl16mtm4c:
+    id: hfl16mtm4c
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 5
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    required: 1
+  hfl4yzdy48:
+    id: hfl4yzdy48
+    name: 1
+    type: br
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hfl16vbqgo:
+    id: hfl16vbqgo
+    name: 合计
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 4
+    val_width: -1
+    list_align: def
+  hfl16yenad:
+    id: hfl16yenad
+    name: 100（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfl173gobo:
+    id: hfl173gobo
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    readonly: 1
+import: [ ]
+pre_order: [ ]
+bi:
+  counting:
+    - hflslokq4v11
+    - hflslp7nkz11
+    - hflslpqhcd11
+    - hflslq8xfu11
+    - hflslqspn811
+    - hflsmht2is11
+    - hfmb6s48s311
+  condition:
+    - fund
+  monitor_condition: [ ]
+  monitor_update: [ ]
+  filter:
+    - fund

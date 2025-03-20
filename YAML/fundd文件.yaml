@@ -1,0 +1,3789 @@
+  hsnjap5lg6:
+    id: hsnjap5lg6
+    name: 遴选
+    type: tab
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  time_lxh:
+    id: time_lxh
+    name: 遴选会日期
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  file_lxh_sqs:
+    id: file_lxh_sqs
+    name: 遴选申请书
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxnfixw
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_lxh_hytz:
+    id: file_lxh_hytz
+    name: 遴选会通知
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxnfixw
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_lxh_yian:
+    id: file_lxh_yian
+    name: 遴选会议案
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxnfixw
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_lxh_bjp:
+    id: file_lxh_bjp
+    name: 遴选会表决票
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxnfixw
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_lxh_hyjy:
+    id: file_lxh_hyjy
+    name: 遴选会会议纪要
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxnfixw
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  hsm87xp4tf:
+    id: hsm87xp4tf
+    name: 立项
+    type: tab
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  time_lx:
+    id: time_lx
+    name: 立项会日期
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  money_ncz_lixiang:
+    id: money_ncz_lixiang
+    name: 拟出资金额
+    type: wan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  file_lx_sqbg:
+    id: file_lx_sqbg
+    name: 立项申请报告
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxnrw27
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_lx_tzsct:
+    id: file_lx_tzsct
+    name: 立项通知(市产投及财政局)
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxnrw27
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_lxtz:
+    id: file_lxtz
+    name: 立项通知
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxnrw27
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_lx_yian:
+    id: file_lx_yian
+    name: 立项议案
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxnrw27
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_lxbjp:
+    id: file_lxbjp
+    name: 立项表决票
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxnrw27
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_lxhjy:
+    id: file_lxhjy
+    name: 立项会纪要
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxnrw27
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  remark_lx:
+    id: remark_lx
+    name: 备注
+    type: text
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hsm8ni2bsg:
+    id: hsm8ni2bsg
+    name: 尽调
+    type: tab
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  is_not_pqdsf:
+    id: is_not_pqdsf
+    name: 是否聘请第三方机构
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是: 是
+        否: 否
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic: 是:jigou_dsf
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label:
+      list_color_label_label:
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis:
+      ellipsis_label:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 3
+  jigou_dsf:
+    id: jigou_dsf
+    name: 第三方机构-关联
+    type: data
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source:
+      page_size: 0
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max: 0
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label: 新标签页打开
+      link_type: new_tab
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size: 0
+      feed_mobile_page_size: 0
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    width: 3
+    ext:
+      mod: fundd_jd_dsfjgpq_gk
+      filter:
+        fundd: eid
+  file_tzjzfxbg:
+    id: file_tzjzfxbg
+    name: 投资价值分析报告（PPT)
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxoidjz
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_yyjd:
+    id: file_yyjd
+    name: 可行性研究报告
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxoidjz
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_cwjd:
+    id: file_cwjd
+    name: 财务尽调报告
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxoidjz
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_fwjd:
+    id: file_fwjd
+    name: 法务尽调报告
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxoidjz
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  remark_jd:
+    id: remark_jd
+    name: 备注
+    type: text
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hsnjxjaya5:
+    id: hsnjxjaya5
+    name: 投决
+    type: tab
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hsmdnz5jdh:
+    id: hsmdnz5jdh
+    name: 内部评审会
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  time_nbpsh:
+    id: time_nbpsh
+    name: 上会日期
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  money_nichuzi:
+    id: money_nichuzi
+    name: 上会金额
+    type: wan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  toujue_pass_date:
+    id: toujue_pass_date
+    name: 通过投决时间
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  toujue_pass_state:
+    id: toujue_pass_state
+    name: 是否通过投决
+    type: text
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+  money_guohui:
+    id: money_guohui
+    name: 过会金额
+    type: wan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  file_hytz_nbps:
+    id: file_hytz_nbps
+    name: 内部评审会议通知
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_hyjy_nbpsh:
+    id: file_hyjy_nbpsh
+    name: 内部评审会议纪要
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_bjp_nbps:
+    id: file_bjp_nbps
+    name: 内部评审会表决票
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  hsmdnzltpu:
+    id: hsmdnzltpu
+    name: 海翼集团项目评审会
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  time_hyjthy:
+    id: time_hyjthy
+    name: 海翼集团会议日期
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  file_hytz_hyjt:
+    id: file_hytz_hyjt
+    name: 海翼集团会议通知
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_hytz_hyya:
+    id: file_hytz_hyya
+    name: 海翼集团会议议案
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_hytz_hybjp:
+    id: file_hytz_hybjp
+    name: 海翼集团会议表决票
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_hyjy_hyjt:
+    id: file_hyjy_hyjt
+    name: 海翼集团会议纪要
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_hyjy_hybb:
+    id: file_hyjy_hybb
+    name: >
+      海翼集团会议报备(总经理、董事长)
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  hsmdnzy5yy:
+    id: hsmdnzy5yy
+    name: >
+      海翼集团党委会（超过1亿，3亿以下）
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  time_gmkgyy:
+    id: time_gmkgyy
+    name: 海翼集团党委会会议日期
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  file_hyjydw_hyya:
+    id: file_hyjydw_hyya
+    name: 海翼集团党委会会议议案
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_hyjydw_hyjy:
+    id: file_hyjydw_hyjy
+    name: 海翼集团党委会会议纪要
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  hsmdnzy5ba:
+    id: hsmdnzy5ba
+    name: 国贸控股集团会
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  time_gmkghy:
+    id: time_gmkghy
+    name: 国贸控股集团会议日期
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  file_hytz_gmkg:
+    id: file_hytz_gmkg
+    name: 国贸控股集团会议通知
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_hyjy_gmkg:
+    id: file_hyjy_gmkg
+    name: 国贸控股集团会议纪要
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  hsmdo04vco:
+    id: hsmdo04vco
+    name: 专业咨询委员会
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  time_zyzxwyh:
+    id: time_zyzxwyh
+    name: 专业咨询委员会日期
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  file_hytz_zyzxwyh:
+    id: file_hytz_zyzxwyh
+    name: 专业咨询委员会会议通知
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_hytz_zyzxwyhya:
+    id: file_hytz_zyzxwyhya
+    name: 专业咨询委员会会议议案
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_hyjy_zjzxwyh:
+    id: file_hyjy_zjzxwyh
+    name: 专业咨询委员会会议纪要
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_bjp_zyzxwyh:
+    id: file_bjp_zyzxwyh
+    name: 专业咨询委员会表决票
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  hsmdnzy5badw:
+    id: hsmdnzy5badw
+    name: 国贸控股党委会（超过3亿）
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  time_dwgmkghy:
+    id: time_dwgmkghy
+    name: 国贸控股党委会会议日期
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  file_hytzdw_gmkg:
+    id: file_hytzdw_gmkg
+    name: 国贸控股党委会会议议案
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_hytzdw_gmkgjy:
+    id: file_hytzdw_gmkgjy
+    name: 国贸控股党委会会议纪要
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  hsmdo0d97x:
+    id: hsmdo0d97x
+    name: 投资决策委员会
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  time_tzjcwyh:
+    id: time_tzjcwyh
+    name: 投资决策委员会日期
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  file_hytz_tzjcwyh:
+    id: file_hytz_tzjcwyh
+    name: 投资决策委员会会议通知
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_hytz_tzjcwyhya:
+    id: file_hytz_tzjcwyhya
+    name: 投资决策委员会会议议案
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_hyjy_tzjcwyh:
+    id: file_hyjy_tzjcwyh
+    name: 投资决策委员会会议纪要
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_bjp_tzjcwyh:
+    id: file_bjp_tzjcwyh
+    name: 投资决策委员会表决票
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_hytz_tzjcwyhjy:
+    id: file_hytz_tzjcwyhjy
+    name: 投资决策委员会会议决议
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  hsmdo0lqnm:
+    id: hsmdo0lqnm
+    name: >
+      合伙人大会（涉及关联交易或其他特殊事项）
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  time_hhrdh:
+    id: time_hhrdh
+    name: 合伙人大会日期
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  file_hytz_hhrdhya:
+    id: file_hytz_hhrdhya
+    name: 合伙人大会会议议案
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_hytz_hhrdh:
+    id: file_hytz_hhrdh
+    name: 合伙人大会会议通知
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_hyjy_hhrdh:
+    id: file_hyjy_hhrdh
+    name: 合伙人大会会议纪要
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_bjp_hhrdh:
+    id: file_bjp_hhrdh
+    name: 合伙人大会表决票
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_bjp_hhrdhjy:
+    id: file_bjp_hhrdhjy
+    name: 合伙人大会决议
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxp0ggy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  hsmai4z72n:
+    id: hsmai4z72n
+    name: 签约
+    type: tab
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  time_qy:
+    id: time_qy
+    name: 签约日期
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  chuzi_zhuti:
+    id: chuzi_zhuti
+    name: 签约主体
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块(分组)
+      type: mod_group
+      data_source: |
+        先进制造业基金:
+          mod: fof
+        自有资金:
+          mod: jituan
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 是
+      select_all: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 是
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 1
+  money_tzje:
+    id: money_tzje
+    name: 累计签约金额
+    type: wan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    index: 1
+  cgzb:
+    id: cgzb
+    name: 持股占比
+    type: percent
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  file_hhxy:
+    id: file_hhxy
+    name: 合伙协议签署
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxpgu1e
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  hxtkbg:
+    id: hxtkbg
+    name: 核心条款表格
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxpgu1e
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  touzixieyi:
+    id: touzixieyi
+    name: >
+      投资协议（增资协议、股东协议）
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxpgu1e
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  jjlpa:
+    id: jjlpa
+    name: 基金LPA及附属协议
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxpgu1e
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  remark_qy:
+    id: remark_qy
+    name: 备注
+    type: text
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hsod1q61ts:
+    id: hsod1q61ts
+    name: 出资
+    type: tab
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hst5gjp70z:
+    id: hst5gjp70z
+    name: 出资信息
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  chuzi_time_first:
+    id: chuzi_time_first
+    name: 首次出资日期
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  do_jg_money_former:
+    id: do_jg_money_former
+    name: 已交割金额
+    type: wan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  leave_jg_money_former:
+    id: leave_jg_money_former
+    name: 剩余交割金额
+    type: wan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hst5gjp70z01:
+    id: hst5gjp70z01
+    name: 出资与交割前
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  jgqqd:
+    id: jgqqd
+    name: 交割前清单及文件
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: htm0v55w2n
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  hst5gjp70z02:
+    id: hst5gjp70z02
+    name: 交割
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  czjktzd:
+    id: czjktzd
+    name: 出资缴款通知单
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: htm0v55w2n
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  fksqdjfk:
+    id: fksqdjfk
+    name: 付款申请单及付款
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: htm0v55w2n
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  fkpz:
+    id: fkpz
+    name: 付款凭证
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: htm0v55w2n
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  hst5gjp70z03:
+    id: hst5gjp70z03
+    name: 出资与交割后
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  gytyjjzl:
+    id: gytyjjzl
+    name: >
+      关于同意基金投资的内部决策及工商变更资料
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: htm0v55w2n
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  jjgsdjxx:
+    id: jjgsdjxx
+    name: 出资后基金工商登记信息
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: htm0v55w2n
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  czhxmdyzbg:
+    id: czhxmdyzbg
+    name: >
+      出资后项目的验资报告或出资凭证
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: htm0v55w2n
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  qttzxyji:
+    id: qttzxyji
+    name: >
+      其它投资协议及附属文件中约定的相关文件
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: htm0v55w2n
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  hst5gzpndk:
+    id: hst5gzpndk
+    name: 出资信息-关联
+    type: data
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: fundd_chuzi_info_gk
+      filter:
+        fundd: eid
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size: 0
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max: 0
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label: 新标签页打开
+      link_type: new_tab
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size: 0
+      feed_mobile_page_size: 0
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    width: 1
+  hsoiiuukmx:
+    id: hsoiiuukmx
+    name: 投后
+    type: tab
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  s7_duetime:
+    id: s7_duetime
+    name: 投资情况
+    type: section
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  s7_tvpi:
+    id: s7_tvpi
+    name: TVPI
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+    list_align: def
+  s7_grossirr:
+    id: s7_grossirr
+    name: Gross IRR
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+    list_align: def
+  s7_dpi:
+    id: s7_dpi
+    name: DPI
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+    list_align: def
+  hsmdnzltpu01:
+    id: hsmdnzltpu01
+    name: 投资资料存档
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  file_hytz_jghqd:
+    id: file_hytz_jghqd
+    name: 交割后清单
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxpwoyy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  hsmdnzltpu02:
+    id: hsmdnzltpu02
+    name: 关键人员委派
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  file_hytz_nbjc1:
+    id: file_hytz_nbjc1
+    name: >
+      同意委派内部决策（董事、监事、财务）
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxpwoyy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_hytz_nbjc2:
+    id: file_hytz_nbjc2
+    name: >
+      同意委派内部决策（投委会委员、观察员等）
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxpwoyy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_hytz_nbjc3:
+    id: file_hytz_nbjc3
+    name: >
+      董事、监事、财务/投委会委员、观察员等委派函
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxpwoyy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  hsmdnzltpu03:
+    id: hsmdnzltpu03
+    name: 定期报告/报表收集
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  file_hytz_ybjb:
+    id: file_hytz_ybjb
+    name: >
+      月报、季报、半年报、年报等定期报告或报表
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxpwoyy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  hsmdnzltpu04:
+    id: hsmdnzltpu04
+    name: 基金决策机构会议文件
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  file_hytz_wpr:
+    id: file_hytz_wpr
+    name: >
+      委派人/基金表决内部授权/决策文件
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxpwoyy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_hytz_xmnbhy:
+    id: file_hytz_xmnbhy
+    name: 项目内部会议文件及决议
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxpwoyy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  hsmdnzltpu05:
+    id: hsmdnzltpu05
+    name: 投后评价
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  file_hytz_thglpj:
+    id: file_hytz_thglpj
+    name: 投后管理评价
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxpwoyy
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  htr1nwh4qw:
+    id: htr1nwh4qw
+    name: 出资计划
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  htr1o923fg:
+    id: htr1o923fg
+    name: 出资计划
+    type: data
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    ext:
+      mod: fund_jiaoge_plan
+      filter:
+        fundd: eid
+    width: 1
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size: 0
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max: 0
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label: 新标签页打开
+      link_type: new_tab
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size: 0
+      feed_mobile_page_size: 0
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+  deal_report:
+    id: deal_report
+    name: 基金投资情况
+    type: section
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  portfolio_count:
+    id: portfolio_count
+    name: 投资项目个数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      decimals: 0
+      t_divide: 是
+      padding: 否
+      currency_symbol: 否
+    list_align: def
+  deal_value:
+    id: deal_value
+    name: 在投项目公允价值
+    type: wan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  total_value:
+    id: total_value
+    name: 项目累计公允价值
+    type: wan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  fund_dis_money:
+    id: fund_dis_money
+    name: 子基金已分配金额
+    type: wan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  fund_dis_cost:
+    id: fund_dis_cost
+    name: 子基金已分配成本
+    type: wan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  fund_cal3:
+    id: fund_cal3
+    name: 子基金已分配收益
+    type: wan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  ipo_number:
+    id: ipo_number
+    name: 已上市数量
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      decimals: 0
+      t_divide: 是
+      padding: 否
+      currency_symbol: 否
+    list_align: def
+  pre_number:
+    id: pre_number
+    name: 已过会数量
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    list_align: def
+  reported_number:
+    id: reported_number
+    name: 已报会数量
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      decimals: 0
+      t_divide: 是
+      padding: 否
+    list_align: def
+  subcompanys:
+    id: subcompanys
+    name: 项目信息
+    type: section
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  subcompany:
+    id: subcompany
+    name: 项目信息
+    type: data
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: subcompany
+      filter:
+        fund: eid
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size: 0
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max: 0
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label: 新标签页打开
+      link_type: new_tab
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size: 0
+      feed_mobile_page_size: 0
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    list_align: def
+  hsvim5s4vx:
+    id: hsvim5s4vx
+    name: 退出
+    type: tab
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hsmdnzltpu06:
+    id: hsmdnzltpu06
+    name: 退出文件
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  file_tc_1:
+    id: file_tc_1
+    name: 基金内部决策文件
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxqc6ib
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_tc_2:
+    id: file_tc_2
+    name: 退出交易文件
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxqc6ib
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_tc_3:
+    id: file_tc_3
+    name: 基金工商变更文件
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxqc6ib
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  file_tc_4:
+    id: file_tc_4
+    name: 基金备案信息变更文件
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      target: _self
+      target_label:
+      doc_type: fundd
+      show_path: 否
+      choose: 否
+      up_folder: hswkxqc6ib
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats:
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  hsvimbyv8x:
+    id: hsvimbyv8x
+    name: 退出
+    type: data
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    ext:
+      mod: fund_exit
+      filter:
+        fundd: eid
+    width: 1
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size: 0
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max: 0
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label: 新标签页打开
+      link_type: new_tab
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size: 0
+      feed_mobile_page_size: 0
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:

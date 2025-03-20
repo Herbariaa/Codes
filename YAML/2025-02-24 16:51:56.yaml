@@ -1,0 +1,113 @@
+---
+快捷按钮:
+  type: shortcut
+  data:
+    长期股权预算申请:
+      url: flow/apply/hyislfyc6u
+      icon: ion-icon name="analytics-outline"  # 数据分析图标更符合股权分析场景
+      new: true
+      view: true
+    长期股权预算修改:
+      url: touzijihua/index1
+      icon: ion-icon name="create-outline"     # 编辑图标表示修改操作
+      new: true
+      view: true
+    长期股权预算汇总:
+      url: touzijihua/index1
+      icon: ion-icon name="pie-chart-outline"  # 饼图适合数据汇总展示
+      new: true
+      view: true
+
+    固定资产预算申请:
+      icon: ion-icon name="business-outline"   # 商业建筑图标表示固定资产
+      url: flow/apply/hyismyfgg9
+      new: true
+      view: true
+    固定资产预算修改:
+      icon: ion-icon name="create-outline"
+      url: touzijihua/index2
+      new: true
+      view: true
+    固定资产预算汇总:
+      icon: ion-icon name="list-outline"       # 列表图标适合汇总展示
+      url: touzijihua/index2
+      new: true
+      view: true
+
+    土地投资预算申请:
+      icon: ion-icon name="map-outline"        # 地图图标贴合土地投资
+      url: flow/apply/hyisnxd7w6
+      new: true
+      view: true
+    土地投资预算修改:
+      icon: ion-icon name="create-outline"
+      url: touzijihua/index3
+      new: true
+      view: true
+    土地投资预算汇总:
+      icon: ion-icon name="layers-outline"     # 层级图标适合土地数据汇总
+      url: touzijihua/index3
+      new: true
+      view: true
+
+    基金投资预算申请:
+      icon: ion-icon name="wallet-outline"     # 钱包图标表示资金管理
+      url: flow/apply/hyisohwy8s
+      new: true
+      view: true
+    基金投资预算修改:
+      icon: ion-icon name="create-outline"
+      url: touzijihua/index4
+      new: true
+      view: true
+    基金投资预算汇总:
+      icon: ion-icon name="stats-chart-outline" # 统计图表展示基金数据
+      url: touzijihua/index4
+      new: true
+      view: true
+
+    金融市场投资申请:
+      icon: ion-icon name="trending-up-outline" # 趋势图标贴合市场波动
+      url: flow/apply/hyoqwnatsh
+      new: true
+      view: true
+    金融市场投资修改:
+      icon: ion-icon name="create-outline"
+      url: touzijihua/index5
+      new: true
+      view: true
+    金融市场投资汇总:
+      icon: ion-icon name="calculator-outline"  # 计算器适合财务汇总
+      url: touzijihua/index5
+      new: true
+      view: true
+桌面盒子:
+  type: block
+  data:
+    轮播图1:
+      type: ajax
+      class: block2 block_pic_show
+      url: pic_show/show
+    常用功能:
+      type: ajax
+      float: right
+      class: block1
+      url: home/shortcut
+      icon: ios-star-half
+      param:
+        page_size: 6
+    消息中心:
+      type: ajax
+      float: left
+      class: block3
+      url: msg/msg_mode
+      icon: home
+      param:
+        page_size: 6
+    底层项目概览:
+      type: ajax
+      class: block3
+      url: >
+        companyd1/pipeline/state/company_state/manage/10
+      hiddenbox: true
+      icon: grid

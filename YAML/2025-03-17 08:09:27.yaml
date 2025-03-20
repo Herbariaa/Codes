@@ -1,0 +1,55 @@
+---
+- 
+  condition:
+    lcss_label:
+      operator: =
+      value: 上实资本公章法人章
+    yongybm_label:
+      operator: in
+      value:
+        - 财务管理部
+        - 综合管理部
+        - 风险合规部
+  goto: h59usormfs
+- 
+  condition:
+    lcss_label:
+      operator: =
+      value: 上实资本公章法人章
+    yongybm_label:
+      operator: in
+      value:
+        - PR部
+        - PE部
+        - VC部
+        - 人事部
+        - 美元基金部
+        - 战略情报部
+        - 转化基金部
+        - 战略发展部
+        - 投资者关系部
+  goto: h59usorlor
+- 
+  condition:
+    lcss_label:
+      operator: =
+      value: 生物医药基金公章法人章
+  goto: hfoaji5hff
+- 
+  condition:
+    lcss_label:
+      operator: =
+      value: 转化公章法人章
+  goto: h6asi6gomh
+- 
+  condition:
+    lcss_label:
+      operator: =
+      value: 转化二期公章法人章
+  goto: h6asi6gomh
+- 
+  condition:
+    lcss_label:
+      operator: =
+      value: 香港生物科技基金公章签字
+  goto: hyoihxk7d9

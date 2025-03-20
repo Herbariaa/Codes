@@ -1,0 +1,129 @@
+---
+name: 当前推进项目
+items:
+  - 
+    name: 本年度新增项目数
+    unit: 个
+    color: '#48BFD0'
+    icon: copy-outline
+    width_m: 45%
+    width: 30%
+    mod: companyd_citie
+    filter:
+      conpany_fz_label:
+        - 徐华俊
+    res:
+      sum:
+        - bndxzxms
+  - 
+    name: 本年度立项项目数
+    unit: 个
+    color: '#48BFD0'
+    icon: copy-outline
+    width_m: 45%
+    width: 30%
+    mod: companyd_citie
+    filter:
+      conpany_fz_label:
+        - 徐华俊
+    res:
+      sum:
+        - bndxzlxs
+  - 
+    name: 本年度投资项目数
+    unit: 个
+    color: '#48BFD0'
+    icon: copy-outline
+    width_m: 45%
+    width: 30%
+    mod: companyd_citie
+    filter:
+      conpany_fz_label:
+        - 徐华俊
+    res:
+      sum:
+        - bndxztzs
+  - 
+    name: 当前推进项目数
+    unit: 个
+    color: '#8DD8E2'
+    icon: copy-outline
+    width_m: 45%
+    width: 30%
+    mod: companyd_citie
+    filter:
+      conpany_fz_label:
+        - 徐华俊
+    res:
+      sum:
+        - dqtjxms
+  - 
+    name: 当前投后项目数
+    unit: 个
+    color: '#8DD8E2'
+    icon: copy-outline
+    width_m: 45%
+    width: 30%
+    mod: companyd_citie
+    filter:
+      conpany_fz_label:
+        - 徐华俊
+    res:
+      sum:
+        - dqthxms
+  - 
+    name: 当前回款项目数
+    unit: 个
+    color: '#8DD8E2'
+    icon: copy-outline
+    width_m: 45%
+    width: 30%
+    mod: companyd_citie
+    filter:
+      conpany_fz_label:
+        - 徐华俊
+    res:
+      sum:
+        - dqhkxms
+  - 
+    name: 本年度投资金额
+    unit: 元
+    color: '#487CD0'
+    icon: copy-outline
+    width_m: 45%
+    width: 30%
+    mod: companyd_citie
+    filter:
+      conpany_fz_label:
+        - 徐华俊
+    res:
+      sum:
+        - bndtzje
+  - 
+    name: 累计投资金额
+    unit: 元
+    color: '#487CD0'
+    icon: copy-outline
+    width_m: 45%
+    width: 30%
+    mod: companyd_citie
+    filter:
+      conpany_fz_label:
+        - 徐华俊
+    res:
+      sum:
+        - ljtzje
+  - 
+    name: 累计回款金额
+    unit: 元
+    color: '#487CD0'
+    icon: copy-outline
+    width_m: 45%
+    width: 30%
+    mod: companyd_citie
+    filter:
+      conpany_fz_label:
+        - 徐华俊
+    res:
+      sum:
+        - ljhkje

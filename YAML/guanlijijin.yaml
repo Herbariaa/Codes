@@ -1,0 +1,498 @@
+  hgcmh93xe2:
+    id: hgcmh93xe2
+    name: 收入利润情况
+    type: tab
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hg3ffgl20y:
+    id: hg3ffgl20y
+    name: 最新收入利润情况
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  record_year:
+    id: record_year
+    name: 年份
+    type: yearpicker
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+    listed: 1
+  now_total_income:
+    id: now_total_income
+    name: 本年营业总收入
+    type: wan2
+    ext:
+      unit:
+        - 万元
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+    readonly: 1
+  last_total_income:
+    id: last_total_income
+    name: 上年同期营业总收入
+    type: wan2
+    ext:
+      unit:
+        - 万元
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+    readonly: 1
+  now_total_profit:
+    id: now_total_profit
+    name: 本年累计净利润
+    type: wan2
+    ext:
+      unit:
+        - 万元
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+    readonly: 1
+  last_total_profit:
+    id: last_total_profit
+    name: 上年同期净利润
+    type: wan2
+    ext:
+      unit:
+        - 万元
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+    readonly: 1
+  hgclq8l9f0:
+    id: hgclq8l9f0
+    name: 历年收入利润记录
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    readonly: 1
+    width: 1
+  income_record:
+    id: income_record
+    name: 收入利润记录
+    type: data
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: income_situation
+      filter:
+        fund_manager_gp: eid
+    list_align: def
+    width: 1
+  hgcmho804e:
+    id: hgcmho804e
+    name: 季度资产情况
+    type: tab
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hg3fkb1h3d:
+    id: hg3fkb1h3d
+    name: 季度情况
+    type: section
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  year:
+    id: year
+    listed: 1
+    name: 年份
+    type: yearpicker
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    readonly: 1
+  quarter:
+    id: quarter
+    name: 季度
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 配置项
+      type: yaml
+      data_source: quarter
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    listed: 1
+    readonly: 1
+  last_zc_money:
+    id: last_zc_money
+    name: 最新资产余额
+    type: wan2
+    ext:
+      unit:
+        - 万元
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+    listed: 1
+    readonly: 1
+  last_fz_money:
+    id: last_fz_money
+    name: 最新负债余额
+    type: wan2
+    ext:
+      unit:
+        - 万元
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+    listed: 1
+    readonly: 1
+  hg3fkbi37m:
+    id: hg3fkbi37m
+    name: 季度情况
+    type: data
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: quarter_info
+      filter:
+        fund_manager_gp: eid
+    list_align: def
+  hg3haot2mq:
+    id: hg3haot2mq
+    name: 债权情况
+    type: section
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hg3hap9ar8:
+    id: hg3hap9ar8
+    name: 债权情况
+    type: data
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: debt_info
+      filter:
+        fund_manager_gp: eid
+    list_align: def
+  hk2ofdb7bp:
+    id: hk2ofdb7bp
+    name: 管理基金
+    type: tab
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  hk2ofe1qu2:
+    id: hk2ofe1qu2
+    name: 管理基金
+    type: data
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: fof
+      filter:
+        fund_manager_gp: eid
+    list_align: def
+  user_group:
+    id: user_group
+    name: 可看用户
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 用户
+      type: usr
+      data_source:
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+
+
+
+
+
+
+
+
+  firsttz_time:
+    id: firsttz_time
+    name: 初次投资日期
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  kzq_time:
+    id: kzq_time
+    name: 取得控制权日期
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  superior_ratio:
+    id: superior_ratio
+    name: 上级公司持股比例
+    type: percent
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+  jituan_ratio:
+    id: jituan_ratio
+    name: 城投集团持股比例
+    type: percent
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+
+
+
+
+
+  change_description:
+    id: change_description
+    name: 实缴变动说明
+    type: muti
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 3

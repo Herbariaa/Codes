@@ -1,0 +1,161 @@
+#menu-home>a {
+  font-family: '苹方 粗体';
+  font-weight: 700;
+
+}
+
+:root,
+:root::before,
+:root::after {
+  --white: #fff;
+  /* 1.选中、悬浮、输入框编辑、主要按钮、主色调） */
+  --primary-color: #6F2E35;
+  /* 3.一级菜单（图标）、副标题、次要按钮、列表内容、次要内容、未选中的TAB等 */
+  /*--secondary-text-color:red; /*
+    /* 4.辅助说明文字*/
+  --help-color: #959A9C;
+  /* 5.占位符：#B8BCBE（最浅灰色） */
+  --placeholder-color: #B8BCBE;
+  /* 6.分割线 */
+  /* --divider-color:red; */
+  /* 7.未读消息、必填项、报错、删除等*/
+  --error-color: #EA5455;
+  /* 8.表头背景色 */
+  --table-thead-background--color: #EFF3F8;
+  /* 9.悬浮背景色*/
+  --hover-background-color: #F8FAFC;
+  /* 10.背景色 */
+  --background-color: #f1f4f7;
+  /* 列表格的背景 */
+  --list-easy-bg-color: var(--white);
+  /* 列表格的背景 */
+  --list-easy-bg-color--hover: var(--hover-background-color);
+  --table_thead_sort_bg: var(--primary-color);
+  --table_thead_sort_active_bg: var(--error-color);
+
+
+  /* 图标的颜色 */
+  --icon-bg-color-1: #C4A679;
+  --icon-bg-color-2: #E2A329;
+  --icon-bg-color-3: #E2BE02;
+  --icon-bg-color-4: #DE8888;
+  --icon-bg-color-5: #7AA4C4;
+  --icon-bg-color-6: #96AB69;
+  --icon-bg-color-7: #4bc189;
+  --icon-bg-color-8: #9cdc82;
+  --menu2_color: var(--white);
+  --menu2_bg: #BF9E6D;
+  --menu2_actived_color: #18272e;
+  --menu2_actived_bg: #BF9E6D;
+  --menu2_actived_border_bg: red;
+  --menu2_hover_bg: #BF9E6D;
+  --menu2_hover_color: #18272e;
+
+  /* 首页快捷按钮 */
+  --shortcut_border_color: #6F2E35;
+  --shortcut_title_color: #6F2E35;
+  --shortcut_icon_color: #6F2E35;
+  --shortcut_bg: #FFFFFF;
+  --shortcut_hover_border_color: var(--shortcut_border_color);
+  --shortcut_hover_title_color: var(--shortcut_title_color);
+  --shortcut_hover_icon_color: var(--shortcut_icon_color);
+  --shortcut_hover_bg: var(--shortcut_bg);
+  --shortcut_more_border_color: #9 59A9C;
+  --shortcut_more_title_color: #959A9C;
+  --shortcut_more_bg: #F5F5F5;
+  --shortcut_more_hover_border_color: #959A9C;
+  --shortcut_more_hover_title_color: #959A9C;
+  --shortcut_more_hover_bg: #F5F5F5;
+  --shortcut_more_icon_color: #959A9C;
+  --shortcut_hover_more_icon_color: #959A9C;
+}
+
+div [data-url="home/tab_shortcut"] .block_c {
+  min-height: 150px;
+}
+
+@media screen and (min-width: 480px) {
+  #canvas {
+    min-height: 101vh !important;
+  }
+}
+
+.bg-white {
+  display: flex;
+}
+
+#canvas .tab-title--progress li.tab--divide.layui-this,
+.layui-tab.layui-tab-brief .tab-title--progress li.tab--divide.layui-this {
+  background: #6F2E35;
+}
+
+#canvas .tab-title--progress li.tab--divide.layui-this:after,
+.layui-tab.layui-tab-brief .tab-title--progress li.tab--divide.layui-this:after {
+  border-left-color: #6F2E35 !important;
+}
+
+/*首页看板强制一行四个*/
+.block-content .pipeline-box .pipeline-td {
+  width: 22%;
+  //margin:auto;
+  margin-left: 3px;
+  margin-top: 10px;
+  padding: 0px;
+}
+
+/*移动端首页看板强制一行二个*/
+.block-content .pipeline-box .pipeline-td-2 {
+  width: 45%;
+  //margin:auto;
+  margin-left:3px;
+  margin-top: 10px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 300px) {
+  .block-content .pipeline-box .pipeline-td-2 {
+    width: 100%;
+    margin-left: 3px;
+    margin-top: 10px;
+    padding: 0px;
+  }
+}
+
+/*移动端首页看板列表宽度*/
+.block-content .pipeline-box .pipeline-td-2 li span {
+  height: 30px;
+  line-height: 30px;
+}
+
+.block-content .pipeline-box .pipeline-td h6 {
+  background: #6F2E35;
+  padding: 8px;
+  color: white !important;
+}
+
+.block-content .pipeline-box .pipeline-td .poolbox {
+  padding: 8px;
+}
+
+.block-content .pipeline-box .pipeline-td h6 .count {
+  color: white !important;
+}
+
+.block-content .pipeline-box div[state='储备'] {
+  display: none;
+}
+
+#canvas div[style='padding:5px;background:#ddd;text-align:center;'] {
+  display: none;
+}
+
+/*用于法务合规部项目管理看板显示红色*/
+.layout-sskbdz .board h6 {
+  background: #6F2E35;
+  color: white !important;
+  padding: 8px;
+}
+
+.layout-sskbdz .board h6 .count {
+  color: white !important;
+}

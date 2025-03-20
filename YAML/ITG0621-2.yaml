@@ -1,0 +1,686 @@
+---
+comment:
+  open: 1
+  target: _self
+  choose: 1
+  doctype: doc
+  up_folder: fcth9uf1jh
+  root_uid:
+  eid_link: doc
+  formats:
+  position: 1
+  attached_mod:
+  comment_title_tpl:
+  field_newest:
+  field_count:
+notify:
+  open: 1
+  creatorupdater: 'false'
+  url_template:
+diycol_pc: >
+  workrecordno,effective_date,expiry_date,time_year,time_total
+diycol_iphone:
+bi_counting:
+bi_condition:
+bi_filter:
+enable_privilege: 1
+openlink: 0
+name_rule:
+monitor_condition:
+monitor_update:
+search: 1
+confirm: 1
+title_field:
+stepbar: [ ]
+dynform: [ ]
+collect: [ ]
+calc: [ ]
+css:
+js: |
+  $(function () {
+    var sval = $('.pepm-form #fn9cjea0fy_label').val();
+    update_worksn(sval);
+  
+    $('.pepm-form #fn9cjea0fy_label').change(function () {
+      update_worksn($(this).val());
+    });
+  
+    function update_worksn(sval) {
+      var cval = $('.pepm-form #fml2xs247t').val();
+      if (typeof cval != 'string') return;
+  
+      var tval = cval.split('-');
+      var nval;
+      if (tval.length == 2) {
+        nval = tval[0] + "-" + sval + "-" + tval[1];
+      } else {
+        nval = tval[0] + "-" + sval + "-" + tval[tval.length - 1];
+      }
+  
+      $('.pepm-form #fml2xs247t').val(nval);
+    }
+  });
+script: [ ]
+ext:
+  btp:
+    button:
+      docx:
+        title: 下载WORD
+        is_hidden: true
+        mobile_hidden: true
+      pdf:
+        title: 下载PDF
+        is_hidden: true
+        mobile_hidden: true
+      edit:
+        title: 修改
+        is_hidden: false
+      history:
+        title: 历史
+        is_hidden: true
+      submit:
+        title: 提交
+        is_hidden: false
+      cache:
+        title: 暂存
+        is_hidden: true
+        mobile_hidden: true
+      reset:
+        title: 重置
+        is_hidden: true
+        mobile_hidden: true
+  confirm_msg: >
+    请核对填写信息，提交后部分信息将无法修改
+sms_template: [ ]
+openlink_title:
+openlink_button:
+email_notify:
+  - [ ]
+email_notify_tem:
+openlink_content:
+pre_commit_content:
+tab_listen_key:
+tab_listen_rule: [ ]
+def_submit_btn_text:
+submit_redirect: 0
+submit_redirect_url:
+word_export:
+  word_custom_func:
+  word_export_name:
+  word_file:
+    - [ ]
+  word_file_label:
+    - [ ]
+api_address:
+api_list_key:
+api_request_key:
+api_response_key:
+api_display: match
+modbox:
+  position: 1
+  ext: [ ]
+notify_default:
+inherit_priv:
+privilege:
+  list: >
+    usr_create,internalparticipants,h3uz53pmre,h3q8kjf7mo,fuialcfhyo,h5s03bo8in,team_manager,team_member,pepmAdmin,h3l4498fi1,h4ccyrwa5k
+  import:
+  export:
+  detail:
+  edit: >
+    usr_create,internalparticipants,h4ccyrwa5k
+  delete: usr_create
+  docx:
+  pdf:
+  history:
+  openlink:
+  block_view_fn27x2oe1p:
+  block_edit_fn27x2oe1p:
+diycol: 1
+diycol_back_list:
+list_count_block_fields:
+order_priority:
+page_size:
+fixed_col:
+fixed_col_mobile:
+addon_url:
+list_style: list_ajax
+link_type: modal
+list_count: top
+list_style_mobile: pc
+py_search: no_more
+secondary_link_type: modal
+list_mobile_mod: default
+diycard_config: [ ]
+button_config: [ ]
+feed_tpl:
+feed_mobile_tpl:
+feed_tpl_css:
+feed_tpl_js:
+css_config:
+js_config:
+merged_cell_key:
+merged_cell_list:
+merge_exclude_code:
+list_img_name:
+list_img_img:
+list_img_date:
+list_img_content:
+super_object:
+replace_comment_update_col:
+replace_comment_max_col:
+replace_comment_notify: 2
+created_sth:
+filter: interview_state
+always_show: interview_state
+default_open_search_field: 1
+filter_mobile:
+item:
+  fn27x2oe1p:
+    id: fn27x2oe1p
+    name: 智库信息
+    type: section
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    val_width: def
+    list_align: def
+  name:
+    id: name
+    name: 合同名称
+    required: 1
+    type: select_new
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    val_width: 5
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source: contract_management
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  workrecordno:
+    id: workrecordno
+    name: 智库信息
+    type: select_new
+    width: 3
+    props:
+      id: doctor_interview
+      length: 4
+      reset_by_optgroup:
+      reset_by_label: 年
+      reset_by: 年
+      tpl: '{name}-{externalparticipantunits}-{subdivision}'
+      backend: 否
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    index: 1
+    val_width: 5
+    list_align: def
+    listed: 1
+    readonly: 1
+  effective_date:
+    id: effective_date
+    name: 合同生效日期
+    type: datepicker
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    height: 1
+    listed: 1
+    readonly: 1
+  expiry_date:
+    id: expiry_date
+    name: 合同失效日期
+    type: datepicker
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    listed: 1
+    readonly: 1
+  Input_source:
+    id: Input_source
+    name: 录入来源
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        自主寻找: 自主寻找
+        内部推荐: 内部推荐
+        外部机构推荐: 外部机构推荐
+        其他推荐: 其他推荐
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 1
+    required: 1
+  industry:
+    id: industry
+    name: 所属行业
+    type: select_new
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: '中介: 中介'
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    default_value: 中介
+    readonly: 1
+  creator:
+    id: creator
+    name: 创建人
+    type: operator
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 5
+    list_align: def
+    width: 3
+  business_scope:
+    id: business_scope
+    name: 经营范围
+    type: muti
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 5
+    list_align: def
+    props:
+      delimiter:
+      word_wrap: 否
+      list_line_number:
+      markdown_show: 否
+    width: 3
+    filter: enumerate
+  remark:
+    id: remark
+    name: 备注
+    type: muti
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 5
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 配置项
+      type: yaml
+      data_source: subdivision
+      payload: industry
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 是
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  time_year:
+    id: time_year
+    name: 本年度访谈时长
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    width: 1
+  time_total:
+    id: time_total
+    name: 累计访谈总时长
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  contract_sign:
+    id: contract_sign
+    name: 合同签署情况
+    type: select_new
+    default_value: 未签署
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        已签署: 已签署
+        未签署: 未签署
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic: |
+        已签署:
+          -upload_contract
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label:
+      list_color_label_label:
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis:
+      ellipsis_label:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    required: 1
+    width: 1
+  upload_contract:
+    id: upload_contract
+    name: 合同上传
+    type: upload
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    required: 1
+    width: 1
+  qiyongor:
+    id: qiyongor
+    name: 是否启用
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 5
+    index: 1
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是: 是
+        否: 否
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: false
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: false
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 3
+    required: 1
+    default_value: 是
+import: [ ]
+pre_order: [ ]
+bi:
+  counting: [ ]
+  condition: [ ]
+  monitor_condition: [ ]
+  monitor_update: [ ]
+  filter: [ ]

@@ -1,0 +1,910 @@
+---
+diycol_pc: >
+  companyd,hygq1x3dtl,direct_enterprise_code,year,project_type,project_number,project_code,hygq4c4k7f,hygq4cjk4u,hygq4cy86z,hygq4dc2bn,hygq4dpwcq,hygq4e3oc5,hygq6jv8nl,hygq6k7xqn,hygq6kl8u8,hygq6kvtrv,hygq6ljp1z,hygq6lwd2o,hygq6m7cv3,hygq6mkbg1,hygq6na8dq,hygq6nogcc,hygq7w4yac,hygq7wgdoc,hygq7xq8mj,hygq7y47vm,hygq7yfh2h,hygq7yr6uu,hygq7z2wy4,hygq7zfybt,hygq8onnbh,hygq8p0j4j,hygq8pdiw4,hygq8pq6qz,hygq8qdyb8,hygq8qrehy,hygq8r38f5,hygq8rgp98,hygq8rv2tr,hygq9qdkjf,hygq9sabtk,hygq9t1acx,hygq9tgrye,hygq9txshi,hygq9ufw1c,hygq9v9hsk,hygq9wjerv,hygqay3scx,hygqayintd
+diycol_iphone:
+bi_counting:
+bi_condition:
+bi_filter:
+openlink: 0
+name_rule:
+monitor_condition:
+monitor_update:
+title_field:
+stepbar: [ ]
+dynform: [ ]
+collect: [ ]
+calc: [ ]
+css:
+js:
+script: [ ]
+ext: [ ]
+sms_template: [ ]
+openlink_title:
+openlink_button:
+email_notify:
+  - [ ]
+email_notify_tem:
+openlink_content:
+pre_commit_content:
+_pm_deadline: 0
+tab_listen_key:
+tab_listen_rule: [ ]
+def_submit_btn_text:
+submit_redirect: 0
+submit_redirect_url:
+word_export:
+  word_custom_func:
+  word_export_name:
+  word_file:
+    - [ ]
+  word_file_label:
+    - [ ]
+api_address:
+api_list_key:
+api_request_key:
+api_response_key:
+api_display: match
+comment:
+  target: _self
+  doctype:
+  up_folder:
+  root_uid:
+  eid_link:
+  formats:
+  position: 1
+  attached_mod:
+  comment_title_tpl:
+  field_newest:
+  field_count:
+modbox:
+  position: 1
+  ext: [ ]
+notify_default:
+notify:
+  url_template:
+inherit_priv:
+privilege:
+  list:
+  import:
+  export:
+  detail:
+  edit:
+  delete:
+  docx:
+  pdf:
+  history:
+  openlink:
+  block_view_hygq6l8bg6:
+  block_edit_hygq6l8bg6:
+  block_view_hygq6mwhic:
+  block_edit_hygq6mwhic:
+  block_view_hygq7zsmup:
+  block_edit_hygq7zsmup:
+  block_view_hygq8q2i11:
+  block_edit_hygq8q2i11:
+  block_view_hygq9rw5d2:
+  block_edit_hygq9rw5d2:
+  block_view_hygq9w01dj:
+  block_edit_hygq9w01dj:
+diycol_back_list:
+list_count_block_fields:
+order_priority:
+page_size:
+fixed_col:
+fixed_col_mobile: 1
+addon_url:
+list_style: list_easy
+link_type: canvas
+list_count:
+list_style_mobile: list_mobile
+py_search: no_more
+secondary_link_type: modal
+list_mobile_mod: default
+diycard_config: [ ]
+button_config: [ ]
+feed_tpl:
+feed_mobile_tpl:
+feed_tpl_css:
+feed_tpl_js:
+css_config:
+js_config:
+merged_cell_key:
+merged_cell_list:
+merge_exclude_code:
+list_img_name:
+list_img_img:
+list_img_date:
+list_img_content:
+super_object:
+replace_comment_update_col:
+replace_comment_max_col:
+replace_comment_notify: 3
+created_sth:
+filter:
+always_show:
+filter_mobile:
+item:
+  companyd:
+    id: companyd
+    name: 直管企业
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source: companyd
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 是
+      select_all: 否
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  hygq1x3dtl:
+    id: hygq1x3dtl
+    name: 直管企业统一信用代码
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  direct_enterprise_code:
+    id: direct_enterprise_code
+    listed: 1
+    name: 直管企业及子企业编码
+    type: text
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    prompt: 输入企业及子企业编码
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+  year:
+    id: year
+    listed: 1
+    name: 年份
+    type: text
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    prompt: 输入年份
+  project_type:
+    id: project_type
+    listed: 1
+    name: 单体项目/项目群
+    type: select_new
+    props:
+      type_label: 录入
+      type: raw
+      data_source: |
+        单体项目: 单体项目
+        项目群: 项目群
+    width: 1
+    label_width: 1
+  project_number:
+    id: project_number
+    listed: 1
+    name: 项目序号
+    type: text
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    prompt: 输入项目序号
+  project_code:
+    id: project_code
+    listed: 1
+    name: 项目编码
+    type: text
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    prompt: 输入项目编码
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+  hygq4c4k7f:
+    id: hygq4c4k7f
+    name: 下属企业
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq4cjk4u:
+    id: hygq4cjk4u
+    name: 产品名称
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq4cy86z:
+    id: hygq4cy86z
+    name: 产品持有项目
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq4dc2bn:
+    id: hygq4dc2bn
+    name: 公募/私募产品投资
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq4dpwcq:
+    id: hygq4dpwcq
+    name: 项目类别
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq4e3oc5:
+    id: hygq4e3oc5
+    name: 行业板块分类
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq6jv8nl:
+    id: hygq6jv8nl
+    name: 被投资企业所属行业
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq6k7xqn:
+    id: hygq6k7xqn
+    name: 管理方式
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq6kl8u8:
+    id: hygq6kl8u8
+    name: 产品分类
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq6kvtrv:
+    id: hygq6kvtrv
+    name: 投资类别
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq6l8bg6:
+    id: hygq6l8bg6
+    name: 产品投向是否与主业相关
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq6ljp1z:
+    id: hygq6ljp1z
+    name: 是/否
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq6lwd2o:
+    id: hygq6lwd2o
+    name: 主业类型
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq6mwhic:
+    id: hygq6mwhic
+    name: 空一行
+    type: br
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq6m7cv3:
+    id: hygq6m7cv3
+    name: 合伙人类别
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq6mkbg1:
+    id: hygq6mkbg1
+    name: 合伙人类别 其他请注明
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq6na8dq:
+    id: hygq6na8dq
+    name: 国别
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq6nogcc:
+    id: hygq6nogcc
+    name: 境内/外
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq7w4yac:
+    id: hygq7w4yac
+    name: 所在省
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq7wgdoc:
+    id: hygq7wgdoc
+    name: 所在市区
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq7xq8mj:
+    id: hygq7xq8mj
+    name: >
+      上实集团系内单位持
+      有产品的列账方法
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq7y47vm:
+    id: hygq7y47vm
+    name: 产品的所有投资者 认缴总额
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq7yfh2h:
+    id: hygq7yfh2h
+    name: 上实集团系内单位 认缴金额
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq7yr6uu:
+    id: hygq7yr6uu
+    name: 所占比例
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq7z2wy4:
+    id: hygq7z2wy4
+    name: >
+      产品的所有投资者（2024期末累计）
+      认缴总额
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq7zfybt:
+    id: hygq7zfybt
+    name: >
+      上实集团系内单位（2024期末累计）
+      实缴金额/投资成本
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq7zsmup:
+    id: hygq7zsmup
+    name: 2024年预决算
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq8onnbh:
+    id: hygq8onnbh
+    name: 当年投资收益
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq8p0j4j:
+    id: hygq8p0j4j
+    name: 新投入金额
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq8pdiw4:
+    id: hygq8pdiw4
+    name: 退出额（含收益）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq8pq6qz:
+    id: hygq8pq6qz
+    name: 2025年预算 当年投资收益
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq8q2i11:
+    id: hygq8q2i11
+    name: 2025年预算新投入金额
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq8qdyb8:
+    id: hygq8qdyb8
+    name: 总额
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq8qrehy:
+    id: hygq8qrehy
+    name: 项目融资方式
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq8r38f5:
+    id: hygq8r38f5
+    name: 其中：自有资金
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq8rgp98:
+    id: hygq8rgp98
+    name: 其中：金融机构贷款
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq8rv2tr:
+    id: hygq8rv2tr
+    name: 其中：政府资金
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq9qdkjf:
+    id: hygq9qdkjf
+    name: 其他
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq9rw5d2:
+    id: hygq9rw5d2
+    name: 空一行
+    type: br
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq9sabtk:
+    id: hygq9sabtk
+    name: 2025年预算 退出额（含收益）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq9t1acx:
+    id: hygq9t1acx
+    name: 自贸区临港新片区 （是/否）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq9tgrye:
+    id: hygq9tgrye
+    name: >
+      长三角一体化示范区
+      （是/否）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq9txshi:
+    id: hygq9txshi
+    name: 五大新城
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq9ufw1c:
+    id: hygq9ufw1c
+    name: 是否年度新建项目 （是/否）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq9v9hsk:
+    id: hygq9v9hsk
+    name: 重大投资项目 （是/否）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq9w01dj:
+    id: hygq9w01dj
+    name: 战略性新兴产业
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygq9wjerv:
+    id: hygq9wjerv
+    name: 是/否
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygqay3scx:
+    id: hygqay3scx
+    name: 类别
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hygqayintd:
+    id: hygqayintd
+    name: 其他(请备注说明）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+import: [ ]
+pre_order: [ ]
+bi:
+  counting: [ ]
+  condition: [ ]
+  monitor_condition: [ ]
+  monitor_update: [ ]
+  filter: [ ]

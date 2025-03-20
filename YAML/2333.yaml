@@ -1,0 +1,162 @@
+---
+name: 领军创投
+items:
+  - 
+    name: 在管项目
+    unit: 支
+    color: '#3366ff'
+    icon: compass
+    width_m: 45%
+    width: 22%
+    mod: fund
+    url: fund/index
+    tips: 点击查看项目
+    elastic: win
+    res:
+      count:
+        - name
+  - 
+    name: 基金总规模
+    unit: 亿元
+    color: '#3366ff'
+    icon: compass
+    num_format: true
+    round: 2
+    width_m: 45%
+    width: 22%
+    mod: fund
+    res:
+      cal:
+        - '{fnhgmyulzb}/10000'
+  - 
+    name: 基金认缴规模
+    unit: 亿元
+    color: '#3366ff'
+    icon: compass
+    num_format: true
+    round: 2
+    width_m: 45%
+    width: 22%
+    mod: fund
+    res:
+      cal:
+        - '{fnhgn00tf7}/10000'
+  - 
+    name: 基金实缴规模
+    unit: 亿元
+    color: '#3366ff'
+    icon: compass
+    num_format: true
+    round: 2
+    width_m: 45%
+    width: 22%
+    mod: fund
+    res:
+      cal:
+        - '{fnhgn00tmm}/10000'
+  - 
+    name: 出资项目数
+    unit: 家
+    color: '#3399ff'
+    icon: compass
+    width_m: 45%
+    width: 22%
+    mod: company
+    filter:
+      state:
+        - 在投
+        - 退出
+    res:
+      count:
+        - state
+  - 
+    name: 累计出资金额
+    unit: 万元
+    color: '#3399ff'
+    icon: compass
+    num_format: true
+    round: 0
+    width_m: 45%
+    width: 22%
+    mod: company
+    res:
+      sum:
+        - h5gtz0h8jb
+  - 
+    name: 累计退出金额
+    unit: 万元
+    color: '#3399ff'
+    icon: compass
+    num_format: true
+    round: 0
+    width_m: 45%
+    width: 22%
+    mod: fund
+    res:
+      sum:
+        - fozpmva9ig
+  - 
+    name: 累计退出收益
+    unit: 万元
+    color: '#3399ff'
+    icon: compass
+    num_format: true
+    round: 2
+    width_m: 45%
+    width: 22%
+    mod: fund
+    res:
+      sum:
+        - h3hg1jdrcj
+  - 
+    name: 最新股权价值
+    unit: 万元
+    color: '#33ccff'
+    icon: compass
+    num_format: true
+    round: 2
+    width_m: 25%
+    width: 22%
+    mod: fund
+    res:
+      sum:
+        - h3fpwdkw9n
+  - 
+    name: 累计分配金额
+    unit: 万元
+    color: '#33ccff'
+    icon: compass
+    num_format: true
+    round: 0
+    width_m: 25%
+    width: 22%
+    mod: fund
+    res:
+      sum:
+        - h3zird90mv
+  - 
+    name: 整体回报倍数
+    unit: 倍
+    color: '#33ccff'
+    icon: compass
+    num_format: true
+    round: 3
+    width_m: 25%
+    width: 22%
+    mod: zhibiao
+    res:
+      sum:
+        - hdz0pwmus6
+  - 
+    name: 整体IRR
+    unit: %
+    color: '#33ccff'
+    icon: compass
+    round: 2
+    num_format: true
+    width_m: 25%
+    width: 22%
+    mod: zhibiao
+    res:
+      sum:
+        - hdz0px27hu

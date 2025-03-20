@@ -1,0 +1,823 @@
+---
+diycol_pc: >
+  name,state,round,source,industry,manager,is_lt,chuzi_zhuti,inv_time,money_renjiao,chigubi,touhouguzhi,rongzizonge,city
+diycol_iphone:
+bi_counting: >
+  industry,jieduan,province,city,is_lt,chuzi_zhuti
+bi_condition: >
+  state,round,source,companyd_gp,sug_lp,sug_fa,industry,jieduan,province,city,manager,is_lt,chuzi_zhuti,inv_time,first_dk_time
+bi_filter: chuzi_zhuti,source,companyd_gp
+openlink: 0
+name_rule:
+monitor_condition:
+monitor_update:
+bijoin: 1
+title_field:
+stepbar: [ ]
+dynform: [ ]
+collect: [ ]
+calc: [ ]
+css:
+js:
+script: [ ]
+ext:
+  btp:
+    button:
+      docx:
+        title: Download Docx
+        is_hidden: true
+        mobile_hidden: true
+      pdf:
+        title: Download PDF
+        is_hidden: true
+        mobile_hidden: true
+      edit:
+        title: 修改
+        is_hidden: false
+        mobile_hidden: true
+      history:
+        title: 历史
+        is_hidden: false
+        mobile_hidden: true
+      submit:
+        title: 保存
+        is_hidden: false
+        mobile_hidden: true
+      cache:
+        title: 暂存
+        is_hidden: true
+        mobile_hidden: true
+      reset:
+        title: 重置
+        is_hidden: true
+        mobile_hidden: true
+sms_template: [ ]
+openlink_title:
+openlink_button:
+email_notify:
+  - 
+email_notify_tem:
+openlink_content:
+pre_commit_content:
+tab_listen_key:
+tab_listen_rule: [ ]
+def_submit_btn_text:
+submit_redirect: 0
+submit_redirect_url:
+word_export:
+  word_custom_func:
+  word_export_name:
+  word_file:
+    - 
+  word_file_label:
+    - 
+api_address:
+api_list_key:
+api_request_key:
+api_response_key:
+api_display: match
+comment:
+  target: _self
+  choose: 1
+  doctype:
+  up_folder:
+  root_uid:
+  eid_link:
+  formats:
+  position: 2
+  attached_mod:
+  comment_title_tpl:
+  field_newest:
+  field_count:
+modbox:
+  position: 1
+  ext: [ ]
+notify_default:
+notify:
+  url_template:
+inherit_priv:
+privilege:
+  list: >
+    manager,companyd_weiyuan,role_hhw504bvg1,role_hhw509ujto,hhw5ycmjx6,role_hhw50h0stg,pepmAdmin,kejian_pre,hiax0vmrep,hj4zpsaqhm,hiy7oq5evt,lp_quanxian,hhw5udik29
+  import:
+  export:
+  detail: >
+    companyd_weiyuan,manager,hhw5ycmjx6,role_hhw50h0stg,pepmAdmin,role_hhw504bvg1,role_hhw509ujto,kejian_pre,hiax0vmrep,hj4zpsaqhm,hiy7oq5evt,lp_quanxian,hhw5udik29
+  edit: >
+    manager,hhw5ycmjx6,pepmAdmin,hiax0vmrep,hhw5xdmo1k,hj4zpsaqhm,hiy7oq5evt,role_hhw509ujto
+  delete: manager,hhw5ycmjx6,pepmAdmin,hiax0vmrep
+  docx:
+  pdf:
+  history:
+  openlink:
+  block_view_hrix7uisiq:
+  block_edit_hrix7uisiq:
+  block_view_highlights:
+  block_edit_highlights:
+  block_view_Due_diligence_advice:
+  block_edit_Due_diligence_advice:
+  block_view_about_ontractor:
+  block_edit_about_ontractor:
+  block_view_contractors:
+  block_edit_contractors:
+diycol_back_list:
+list_count_block_fields:
+order_priority:
+page_size:
+fixed_col: 2
+fixed_col_mobile:
+addon_url:
+list_style: list_ajax
+link_type: canvas
+list_count: top
+list_style_mobile: list_mobile
+py_search: no_more
+secondary_link_type: modal
+list_mobile_mod: default
+diycard_config: [ ]
+button_config: [ ]
+feed_tpl:
+feed_mobile_tpl:
+feed_tpl_css:
+feed_tpl_js:
+css_config:
+js_config:
+merged_cell_key:
+merged_cell_list:
+merge_exclude_code:
+list_img_name:
+list_img_img:
+list_img_date:
+list_img_content:
+super_object:
+replace_comment_update_col:
+replace_comment_max_col:
+replace_comment_notify: 1
+created_sth:
+filter: >
+  chuzi_zhuti,industry,source,round,jieduan,state,province
+always_show:
+filter_mobile:
+item:
+  hrix7uisiq:
+    id: hrix7uisiq
+    name: 项目信息
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  screenName:
+    id: screenName
+    name: 项目名称
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    val_width: 2
+    list_align: def
+  name:
+    id: name
+    name: 项目简称
+    listed: 1
+    required: 1
+    type: bussiness
+    width: 1
+    filter: input
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    height: 1
+    label_width: 1
+    index: 1
+    val_width: def
+    list_align: def
+  target_company:
+    id: target_company
+    name: 目标公司
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  FirstContact:
+    id: FirstContact
+    name: 首次接触日期
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  Project_currency:
+    id: Project_currency
+    name: 项目币种
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  project_source:
+    id: project_source
+    name: 项目来源
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  FArecommand:
+    id: FArecommand
+    name: 推荐FA
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  round:
+    id: round
+    name: 融资轮次
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  otherRounds:
+    id: otherRounds
+    name: 其他轮次
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  projectPhase:
+    id: projectPhase
+    name: 项目阶段
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  projectLeader:
+    id: projectLeader
+    name: 项目负责人
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  firstOrNot:
+    id: firstOrNot
+    name: 是否首次投资
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  investmentType:
+    id: investmentType
+    name: 投资类型
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  follow_status:
+    id: follow_status
+    name: 项目跟进状态
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  Pre_valuation:
+    id: Pre_valuation
+    name: 投前估值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  epicycleShareRatio:
+    id: epicycleShareRatio
+    name: 本轮拟持股比例
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  tailDiffOrNot:
+    id: tailDiffOrNot
+    name: 是否存在尾差
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  tailDiff:
+    id: tailDiff
+    name: 尾差
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  tailDiffExplain:
+    id: tailDiffExplain
+    name: 尾差说明
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  afterValuation:
+    id: afterValuation
+    name: 投后估值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  actualInvestment:
+    id: actualInvestment
+    name: 本轮我方实际投资额
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  companyProfile:
+    id: companyProfile
+    name: 公司基本介绍
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  co_investor:
+    id: co_investor
+    name: 本轮投资时共同投资人
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  logo:
+    id: logo
+    name: 公司LOGO
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  ongoingProcess:
+    id: ongoingProcess
+    name: 进行中的流程
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  highlights:
+    id: highlights
+    name: 投资亮点
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  industry:
+    id: industry
+    name: 细分行业分类
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  major_product:
+    id: major_product
+    name: 主要产品
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  operation_situation:
+    id: operation_situation
+    name: 运营情况
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  market_size:
+    id: market_size
+    name: 市场规模
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  Team_highlights:
+    id: Team_highlights
+    name: 团队亮点
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  Investment_highlights:
+    id: Investment_highlights
+    name: 投资亮点
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  Due_diligence_advice:
+    id: Due_diligence_advice
+    name: 尽调意见
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  Legal_feedback:
+    id: Legal_feedback
+    name: 法务尽调反馈
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  Financial_feedback:
+    id: Financial_feedback
+    name: 财务尽调反馈
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  about_ontractor:
+    id: about_ontractor
+    name: 承揽人员情况
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  Contract_introduction:
+    id: Contract_introduction
+    name: 承揽介绍
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  Contract_evaluation:
+    id: Contract_evaluation
+    name: 承揽评估
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  Quota_determin:
+    id: Quota_determin
+    name: 额度确定
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  thirdparty:
+    id: thirdparty
+    name: 第三方
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  contract_contribution:
+    id: contract_contribution
+    name: 承揽贡献度说明
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  contractors:
+    id: contractors
+    name: 承做人员情况
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  Service_due:
+    id: Service_due
+    name: 业务尽调
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  financial_due:
+    id: financial_due
+    name: 财务尽调
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  legal_due:
+    id: legal_due
+    name: 法务尽调
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  Credit_Facility:
+    id: Credit_Facility
+    name: 交易安排
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+  contribution_description:
+    id: contribution_description
+    name: 承做贡献度说明
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 2
+    list_align: def
+    width: 1
+import: [ ]
+pre_order: [ ]
+bi:
+  counting:
+    - industry
+    - jieduan
+    - province
+    - city
+    - is_lt
+    - chuzi_zhuti
+  condition:
+    - state
+    - round
+    - source
+    - companyd_gp
+    - sug_lp
+    - sug_fa
+    - industry
+    - jieduan
+    - province
+    - city
+    - manager
+    - is_lt
+    - chuzi_zhuti
+    - inv_time
+    - first_dk_time
+  monitor_condition: [ ]
+  monitor_update: [ ]
+  filter:
+    - chuzi_zhuti
+    - source
+    - companyd_gp

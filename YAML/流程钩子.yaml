@@ -1,0 +1,508 @@
+---
+pass:
+  - 
+    condition:
+    func:
+      update_entity:
+        target:
+        data:
+          applied: 是
+
+
+
+
+
+pass:
+  - 
+    condition:
+      wh_smxm_label:
+        =: 否
+      attribution_label:
+        =: PE组
+      bpstate_label:
+        !=: BP
+    func:
+      add_entity:
+        model: pe_company
+        data:
+          name: name
+          company_number: company_number
+          full_name: full_name
+          round: round
+          round_label: round_label
+          state: state
+          state_label: state_label
+          wh_zhuijia: wh_zhuijia
+          wh_zhuijia_label: wh_zhuijia_label
+          wh_smxm: wh_smxm
+          wh_smxm_label: wh_smxm_label
+          position: position
+          position_label: position_label
+          operation: operation
+          operation_label: operation_label
+          source: source
+          source_label: source_label
+          startup_time: startup_time
+          tz_industry: tz_industry
+          tz_industry_label: tz_industry_label
+          se_industry: se_industry
+          se_industry_label: se_industry_label
+          tsxmpd: tsxmpd
+          tsxmpd_label: tsxmpd_label
+          clxmpd: clxmpd
+          clxmpd_label: clxmpd_label
+          date: date
+          weeks: weeks
+          team_manager: team_manager
+          team_manager_label: team_manager_label
+          team_member: team_member
+          team_member_label: team_member_label
+          superiors: superiors
+          superiors_label: superiors_label
+          contact_person: contact_person
+          contact_information: contact_information
+          contact_information_label: contact_information_label
+          contact_number: contact_number
+          summary: summary
+          syjhsfile: syjhsfile
+          cb_bmxyfile: cb_bmxyfile
+          group_discussion: group_discussion
+          cb_qtfile: cb_qtfile
+          cb_description: cb_description
+          year_choose: year_choose
+          xmyxj: xmyxj
+          other_industry: other_industry
+          attribution: attribution
+          attribution_label: attribution_label
+          company_type: company_type
+          company_type_label: company_type_label
+          bpstate: 已入库
+          creditCode: creditCode
+  - 
+    condition:
+      wh_smxm_label:
+        =: 是
+      attribution_label:
+        =: PE组
+      bpstate_label:
+        !=: BP
+    func:
+      add_entity:
+        model: pe_company
+        data:
+          name: companycode
+          company_number: company_number
+          full_name: full_name
+          round: round
+          round_label: round_label
+          state: state
+          state_label: state_label
+          wh_zhuijia: wh_zhuijia
+          wh_zhuijia_label: wh_zhuijia_label
+          wh_smxm: wh_smxm
+          wh_smxm_label: wh_smxm_label
+          position: position
+          position_label: position_label
+          operation: operation
+          operation_label: operation_label
+          source: source
+          source_label: source_label
+          startup_time: startup_time
+          tz_industry: tz_industry
+          tz_industry_label: tz_industry_label
+          se_industry: se_industry
+          se_industry_label: se_industry_label
+          tsxmpd: tsxmpd
+          tsxmpd_label: tsxmpd_label
+          clxmpd: clxmpd
+          clxmpd_label: clxmpd_label
+          date: date
+          weeks: weeks
+          team_manager: team_manager
+          team_manager_label: team_manager_label
+          team_member: team_member
+          team_member_label: team_member_label
+          superiors: superiors
+          superiors_label: superiors_label
+          contact_person: contact_person
+          contact_information: contact_information
+          contact_information_label: contact_information_label
+          contact_number: contact_number
+          summary: summary
+          syjhsfile: syjhsfile
+          cb_bmxyfile: cb_bmxyfile
+          group_discussion: group_discussion
+          cb_qtfile: cb_qtfile
+          cb_description: cb_description
+          year_choose: year_choose
+          other_industry: other_industry
+          attribution: attribution
+          attribution_label: attribution_label
+          company_type: company_type
+          company_type_label: company_type_label
+          bpstate: 已入库
+          creditCode: creditCode
+  - 
+    condition:
+      wh_smxm_label:
+        =: 否
+      attribution_label:
+        =: PE组
+      bpstate_label:
+        =: BP
+    func:
+      update_entity:
+        target:
+        data:
+          name: name
+          company_number: company_number
+          full_name: full_name
+          round: round
+          round_label: round_label
+          state: state
+          state_label: state_label
+          wh_zhuijia: wh_zhuijia
+          wh_zhuijia_label: wh_zhuijia_label
+          wh_smxm: wh_smxm
+          wh_smxm_label: wh_smxm_label
+          position: position
+          position_label: position_label
+          operation: operation
+          operation_label: operation_label
+          source: source
+          source_label: source_label
+          startup_time: startup_time
+          tz_industry: tz_industry
+          tz_industry_label: tz_industry_label
+          se_industry: se_industry
+          se_industry_label: se_industry_label
+          tsxmpd: tsxmpd
+          tsxmpd_label: tsxmpd_label
+          clxmpd: clxmpd
+          clxmpd_label: clxmpd_label
+          date: date
+          weeks: weeks
+          team_manager: team_manager
+          team_manager_label: team_manager_label
+          team_member: team_member
+          team_member_label: team_member_label
+          superiors: superiors
+          superiors_label: superiors_label
+          contact_person: contact_person
+          contact_information: contact_information
+          contact_information_label: contact_information_label
+          contact_number: contact_number
+          summary: summary
+          syjhsfile: syjhsfile
+          cb_bmxyfile: cb_bmxyfile
+          group_discussion: group_discussion
+          cb_qtfile: cb_qtfile
+          cb_description: cb_description
+          year_choose: year_choose
+          xmyxj: xmyxj
+          other_industry: other_industry
+          attribution: attribution
+          attribution_label: attribution_label
+          company_type: company_type
+          company_type_label: company_type_label
+          bpstate: 已入库
+          creditCode: creditCode
+  - 
+    condition:
+      wh_smxm_label:
+        =: 是
+      attribution_label:
+        =: PE组
+      bpstate_label:
+        =: BP
+    func:
+      update_entity:
+        target:
+        data:
+          name: companycode
+          company_number: company_number
+          full_name: full_name
+          round: round
+          round_label: round_label
+          state: state
+          state_label: state_label
+          wh_zhuijia: wh_zhuijia
+          wh_zhuijia_label: wh_zhuijia_label
+          wh_smxm: wh_smxm
+          wh_smxm_label: wh_smxm_label
+          position: position
+          position_label: position_label
+          operation: operation
+          operation_label: operation_label
+          source: source
+          source_label: source_label
+          startup_time: startup_time
+          tz_industry: tz_industry
+          tz_industry_label: tz_industry_label
+          se_industry: se_industry
+          se_industry_label: se_industry_label
+          tsxmpd: tsxmpd
+          tsxmpd_label: tsxmpd_label
+          clxmpd: clxmpd
+          clxmpd_label: clxmpd_label
+          date: date
+          weeks: weeks
+          team_manager: team_manager
+          team_manager_label: team_manager_label
+          team_member: team_member
+          team_member_label: team_member_label
+          superiors: superiors
+          superiors_label: superiors_label
+          contact_person: contact_person
+          contact_information: contact_information
+          contact_information_label: contact_information_label
+          contact_number: contact_number
+          summary: summary
+          syjhsfile: syjhsfile
+          cb_bmxyfile: cb_bmxyfile
+          group_discussion: group_discussion
+          cb_qtfile: cb_qtfile
+          cb_description: cb_description
+          year_choose: year_choose
+          other_industry: other_industry
+          attribution: attribution
+          attribution_label: attribution_label
+          company_type: company_type
+          company_type_label: company_type_label
+          bpstate: 已入库
+          creditCode: creditCode
+
+
+---
+pass:
+  - 
+    condition:
+      affirm_entity:
+        =: 创投公司
+    func:
+      add_entity:
+        model: fof
+        data:
+          fullname: fullname
+          name: name
+          qcci_fund_type: 子基金
+  - 
+    condition:
+      affirm_entity:
+        =: 母基金
+    func:
+      add_entity:
+        model: fund
+        data:
+          fullname: fullname
+          name: name
+          qcci_fund_type: 子基金
+
+
+
+
+
+---
+co_sign_pass:
+  - 
+    condition:
+    func:
+      vendor_bridge:
+        script: qcci:yshtc_lc
+  - 
+    condition:
+      affirm_entity:
+        =: 创投公司
+    func:
+      add_entity:
+        model: fof
+        data:
+  - 
+    condition:
+      affirm_entity:
+        =: 母基金
+    func:
+      add_entity:
+        model: fund
+        data:
+
+
+  filter:
+    manager: uid
+    dongshiz: uid
+    fengkong: uid
+  filter_merge: true
+    again_sure: 待确认
+
+
+
+    sql: "data->>'$.deadline' < (NOW() - INTERVAL 10 DAY)"
+    sql: "data->>'$.again_sure' in('待确认')"
+    sql: "SELECT *FROM remind_gtcztx
+            WHERE (data->>'$.manager' = 'uid')
+            OR (data->>'$.dongshiz' = 'uid')
+            OR (data->>'$.fengkong' = 'uid');"
+
+
+Numerical comparison for different penalties in DJ28, NasdqQ100 and SP500 dataset
+是否使用专家库维护模块
+
+全部使用: 全部使用
+部分使用: 部分使用
+不使用: 不使用
+
+
+object
+
+
+
+
+---
+pass:
+  - 
+    condition:
+    func:
+      add_entity:
+        model: payment_records
+        data:
+          epertinterview: epertinterview
+          epertinterview_label: epertinterview_label
+          applicant: applicant
+          applicant_label: applicant_label
+          summary_create: summary_create
+          summary_create_label: summary_create_label
+          company: company
+          company_label: company_label
+          think_tank: think_tank
+          think_tank_label: think_tank_label
+          expert_database: expert_database
+          expert_database_label: expert_database_label
+          industry: industry
+          industry_label: industry_label
+          if_pay: if_pay
+          if_pay_label: if_pay_label
+          contract_sign: contract_sign
+          contract_sign_label: contract_sign_label
+          interview_date: interview_date
+          interview_time: interview_time
+          labour_certificate: labour_certificate
+
+
+
+
+
+
+
+---
+pass:
+   -
+     condition:
+     func:
+       add_entity:
+         model: risk_control_record
+         data: 
+          company: company
+          company_label: company_label
+          round: round
+          company_number: company_number
+          state: 预立项
+          full_name: full_name
+          wh_zhuijia: wh_zhuijia
+          se_industry: se_industry
+          summary: summary
+          djs_director: djs_director
+          djs_supervisor: djs_supervisor
+          djs_board_observer: djs_board_observer
+          lawyer: lawyer
+
+
+
+---
+pe_company:
+  round: round
+  round_label: round_label
+  company_number: company_number
+  state: state
+  state_label: state_label
+  full_name: full_name
+  wh_zhuijia: wh_zhuijia
+  wh_zhuijia_label: wh_zhuijia_label
+  wfhetongbdy: wfhetongbdy
+  wfbiz: wfbiz
+  se_industry: se_industry
+  se_industry_label: se_industry_label
+  summary: summary
+  djs_director: djs_director
+  djs_director_label: djs_director_label
+  djs_supervisor: djs_supervisor
+  djs_supervisor_label: djs_supervisor_label
+  djs_board_observer: djs_board_observer
+  djs_board_observer_label: djs_board_observer_label
+  lawyer: lawyer
+  lawyer_label: lawyer_label
+vc_company:
+  round: round
+  round_label: round_label
+  company_number: company_number
+  state: state
+  state_label: state_label
+  full_name: full_name
+  wh_zhuijia: wh_zhuijia
+  wh_zhuijia_label: wh_zhuijia_label
+  wfhetongbdy: wfhetongbdy
+  wfbiz: wfbiz
+  se_industry: se_industry
+  se_industry_label: se_industry_label
+  summary: summary
+  djs_director: djs_director
+  djs_director_label: djs_director_label
+  djs_supervisor: djs_supervisor
+  djs_supervisor_label: djs_supervisor_label
+  djs_board_observer: djs_board_observer
+  djs_board_observer_label: djs_board_observer_label
+  lawyer: lawyer
+  lawyer_label: lawyer_label
+shac_company:
+  round: round
+  round_label: round_label
+  company_number: company_number
+  state: state
+  state_label: state_label
+  full_name: full_name
+  wh_zhuijia: wh_zhuijia
+  wh_zhuijia_label: wh_zhuijia_label
+  wfhetongbdy: wfhetongbdy
+  wfbiz: wfbiz
+  se_industry: se_industry
+  se_industry_label: se_industry_label
+  summary: summary
+  djs_director: djs_director
+  djs_director_label: djs_director_label
+  djs_supervisor: djs_supervisor
+  djs_supervisor_label: djs_supervisor_label
+  djs_board_observer: djs_board_observer
+  djs_board_observer_label: djs_board_observer_label
+  lawyer: lawyer
+  lawyer_label: lawyer_label
+dollar_company:
+  round: round
+  round_label: round_label
+  company_number: company_number
+  state: state
+  state_label: state_label
+  full_name: full_name
+  wh_zhuijia: wh_zhuijia
+  wh_zhuijia_label: wh_zhuijia_label
+  wfhetongbdy: wfhetongbdy
+  wfbiz: wfbiz
+  se_industry: se_industry
+  se_industry_label: se_industry_label
+  summary: summary
+  djs_director: djs_director
+  djs_director_label: djs_director_label
+  djs_supervisor: djs_supervisor
+  djs_supervisor_label: djs_supervisor_label
+  djs_board_observer: djs_board_observer
+  djs_board_observer_label: djs_board_observer_label
+  lawyer: lawyer
+  lawyer_label: lawyer_label

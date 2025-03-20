@@ -1,0 +1,23 @@
+优秀: 优秀
+良好: 良好
+及格: 及格
+较差: 较差
+差: 差
+
+
+
+优秀:
+ bgcolor: green
+ color: white
+良好:
+ bgcolor: blue
+ color: white
+及格:
+ bgcolor: orange
+ color: white
+较差:
+ bgcolor: brown
+ color: white
+差:
+ bgcolor: red
+ color: white

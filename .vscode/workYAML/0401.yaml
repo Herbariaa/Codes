@@ -1,0 +1,163 @@
+---
+ pass: 
+   -
+     condition:
+     func:
+       add_entity:
+         model: fund_cashflow 
+         data:
+           fund: fund
+           fund_label: fund_label
+           company:	company
+           company_label:	company_label
+           leixing:	leixing
+           leixing_label:	leixing_label
+           benjin:	benjin
+           lixi:	lixi
+           money_huikuan:	money_huikuan
+           remarks:	remarks
+
+
+
+
+---
+ pass: 
+   -
+     condition:
+     func:
+       add_entity:
+         model: company_cashflow 
+         data:
+           company_company: company_company
+           company_company_label: company_company_label
+           money_chuzi: money_chuzi
+           date_chuzi: date_chuzi
+           department: department
+           manager: manager
+           fund: fund
+           type: type
+           money_huikuan: money_huikuan
+           leixing: leixing
+           leixing_label: leixing_label
+           date_huikuan: date_huikuan
+           benjin: benjin
+           lixi: lixi
+           remarks: remarks
+           uploadfiles: uploadfiles
+
+
+
+
+
+
+---
+co_sign_pass:
+  - 
+    condition:
+    func:
+      add_entity:
+        model: meeting_record
+        data:
+          fof: fof
+          fof_label: fof_label
+          fund: fund
+          fund_label: fund_label
+          company: company
+          company_label: company_label
+          company_mark: company_mark
+          company_mark_label: company_mark_label
+          apply_person: promoter
+          apply_person_label: promoter_label
+          department: department
+          department_label: department_label
+          apply_time: lx_date
+          meeting_type: 立项会
+          meeting_result: 通过
+co_sign_fail:
+  - 
+    condition:
+    func:
+      add_entity:
+        model: meeting_record
+        data:
+          fof: fof
+          fof_label: fof_label
+          fund: fund
+          fund_label: fund_label
+          company: company
+          company_label: company_label
+          company_mark: company_mark
+          company_mark_label: company_mark_label
+          apply_person: promoter
+          apply_person_label: promoter_label
+          department: department
+          department_label: department_label
+          apply_time: lx_date
+          meeting_type: 立项会
+          meeting_result: 未通过
+
+
+---
+0: flow_input_date
+1: flow_input_people
+2: flow_state
+form_ctlixiang:
+  - company
+  - fund
+
+
+  - 
+    condition:
+      qcci_or_fof:
+        =: 否
+  
+
+---
+- 
+  condition:
+    my_right:
+      =: 投委会普通投票
+  goto: hob64ptucj
+
+
+---
+pass:
+  - 
+    condition:
+      invest_or_not:
+        =: 是
+    func:
+      update_entity:
+        target:
+        data:
+          state: 投后管理
+          state_label: 投后管理
+  - 
+    condition:
+      invest_or_not:
+        =: 否
+    func:
+      update_entity:
+        target:
+        data:
+          state: 项目终止
+          state_label: 项目终止
+
+
+
+
+
+fund_cashflow: 
+  - fund_allcashflow.fund_allexitmoney = sum,money_huikuan
+  - fund_allcashflow.fund_principalmoney = sum,benjin
+  - fund_allcashflow.fund_sumexitprofit = sum,lixi
+
+
+
+---
+add:
+  - 'jahg:cal_fund_allcashflow|{eid}'
+update:
+  - 'jahg:cal_fund_allcashflow|{eid}'
+del:
+  - 'jahg:cal_fund_allcashflow|{eid}'

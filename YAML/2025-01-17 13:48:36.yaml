@@ -1,0 +1,70 @@
+  diff_net_irr:
+    id: diff_net_irr
+    name: Net IRR
+    type: percent
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    required: 1
+  diff_gross_irr:
+    id: diff_gross_irr
+    name: Gross IRR
+    type: percent
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    required: 1
+  diff_moic:
+    id: diff_moic
+    name: MOIC
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    required: 1
+  diff_tvpi:
+    id: diff_tvpi
+    name: TVPI
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    required: 1
+  diff_dpi:
+    id: diff_dpi
+    name: DPI
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    required: 1

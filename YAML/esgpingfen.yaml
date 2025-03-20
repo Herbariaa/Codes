@@ -1,0 +1,2371 @@
+---
+diycol_pc:
+diycol_iphone:
+bi_counting:
+bi_condition:
+bi_filter:
+openlink: 0
+name_rule:
+title_field:
+stepbar: [ ]
+dynform: [ ]
+collect: [ ]
+calc: [ ]
+css: '.layui-layer-modal .layui-layer-content,.puretext{background: #fff;}'
+js:
+script: [ ]
+ext: [ ]
+sms_template: [ ]
+openlink_title:
+openlink_button:
+email_notify:
+  - 
+openlink_content:
+tab_listen_key:
+tab_listen_rule: [ ]
+def_submit_btn_text:
+submit_redirect: 0
+submit_redirect_url:
+api_address:
+api_list_key:
+api_request_key:
+api_response_key:
+api_display: match
+comment:
+  target: _self
+  doctype:
+  up_folder:
+  root_uid:
+  eid_link:
+  formats:
+  position: 1
+  attached_mod:
+  field_newest:
+  field_count:
+notify_default:
+inherit_priv:
+privilege:
+  list:
+  import:
+  export:
+  detail:
+  edit:
+  delete:
+  docx:
+  pdf:
+  history:
+  block_view_geag0scb56:
+  block_edit_geag0scb56:
+  block_view_resources:
+  block_edit_resources:
+  block_view_environmentals:
+  block_edit_environmentals:
+  block_view_climates:
+  block_edit_climates:
+  block_view_developments:
+  block_edit_developments:
+  block_view_products:
+  block_edit_products:
+  block_view_humans:
+  block_edit_humans:
+  block_view_communitys:
+  block_edit_communitys:
+  block_view_supplys:
+  block_edit_supplys:
+  block_view_structures:
+  block_edit_structures:
+  block_view_disputess:
+  block_edit_disputess:
+  block_view_transparencys:
+  block_edit_transparencys:
+  block_view_ethicss:
+  block_edit_ethicss:
+  block_view_gean8bp8jb:
+  block_edit_gean8bp8jb:
+  block_view_gean8inkif:
+  block_edit_gean8inkif:
+diycol_back_list:
+list_count_block_fields:
+order_priority:
+page_size:
+fixed_col:
+filter:
+addon_url:
+list_style: list_ajax
+link_type: canvas
+list_count: top
+list_style_mobile: list_mobile
+diycard_config: [ ]
+button_config: [ ]
+feed_tpl:
+feed_mobile_tpl:
+feed_tpl_css:
+feed_tpl_js:
+css_config:
+replace_comment_update_col:
+replace_comment_max_col:
+replace_comment_notify: 3
+created_sth:
+item:
+  hfkxobdogx:
+    id: hfkxobdogx
+    name: '<center>ESG评分情况<center>'
+    type: title
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  fund:
+    id: fund
+    name: 评价对象
+    type: select_new
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source: fund
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+      tags_add_view:
+    width: 1
+    listed: 1
+  hfkxt56h73:
+    id: hfkxt56h73
+    name: 评价日期
+    type: datepicker
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+  hfkxtcg4f0:
+    id: hfkxtcg4f0
+    name: 评价人
+    type: select_new
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    listed: 1
+    default_value: uid
+    props:
+      type_optgroup:
+      type_label: 用户
+      type: usr
+      data_source:
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+      tags_add_view:
+  geanby9uv1:
+    id: geanby9uv1
+    listed: 1
+    name: 总分
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+    readonly: 1
+  hfkxwe23lz:
+    id: hfkxwe23lz
+    name: 评分细则
+    type: section
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  hfkyben2n9:
+    id: hfkyben2n9
+    name: '<a>评分维度</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkybje06y3:
+    id: hfkybje06y
+    name: '<a>考评内容</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkybje06y:
+    id: hfkybje06y
+    name: '<a>评分标准</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkybs0qrs:
+    id: hfkybs0qrs
+    name: '<a>满分</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkybp0x8x:
+    id: hfkybp0x8x
+    name: '<a>打分</a>'
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkxx1dcof:
+    id: hfkxx1dcof
+    name: 资源利用
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkxxc1too111:
+    id: hfkxxc1too
+    name: >
+      评估公司在减少材料、能源或水使用方面的能力和表现
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkxxc1too11:
+    id: hfkxxc1too
+    name: >
+       1.是否存在材料、能源方面的浪费问题；<br>2.公司在节能方面的积极举措；<br>3.公司在材料循环利用方面的举措。
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 15
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkxxwqeif11:
+    id: hfkxxwqeif
+    name: 5（分）
+    type: text
+    num_range:
+      range: positive_number
+      start: 0
+      end: 8
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkxx575a311:
+    id: hfkxx575a3
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 5
+      contain: all
+    label_width: 0
+    val_width: 1
+    ext:
+      unit: 分
+    list_align: def
+    props:
+      decimals: 0
+      view_decimals: 0
+      t_divide: 否
+      padding: 否
+      currency_symbol: 否
+      progress_bar: 否
+      progress_bar_color:
+    width: 1
+    required: 1
+  hfkyoc6i5q:
+    id: hfkyoc6i5q
+    name: 环境污染
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyocy3zm:
+    id: hfkyocy3zm
+    name: >
+      衡量公司的环境污染问题和风险，是否因环境问题受到过处罚或媒体关注
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyocy3zm1:
+    id: hfkyocy3zm
+    name: ' 1.相关污染治理制度及执行情况，主要环保设施及环保设施运行情况；<br>2.公司是否存在污染问题及环保部门的处罚或负面媒体报道；<br>3.公司在环保方面的积极措施。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyodij3n:
+    id: hfkyodij3n
+    name: 5（分）
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyoe5ceo:
+    id: hfkyoe5ceo
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 5
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh:
+    id: hfkyoeosbh
+    name: 气候变化
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj51:
+    id: hfkyofhxj51
+    name: >
+      评估公司CO2及等价物的排放量以及未来减少排放的方式
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj5:
+    id: hfkyofhxj5
+    name: ''
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x4:
+    id: hfkyog13x4
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j:
+    id: hfkyogij9j
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh21:
+    id: hfkyoeosbh
+    name: 管理费用
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5121:
+    id: hfkyofhxj51
+    name: >
+      是否按照相关规定提取或返还管理费。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj521:
+    id: hfkyofhxj5
+    name: '1.符合要求的，得满分；<br>2.不符合要求的，不得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x421:
+    id: hfkyog13x4
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j21:
+    id: hfkyogij9j21
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 5
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh22:
+    id: hfkyoeosbh
+    name: 投资限制
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5122:
+    id: hfkyofhxj51
+    name: >
+      是否违反投资限制的相关要求。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj522:
+    id: hfkyofhxj5
+    name: '1.未违反要求的，得满分；<br>2.违反要求的，不得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x422:
+    id: hfkyog13x4
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j22:
+    id: hfkyogij9j22
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh23:
+    id: hfkyoeosbh
+    name: 闲置资金
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5123:
+    id: hfkyofhxj51
+    name: >
+      是否按照相关规定进行闲置资金管理。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj523:
+    id: hfkyofhxj5
+    name: '1.符合规定的，得满分；<br>2.不符合规定的，不得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x423:
+    id: hfkyog13x4
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j23:
+    id: hfkyogij9j23
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh24:
+    id: hfkyoeosbh
+    name: 信息披露
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5124:
+    id: hfkyofhxj51
+    name: >
+      是否按照私募基金监管要求，及时办理信息披露事宜，包括但不限于基金季报、年报等。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj524:
+    id: hfkyofhxj5
+    name: '1.符合要求的，得满分；<br>2.每发生一次迟报或漏报情形，扣1分，扣完为止。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x424:
+    id: hfkyog13x4
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j24:
+    id: hfkyogij9j24
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 3
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh25:
+    id: hfkyoeosbh
+    name: 数据报送
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5125:
+    id: hfkyofhxj51
+    name: '是否按要求完成数据报送工作；<br>填报内容是否真实准确完整。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj525:
+    id: hfkyofhxj5
+    name: '1.符合要求的，得满分；<br>2.每发生一次错报、漏报、晚报情形，扣1分，扣完为止。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x425:
+    id: hfkyog13x4
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j25:
+    id: hfkyogij9j25
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 5
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh26:
+    id: hfkyoeosbh
+    name: 监管处罚
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5126:
+    id: hfkyofhxj51
+    name: >
+      是否存在被监管机构或行业自律组织等相关部门处罚情形。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj526:
+    id: hfkyofhxj5
+    name: '1.无此情形的，得满分；<br>2.存在此情形的，不得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x426:
+    id: hfkyog13x4
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j26:
+    id: hfkyogij9j26
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh27:
+    id: hfkyoeosbh
+    name: 配合程度
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5127:
+    id: hfkyofhxj51
+    name: >
+      管理机构与引导基金合作情况，包括但不限于日常信息沟通，受邀到会参会、配合重要活动等。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj527:
+    id: hfkyofhxj5
+    name: >
+      每次发生一次配合问题，扣1分，扣完为止。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x427:
+    id: hfkyog13x4
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j27:
+    id: hfkyogij9j27
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 3
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh26:
+    id: hfkyoeosbh
+    name: 监管处罚
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5126:
+    id: hfkyofhxj51
+    name: >
+      是否存在被监管机构或行业自律组织等相关部门处罚情形。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj526:
+    id: hfkyofhxj5
+    name: '1.无此情形的，得满分；<br>2.存在此情形的，不得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x426:
+    id: hfkyog13x4
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j26:
+    id: hfkyogij9j26
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh27:
+    id: hfkyoeosbh
+    name: 配合程度
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5127:
+    id: hfkyofhxj51
+    name: >
+      管理机构与引导基金合作情况，包括但不限于日常信息沟通，受邀到会参会、配合重要活动等。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj527:
+    id: hfkyofhxj5
+    name: >
+      每次发生一次配合问题，扣1分，扣完为止。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x427:
+    id: hfkyog13x4
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j27:
+    id: hfkyogij9j27
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 3
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh26:
+    id: hfkyoeosbh
+    name: 监管处罚
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5126:
+    id: hfkyofhxj51
+    name: >
+      是否存在被监管机构或行业自律组织等相关部门处罚情形。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj526:
+    id: hfkyofhxj5
+    name: '1.无此情形的，得满分；<br>2.存在此情形的，不得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x426:
+    id: hfkyog13x4
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j26:
+    id: hfkyogij9j26
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh27:
+    id: hfkyoeosbh
+    name: 配合程度
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5127:
+    id: hfkyofhxj51
+    name: >
+      管理机构与引导基金合作情况，包括但不限于日常信息沟通，受邀到会参会、配合重要活动等。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj527:
+    id: hfkyofhxj5
+    name: >
+      每次发生一次配合问题，扣1分，扣完为止。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x427:
+    id: hfkyog13x4
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j27:
+    id: hfkyogij9j27
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 3
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh26:
+    id: hfkyoeosbh
+    name: 监管处罚
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5126:
+    id: hfkyofhxj51
+    name: >
+      是否存在被监管机构或行业自律组织等相关部门处罚情形。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj526:
+    id: hfkyofhxj5
+    name: '1.无此情形的，得满分；<br>2.存在此情形的，不得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x426:
+    id: hfkyog13x4
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j26:
+    id: hfkyogij9j26
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh27:
+    id: hfkyoeosbh
+    name: 配合程度
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5127:
+    id: hfkyofhxj51
+    name: >
+      管理机构与引导基金合作情况，包括但不限于日常信息沟通，受邀到会参会、配合重要活动等。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj527:
+    id: hfkyofhxj5
+    name: >
+      每次发生一次配合问题，扣1分，扣完为止。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x427:
+    id: hfkyog13x4
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j27:
+    id: hfkyogij9j27
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 3
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh26:
+    id: hfkyoeosbh
+    name: 监管处罚
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5126:
+    id: hfkyofhxj51
+    name: >
+      是否存在被监管机构或行业自律组织等相关部门处罚情形。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj526:
+    id: hfkyofhxj5
+    name: '1.无此情形的，得满分；<br>2.存在此情形的，不得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x426:
+    id: hfkyog13x4
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j26:
+    id: hfkyogij9j26
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh27:
+    id: hfkyoeosbh
+    name: 配合程度
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5127:
+    id: hfkyofhxj51
+    name: >
+      管理机构与引导基金合作情况，包括但不限于日常信息沟通，受邀到会参会、配合重要活动等。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj527:
+    id: hfkyofhxj5
+    name: >
+      每次发生一次配合问题，扣1分，扣完为止。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x427:
+    id: hfkyog13x4
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j27:
+    id: hfkyogij9j27
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 3
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh26:
+    id: hfkyoeosbh
+    name: 监管处罚
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5126:
+    id: hfkyofhxj51
+    name: >
+      是否存在被监管机构或行业自律组织等相关部门处罚情形。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj526:
+    id: hfkyofhxj5
+    name: '1.无此情形的，得满分；<br>2.存在此情形的，不得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x426:
+    id: hfkyog13x4
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j26:
+    id: hfkyogij9j26
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh27:
+    id: hfkyoeosbh
+    name: 配合程度
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5127:
+    id: hfkyofhxj51
+    name: >
+      管理机构与引导基金合作情况，包括但不限于日常信息沟通，受邀到会参会、配合重要活动等。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj527:
+    id: hfkyofhxj5
+    name: >
+      每次发生一次配合问题，扣1分，扣完为止。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x427:
+    id: hfkyog13x4
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j27:
+    id: hfkyogij9j27
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 3
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh26:
+    id: hfkyoeosbh
+    name: 监管处罚
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5126:
+    id: hfkyofhxj51
+    name: >
+      是否存在被监管机构或行业自律组织等相关部门处罚情形。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj526:
+    id: hfkyofhxj5
+    name: '1.无此情形的，得满分；<br>2.存在此情形的，不得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x426:
+    id: hfkyog13x4
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j26:
+    id: hfkyogij9j26
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh27:
+    id: hfkyoeosbh
+    name: 配合程度
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5127:
+    id: hfkyofhxj51
+    name: >
+      管理机构与引导基金合作情况，包括但不限于日常信息沟通，受邀到会参会、配合重要活动等。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj527:
+    id: hfkyofhxj5
+    name: >
+      每次发生一次配合问题，扣1分，扣完为止。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x427:
+    id: hfkyog13x4
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j27:
+    id: hfkyogij9j27
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 3
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh26:
+    id: hfkyoeosbh
+    name: 监管处罚
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5126:
+    id: hfkyofhxj51
+    name: >
+      是否存在被监管机构或行业自律组织等相关部门处罚情形。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj526:
+    id: hfkyofhxj5
+    name: '1.无此情形的，得满分；<br>2.存在此情形的，不得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x426:
+    id: hfkyog13x4
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j26:
+    id: hfkyogij9j26
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh27:
+    id: hfkyoeosbh
+    name: 配合程度
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5127:
+    id: hfkyofhxj51
+    name: >
+      管理机构与引导基金合作情况，包括但不限于日常信息沟通，受邀到会参会、配合重要活动等。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj527:
+    id: hfkyofhxj5
+    name: >
+      每次发生一次配合问题，扣1分，扣完为止。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x427:
+    id: hfkyog13x4
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j27:
+    id: hfkyogij9j27
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 3
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh26:
+    id: hfkyoeosbh
+    name: 监管处罚
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5126:
+    id: hfkyofhxj51
+    name: >
+      是否存在被监管机构或行业自律组织等相关部门处罚情形。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj526:
+    id: hfkyofhxj5
+    name: '1.无此情形的，得满分；<br>2.存在此情形的，不得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x426:
+    id: hfkyog13x4
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j26:
+    id: hfkyogij9j26
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh27:
+    id: hfkyoeosbh
+    name: 配合程度
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5127:
+    id: hfkyofhxj51
+    name: >
+      管理机构与引导基金合作情况，包括但不限于日常信息沟通，受邀到会参会、配合重要活动等。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj527:
+    id: hfkyofhxj5
+    name: >
+      每次发生一次配合问题，扣1分，扣完为止。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x427:
+    id: hfkyog13x4
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j27:
+    id: hfkyogij9j27
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 3
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh26:
+    id: hfkyoeosbh
+    name: 监管处罚
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5126:
+    id: hfkyofhxj51
+    name: >
+      是否存在被监管机构或行业自律组织等相关部门处罚情形。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj526:
+    id: hfkyofhxj5
+    name: '1.无此情形的，得满分；<br>2.存在此情形的，不得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x426:
+    id: hfkyog13x4
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j26:
+    id: hfkyogij9j26
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh27:
+    id: hfkyoeosbh
+    name: 配合程度
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5127:
+    id: hfkyofhxj51
+    name: >
+      管理机构与引导基金合作情况，包括但不限于日常信息沟通，受邀到会参会、配合重要活动等。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj527:
+    id: hfkyofhxj5
+    name: >
+      每次发生一次配合问题，扣1分，扣完为止。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x427:
+    id: hfkyog13x4
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j27:
+    id: hfkyogij9j27
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 3
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh26:
+    id: hfkyoeosbh
+    name: 监管处罚
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5126:
+    id: hfkyofhxj51
+    name: >
+      是否存在被监管机构或行业自律组织等相关部门处罚情形。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj526:
+    id: hfkyofhxj5
+    name: '1.无此情形的，得满分；<br>2.存在此情形的，不得分。'
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x426:
+    id: hfkyog13x4
+    name: 2（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j26:
+    id: hfkyogij9j26
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 2
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1
+  hfkyoeosbh27:
+    id: hfkyoeosbh
+    name: 配合程度
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyofhxj5127:
+    id: hfkyofhxj51
+    name: >
+      管理机构与引导基金合作情况，包括但不限于日常信息沟通，受邀到会参会、配合重要活动等。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyofhxj52701:
+    id: hfkyofhxj501
+    name: >
+      每次发生一次配合问题，扣1分，扣完为止。
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 2
+    val_width: -1
+    list_align: def
+    width: 2
+  hfkyog13x42701:
+    id: hfkyog13x401
+    name: 3（分）
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: -1
+    list_align: def
+    width: 1
+  hfkyogij9j2701:
+    id: hfkyogij9j2701
+    name: 打分
+    type: amount
+    num_range:
+      range: default
+      start: 0
+      end: 3
+      contain: all
+    label_width: 0
+    val_width: 1
+    list_align: def
+    width: 1
+    required: 1

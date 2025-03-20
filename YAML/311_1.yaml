@@ -1,0 +1,192 @@
+---
+pass:
+  - 
+    condition:
+      affirm_entity:
+        =: 创投公司
+    func:
+      add_entity:
+        model: fof
+        data:
+          state: 基金预审
+          state_label: 基金预审
+          name: fund_label
+          fund_risk_level: fund_risk_level
+          fund_risk_level_label: fund_risk_level_label
+          fullname: fullname
+          fund_state: fund_state
+          fund_state_label: fund_state_label
+          fund_type: fund_type
+          fund_type_label: fund_type_label
+          is_blind: is_blind
+          is_blind_label: is_blind_label
+          cq_level:	cq_level
+          cq_level_label:	cq_level_label
+          membership_jituan:	membership_jituan
+          membership_jituan_label:	membership_jituan_label
+          manage_jituan:	manage_jituan
+          manage_jituan_label:	manage_jituan_label
+          fund_manager_gp:	fund_manager_gp
+          fund_manager_gp_label:	fund_manager_gp_label
+          document_num:	document_num
+          business_document:	business_document
+          my_right:	my_right
+          my_right_label:	my_right_label
+          dw_nature:	dw_nature
+          dw_nature_label:	dw_nature_label
+          zcd_nature:	zcd_nature
+          zcd_nature_label:	zcd_nature_label
+          province:	province
+          province_label:	province_label
+          city:	city
+          city_label:	city_label
+          area:	area
+          address:	address
+          background:	background
+          jjtzly:	jjtzly
+          jjtzly_label:	jjtzly_label
+          carry_rule:	carry_rule
+          remarks:	remarks
+          A manager_a:	teama_manager
+          A manager_a_label:	teama_manager_label
+          B manager_b:	teamb_manager
+          B manager_b_label:	teamb_manager_label
+          manager_th:	touhou
+          manager_th_label:	touhou_label
+          manage_department:	manage_department
+          manage_department_label:	manage_department_label
+          riskmanager:	fengkong
+          riskmanager_label:	fengkong_label
+          cashmanager:	caiwu
+          cashmanager_label:	caiwu_label
+          user_group:	user_group
+          user_group_label:	user_group_label
+          fund_register_date:	fund_register_date
+          start_time:	start_time
+          end_time:	end_time
+          investment_period:	investment_period
+          exit_period:	exit_period
+          extended_period:	extended_period
+          inving_manage:	inving_manage
+          exiting_manage:	exiting_manage
+          extending_manage:	extending_manage
+          pay_base:	pay_base
+          pay_base_label:	pay_base_label
+          pay_type:	pay_type
+          management_date:	management_date
+          delay_type:	delay_type
+          firsttz_time:	firsttz_time
+          kzq_time:	kzq_time
+          investpzjg:	investpzjg
+          investpzjg_label:	investpzjg_label
+          cq_type:	cq_type
+          cq_type_label:	cq_type_label
+          manager_way:	manager_way
+          manager_way_label:	manager_way_label
+          apply_person:	apply_person
+          apply_person_label:	apply_person_label
+          is_gp:	is_gp
+          is_gp_label:	is_gp_label
+          manage_type:	manage_type
+          manage_type_label:	manage_type_label
+          plan_way:	plan_way
+          plan_way_label:	plan_way_label
+          jingyingqk:	jingyingqk
+          jingyingqk_label:	jingyingqk_label
+          businessRange:	businessRange
+          qcci_fund_type: 子基金
+          qcci_fund_type_label: 子基金
+  - 
+    condition:
+      affirm_entity:
+        =: 母基金
+    func:
+      add_entity:
+        model: fund
+        data:
+          state: 基金预审
+          state_label: 基金预审
+          name: fund_label
+          fund_risk_level: fund_risk_level
+          fund_risk_level_label: fund_risk_level_label
+          fullname: fullname
+          fund_state: fund_state
+          fund_state_label: fund_state_label
+          fund_type: fund_type
+          fund_type_label: fund_type_label
+          is_blind: is_blind
+          is_blind_label: is_blind_label
+          cq_level:	cq_level
+          cq_level_label:	cq_level_label
+          membership_jituan:	membership_jituan
+          membership_jituan_label:	membership_jituan_label
+          manage_jituan:	manage_jituan
+          manage_jituan_label:	manage_jituan_label
+          fund_manager_gp:	fund_manager_gp
+          fund_manager_gp_label:	fund_manager_gp_label
+          document_num:	document_num
+          business_document:	business_document
+          my_right:	my_right
+          my_right_label:	my_right_label
+          dw_nature:	dw_nature
+          dw_nature_label:	dw_nature_label
+          zcd_nature:	zcd_nature
+          zcd_nature_label:	zcd_nature_label
+          province:	province
+          province_label:	province_label
+          city:	city
+          city_label:	city_label
+          area:	area
+          address:	address
+          background:	background
+          jjtzly:	jjtzly
+          jjtzly_label:	jjtzly_label
+          carry_rule:	carry_rule
+          remarks:	remarks
+          teama_manager:	teama_manager
+          teama_manager_label:	teama_manager_label
+          teamb_manager:	teamb_manager
+          teamb_manager_label:	teamb_manager_label
+          touhou:	touhou
+          touhou_label:	touhou_label
+          manage_department:	manage_department
+          manage_department_label:	manage_department_label
+          fengkong:	fengkong
+          fengkong_label:	fengkong_label
+          caiwu:	caiwu
+          caiwu_label:	caiwu_label
+          user_group:	user_group
+          user_group_label:	user_group_label
+          fund_register_date:	fund_register_date
+          start_time:	start_time
+          end_time:	end_time
+          investment_period:	investment_period
+          exit_period:	exit_period
+          extended_period:	extended_period
+          inving_manage:	inving_manage
+          exiting_manage:	exiting_manage
+          extending_manage:	extending_manage
+          pay_base:	pay_base
+          pay_base_label:	pay_base_label
+          pay_type:	pay_type
+          management_date:	management_date
+          delay_type:	delay_type
+          firsttz_time:	firsttz_time
+          kzq_time:	kzq_time
+          investpzjg:	investpzjg
+          investpzjg_label:	investpzjg_label
+          cq_type:	cq_type
+          cq_type_label:	cq_type_label
+          manager_way:	manager_way
+          manager_way_label:	manager_way_label
+          apply_person:	apply_person
+          apply_person_label:	apply_person_label
+          is_gp:	is_gp
+          is_gp_label:	is_gp_label
+          manage_type:	manage_type
+          manage_type_label:	manage_type_label
+          plan_way:	plan_way
+          plan_way_label:	plan_way_label
+          jingyingqk:	jingyingqk
+          jingyingqk_label:	jingyingqk_label
+          businessRange:	businessRange

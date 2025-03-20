@@ -1,0 +1,56 @@
+---
+- 
+  condition:
+    script: >
+      siic:flow_siic_togos|flow_maqtqylcszwj|flow_maqtqylcszwj1
+  goto: h3mtxrmose
+- 
+  condition:
+    script: >
+      siic:flow_siic_togos|flow_maqtqylcszwj|flow_maqtqylcszwj2
+  goto: h3mtxrmose
+- 
+  condition:
+    script: >
+      siic:flow_siic_togos|flow_maqtqylcszwj|flow_maqtqylcszwj3
+  goto: h3mtxrmose
+- 
+  condition:
+    script: >
+      siic:flow_siic_togos|flow_maqtqylcszwj|flow_maqtqylcszwj4
+  goto: h3mtxrmose
+- 
+  condition:
+    script: >
+      siic:flow_siic_togos|flow_maqtqylcszwj|flow_maqtqylcszwj5
+  goto: h3mtxrmose
+- 
+  condition:
+    script: >
+      siic:flow_siic_togos|flow_maqtqylcszwj|flow_maqtqylcszwj6
+  goto: h3mtxrmose
+- 
+  condition:
+    script: >
+      siic:flow_siic_togos|flow_maqtqylcszwj|flow_maqtqylcszwj7
+  goto: h3mtxrmose
+- 
+  condition:
+    script: >
+      siic:flow_siic_togos|flow_maqtqylcszwj|flow_maqtqylcszwj8
+  goto: h3mtxrmose
+- 
+  condition:
+    script: >
+      siic:flow_siic_togos|flow_maqtqylcszwj|flow_maqtqylcszwj9
+  goto: h3mtxrmose
+- 
+  condition:
+    script: >
+      siic:flow_siic_togos|flow_maqtqylcszwj|flow_maqtqylcszwj10
+  goto: h3mtxrmose
+- 
+  condition:
+    script: >
+      siic:flow_siic_togos|flow_maqtqylcszwj|flow_maqtqylcszwj11
+  goto: h3mtxrmose

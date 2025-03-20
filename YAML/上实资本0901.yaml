@@ -1,0 +1,48 @@
+  - 
+    condition:
+      wh_cwpyqy_label:
+        =: 否
+      wh_cwjindiao_label:
+        =: 否
+    func:
+      update_entity:
+        target:
+        data:
+          cw_report: cw_report1
+  - 
+    condition:
+      wh_cwpyqy_label:
+        =: 否
+      wh_cwjindiao_label:
+        =: 是
+    func:
+      update_entity:
+        target:
+        data:
+          cw_report: cw_report
+
+
+
+
+
+  - 
+    condition:
+      wh_cwjindiao_label:
+        =: 否
+    func:
+      update_entity:
+        target:
+        data:
+          cw_report: cw_report1
+          cw_report_gz: stamped_document1
+  - 
+    condition:
+      wh_cwjindiao_label:
+        =: 是
+    func:
+      update_entity:
+        target:
+        data:
+          cw_report: cw_report
+          cw_report_gz: stamped_document1
+

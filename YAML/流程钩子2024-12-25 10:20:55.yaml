@@ -1,0 +1,164 @@
+pass:
+  - 
+    condition:
+    func:
+      add_entity:
+        model: fund_indicators_history
+        data:
+  - 
+    condition:
+    func:
+      add_entity:
+        model: fund_indicators
+        data:
+          fund: fund
+          fund_label: fund_label
+          IR_responsible: IR_responsible
+          IR_responsible_label: IR_responsible_label
+          year: year
+          state: 未填报
+          year_month: +0 month
+  - 
+    condition:
+    func:
+      add_entity:
+        model: fund_indicators
+        data:
+          fund: fund
+          fund_label: fund_label
+          IR_responsible: IR_responsible
+          IR_responsible_label: IR_responsible_label
+          year: year
+          state: 未填报
+          year_month: +1 month
+  - 
+    condition:
+    func:
+      add_entity:
+        model: fund_indicators
+        data:
+          fund: fund
+          fund_label: fund_label
+          IR_responsible: IR_responsible
+          IR_responsible_label: IR_responsible_label
+          year: year
+          state: 未填报
+          year_month: +2 month
+  - 
+    condition:
+    func:
+      add_entity:
+        model: fund_indicators
+        data:
+          fund: fund
+          fund_label: fund_label
+          IR_responsible: IR_responsible
+          IR_responsible_label: IR_responsible_label
+          year: year
+          state: 未填报
+          year_month: +3 month
+  - 
+    condition:
+    func:
+      add_entity:
+        model: fund_indicators
+        data:
+          fund: fund
+          fund_label: fund_label
+          IR_responsible: IR_responsible
+          IR_responsible_label: IR_responsible_label
+          year: year
+          state: 未填报
+          year_month: +4 month
+  - 
+    condition:
+    func:
+      add_entity:
+        model: fund_indicators
+        data:
+          fund: fund
+          fund_label: fund_label
+          IR_responsible: IR_responsible
+          IR_responsible_label: IR_responsible_label
+          year: year
+          state: 未填报
+          year_month: +5 month
+  - 
+    condition:
+    func:
+      add_entity:
+        model: fund_indicators
+        data:
+          fund: fund
+          fund_label: fund_label
+          IR_responsible: IR_responsible
+          IR_responsible_label: IR_responsible_label
+          year: year
+          state: 未填报
+          year_month: +6 month
+  - 
+    condition:
+    func:
+      add_entity:
+        model: fund_indicators
+        data:
+          fund: fund
+          fund_label: fund_label
+          IR_responsible: IR_responsible
+          IR_responsible_label: IR_responsible_label
+          year: year
+          state: 未填报
+          year_month: +7 month
+  - 
+    condition:
+    func:
+      add_entity:
+        model: fund_indicators
+        data:
+          fund: fund
+          fund_label: fund_label
+          IR_responsible: IR_responsible
+          IR_responsible_label: IR_responsible_label
+          year: year
+          state: 未填报
+          year_month: +8 month
+  - 
+    condition:
+    func:
+      add_entity:
+        model: fund_indicators
+        data:
+          fund: fund
+          fund_label: fund_label
+          IR_responsible: IR_responsible
+          IR_responsible_label: IR_responsible_label
+          year: year
+          state: 未填报
+          year_month: +9 month
+  - 
+    condition:
+    func:
+      add_entity:
+        model: fund_indicators
+        data:
+          fund: fund
+          fund_label: fund_label
+          IR_responsible: IR_responsible
+          IR_responsible_label: IR_responsible_label
+          year: year
+          state: 未填报
+          year_month: +10 month
+  - 
+    condition:
+    func:
+      add_entity:
+        model: fund_indicators
+        data:
+          fund: fund
+          fund_label: fund_label
+          IR_responsible: IR_responsible
+          IR_responsible_label: IR_responsible_label
+          year: year
+          state: 未填报
+          year_month: +11 month
+

@@ -1,0 +1,180 @@
+.ion-ios-bolt:before{
+    content: "";
+}
+
+
+
+.ion-ios-grid-view:before{
+    content: "";
+}
+
+#menu1m li ul.layui-nav-child .ion.ion-ios-heart,
+#menu1m li ul.layui-nav-child .ion.ion-ios-grid-view,
+#menu1m li ul.layui-nav-child .ion.ion-ios-bolt,
+#menu1m li ul.layui-nav-child .ion.ion-ios-cloud,
+#menu1m li ul.layui-nav-child .ion.ion-checkmark,
+#menu1m li ul.layui-nav-child .ion.ion-plane,
+#menu1m li ul.layui-nav-child .ion.ion-paper-airplane{
+width:0;
+height:0;
+border: none;
+}
+
+#menu1 .layui-nav-tree .layui-nav-item #menu-jjyyzbg a,
+#menu1 .layui-nav-tree .layui-nav-item #menu-xmyyzbg a,
+#menu1 .layui-nav-tree .layui-nav-item #menu-tza a,
+#menu1 .layui-nav-tree .layui-nav-item #menu-tzab a,
+#menu1 .layui-nav-tree .layui-nav-item #menu-config a,
+#menu1 .layui-nav-tree .layui-nav-item #menu-role1 a,
+#menu1 .layui-nav-tree .layui-nav-item #menu-industry_new a,
+#menu1 .layui-nav-tree .layui-nav-item a{
+    gap: 0px;
+}
+
+#menu1m li ul.layui-nav-child .ion{
+    height: 0px !important;
+  width: 0px !important;
+  border: none !important;
+}
+
+#menuh{
+height: 64px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#menu1>#menu1m>li>ul>li>ul>dd>a>span:before{
+display:none
+}
+div [data-url="home/tab_shortcut"] .block_c {
+min-height: 150px;
+}
+.layui-btn-disabled{background-color:#fbfbfb !important;color:#C9C9C9 !important;}
+.layui-btn-primary {background-color: #fff !important;}
+.shortcut-btn:hover{background-color: #4e7da3;border-color:#4e7da3;}
+.step-container .step li.finished{background-color: #4e7da3 !important;}
+.step-container .step li.finished:after {border-left-color: #4e7da3 !important;}
+.step-container .step li.finished:before {border-top: 18px solid #4e7da3 !important;border-bottom: 18px solid #4e7da3 !important;}
+.pepm-table{
+width:99.99%;
+}
+#canvas .layui-tab  .tab-title--progress li {
+
+background:rgb(10,69,149) !important;
+
+}
+
+#canvas .layui-tab .tab-title--progress li:after{
+
+border-left-color:rgb(10,69,149) !important;
+
+}
+
+#canvas .layui-tab  .tab-title--progress li.layui-this{
+
+background:rgb(10,69,149) !important;
+
+color:white !important;
+
+text-decoration: underline;
+
+font-weight: 900;
+
+}
+
+#canvas .layui-tab  .tab-title--progress li.layui-this:after {
+
+border-left-color:rgb(10,69,149) !important;
+
+}
+
+#canvas .layui-tab .tab-title--progress li.redli:after{
+
+border-left-color: rgb(191 27 60) !important;
+
+}
+
+#canvas .layui-tab  .tab-title--progress li.redli{
+
+background: rgb(191 27 60)!important;
+
+}
+
+#canvas .layui-tab .tab-title--progress li.red:after{
+
+border-left-color: rgb(166 166 166) !important ;
+
+} 
+
+#canvas .layui-tab  .tab-title--progress li.red{
+
+background: rgb(166 166 166) !important ;
+
+}
+
+#canvas .layui-tab .tab-title--progress li.reds:after{
+
+border-left-color: rgb(10,69,149) !important;
+
+}
+
+#canvas .layui-tab  .tab-title--progress li.reds{
+
+background: rgb(10,69,149) !important ;
+
+}
+
+
+
+
+#tablist .tablist-content__item.tablist-content__item--cur{
+  padding:16px 16px 16px 0 !important;
+}
+#tablist .tablist-btn:hover{
+  background-color: #586cb1 !important;
+  border-color: #586cb1 !important
+}
+.block{
+  margin-bottom:12px !important;
+}
+.block_box .block_c{
+  margin:12px 12px 0 12px !important;
+}
+.table_data{
+  text-align:left !important;
+}
+h2.pepm-title{
+  padding: 10px 10px 10px 0 !important;
+}
+.b2table .table_canvas [data-seg1="mycompany"]>tbody tr, .b2table .table_canvas [data-seg1="mycompany"]>tbody tr td{
+  background: #f9f9f9!important ;
+  border: 1px solid var(--divider-color);
+}
+.b2table .table_canvas [data-seg1="mycompanyd"]>tbody tr, .b2table .table_canvas [data-seg1="mycompanyd"]>tbody tr td{
+  background: #f9f9f9!important ;
+  border: 1px solid var(--divider-color);
+}
+.b2table .table_canvas [data-seg1="qyk"]>tbody tr, .b2table .table_canvas [data-seg1="mycompanyd"]>tbody tr td{
+  background: #f9f9f9!important ;
+  border: 1px solid var(--divider-color);
+}
+  .elem-new.toolbar:not(.hide)~.layout .layui-body #canvas {
+    margin-top: 0px !important;
+  }
+@media screen and (max-width: 767px) {
+
+}
+
+

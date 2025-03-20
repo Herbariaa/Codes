@@ -1,0 +1,805 @@
+---
+default_form: bjyj
+page_size:
+addon_buttons:
+  approve: 1
+  disapprove: 1
+  reject: 1
+  transfer: 1
+addon_node_pre_approver:
+  - 
+  - 
+flow_finish_copy_to:
+  - 
+  - 
+autoskip: 1
+hide_skip_step: 1
+item:
+  h3mtxrmnnv:
+    id: h3mtxrmnnv
+    name: 实质文件发起环节
+    path_name:
+    type:
+    form: form_myszwjyysq
+    approver_optgroup: 其他
+    approver_label:
+      - 所有人
+    approver:
+      - other;all;所有人
+    copyto_optgroup: 其他
+    copyto_label:
+      - 表单内部字段
+    copyto:
+      - other;formid;表单内部字段
+    btn_setting:
+      commit: 1
+      reject: 1
+    co_sign_msg: 1
+    backToBackShowList_optgroup:
+    backToBackShowList:
+      - 
+    backToBackShowList_label:
+      - 
+    cosign_ypfj_optgroup:
+    cosign_ypfj:
+      - 
+    cosign_ypfj_label:
+      - 
+    obscureApprover:
+      - 
+      - 
+    obscure_can_see:
+      - 
+      - 
+    default_value:
+    ext:
+      assign_copyto: team_member,team_manager,superiors
+      executor_msgtpl: '【美元基金项目审批】{applyname}- 发起 -{fname}- 【{title1}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}- 【{title1}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}   【{title1}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook: [ ]
+    path:
+      - 
+        condition:
+          hetonglx_label:
+            operator: =
+            value: VC
+        goto: h3mtxrmose
+      - 
+        condition:
+          hetonglx_label:
+            operator: =
+            value: PE
+        goto: h3mtxrmose
+      - 
+        condition:
+          hetonglx_label:
+            operator: =
+            value: 转化
+        goto: h3mtxrmose
+      - 
+        condition:
+          hetonglx_label:
+            operator: =
+            value: IR
+        goto: h3mtxrmose
+      - 
+        condition:
+          hetonglx_label:
+            operator: =
+            value: 法务
+        goto: h3mtxrmose
+      - 
+        condition:
+          level_label:
+            operator: =
+            value: 部门负责人
+        goto: h3mtxrmose
+      - 
+        condition:
+          wenjianlx1_label:
+            operator: =
+            value: VC
+        goto: h3mtxrmose
+      - 
+        condition:
+          wenjianlx1_label:
+            operator: =
+            value: PE
+        goto: h3mtxrmose
+      - 
+        condition:
+          wenjianlx1_label:
+            operator: =
+            value: 转化
+        goto: h3mtxrmose
+      - 
+        condition:
+          wenjianlx1_label:
+            operator: =
+            value: IR
+        goto: h3mtxrmose
+      - 
+        condition:
+          wenjianlx1_label:
+            operator: =
+            value: 法务
+        goto: h3mtxrmose
+  h3mtxrmo8m:
+    id: h3mtxrmo8m
+    name: 部门审核
+    path_name:
+    type:
+    form: bjyj
+    approver_optgroup: 其他
+    approver_label:
+      - 表单内部字段
+    approver:
+      - other;formid;表单内部字段
+    copyto_optgroup:
+    copyto:
+      - 
+    copyto_label:
+      - 
+    btn_setting:
+      commit: 1
+      reject: 1
+    co_sign_msg: 1
+    backToBackShowList_optgroup:
+    backToBackShowList:
+      - 
+    backToBackShowList_label:
+      - 
+    cosign_ypfj_optgroup:
+    cosign_ypfj:
+      - 
+    cosign_ypfj_label:
+      - 
+    obscureApprover:
+      - 
+      - 
+    obscure_can_see:
+      - 
+      - 
+    default_value:
+    ext:
+      assign: department_sh
+      executor_msgtpl: '【美元基金项目审批】{applyname}- 发起 -{fname}- 【{title1}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}- 【{title1}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}   【{title1}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook: [ ]
+    path: [ ]
+  h3mtxrmose:
+    id: h3mtxrmose
+    name: 法务审核
+    path_name:
+    type:
+    form: bjyj
+    approver_optgroup: 用户组
+    approver_label:
+      - 风险合规部负责人
+    approver:
+      - structure;h3l3ylnp78;
+    copyto_optgroup:
+    copyto:
+      - 
+    copyto_label:
+      - 
+    btn_setting:
+      approve: 1
+      disapprove: 1
+      reject: 1
+      addon_before: 1
+      addon_after: 1
+    co_sign_msg: 1
+    backToBackShowList_optgroup:
+    backToBackShowList:
+      - 
+    backToBackShowList_label:
+      - 
+    cosign_ypfj_optgroup:
+    cosign_ypfj:
+      - 
+    cosign_ypfj_label:
+      - 
+    obscureApprover:
+      - 
+      - 
+    obscure_can_see:
+      - 
+      - 
+    default_value:
+    ext:
+      executor_msgtpl: '【美元基金项目审批】{applyname}- 发起 -{fname}- 【{title1}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}- 【{title1}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}   【{title1}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook: [ ]
+    path:
+      - 
+        condition:
+          hetonglx_label:
+            operator: =
+            value: 财务
+        goto: h3mtyg678q
+      - 
+        condition:
+          wenjianlx1_label:
+            operator: =
+            value: 财务
+        goto: h3mtyg678q
+  h3mtyg664k:
+    id: h3mtyg664k
+    name: 运营审核
+    path_name:
+    type:
+    form: bjyj
+    approver_optgroup: 用户组
+    approver_label:
+      - 财务管理部负责人
+    approver:
+      - structure;h3uzx268kd;
+    copyto_optgroup:
+    copyto:
+      - 
+    copyto_label:
+      - 
+    btn_setting:
+      approve: 1
+      disapprove: 1
+      reject: 1
+    co_sign_msg: 1
+    backToBackShowList_optgroup:
+    backToBackShowList:
+      - 
+    backToBackShowList_label:
+      - 
+    cosign_ypfj_optgroup:
+    cosign_ypfj:
+      - 
+    cosign_ypfj_label:
+      - 
+    obscureApprover:
+      - 
+      - 
+    obscure_can_see:
+      - 
+      - 
+    default_value:
+    ext:
+      executor_msgtpl: '【美元基金项目审批】{applyname}- 发起 -{fname}- 【{title1}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}- 【{title1}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}   【{title1}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook: [ ]
+    path:
+      - 
+        condition:
+          hetonglx_label:
+            operator: =
+            value: 财务
+        goto: h3mtyg678q
+      - 
+        condition:
+          hetonglx_label:
+            operator: =
+            value: 行政
+        goto: h3mtyg678q
+      - 
+        condition:
+          hetonglx_label:
+            operator: =
+            value: 人事
+        goto: h3mtyg678q
+      - 
+        condition:
+          hetonglx_label:
+            operator: =
+            value: IR
+        goto: h3mtyg678q
+      - 
+        condition:
+          hetonglx_label:
+            operator: =
+            value: 法务
+        goto: h3mtyg678q
+      - 
+        condition:
+          hetonglx_label:
+            operator: =
+            value: PR
+        goto: h3mtyg678q
+      - 
+        condition:
+          hetonglx_label:
+            operator: =
+            value: 董办
+        goto: h3mtyg678q
+      - 
+        condition:
+          hetonglx_label:
+            operator: =
+            value: 党办
+        goto: h3mtyg678q
+      - 
+        condition:
+          wenjianlx1_label:
+            operator: =
+            value: 财务
+        goto: h3mtyg678q
+      - 
+        condition:
+          wenjianlx1_label:
+            operator: =
+            value: 行政
+        goto: h3mtyg678q
+      - 
+        condition:
+          wenjianlx1_label:
+            operator: =
+            value: 人事
+        goto: h3mtyg678q
+      - 
+        condition:
+          wenjianlx1_label:
+            operator: =
+            value: IR
+        goto: h3mtyg678q
+      - 
+        condition:
+          wenjianlx1_label:
+            operator: =
+            value: 法务
+        goto: h3mtyg678q
+      - 
+        condition:
+          wenjianlx1_label:
+            operator: =
+            value: PR
+        goto: h3mtyg678q
+      - 
+        condition:
+          wenjianlx1_label:
+            operator: =
+            value: 董办
+        goto: h3mtyg678q
+      - 
+        condition:
+          wenjianlx1_label:
+            operator: =
+            value: 党办
+        goto: h3mtyg678q
+  h3mtyg66pa:
+    id: h3mtyg66pa
+    name: 分管合伙人审核
+    path_name:
+    type:
+    form: bjyj
+    approver_optgroup: 其他
+    approver_label:
+      - 表单内部字段
+    approver:
+      - other;formid;表单内部字段
+    copyto_optgroup:
+    copyto:
+      - 
+    copyto_label:
+      - 
+    btn_setting:
+      commit: 1
+      reject: 1
+    co_sign_msg: 1
+    backToBackShowList_optgroup:
+    backToBackShowList:
+      - 
+    backToBackShowList_label:
+      - 
+    cosign_ypfj_optgroup:
+    cosign_ypfj:
+      - 
+    cosign_ypfj_label:
+      - 
+    obscureApprover:
+      - 
+      - 
+    obscure_can_see:
+      - 
+      - 
+    default_value:
+    ext:
+      assign: fenguanhhr
+      executor_msgtpl: '【美元基金项目审批】{applyname}- 发起 -{fname}- 【{title1}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}- 【{title1}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}   【{title1}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook: [ ]
+    path: [ ]
+  h3mtyg678q:
+    id: h3mtyg678q
+    name: 上实资本分管领导审批
+    path_name:
+    type:
+    form: bjyj
+    approver_optgroup: 用户组
+    approver_label:
+      - 上实资本分管领导
+    approver:
+      - structure;h3uzti2p3p;
+    copyto_optgroup:
+    copyto:
+      - 
+    copyto_label:
+      - 
+    btn_setting:
+      approve: 1
+      disapprove: 1
+      reject: 1
+    co_sign_msg: 1
+    backToBackShowList_optgroup:
+    backToBackShowList:
+      - 
+    backToBackShowList_label:
+      - 
+    cosign_ypfj_optgroup:
+    cosign_ypfj:
+      - 
+    cosign_ypfj_label:
+      - 
+    obscureApprover:
+      - 
+      - 
+    obscure_can_see:
+      - 
+      - 
+    default_value:
+    ext:
+      executor_msgtpl: '【美元基金项目审批】{applyname}- 发起 -{fname}- 【{title1}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}- 【{title1}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}   【{title1}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook: [ ]
+    path:
+      - 
+        condition:
+          wenjianlx1_label:
+            operator: =
+            value: 转化
+        goto: h3mtyq98ek
+      - 
+        condition:
+          hetonglx_label:
+            operator: =
+            value: 转化
+        goto: h3mtyq98ek
+      - 
+        condition:
+          wenjianlx1_label:
+            operator: =
+            value: 党办
+        goto: h3mtyq98ek
+      - 
+        condition:
+          hetonglx1_label:
+            operator: =
+            value: 党办
+        goto: h3mtyq98ek
+      - 
+        condition:
+          wh_mtgt_label:
+            operator: =
+            value: 是
+        goto: h3mtyq98ek
+      - 
+        condition:
+          wh_shcrcsw1_label:
+            operator: =
+            value: 是
+        goto: h3mtyq98ek
+  h3mtyq97tr:
+    id: h3mtyq97tr
+    name: 上实资本总裁审批
+    path_name:
+    type:
+    form: bjyj
+    approver_optgroup: 用户组
+    approver_label:
+      - 上实资本总裁
+    approver:
+      - structure;h3uz53pmre;
+    copyto_optgroup:
+    copyto:
+      - 
+    copyto_label:
+      - 
+    btn_setting:
+      commit: 1
+      reject: 1
+    co_sign_msg: 1
+    backToBackShowList_optgroup:
+    backToBackShowList:
+      - 
+    backToBackShowList_label:
+      - 
+    cosign_ypfj_optgroup:
+    cosign_ypfj:
+      - 
+    cosign_ypfj_label:
+      - 
+    obscureApprover:
+      - 
+      - 
+    obscure_can_see:
+      - 
+      - 
+    default_value:
+    ext:
+      executor_msgtpl: '【美元基金项目审批】{applyname}- 发起 -{fname}- 【{title1}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}- 【{title1}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}   【{title1}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook: [ ]
+    path: [ ]
+  h3mtyq98ek:
+    id: h3mtyq98ek
+    name: 用印
+    path_name:
+    type:
+    form: bjyj
+    approver_optgroup: 用户组
+    approver_label:
+      - 行政用印
+    approver:
+      - structure;h3uzti2pix;
+    copyto_optgroup:
+    copyto:
+      - 
+    copyto_label:
+      - 
+    btn_setting:
+      commit: 1
+    co_sign_msg: 1
+    backToBackShowList_optgroup:
+    backToBackShowList:
+      - 
+    backToBackShowList_label:
+      - 
+    cosign_ypfj_optgroup:
+    cosign_ypfj:
+      - 
+    cosign_ypfj_label:
+      - 
+    obscureApprover:
+      - 
+      - 
+    obscure_can_see:
+      - 
+      - 
+    default_value:
+    ext:
+      executor_msgtpl: '【美元基金项目审批】{applyname}- 发起 -{fname}- 【{title1}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}- 【{title1}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}   【{title1}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook: [ ]
+    path: [ ]
+  h3mtyq98z0:
+    id: h3mtyq98z0
+    name: 上传盖章文件
+    path_name:
+    type:
+    form: form_myhtgzwj
+    approver_optgroup: 其他
+    approver_label:
+      - 发起人
+    approver:
+      - other;apply_pp;发起人
+    copyto_optgroup:
+    copyto:
+      - 
+    copyto_label:
+      - 
+    btn_setting:
+      commit: 1
+    co_sign_msg: 1
+    backToBackShowList_optgroup:
+    backToBackShowList:
+      - 
+    backToBackShowList_label:
+      - 
+    cosign_ypfj_optgroup:
+    cosign_ypfj:
+      - 
+    cosign_ypfj_label:
+      - 
+    obscureApprover:
+      - 
+      - 
+    obscure_can_see:
+      - 
+      - 
+    default_value:
+    ext:
+      executor_msgtpl: '【美元基金项目审批】{applyname}- 发起 -{fname}- 【{title1}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}- 【{title1}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}   【{title1}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook: [ ]
+    path: [ ]
+js: |
+  $(function(){
+    $("#hetongbd").on("change",function(){
+      var hetongbd = Number($(this).val());
+      var daxieje = digitUppercase(hetongbd);
+      if(parseInt(hetongbd) !== hetongbd) {
+        daxieje = daxieje.substring(0,daxieje.indexOf('整')) ? daxieje.substring(0,daxieje.indexOf('整')):daxieje
+      }
+      $("#daxieje").val(daxieje).trigger('change');
+    });
+  });
+  $(document).ready(function(){
+    $("#hetongbdy,#huil").on('input',function(){
+      var hetongbdy = $("#hetongbdy").val();
+      var hetongbdy = jQuery("#hetongbdy").val();
+      if(typeof hetongbdy === 'number'){
+        hetongbdy = Number(hetongbdy);
+      }else{
+        hetongbdy = Number(hetongbdy.replace(/,|\s/g,''));
+      }
+      var huili = $("#huil").val();
+      // var hetongbd = hetongbdy * huili
+      var hetongbd = accMul(hetongbdy,huili)
+      var biz = $('#biz').val()
+      if(biz != ''){
+        $("#hetongbd").val(hetongbd).trigger('change')
+      }
+    })
+    $("#biz").on('change',function(){
+      $("#hetongbdy").trigger('input')
+    })
+    function accMul(arg3,arg4){
+      var m=0,s3=arg3.toString(),s4=arg4.toString();
+      try{m+=s3.split(".")[1].length}catch(e){}
+      try{m+=s4.split(".")[1].length}catch(e){}
+      return Number(s3.replace(".",""))*Number(s4.replace(".",""))/Math.pow(10,m)
+    }
+  })
+  
+  
+  
+  
+  
+  
+  
+  $(function(){
+    $("#wfhetongbd").on("change",function(){
+      var wfhetongbd = Number($(this).val());
+      var wfdaxieje = digitUppercase(wfhetongbd);
+      if(parseInt(wfhetongbd) !== wfhetongbd) {
+        wfdaxieje = wfdaxieje.substring(0,wfdaxieje.indexOf('整')) ? wfdaxieje.substring(0,wfdaxieje.indexOf('整')):wfdaxieje
+      }
+      $("#wfdaxieje").val(wfdaxieje).trigger('change');
+    });
+  });
+  $(document).ready(function(){
+    $("#wfhetongbdy,#wfhuil").on('input',function(){
+      var wfhetongbdy = $("#wfhetongbdy").val();
+      var wfhetongbdy = jQuery("#wfhetongbdy").val();
+      if(typeof wfhetongbdy === 'number'){
+        wfhetongbdy = Number(wfhetongbdy);
+      }else{
+        wfhetongbdy = Number(wfhetongbdy.replace(/,|\s/g,''));
+      }
+      var wfhuili = $("#wfhuil").val();
+      // var wfhetongbd = wfhetongbdy * wfhuili
+      var wfhetongbd = accMul(wfhetongbdy,wfhuili)
+      var wfbiz = $('#wfbiz').val()
+      if(wfbiz != ''){
+        $("#wfhetongbd").val(wfhetongbd).trigger('change')
+      }
+    })
+    $("#wfbiz").on('change',function(){
+      $("#wfhetongbdy").trigger('input')
+    })
+    function accMul(arg3,arg4){
+      var m=0,s3=arg3.toString(),s4=arg4.toString();
+      try{m+=s3.split(".")[1].length}catch(e){}
+      try{m+=s4.split(".")[1].length}catch(e){}
+      return Number(s3.replace(".",""))*Number(s4.replace(".",""))/Math.pow(10,m)
+    }
+  })
+  
+  
+  
+  
+  
+  
+  var shu = ['法务', '财务', '行政', '人事', 'PR', '董办', '党办'];
+  //合同/实质文件用印申请字段
+  $("#hetonglx").change(function () {
+    hetong("hetonglx", shu);
+  })
+  $("#wenjianlx").change(function () {
+    hetong("wenjianlx", shu);
+  })
+  function hetong(leixing, shu) {
+    //查找当前合同类型
+    var bian = $("input[name='data[" + leixing + "_label]']").val();
+    console.log(bian, shu);
+    //用inArray()判断合同类型是否存在于数组shu中
+    if ($.inArray(bian, shu) >= 0) {
+      console.log(11);
+      //查找部门审核字段
+      $("div.pepm-table-wrap:eq(3) table tr:eq(3)").show();
+      //添加必填
+      add_required("department_sh");
+    } else {
+      //查找部门审核字段
+      $("div.pepm-table-wrap:eq(3) table tr:eq(3)").hide();
+      //取消必填
+      remove_required("department_sh");
+    }
+  }
+pre_match_rule: [ ]
+ext:
+  print_title:
+    tpl: 文件用印标准流程
+    style:
+      color: black
+      font-size: 30px
+      text-align: center
+  flow_index_extra:
+    h3mtxrmnnv:
+      title: company_label
+lsitems: [ ]
+list_structure:
+  0: flow_input_date
+  1: flow_input_people
+  2: flow_state
+  form_wjyybzfq:
+    - shizorhetong
+    - hetongmc
+    - hetonglx
+    - title
+    - wenjianlx
+flow_center_tpl: [ ]
+search_item: [ ]
+privilege:
+  list:
+    - g075xg3z7d
+    - h46ht41b1q
+    - h5pqi35o0b
+    - usr_create
+    - approve
+    - copyto
+  detail:
+    - g075xg3z7d
+    - h46ht41b1q
+    - h5pqi35o0b
+    - usr_create
+    - approve
+    - copyto
+  delete:
+    - usr_create
+    - approve
+    - copyto
+  abolish:
+    - usr_create
+    - approve
+    - copyto
+  pdf_down:
+    - usr_create
+    - approve
+    - copyto
+comment:
+  target: _self
+  doctype:
+  up_folder:
+  root_uid:
+  eid_link:
+  formats:
+  flow_default_notify_optgroup:
+  flow_default_notify:
+    - 
+  flow_default_notify_label:
+    - 
+word_export:
+  word_custom_func:
+  word_export_name:
+  word_file:
+    - 
+  word_file_label:
+    - 
+msgtpl: [ ]

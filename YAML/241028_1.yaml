@@ -1,0 +1,32 @@
+        jghyw:
+          title: 交割后义务
+          type: data
+          mod: jghyw
+          filter:
+            company: eid
+        hxtkzdsx:
+          title: 核心条款
+          type: data
+          mod: hxtkzdsx
+          filter:
+            company: eid
+        thfn:
+          title: 投后赋能
+          type: data
+          mod: thfn
+          filter:
+            company: eid
+        hfbg111:
+          title: 投后回访
+          type: data
+          mod: hfbg111
+          filter:
+            company: eid
+        company_zdsx:
+          title: 重大事项风险预警
+          type: data
+          mod: company_zdsx
+          filter:
+            company: eid
+
+        

@@ -1,0 +1,330 @@
+<div class="heat_map_of_fund_chart">
+    <div class="tuli_box_p">
+      <p><?=$type_name?>新增项目金额</p>
+      <p><?=$type_name?>新增项目数量</p>
+    </div>
+    <div class="echarts_body">
+      <div class="tuli_box">
+        <div class="tuli" id="project_amount">
+  
+        </div>
+      </div>
+      <div class="tuli_box">
+        <div class="tuli" id="number_of_items">
+  
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="heat_map_of_fund_table">
+    <div class="table-container">
+      <table class="datatables layui-table dataTable">
+        <thead>
+        <tr role="row">
+          <th class="fixed-column"><?=$type_name?></th>
+          <?php foreach ($quarter_lists_desc as $k => $v): ?>
+            <th colspan="2"><?=$v?></th>
+          <?php endforeach ?>
+        </tr>
+        <tr role="row">
+          <th class="fixed-column">管理公司名称</th>
+          <?php foreach ($quarter_lists_desc as $k => $v): ?>
+            <th>新增投资金额（万元）</th>
+            <th>新增项目数量</th>
+          <?php endforeach ?>
+        </tr>
+        </thead>
+        <tbody>
+        <?php foreach ($table_lists as $k => $v): ?>
+          <tr class="row-weight">
+            <td class="fixed-column" rowspan="2" style="text-align: center !important;"><?=$k?></td>
+            <?php foreach ($v as $k1 => $v1): ?>
+              <td><?=$v1['amount']?></td>
+              <td><?=$v1['number']?></td>
+            <?php endforeach ?>
+          </tr>
+          <tr>
+            <?php foreach ($v as $k1 => $v1): ?>
+              <td><?=$bili[$k][$k1][0]?></td>
+              <td><?=$bili[$k][$k1][1]?></td>
+            <?php endforeach ?>
+          </tr>
+        <?php endforeach ?>
+        <tr class="row-weight">
+          <td class="fixed-column" rowspan="2" style="text-align: center !important;">合计</td>
+          <?php foreach ($total as $k => $v): ?>
+            <td><?=$v['amount']?></td>
+            <td><?=$v['number']?></td> 
+          <?php endforeach ?>
+        </tr>
+        <tr>
+          <?php foreach ($total_bili as $k => $v): ?>
+            <td><?=$v['amount']?></td>
+            <td><?=$v['number']?></td>
+          <?php endforeach ?>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  <script>
+    var data = {
+      value: parse_json('<?=_encode($table_lists)?>'),
+      legend: parse_json('<?=_encode($legend)?>'),
+      xAxis:parse_json('<?=_encode($quarter_lists)?>'),
+      amount_lists:parse_json('<?=_encode($amount_lists)?>'),
+      all_quarter_amount:parse_json('<?=_encode($all_quarter_amount)?>'),
+      color:parse_json('<?=_encode($color)?>'),
+    }
+  
+    var amount_lists = [];
+    var color = data.color;
+    data.amount_lists.forEach(function(item, index) {
+      var lists = [];
+      item.lists.forEach(function(item, index) {
+        lists.push(item.toFixed(2));
+      });
+  
+      amount_lists.push({
+        name: item.name,
+        type: 'bar',
+        stack: 'amount',
+        data:lists,
+        itemStyle: {
+          normal: {color: color[index]},
+        },
+      })
+    });
+    var lists = [];
+    data.all_quarter_amount.forEach(function(item, index) {
+      lists.push(item.toFixed(2));
+    });
+  
+    amount_lists.push({
+      name: '平均投资金额',
+      type: 'line',
+      stack: 'line',
+      yAxisIndex: 1,
+      data:lists,
+      itemStyle: {
+        normal: {color: '#EC7728'},
+      },
+    })
+  
+    /*
+    amount_lists.push({
+      name: '投后基金数量',
+      type: 'line',
+      stack: 'line',
+      yAxisIndex: 2,
+      itemStyle: {
+        normal:{
+          color:'rgba(128, 128, 128, 0)',
+        },
+      },
+      data:data.touhou_fund_amount
+    });
+    */
+  
+    // 指定图表的配置项和数据
+    var str_amount_option = {
+      tooltip: {
+        trigger: 'axis',
+        axisPointer: {            // 坐标轴指示器，坐标轴触发有效
+          type: 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+        }
+      },
+      legend: {
+        data: data.legend,
+      },
+      grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '10%',
+        top: '18%',
+        containLabel: true
+      },
+      xAxis: [
+        {
+          type: 'category',
+          data: data.xAxis
+        }
+      ],
+      yAxis: [
+        {
+          type: 'value',
+          name: '金额（万）'
+        },
+        {
+          type: 'value',
+          name: '平均交易金额（万）',
+          axisLabel: {
+            formatter: '{value}'
+          }
+        },
+        {
+          type: 'value',
+          axisLabel: {
+            show: false // 设置 y 轴标签不显示
+          }
+        },
+      ],
+      dataZoom: [
+        {
+          type: 'slider',
+          xAxisIndex: 0,
+          filterMode: 'empty'
+        },
+        {
+          start: 0,
+          end: 100,
+          handleIcon: 'M10.7,11.9v-1.3H9.3v1.3c-4.9,0.3-8.8,4.4-8.8,9.4c0,5,3.9,9.1,8.8,9.4v1.3h1.3v-1.3c4.9-0.3,8.8-4.4,8.8-9.4C19.5,16.3,15.6,12.2,10.7,11.9z M13.3,24.4H6.7V23h6.6V24.4z M13.3,19.6H6.7v-1.4h6.6V19.6z',
+          handleSize: '80%',
+          handleStyle: {
+            color: '#fff',
+            shadowBlur: 3,
+            shadowColor: 'rgba(0, 0, 0, 0.6)',
+            shadowOffsetX: 2,
+            shadowOffsetY: 2
+          }
+        }
+      ],
+      series: amount_lists
+    };
+    var str_amount = echarts.init(document.getElementById("project_amount"));
+    str_amount.setOption(str_amount_option,true);
+  
+    var data = {
+      value: parse_json('<?=_encode($table_lists)?>'),
+      legend: parse_json('<?=_encode($legend)?>'),
+      xAxis:parse_json('<?=_encode($quarter_lists)?>'),
+      number_lists:parse_json('<?=_encode($number_lists)?>'),
+      all_quarter_number:parse_json('<?=_encode($all_quarter_number)?>'),
+    }
+  
+    var number_lists = [];
+    data.number_lists.forEach(function(item, index) {
+      var lists = [];
+      item.lists.forEach(function(item, index) {
+        lists.push(item.toFixed(2));
+      });
+  
+      number_lists.push({
+        name: item.name,
+        type: 'bar',
+        stack: 'amount',
+        data:lists,
+        itemStyle: {
+          normal: {color: color[index]},
+        },
+      })
+    });
+  
+    var lists = [];
+    data.all_quarter_number.forEach(function(item, index) {
+      lists.push(item.toFixed(2));
+    });
+  
+    number_lists.push({
+      name: '均值',
+      type: 'line',
+      stack: 'line',
+      yAxisIndex: 1,
+      data:lists,
+      itemStyle: {
+        normal: {color: '#EC7728'},
+      },
+    })
+  
+    console.log(number_lists)
+  
+    /*
+    number_lists.push({
+      name: '投后基金数量',
+      type: 'scatter',
+      stack: 'scatter',
+      yAxisIndex: 2,
+      itemStyle: {
+        normal:{
+          color:'rgba(128, 128, 128, 0)',
+        },
+      },
+      data:data.touhou_fund_number
+    });
+    
+     */
+  
+  
+    // 指定图表的配置项和数据
+    var str_number_option = {
+      tooltip: {
+        trigger: 'axis',
+        axisPointer: {            // 坐标轴指示器，坐标轴触发有效
+          type: 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+        }
+      },
+      legend: {
+        data: data.legend,
+      },
+      grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '10%',
+        top: '18%',
+        containLabel: true
+      },
+      xAxis: [
+        {
+          type: 'category',
+          data: data.xAxis
+        }
+      ],
+      yAxis: [
+        {
+          type: 'value',
+          name: '数量'
+        },
+        {
+          type: 'value',
+          name: '均值（个）',
+          axisLabel: {
+            formatter: '{value}'
+          }
+        },
+        {
+          type: 'value',
+          axisLabel: {
+            show: false // 设置 y 轴标签不显示
+          }
+        }
+      ],
+      dataZoom: [
+        {
+          type: 'slider',
+          xAxisIndex: 0,
+          filterMode: 'empty'
+        },
+        {
+          start: 0,
+          end: 100,
+          handleIcon: 'M10.7,11.9v-1.3H9.3v1.3c-4.9,0.3-8.8,4.4-8.8,9.4c0,5,3.9,9.1,8.8,9.4v1.3h1.3v-1.3c4.9-0.3,8.8-4.4,8.8-9.4C19.5,16.3,15.6,12.2,10.7,11.9z M13.3,24.4H6.7V23h6.6V24.4z M13.3,19.6H6.7v-1.4h6.6V19.6z',
+          handleSize: '80%',
+          handleStyle: {
+            color: '#fff',
+            shadowBlur: 3,
+            shadowColor: 'rgba(0, 0, 0, 0.6)',
+            shadowOffsetX: 2,
+            shadowOffsetY: 2
+          }
+        }
+      ],
+      series: number_lists,
+    };
+  
+    var number_of_items_id = 'number_of_items';
+    var str_number = echarts.init(document.getElementById(number_of_items_id));
+    str_number.setOption(str_number_option,true);
+  </script>
+  
+  

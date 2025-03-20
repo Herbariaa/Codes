@@ -1,0 +1,45 @@
+/* 匹配data-url属性 */
+button.tablist-btn[data-url="flow/apply/hyislfyc6u"],
+button.tablist-btn[data-url="flow/apply/hyismyfgg9"],
+button.tablist-btn[data-url="flow/apply/hyisnxd7w6"],
+button.tablist-btn[data-url="flow/apply/hyisohwy8s"],
+button.tablist-btn[data-url="flow/apply/hyoqwnatsh"]
+{
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+    color: white !important;
+    opacity: 1 !important; /* 强制覆盖可能存在的透明效果 */
+  }
+
+  /* 锁定悬停状态 */
+  button.tablist-btn[data-url="flow/apply/hyislfyc6u"],
+  button.tablist-btn[data-url="flow/apply/hyismyfgg9"],
+  button.tablist-btn[data-url="flow/apply/hyisnxd7w6"],
+  button.tablist-btn[data-url="flow/apply/hyisohwy8s"],
+  button.tablist-btn[data-url="flow/apply/hyoqwnatsh"]:hover,
+  button.tablist-btn[data-url="flow/apply/hyislfyc6u"],
+  button.tablist-btn[data-url="flow/apply/hyismyfgg9"],
+  button.tablist-btn[data-url="flow/apply/hyisnxd7w6"],
+  button.tablist-btn[data-url="flow/apply/hyisohwy8s"],
+  button.tablist-btn[data-url="flow/apply/hyoqwnatsh"]:active {
+    background-color: #6c757d !important;
+    filter: brightness(90%) !important; /* 微调悬停效果 */
+  }
+
+  button.tablist-btn[data-url="flow/apply/hyislfyc6u"],
+  button.tablist-btn[data-url="flow/apply/hyismyfgg9"],
+  button.tablist-btn[data-url="flow/apply/hyisnxd7w6"],
+  button.tablist-btn[data-url="flow/apply/hyisohwy8s"],
+  button.tablist-btn[data-url="flow/apply/hyoqwnatsh"]::after {
+    content: "(暂未开放)";
+    display: inline-block;
+    font-size: 0.8em;
+    margin-left: 0px;
+    color: #ffd700; /* 金色提示文字 */
+    animation: blink 1s infinite; /* 闪烁效果 */
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }

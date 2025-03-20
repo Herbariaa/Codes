@@ -1,0 +1,386 @@
+sys5:
+  title: 投前项目库管理
+  icon: android-cloud-outline
+  type: ul
+companyd_view_tz_shyy:
+  title: 拓展库管理
+  icon:
+  mod: companyd
+  view: gx_companyd_add_tuozhan_shyy
+  filter:
+    company_state:
+      - 拓展库
+    czzt_label:
+      - 上海医药
+  children:
+    index:
+      title: 总览
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增投资项目
+            icon: plus
+            url: flow/apply/hyfbt9nwvj/
+            new: true
+    companyd_view_tz1_shyy:
+      title: 长期股权投资
+      type: load
+      url: companyd_view_tz1_shyy
+    companyd_view_tz2_shyy:
+      title: 固定资产投资
+      type: load
+      url: companyd_view_tz2_shyy
+    companyd_view_tz3_shyy:
+      title: 土地投资
+      type: load
+      url: companyd_view_tz3_shyy
+    companyd_view_tz4_shyy:
+      title: 基金投资
+      type: load
+      url: companyd_view_tz4_shyy
+    companyd_view_tz5_shyy:
+      title: 金融市场投资
+      type: load
+      url: companyd_view_tz5_shyy
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        tuozhan:
+          title: 拓展材料收集
+          hidden: true
+          type: ext
+          mod: tuozhan
+        lixiang:
+          title: 立项材料收集
+          hidden: true
+          type: ext
+        flowindex_lixiang:
+          title: 业务流程（建设中）
+          nosub_count: 1
+          type: flowindex
+          flow: lixiang
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+          hidden: true
+          type: doc
+          mod: doc_companyd
+companyd_view_tz1_shyy:
+  title: 长期股权投资
+  hidden: true
+  mod: companyd
+  view: gx_companyd_add_tuozhan_shyy
+  filter:
+    company_state:
+      - 拓展库
+    Product_category:
+      - 长期股权投资
+    czzt_label:
+      - 上海医药
+  children:
+    index:
+      title: 总览
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+companyd_view_tz2_shyy:
+  title: 固定资产投资
+  hidden: true
+  mod: companyd
+  view: gx_companyd_add_tuozhan_shyy
+  filter:
+    company_state:
+      - 拓展库
+    Product_category:
+      - 固定资产投资
+    czzt_label:
+      - 上海医药
+  children:
+    index:
+      title: 总览
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+companyd_view_tz3_shyy:
+  title: 土地投资
+  hidden: true
+  mod: companyd
+  view: gx_companyd_add_tuozhan_shyy
+  filter:
+    company_state:
+      - 拓展库
+    Product_category:
+      - 土地投资
+    czzt_label:
+      - 上海医药
+  children:
+    index:
+      title: 总览
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+companyd_view_tz4_shyy:
+  title: 基金投资
+  hidden: true
+  mod: companyd
+  view: gx_companyd_add_tuozhan_shyy
+  filter:
+    company_state:
+      - 拓展库
+    Product_category:
+      - 基金投资
+    czzt_label:
+      - 上海医药
+  children:
+    index:
+      title: 总览
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+companyd_view_tz5_shyy:
+  title: 金融市场投资
+  hidden: true
+  mod: companyd
+  view: gx_companyd_add_tuozhan_shyy
+  filter:
+    company_state:
+      - 拓展库
+    Product_category:
+      - 金融市场投资
+    czzt_label:
+      - 上海医药
+  children:
+    index:
+      title: 总览
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+companyd_view_lx3_shyy:
+  title: 立项库管理
+  icon:
+  mod: companyd
+  view: gx_companyd_add_lixiang_shyy
+  filter:
+    company_state:
+      - 立项库
+    czzt_label:
+      - 上海医药
+  children:
+    index:
+      title: 总览
+      btns_top:
+        css: pull-left
+        item:
+          新增:
+            label: 新增投资项目
+            icon: plus
+            url: flow/apply/hyfbt9nwvj/
+            new: true
+    companyd_view_tz6_shyy:
+      title: 长期股权投资
+      type: load
+      url: companyd_view_tz6_shyy
+    companyd_view_tz7_shyy:
+      title: 固定资产投资
+      type: load
+      url: companyd_view_tz7_shyy
+    companyd_view_tz8_shyy:
+      title: 土地投资
+      type: load
+      url: companyd_view_tz8_shyy
+    companyd_view_tz9_shyy:
+      title: 基金投资
+      type: load
+      url: companyd_view_tz9_shyy
+    companyd_view_tz10_shyy:
+      title: 金融市场投资
+      type: load
+      url: companyd_view_tz10_shyy
+    view:
+      title: 查看
+      hidden: true
+      children:
+        about:
+          title: 概况
+        tuozhan:
+          title: 拓展材料收集
+          hidden: true
+          type: ext
+          mod: tuozhan
+        lixiang:
+          title: 立项材料收集
+          hidden: true
+          type: ext
+        flowindex_tqxmlc:
+          title: 业务流程（建设中）
+          nosub_count: 1
+          type: flowindex
+          flow: tqxmlc
+          children:
+            index:
+              title: 浏览
+        doc:
+          title: 文档
+          hidden: true
+          type: doc
+          mod: doc_companyd
+companyd_view_tz6_shyy:
+  title: 长期股权投资
+  hidden: true
+  mod: companyd
+  view: gx_companyd_add_lixiang_shyy
+  filter:
+    company_state:
+      - 立项库
+    Product_category:
+      - 长期股权投资
+    czzt_label:
+      - 上海医药
+  children:
+    index:
+      title: 总览
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+companyd_view_tz7_shyy:
+  title: 固定资产投资
+  hidden: true
+  mod: companyd
+  view: gx_companyd_add_lixiang_shyy
+  filter:
+    company_state:
+      - 立项库
+    Product_category:
+      - 固定资产投资
+    czzt_label:
+      - 上海医药
+  children:
+    index:
+      title: 总览
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+companyd_view_tz8_shyy:
+  title: 土地投资
+  hidden: true
+  mod: companyd
+  view: gx_companyd_add_lixiang_shyy
+  filter:
+    company_state:
+      - 立项库
+    Product_category:
+      - 土地投资
+    czzt_label:
+      - 上海医药
+  children:
+    index:
+      title: 总览
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+companyd_view_tz9_shyy:
+  title: 基金投资
+  hidden: true
+  mod: companyd
+  view: gx_companyd_add_lixiang_shyy
+  filter:
+    company_state:
+      - 立项库
+    Product_category:
+      - 基金投资
+    czzt_label:
+      - 上海医药
+  children:
+    index:
+      title: 总览
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+companyd_view_tz10_shyy:
+  title: 金融市场投资
+  hidden: true
+  mod: companyd
+  view: gx_companyd_add_lixiang_shyy
+  filter:
+    company_state:
+      - 立项库
+    Product_category:
+      - 金融市场投资
+    czzt_label:
+      - 上海医药
+  children:
+    index:
+      title: 总览
+    add:
+      title: 新增
+      hidden: true
+    edit:
+      title: 编辑
+      hidden: true
+    del:
+      title: 删除
+      hidden: true
+sys6:
+  title: 项目管理
+  icon: android-cloud-outline
+  type: ule

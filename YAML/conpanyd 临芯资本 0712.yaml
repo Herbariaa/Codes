@@ -1,0 +1,195 @@
+  actualInvestment:
+    id: actualInvestment
+    name: 本轮我方实际投资额
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 5
+    list_align: def
+    width: 3
+  companyProfile:
+    id: companyProfile
+    name: 公司基本介绍
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 5
+    list_align: def
+    width: 3
+  co_investor:
+    id: co_investor
+    name: 本轮投资时共同投资人
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 5
+    list_align: def
+    width: 3
+  logo:
+    id: logo
+    name: 公司LOGO
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 5
+    list_align: def
+    width: 3
+  ongoingProcess:
+    id: ongoingProcess
+    name: 进行中的流程
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 5
+    list_align: def
+    width: 3
+  highlights:
+    id: highlights
+    name: 投资亮点
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 5
+    list_align: def
+    width: 1
+  industry:
+    id: industry
+    name: 细分行业分类
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 5
+    list_align: def
+    width: 1
+  major_product:
+    id: major_product
+    name: 主要产品
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 5
+    list_align: def
+    width: 1
+  operation_situation:
+    id: operation_situation
+    name: 运营情况
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 5
+    list_align: def
+    width: 1
+  market_size:
+    id: market_size
+    name: 市场规模
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 5
+    list_align: def
+    width: 1
+  Team_highlights:
+    id: Team_highlights
+    name: 团队亮点
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 5
+    list_align: def
+    width: 1
+  Investment_highlights:
+    id: Investment_highlights
+    name: 投资亮点
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 5
+    list_align: def
+    width: 1
+  Due_diligence_advice:
+    id: Due_diligence_advice
+    name: 尽调意见
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 5
+    list_align: def
+    width: 1
+  Legal_feedback:
+    id: Legal_feedback
+    name: 法务尽调反馈
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 5
+    list_align: def
+    width: 1
+  Financial_feedback:
+    id: Financial_feedback
+    name: 财务尽调反馈
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 5
+    list_align: def
+    width: 1

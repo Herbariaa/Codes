@@ -1,0 +1,5708 @@
+---
+diycol_pc: year,season,gsry3km9wj
+diycol_iphone:
+bi_counting:
+bi_condition:
+bi_filter:
+openlink: 1
+name_rule:
+monitor_condition:
+monitor_update:
+confirm: 1
+title_field:
+stepbar: [ ]
+dynform: [ ]
+collect: [ ]
+calc: [ ]
+css:
+js: |
+  $(function(){
+      $("#gzojufevvl,#gznk3mlspk").on("change",function(){
+        var gzojufevvl = $("#gzojufevvl").val();
+        var gznk3mlspk = $("#gznk3mlspk").val();
+        if(gznk3mlspk>0){
+          var gzorfwieoa = gzojufevvl-gznk3mlspk;
+          var gzonvkdj2h = (gzorfwieoa/gznk3mlspk)*100;
+  
+          $("#gzorfwieoa").val(gzorfwieoa);
+          $("#gzonvkdj2h").val(gzonvkdj2h);
+        }
+      });
+      $("#gzojug09ti,#gznk483ulg").on("change",function(){
+          var gzojug09ti = $("#gzojug09ti").val();
+          var gznk483ulg = $("#gznk483ulg").val();
+          if(gznk483ulg>0){
+            var gzorfxldy7 = gzojug09ti-gznk483ulg;
+            var gzonwadf96 = (gzorfxldy7/gznk483ulg)*100;
+  
+            $("#gzorfxldy7").val(gzorfxldy7);
+            $("#gzonwadf96").val(gzonwadf96);
+          }
+          });
+          $("#gzojugj4ue,#gzojymg22e").on("change",function(){
+              var gzojugj4ue = $("#gzojugj4ue").val();
+              var gzojymg22e = $("#gzojymg22e").val();
+              if(gzojymg22e>0){
+                var gzorfx87c6 = gzojugj4ue-gzojymg22e;
+                var gznk52lvwu = (gzorfx87c6/gzojymg22e)*100;
+  
+                $("#gzorfx87c6").val(gzorfx87c6);
+                $("#gznk52lvwu").val(gznk52lvwu);
+              }
+          });
+    });
+script:
+  add:
+    - 'rel_sync|{eid}|gstiepdoei||first_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|gstiepdoei||second_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|gsqndmr8nj||first_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|gvdm675mk1||first_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|gvdm675mk1||second_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|gvdm90pib4||first_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|gvdut7qyof||first_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|gvdut7qyof||second_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|gvdjzz8ece||first_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|gzop5s22i8||first_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|gzop5s22i8||second_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|educationlevel||first_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|yfdepartment||first_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|yfdepartment||second_map|desc|post_filling|true'
+  update:
+    - 'rel_sync|{eid}|gstiepdoei||first_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|gstiepdoei||second_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|gsqndmr8nj||first_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|gvdm675mk1||first_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|gvdm675mk1||second_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|gvdm90pib4||first_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|gvdut7qyof||first_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|gvdut7qyof||second_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|gvdjzz8ece||first_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|gzop5s22i8||first_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|gzop5s22i8||second_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|educationlevel||first_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|yfdepartment||first_map|desc|post_filling|true'
+    - 'rel_sync|{eid}|yfdepartment||second_map|desc|post_filling|true'
+ext:
+  entity_snapshot:
+    post_filling:
+      view: post_fillingview
+      to_mod: post_filling_history
+      relevancy:
+        rysl_history:
+          mod: rysl
+          to_mod: rysl_history
+          filter:
+            _rel: eid
+        department_history:
+          mod: department
+          to_mod: department_history
+          filter:
+            _rel: eid
+        gsryjg_history:
+          mod: gsryjg
+          to_mod: gsryjg_history
+          filter:
+            _rel: eid
+        jycdnew_history:
+          mod: jycdnew
+          to_mod: jycdnew_history
+          filter:
+            _rel: eid
+        zcfzb_history:
+          mod: zcfzb
+          to_mod: zcfzb_history
+          filter:
+            _rel: eid
+        zcfzb1_history:
+          mod: zcfzb1
+          to_mod: zcfzb1_history
+          filter:
+            _rel: eid
+        lrb_history:
+          mod: lrb
+          to_mod: lrb_history
+          filter:
+            _rel: eid
+        xjllb_history:
+          mod: xjllb
+          to_mod: xjllb_history
+          filter:
+            _rel: eid
+        cwzbsj_history:
+          mod: cwzbsj
+          to_mod: cwzbsj_history
+          filter:
+            _rel: eid
+  btp:
+    button:
+      docx:
+        title: 下载 Word
+        is_hidden: false
+        mobile_hidden: true
+      pdf:
+        title: 下载 PDF
+        is_hidden: false
+        mobile_hidden: true
+      edit:
+        title: 修改
+        is_hidden: false
+      history:
+        title: 修改历史
+        is_hidden: false
+      submit:
+        title: 提交
+        is_hidden: false
+      cache:
+        title: 暂存
+        is_hidden: false
+        mobile_hidden: true
+      reset:
+        title: Reset
+        is_hidden: true
+        mobile_hidden: true
+      snapshot:
+        title: 生成快照
+        type: post_filling
+        is_hidden: true
+        mobile_hidden: true
+  show_export_excel: true
+sms_template: [ ]
+openlink_title:
+openlink_button:
+email_notify:
+  - 
+email_notify_tem:
+openlink_content:
+pre_commit_content:
+tab_listen_key:
+tab_listen_rule: [ ]
+def_submit_btn_text:
+submit_redirect: 0
+submit_redirect_url:
+word_export:
+  word_custom_func:
+  word_export_name:
+  word_file:
+    - 
+  word_file_label:
+    - 
+api_address:
+api_list_key:
+api_request_key:
+api_response_key:
+api_display: match
+comment:
+  target: _self
+  doctype:
+  up_folder:
+  root_uid:
+  eid_link:
+  formats:
+  position: 1
+  attached_mod:
+  comment_title_tpl:
+  field_newest:
+  field_count:
+modbox:
+  position: 1
+  ext: [ ]
+notify_default:
+notify:
+  url_template:
+inherit_priv:
+privilege:
+  list:
+  import:
+  export: >
+    Admin,pepmAdmin,role_gdzymkjjp9,role_h7wlf3i24q,role_h1pe51brok,role_gdzyn9k7dm
+  detail:
+  edit: >
+    Admin,pepmAdmin,role_gdzymkjjp9,role_gdzyn9k7dm,role_h1pe51brok,role_h7wlf3i24q,role_gdzymwmkqu,guest
+  delete:
+  docx: >
+    Admin,pepmAdmin,role_gdzymkjjp9,role_gdzyn9k7dm,role_h1pe51brok,role_h7wlf3i24q,role_gdzymwmkqu
+  pdf: >
+    Admin,pepmAdmin,role_gdzymkjjp9,role_gdzyn9k7dm,role_h1pe51brok,role_h7wlf3i24q,role_gdzymwmkqu
+  history: >
+    Admin,pepmAdmin,role_gdzymkjjp9,role_gdzyn9k7dm,role_h1pe51brok,role_h7wlf3i24q,role_gdzymwmkqu
+  openlink: >
+    Admin,pepmAdmin,role_gdzymkjjp9,role_gdzyn9k7dm,role_h1pe51brok,role_h7wlf3i24q,role_gdzymwmkqu
+  block_view_blank:
+  block_edit_blank:
+  block_view_gsprr5c4e6:
+  block_edit_gsprr5c4e6:
+  block_view_gzokflx8kk:
+  block_edit_gzokflx8kk:
+  block_view_gv86jphu8y:
+  block_edit_gv86jphu8y:
+  block_view_gvg4jcgs1u:
+  block_edit_gvg4jcgs1u:
+  block_view_gvg4jbqs54:
+  block_edit_gvg4jbqs54:
+  block_view_gspseka3jd:
+  block_edit_gspseka3jd:
+  block_view_gv70bwhe2w:
+  block_edit_gv70bwhe2w:
+  block_view_gv70cj6l1y:
+  block_edit_gv70cj6l1y:
+  block_view_gv70d19htz:
+  block_edit_gv70d19htz:
+  block_view_gv70dizo3z:
+  block_edit_gv70dizo3z:
+  block_view_gv70dv2cn7:
+  block_edit_gv70dv2cn7:
+  block_view_gv70dw9g33: >
+    role_gdzymkjjp9,pepmAdmin,Admin,role_h7wlf3i24q,role_h1pe51brok,role_gdzyn9k7dm,role_gdzymwmkqu,guest
+  block_edit_gv70dw9g33:
+  block_view_gvjmkb38cf:
+  block_edit_gvjmkb38cf:
+  block_view_gv86jq4xfp:
+  block_edit_gv86jq4xfp:
+  block_view_gv8tthd29f:
+  block_edit_gv8tthd29f:
+  block_view_gv86jqjbgt:
+  block_edit_gv86jqjbgt:
+  block_view_gvm085j2rn:
+  block_edit_gvm085j2rn:
+  block_view_gzuje02e7y:
+  block_edit_gzuje02e7y:
+  block_view_gvdjzh5v97:
+  block_edit_gvdjzh5v97:
+  block_view_gzop5s22i8:
+  block_edit_gzop5s22i8:
+  block_view_gsqo9us3c2:
+  block_edit_gsqo9us3c2:
+  block_view_yfdepartment:
+  block_edit_yfdepartment:
+  block_view_h72qt7e9li:
+  block_edit_h72qt7e9li:
+  block_view_gvdjzz8ece:
+  block_edit_gvdjzz8ece:
+  block_view_gvdn34jrtw:
+  block_edit_gvdn34jrtw:
+  block_view_educationlevel:
+  block_edit_educationlevel:
+  block_view_gsqn6skm6n:
+  block_edit_gsqn6skm6n:
+  block_view_gstfk40xah:
+  block_edit_gstfk40xah:
+  block_view_gsqnb74h1b:
+  block_edit_gsqnb74h1b:
+  block_view_gstiepdoei:
+  block_edit_gstiepdoei:
+  block_view_gstj4ul0bq:
+  block_edit_gstj4ul0bq:
+  block_view_gstj54dn77:
+  block_edit_gstj54dn77:
+  block_view_gsqndmr8nj:
+  block_edit_gsqndmr8nj:
+  block_view_gsqndniwtw:
+  block_edit_gsqndniwtw:
+  block_view_gvdm5isveu:
+  block_edit_gvdm5isveu:
+  block_view_gvdm675mk1:
+  block_edit_gvdm675mk1:
+  block_view_gvdm7wke3g:
+  block_edit_gvdm7wke3g:
+  block_view_gvdm8folov:
+  block_edit_gvdm8folov:
+  block_view_gvdm90pib4:
+  block_edit_gvdm90pib4:
+  block_view_gvbdjpxlgg:
+  block_edit_gvbdjpxlgg:
+  block_view_gvg6942axu:
+  block_edit_gvg6942axu:
+  block_view_gvdut7qyof:
+  block_edit_gvdut7qyof:
+  block_view_h6l7oqp0dt:
+  block_edit_h6l7oqp0dt:
+  block_view_h6ebc147ee:
+  block_edit_h6ebc147ee:
+  block_view_h6ebdl3j29:
+  block_edit_h6ebdl3j29:
+  block_view_h6ebewt3ay:
+  block_edit_h6ebewt3ay:
+  block_view_h6ebfhfprc:
+  block_edit_h6ebfhfprc:
+  block_view_gv86nc9y2u: >
+    role_gdzymkjjp9,Admin,role_gdzyn9k7dm,pepmAdmin,role_h7wlf3i24q,role_h1pe51brok,guest,role_gdzymwmkqu
+  block_edit_gv86nc9y2u:
+  block_view_gvg5bxlll7: >
+    Admin,role_gdzyn9k7dm,pepmAdmin,role_h7wlf3i24q,role_h1pe51brok,role_gdzymkjjp9,role_gdzymwmkqu,guest
+  block_edit_gvg5bxlll7:
+  block_view_gvjmk2mg8h: >
+    role_gdzymkjjp9,Admin,role_gdzyn9k7dm,pepmAdmin,role_h7wlf3i24q,role_h1pe51brok,guest,role_gdzymwmkqu
+  block_edit_gvjmk2mg8h:
+diycol_back_list:
+list_count_block_fields:
+order_priority:
+page_size:
+fixed_col:
+fixed_col_mobile:
+addon_url:
+list_style: list_ajax
+link_type: canvas
+list_count: top
+list_style_mobile: list_mobile
+py_search: no_more
+secondary_link_type: modal
+list_mobile_mod: default
+diycard_config: [ ]
+button_config: [ ]
+feed_tpl:
+feed_mobile_tpl:
+feed_tpl_css:
+feed_tpl_js:
+css_config:
+js_config:
+merged_cell_key:
+merged_cell_list:
+merge_exclude_code:
+list_img_name:
+list_img_img:
+list_img_date:
+list_img_content:
+super_object:
+replace_comment_update_col:
+replace_comment_max_col:
+replace_comment_notify: 3
+created_sth:
+filter:
+always_show:
+filter_mobile:
+item:
+  blank:
+    id: blank
+    name: blank
+    type: br
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gsprr5c4e6:
+    id: gsprr5c4e6
+    name: 投后信息搜集
+    type: html
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    default_value: '<p style="font-size:30px; color: #000;"  class="align-center">临芯资本投后信息搜集</p >'
+    list_align: def
+  gzokflx8kk:
+    id: gzokflx8kk
+    name: >
+      温馨提示：关于填报的数据，请确保其真实性、准确性及完整性。谢谢！
+    type: section
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  year:
+    id: year
+    name: 信息所属年份
+    type: yearpicker
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  season:
+    id: season
+    name: 信息所属季度
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        第一季度:第一季度
+        第二季度:第二季度
+        第三季度:第三季度
+        第四季度:第四季度
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    list_align: def
+    dsort: |
+      第一季度:第一季度
+      第二季度:第二季度
+      第三季度:第三季度
+      第四季度:第四季度
+    listed: desc
+  jijin:
+    id: jijin
+    name: 基金主体
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source: fof
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 是
+      tags: 否
+      tags_no_layer: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label: 不打开
+      open_type: no_open
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: off
+      list_color_label_ext:
+      quarter_control_start: 2010
+      quarter_control_end: 2030
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: off
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  _pm_end_time:
+    id: _pm_end_time
+    name: 截止时间
+    type: datepicker
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      min:
+      min_create: 否
+      min_create_diff:
+      max:
+      max_create: 否
+      max_create_diff:
+      analysis_date:
+  filledby:
+    id: filledby
+    name: 填报人
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  bcfilling:
+    id: bcfilling
+    name: 是否填写其他数据
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是:是
+        否:否
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 是
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic: |
+        是:
+          -h6l7oqp0dt
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label:
+      list_color_label:
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 1
+    readonly: 1
+  gv86jphu8y:
+    id: gv86jphu8y
+    name: 公司概况
+    type: tab
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    list_align: def
+  gvg4jcgs1u:
+    id: gvg4jcgs1u
+    name: 基本信息
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    list_align: def
+  gvg4i786l4:
+    id: gvg4i786l4
+    name: 是否为境外直投企业
+    type: select_new
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是: 是
+        否: 否
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic: |
+        是:
+          - gvg4jbqs54
+          - gvg4jc4zwi
+          -gvg4i942ne
+          -gvg4i7v61a
+          - gvg4i8b3om
+          - gvg4i7i8c9
+          - gvg4lni85o
+          - gspseka3jd
+          - gvjjq6yjrq
+          - gvjjq796hd
+          - gvjjq7node
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    list_align: def
+  gvg4jbqs54:
+    id: gvg4jbqs54
+    name: '<p style="font-weight:200">境外直投企业信息</p>'
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    list_align: def
+  gvg4jc4zwi:
+    id: gvg4jc4zwi
+    name: 公司名称
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  gvg4i942ne:
+    id: gvg4i942ne
+    name: 公司注册证书登记号
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+  gvjjq6yjrq:
+    id: gvjjq6yjrq
+    name: 公司类型
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    list_align: def
+  gvg4i7v61a:
+    id: gvg4i7v61a
+    name: 董事
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    list_align: def
+  gvg4i8b3om:
+    id: gvg4i8b3om
+    name: 成立日期
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    list_align: def
+  gvjjq796hd:
+    id: gvjjq796hd
+    name: 法定股份数
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      unit: 股
+    width: 1
+  gvjjq7node:
+    id: gvjjq7node
+    name: 每股价值
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+  gvg4i7i8c9:
+    id: gvg4i7i8c9
+    name: 已发行股份数
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    ext:
+      unit: 股
+  gvg4lni85o:
+    id: gvg4lni85o
+    name: 注册地址
+    type: text
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gspseka3jd:
+    id: gspseka3jd
+    name: '<p style="font-weight:200">境内实际运营企业信息</p>'
+    type: section
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  name:
+    id: name
+    name: 公司全称（中文）
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gsry3km9wj:
+    id: gsry3km9wj
+    name: 公司简称（中文）
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  gsry3lks2f:
+    id: gsry3lks2f
+    name: 公司全称（英文）
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gsry3med59:
+    id: gsry3med59
+    name: 公司简称（英文）
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gspskbwi1i:
+    id: gspskbwi1i
+    name: 统一社会信用代码
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gspslnrmhb:
+    id: gspslnrmhb
+    name: 成立日期
+    type: datepicker
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gsrydhj6wn:
+    id: gsrydhj6wn
+    name: 注册资本
+    type: yuan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      decimals: 2
+      t_divide: 是
+      padding: 是
+      currency_symbol: 否
+    list_align: def
+  gspskjln36:
+    id: gspskjln36
+    name: 法定代表人
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gspskwfj6g:
+    id: gspskwfj6g
+    name: 创始人
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gspsl75vm3:
+    id: gspsl75vm3
+    name: 实际控制人
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gspslc7243:
+    id: gspslc7243
+    name: 公司类型
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        民营:民营
+        外资:外资
+        国资:国资
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis:
+      ellipsis_label:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    list_align: def
+  gspsljyrfg:
+    id: gspsljyrfg
+    name: 公司控股性质
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_label: 录入
+      type: raw
+      data_source: |
+        中央国有控股:中央国有控股
+        地方国有控股:地方国有控股
+        社团集体控股:社团集体控股
+        自然人控股:自然人控股
+        外商控股:外商控股
+        无控股主体:无控股主体
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+    tips: '中央国有控股/地方国有控股/社团集体控股/自然人控股/外商控股/控股主体性质不明确/无控股主体 从以上七项中选择。  <br/>1.中央国有控股：指公司实际控制人为中央国家机关、中央国有企事业单位、中央国有控股企业（包括国务院国资委、财政部、教育部、汇金公司、中央国有企业的企业等）或公司无实际控制人但控股股东为中央国有。  <br/>2.地方国有控股：指公司实际控制人为地方政府机关、地方国有企事业单位、地方国有控股企业（包括地方国资委、地方政府、地方财政厅、地方教育局、地方国有企业等）或公司无实际控制人但控股股东为地方国有。  <br/>3.社团集体控股：指公司实际控制人为企业联合社、职工持股会、工会委员会等社会团体或集体企业（单位）等的企业或公司无实际控制人但控股股东为社团集体企业。  <br/>4.自然人控股：指公司实际控制人为境内自然人或公司无实际控制人但控股股东为境内自然人。  <br/>5.外商控股：指公司实际控制人为外商控股或无公司实际控制人但控股股东为境外自然人或法人。  <br/>6.控股主体性质不明确：指公司由两种以上性质主体共同控制、公司控股主体的股权分散且性质不明确等。  <br/>7.无控股主体：指公司既无实际控制人，又无控股股东。'
+  gspsnjp772:
+    id: gspsnjp772
+    name: 行业
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_label: 录入
+      type: raw
+      data_source: |
+        医疗器械: 医疗器械
+        医疗用品经销商: 医疗用品经销商
+        医疗保健服务: 医疗保健服务
+        医疗保健机构: 医疗保健机构
+        医疗保健技术: 医疗保健技术
+        生物科技: 生物科技
+        化学药: 化学药
+        中药: 中药
+        药品经销商: 药品经销商
+        制药与生物科技服务:制药与生物科技服务
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+  gspslorsun:
+    id: gspslorsun
+    name: 注册地址
+    type: text
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gspslpgs4d:
+    id: gspslpgs4d
+    name: 网址
+    type: text
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gv8sa89vsc:
+    id: gv8sa89vsc
+    name: 目前公司所处阶段
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_label: 录入
+      type: raw
+      data_source: |
+        种子期: 种子期
+        天使期: 天使期
+        初创期: 初创期
+        成长期: 成长期
+        成熟期: 成熟期
+        Pre-IPO: Pre-IPO
+        IPO:IPO
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+    width: 1
+  gv8sa7qnc1:
+    id: gv8sa7qnc1
+    name: 投资时公司所处阶段
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        种子期: 种子期
+        天使期: 天使期
+        初创期: 初创期
+        成长期: 成长期
+        成熟期: 成熟期
+        Pre-IPO: Pre-IPO
+        IPO:IPO
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis:
+      ellipsis_label:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 1
+    list_align: def
+  gv8sa8mk4q:
+    id: gv8sa8mk4q
+    name: 投资公司时间
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    list_align: def
+  gv70bwhe2w:
+    id: gv70bwhe2w
+    name: 董事、监事、观察员信息
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    list_align: def
+  gspsqvlg5b:
+    id: gspsqvlg5b
+    name: 是否占董事会席位
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是:是
+        否:否
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic: |
+        是:
+          -gsryqj1xtg
+          -gspsnow5hi
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    list_align: def
+  gspsqwafu0:
+    id: gspsqwafu0
+    name: 董事会总席位数
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    props:
+      type_label: 录入
+      type: raw
+      data_source:
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis:
+      ellipsis_label:
+      trigger_with_change: 否
+    default_value: 'null'
+  gsryqj1xtg:
+    id: gsryqj1xtg
+    name: 占董事会席位数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    default_value: 'null'
+    props:
+      decimals: 0
+      t_divide: 是
+      padding: 否
+      currency_symbol: 否
+      right_align_optgroup:
+      right_align_label:
+      right_align:
+    list_align: def
+  gspsnow5hi:
+    id: gspsnow5hi
+    name: 委派董事姓名
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  gspsnvy9z9:
+    id: gspsnvy9z9
+    name: 公司管理层占董事会席位数
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    props:
+      type_label: 录入
+      type: raw
+      data_source:
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+    default_value: 'null'
+  gsqkcf959f:
+    id: gsqkcf959f
+    name: >
+      其他机构投资者占董事会席位数
+    type: amount
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    default_value: 'null'
+    list_align: def
+  gv70rtb30z:
+    id: gv70rtb30z
+    name: 是否占监事会席位
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是:是
+        否:否
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic: |
+        是:
+          -gv70rsbl33
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+    width: 1
+    list_align: def
+  gv70rsbl33:
+    id: gv70rsbl33
+    name: 委派监事姓名
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 2
+    list_align: def
+  gv70rr7tsa:
+    id: gv70rr7tsa
+    name: 是否占观察员席位
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是:是
+        否:否
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic: |
+        是:
+          -gv70rsw73j
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+    width: 1
+    list_align: def
+  gv70rsw73j:
+    id: gv70rsw73j
+    name: 委派观察员姓名
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 2
+    list_align: def
+  gv70cj6l1y:
+    id: gv70cj6l1y
+    name: 专利技术等信息
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    list_align: def
+  gsryg3qoji:
+    id: gsryg3qoji
+    name: 累计专利申请数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    default_value: 'null'
+    list_align: def
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 否
+      currency_symbol: 否
+  zlsql:
+    id: zlsql
+    name: 专利申请量
+    type: sn
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    tips: 截至当前值。
+    ext:
+      unit: 个
+    props:
+      id: zlsql
+      length: 3
+      reset_by_optgroup:
+      reset_by_label:
+      reset_by:
+      tpl: '{gsryg3qoji}'
+      backend: 否
+  gsryg9id5q:
+    id: gsryg9id5q
+    name: 累计发明专利申请数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    default_value: 'null'
+    list_align: def
+  fmzlsql:
+    id: fmzlsql
+    name: 发明专利申请量
+    type: sn
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    tips: 截至当前值。
+    ext:
+      unit: 个
+    props:
+      id: fmzlsql
+      length: 3
+      reset_by_optgroup:
+      reset_by_label:
+      reset_by:
+      tpl: '{gsryg9id5q}'
+      backend: 否
+  gsryge4bcv:
+    id: gsryge4bcv
+    name: 累计专利授权数
+    type: amount
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    default_value: 'null'
+    list_align: def
+  zlsyl:
+    id: zlsyl
+    name: 专利授予量
+    type: sn
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    tips: 截至当前值。
+    ext:
+      unit: 个
+    props:
+      id: zlsyl
+      length: 3
+      reset_by_optgroup:
+      reset_by_label:
+      reset_by:
+      tpl: '{gsryge4bcv}'
+      backend: 否
+  gsryginufk:
+    id: gsryginufk
+    name: 累计发明专利授权数
+    type: amount
+    width: 1
+    tips: >
+      不含实用新型、外观及软件著作权
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    default_value: 'null'
+    list_align: def
+  fmzlsyl:
+    id: fmzlsyl
+    name: 发明专利授予量
+    type: sn
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    tips: 截至当前值。
+    ext:
+      unit: 个
+    props:
+      id: fmzlsyl
+      length: 3
+      reset_by_optgroup:
+      reset_by_label:
+      reset_by:
+      tpl: '{gsryginufk}'
+      backend: 否
+  gsrykqqaz8:
+    id: gsrykqqaz8
+    name: >
+      累计获得的省部级及以上科学技术奖数量
+    type: amount
+    width: 1
+    prompt: >
+      不含实用新型、外观及软件著作权
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    default_value: 'null'
+    list_align: def
+  gsrym3ycjz:
+    id: gsrym3ycjz
+    name: 技术成果转化数量
+    type: amount
+    width: 1
+    tips: >
+      技术成果转化数量：转化形式包括自行投资实施转化；向他人转化该技术成果；许可他人使用该科技成果；以该科技成果作为合作条件，与他人共同实施转化；以及其他协商确定的方式。同一科技成果分别在国内外转化的，或转化为多个产品、服务、工艺、样品、样机等的，只计为一项
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    default_value: 'null'
+  gsrykq02py:
+    id: gsrykq02py
+    name: 累计国家实验室建设情况
+    type: amount
+    width: 1
+    tips: >
+      累计国家实验室建设情况：指参与国家工程技术研究中心、国家工程研究中心、国家重点实验室等建设的情况。包括国家实验室（科技部）、国家研究中心（科技部）、国家重点实验室（科技部）、国家工程实验室（国家发展改革委）、国家工程技术研究中心（科技部）、国家工程研究中心（国家发展改革委）、国家技术创新中心（科技部）等。（涉及几项填几项名称，作为共建单位或牵头单位均视为参与建设）
+    prompt: 请填写实验室名称)
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    default_value: 'null'
+    list_align: def
+  sysname:
+    id: sysname
+    name: 国家实验室名称
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 2
+    tips: >
+      请填写实验室名称。累计国家实验室建设情况：指参与国家工程技术研究中心、国家工程研究中心、国家重点实验室等建设的情况。包括国家实验室（科技部）、国家研究中心（科技部）、国家重点实验室（科技部）、国家工程实验室（国家发展改革委）、国家工程技术研究中心（科技部）、国家工程研究中心（国家发展改革委）、国家技术创新中心（科技部）等（涉及几项填几项名称，作为共建单位或牵头单位均视为参与建设）。
+  gv70d19htz:
+    id: gv70d19htz
+    name: 具体企业类型等信息
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+  gspsqwwnlj:
+    id: gspsqwwnlj
+    name: 是否属于中小企业
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    tips: >
+      基金首次投资该企业时职工数不超过500人，年销售额不超过2亿元，资产总额不超过2亿元
+    props:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是:是
+        否:否
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+    list_align: def
+  gspsrofzzv:
+    id: gspsrofzzv
+    name: 是否属于高新技术企业
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    tips: '截至本季度末，依据《高新技术企业认定管理办法》（国科发火[2016]32号），是否已取得高新技术企业证书'
+    props:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是:是
+        否:否
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+  gspsrxdiv4:
+    id: gspsrxdiv4
+    name: 是否属于初创科技型企业
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    tips: '根据《财政部 国家税务总局关于创业投资企业和天使投资个人有关税收政策的通知》<br/>（财税〔2018〕55号）与《关于实施小微企业普惠性税收减免政策的通知（财税〔2019〕19号），初创科技型企业，应同时符合以下条件:<br/> 1.在中国境内（不包括港、澳、台地区）注册成立、实行查账征收的居民企业； <br/> 2.接受投资时，从业人数不超过300人，其中具有大学本科以上学历的从业人数不低于30%；资产总额和年销售收入均不超过5000万；<br/> 3.接受投资时设立时间不超过5年；<br/> 4.接受投资时以及接受投资后2年内未在境内外证券交易所上市；<br/> 5.接受投资当年及下一纳税年度，研发费用总额占成本费用支出的比例不低于20%。<br/> 其中：<br/> 研发费用口径，按照《财政部 国家税务总局 科技部关于完善研究开发费用税前加计扣除政策的通知》（财税〔2015〕119号）的规定执行。<br/>  从业人数，包括与企业建立劳动关系的职工人员及企业接受的劳务派遣人员。从业人数和资产总额指标，按照企业接受投资前连续12个月的平均数计算，不足12个月的，按实际月数平均计算。<br/> 销售收入，包括主营业务收入与其他业务收入；年销售收入指标，按照企业接受投资前连续12个月的累计数计算，不足12个月的，按实际月数累计计算。<br/> 成本费用，包括主营业务成本、其他业务成本、销售费用、管理费用、财务费用。<br/>'
+    props:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是:是
+        否:否
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis:
+      ellipsis_label:
+      trigger_with_change: 否
+  gspss4gidq:
+    id: gspss4gidq
+    name: 是否是微型科技企业
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    tips: >
+      投资时年营业收入不超过300万元或成立时间3年以内
+    props:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是:是
+        否:否
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+  gspss57928:
+    id: gspss57928
+    name: 是否享受国家财税政策
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    props:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是:是
+        否:否
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+  gzvcrypquh:
+    id: gzvcrypquh
+    name: 是否属于专精特新企业
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是:是
+        否:否
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic: |
+        是:
+          -gzvctiiqaf
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  gzvctiiqaf:
+    id: gzvctiiqaf
+    name: 专精特新企业类型
+    type: select_new
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        市级“专精特新”: 市级“专精特新”
+        省级“专精特新”: 省级“专精特新”
+        “专精特新”小巨人: “专精特新”小巨人
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+  gv70dizo3z:
+    id: gv70dizo3z
+    name: 上市信息
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+  gspss5xv6m:
+    id: gspss5xv6m
+    name: 是否上市
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 3
+    props:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是:是
+        否:否
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic: |
+        是:
+          -gspss6ki9f
+          -gspst1eqj0
+          -gspst242s4
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+  gspss6ki9f:
+    id: gspss6ki9f
+    name: 上市时间
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+  gspst1eqj0:
+    id: gspst1eqj0
+    name: IPO类型
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    props:
+      type_label: 录入
+      type: raw
+      data_source: |
+        中小板:中小板
+        创业板:创业板
+        科创板:科创板
+        港股:港股
+        美股:美股
+        其他:其他
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+  gspst242s4:
+    id: gspst242s4
+    name: 证券编码
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+  gv70dv2cn7:
+    id: gv70dv2cn7
+    name: 报会信息
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+  gspst9w3iv:
+    id: gspst9w3iv
+    name: 是否已报会
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 3
+    props:
+      type_label: 录入
+      type: raw
+      data_source: |
+        是:是
+        否:否
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic: |
+        是:
+          -gspstag013
+          -gspstazpm2
+          -gspstc55im
+          -gspt012jcb
+          -gspt01ryz9
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+    index: 1
+  gspstag013:
+    id: gspstag013
+    name: 申报时间
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+  gspstazpm2:
+    id: gspstazpm2
+    name: 证券编码
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+  gspstc55im:
+    id: gspstc55im
+    name: IPO类型
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    props:
+      type_label: 录入
+      type: raw
+      data_source: |
+        中小板:中小板
+        创业板:创业板
+        科创板:科创板
+        港股:港股
+        美股:美股
+        其他:其他
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+  gspt012jcb:
+    id: gspt012jcb
+    name: 申报状态
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    props:
+      type_label: 录入
+      type: raw
+      data_source: |
+        已受理:已受理
+        已反馈:已反馈
+        预披露:预披露
+        已上发审会暂缓表决:已上发审会暂缓表决
+        已通过发审会:已通过发审会
+        中止审查:中止审查
+        其他:其他
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+  gspt01ryz9:
+    id: gspt01ryz9
+    name: 备注说明
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 2
+  gv70dw9g33:
+    id: gv70dw9g33
+    name: 投后联系人信息
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    list_align: def
+  gstbaeptwb:
+    id: gstbaeptwb
+    name: 姓名
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gstbafwrdp:
+    id: gstbafwrdp
+    name: 部门
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gstbagrgoi:
+    id: gstbagrgoi
+    name: 职位
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gstbb9glvt:
+    id: gstbb9glvt
+    name: 电话
+    type: text
+    width: 2
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gstbahn03e:
+    id: gstbahn03e
+    name: 邮箱
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gv8trmxxzp:
+    id: gv8trmxxzp
+    name: 通讯地址
+    type: text
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gvjmkb38cf:
+    id: gvjmkb38cf
+    name: 空一行
+    type: br
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    list_align: def
+  gvjjq81yi7:
+    id: gvjjq81yi7
+    name: 信息填报说明
+    type: muti
+    width: 3
+    prompt: 如适用
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  gv86jq4xfp:
+    id: gv86jq4xfp
+    name: 运营情况
+    type: tab
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    list_align: def
+  gv8tthd29f:
+    id: gv8tthd29f
+    name: 运营情况
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+  gsptd4m6wm:
+    id: gsptd4m6wm
+    name: 公司主营业务和产品介绍
+    type: rte
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 3
+  h6eb2m1388:
+    id: h6eb2m1388
+    name: 主营业务1行业景气情况
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 3
+    tips: >
+      1-5分，认为行业非常景气为5份，非常不景气为1分。
+  h6eb2msqye:
+    id: h6eb2msqye
+    name: 主营业务2行业景气情况
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 3
+    tips: >
+      1-5分，认为行业非常景气为5份，非常不景气为1分。（如无第二个主营业务则不用填写。）
+  gsptd93v9m:
+    id: gsptd93v9m
+    name: >
+      公司所属行业景气程度较去年同期
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 3
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        上升:上升
+        持平:持平
+        下降:下降
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label:
+      ellipsis:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    height: 1
+    list_align: def
+  gsptd9smps:
+    id: gsptd9smps
+    name: 公司发展预期
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 3
+    props:
+      type_label: 录入
+      type: raw
+      data_source: |
+        超出预期:超出预期
+        符合预期:符合预期
+        不及预期:不及预期
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      link_off: 否
+      link_type: 否
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+  gsptd60q78:
+    id: gsptd60q78
+    name: 公司亮点/核心竞争力
+    type: rte
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    width: 3
+    list_align: def
+  gsrz379qgo:
+    id: gsrz379qgo
+    name: 研发及注册进展
+    type: rte
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  gsptd7az9q:
+    id: gsptd7az9q
+    name: 市场与销售进展
+    type: rte
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 3
+    tips: >
+      除说明市场与销售进展，同时可说明营业收入、净利润等较上年同期变动情况及其变动原因
+    props:
+      view_fontsize_normalize: 否
+      view_fontcolor_normalize: 否
+      view_maxcount_normalize:
+      view_mincount_normalize:
+      max_list_height:
+      word_wrap: 否
+      list_line_number:
+  gzpjr86j4u:
+    id: gzpjr86j4u
+    name: >
+      本年/未来年度营业收入、净利润等数据预测
+    type: rte
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        仅文字描述: 仅文字描述
+        仅附件: 仅附件
+      payload:
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic: |
+        仅文字描述:
+          - gzpjrivxg3
+        仅附件:
+          - gznixxn4s5
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: 'false'
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    tips: >
+      预测年度为本年度或未来年度，如有相应的预测支持文件，可通过”附件项下-其他重要文件“上传
+  gsptd7wq3q:
+    id: gsptd7wq3q
+    name: 所获荣誉、奖项等
+    type: rte
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 3
+    tips: >
+      请按由近及远，从新到旧，逆时间顺序列明所获取的荣誉、奖项等
+  gsptd8jg7u:
+    id: gsptd8jg7u
+    name: >
+      当前融资进展或下一轮融资计划
+    type: rte
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 3
+    tips: >
+      融资计划可说明预计融资时间、融资轮次、融资金额、稀释股比、投前/投后估值和融资用途等
+    prompt: 如适用
+  gv70gsbxsi:
+    id: gv70gsbxsi
+    name: 上市计划/进展
+    type: rte
+    width: 3
+    tips: >
+      上市计划可列明IPO各项时间节点安排、拟上市板块；委托的券商、会计事务所、律所；上市前亟待解决解决的问题等
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    prompt: 如适用
+  gsptdae31j:
+    id: gsptdae31j
+    name: >
+      公司战略发展规划与年度经营计划
+    type: rte
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 3
+  gsptdayg4p:
+    id: gsptdayg4p
+    name: >
+      公司未来经营产生不利影响的重要风险因素、及公司经营目前存在的主要困难和公司拟采取的应对措施
+    type: rte
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 3
+  gss34orvl8:
+    id: gss34orvl8
+    name: 其他需说明的重大事项
+    type: rte
+    width: 3
+    prompt: 如适用
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  gvkkwgf5ud:
+    id: gvkkwgf5ud
+    name: 增值服务
+    type: rte
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+  gw0u2m98ua:
+    id: gw0u2m98ua
+    name: 项目经理季度特别汇报
+    type: hidden
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gv86jqjbgt:
+    id: gv86jqjbgt
+    name: 人员结构
+    type: tab
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    list_align: def
+  gvm085j2rn:
+    id: gvm085j2rn
+    name: ​请按集团口径填列，如适用
+    type: puretext
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      tpl: '<p>请按集团口径填列，如适用</p>'
+    width: 3
+  gzuje02e7y:
+    id: gzuje02e7y
+    name: >
+      请确保“按部门划分”和“按教育程度划分”填列的明细数据的合计数与“人员数量”的合计数一致
+    type: puretext
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      tpl: '<p>请确保“按部门划分”和“按教育程度划分”填列的明细数据的合计数与“人员数量”的合计数一致</p>'
+  gvdjzh5v97:
+    id: gvdjzh5v97
+    name: 人员数量
+    type: section
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gzojufevvl:
+    id: gzojufevvl
+    name: 本季度母公司在职员工数量
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      unit: 人
+  gzorfwieoa:
+    id: gzorfwieoa
+    name: 季度数量差
+    type: hidden
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    width: 1
+  gzojug09ti:
+    id: gzojug09ti
+    name: 本季度子公司在职员工数量
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      unit: 人
+  gzorfxldy7:
+    id: gzorfxldy7
+    name: 季度数量差
+    type: hidden
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    width: 1
+  gzojugj4ue:
+    id: gzojugj4ue
+    name: 本季度在职员工数量合计
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      unit: 人
+  gzorfx87c6:
+    id: gzorfx87c6
+    name: 季度数量差
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+  gznk3mlspk:
+    id: gznk3mlspk
+    name: 上季度母公司在职员工数量
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      unit: 人
+  gznk483ulg:
+    id: gznk483ulg
+    name: 上季度子公司在职员工数量
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      unit: 人
+  gzojymg22e:
+    id: gzojymg22e
+    name: 上季度在职员工数量合计
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      unit: 人
+  gzonvkdj2h:
+    id: gzonvkdj2h
+    name: >
+      本季度较上季度变动%（母公司）
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+  gzonwadf96:
+    id: gzonwadf96
+    name: >
+      本季度较上季度变动%（子公司）
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+  gznk52lvwu:
+    id: gznk52lvwu
+    name: 本季度较上季度变动%（集团）
+    type: hidden
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    readonly: 1
+    default_value: 0
+    list_align: def
+  gzop5s22i8:
+    id: gzop5s22i8
+    name: 关联数据
+    type: data
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size: 10
+      layout_optgroup:
+      layout_label: 列表(new)
+      layout: data_list_easy
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max: 0
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      editlist: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size: 0
+      feed_mobile_page_size: 0
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: rysl
+      show_import: true
+    list_align: def
+  gsqo9us3c2:
+    id: gsqo9us3c2
+    name: 按部门划分（研发）
+    type: section
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  yfdepartment:
+    id: yfdepartment
+    name: 研发部门
+    type: data
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: department
+      show_import: true
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size: 10
+      layout_optgroup:
+      layout_label: 列表(new)
+      layout: data_list_easy
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max: 0
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      editlist: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size: 0
+      feed_mobile_page_size: 0
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    width: 1
+  h72qt7e9li:
+    id: h72qt7e9li
+    name: 按部门划分（其他）
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  gvdjzz8ece:
+    id: gvdjzz8ece
+    name: 按部门划分
+    type: data
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: gsryjg
+      show_import: true
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size: 10
+      layout_optgroup:
+      layout_label: 列表(new)
+      layout: data_list_easy
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max: 0
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      editlist: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size: 0
+      feed_mobile_page_size: 0
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    list_align: def
+  gvdn34jrtw:
+    id: gvdn34jrtw
+    name: 按教育程度划分
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    list_align: def
+  educationlevel:
+    id: educationlevel
+    name: 按教育程度划分
+    type: data
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: jycdnew
+      show_import: true
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size: 10
+      layout_optgroup:
+      layout_label: 列表(new)
+      layout: data_list_easy
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max: 0
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      editlist: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size: 0
+      feed_mobile_page_size: 0
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    width: 1
+  gveuku5dew:
+    id: gveuku5dew
+    name: 企业员工总数
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    ext:
+      unit: 人
+  h6eb2ngi0s:
+    id: h6eb2ngi0s
+    name: 企业从业人员数
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    ext:
+      unit: 人
+  qyjhzprs:
+    id: qyjhzprs
+    name: 企业计划招聘人数
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    ext:
+      unit: 人
+  yfbpeople:
+    id: yfbpeople
+    name: 研发人员总数
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    ext:
+      unit: 人
+  h6eb7lon8s:
+    id: h6eb7lon8s
+    name: '研究与试验发展（R&D）人员数'
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    tips: 截至当前值。
+    ext:
+      unit: 人
+  h6eb4ec70i:
+    id: h6eb4ec70i
+    name: 其中本科学历人数
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    ext:
+      unit: 人
+  h6eb4fc235:
+    id: h6eb4fc235
+    name: 研究生及以上学历人数
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    ext:
+      unit: 人
+  h6eb4gff18:
+    id: h6eb4gff18
+    name: 海外归国人数
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    ext:
+      unit: 人
+  h6eb4ha6vu:
+    id: h6eb4ha6vu
+    name: 招聘应届毕业生人数
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    ext:
+      unit: 人
+  gvdmzfxt28:
+    id: gvdmzfxt28
+    name: 按教育程度划分（202210前）
+    type: hidden
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    ext:
+      mod: jycd
+      show_import: true
+    width: 1
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size: 0
+      layout_optgroup:
+      layout_label:
+      layout:
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max: 0
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      editlist: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size: 0
+      feed_mobile_page_size: 0
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+  gvdmzga5xy:
+    id: gvdmzga5xy
+    name: 核心人员变动情况说明
+    type: muti
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    prompt: 如适用
+  gsqn6skm6n:
+    id: gsqn6skm6n
+    name: 财务报表
+    type: tab
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  gstfk40xah:
+    id: gstfk40xah
+    name: 资产负债表-资产
+    type: section
+    width: 1
+    default_value: assets
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      showlabel: false
+      headname: 资产
+      showellipsis: true
+      freeze: true
+      colname:
+        - 2021年6年30日
+        - 比重%
+        - 2020年12月31日
+        - 比重%
+        - 变动%
+        - 重大变动原因
+    list_align: def
+  gsqnb74h1b:
+    id: gsqnb74h1b
+    name: >
+      请按本季度末数据填列；另请按合并报表口径填列，如适用
+    type: puretext
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  gstiepdoei:
+    id: gstiepdoei
+    name: 资产负债表-资产
+    type: data
+    width: 1
+    default_value: debt
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: zicfzb
+      show_import: true
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size: 10
+      layout_optgroup:
+      layout_label: 列表(new)
+      layout: data_list_easy
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max: 0
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size: 0
+      feed_mobile_page_size: 0
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    list_align: def
+  gvfxmj298q:
+    id: gvfxmj298q
+    name: 资产总计
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 否
+      currency_symbol: 否
+  h6eb2dzh08:
+    id: h6eb2dzh08
+    name: 企业资产规模
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 2
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 否
+      currency_symbol: 否
+  gvchnvvxxe:
+    id: gvchnvvxxe
+    name: 货币资金
+    type: yuan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+  gvih1ub46j:
+    id: gvih1ub46j
+    name: 数据情况说明
+    type: muti
+    width: 3
+    prompt: 如适用
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  gstj4ul0bq:
+    id: gstj4ul0bq
+    name: 资产负债表-负债及所有者权益
+    type: section
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gstj54dn77:
+    id: gstj54dn77
+    name: >
+      请按本季度末数据填列；另请按合并报表口径填列，如适用
+    type: puretext
+    width: 1
+    default_value: profit1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      showlabel: false
+      headname: 项目
+      left_width: 200
+      showellipsis: true
+      freeze: true
+      colname:
+        - 2021年6月30日
+        - 比重%
+        - 2020年12月31日
+        - 比重%
+        - 变动%
+        - 重大变动原因
+    list_align: def
+  gsqndmr8nj:
+    id: gsqndmr8nj
+    name: 资产负债表1
+    type: data
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: zcfzb1
+      show_import: true
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size: 10
+      layout_optgroup:
+      layout_label: 列表(new)
+      layout: data_list_easy
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max: 0
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      editlist: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size: 0
+      feed_mobile_page_size: 0
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+  gvcj3q5uf7:
+    id: gvcj3q5uf7
+    name: 负债合计
+    type: yuan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+  gvciqcsbml:
+    id: gvciqcsbml
+    name: 短期借款
+    type: yuan
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+  gvciy01pnw:
+    id: gvciy01pnw
+    name: 长期借款
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  h6wzumd9ju:
+    id: h6wzumd9ju
+    name: 银行借款
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 否
+      currency_symbol: 否
+  gvcj5luwo7:
+    id: gvcj5luwo7
+    name: 所有者权益合计
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    tips: 资产总计-负债合计
+  gvih1uu2lc:
+    id: gvih1uu2lc
+    name: 数据情况说明
+    type: muti
+    width: 3
+    prompt: 如适用
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  gsqndniwtw:
+    id: gsqndniwtw
+    name: 利润表
+    type: section
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      showlabel: false
+      headname: 项目
+      left_width: 300
+      showellipsis: true
+      freeze: true
+      colname:
+        - 2021年6月30日累计发生额
+        - 2020年6月30日累计发生额
+        - 变动%
+        - 重大变动原因
+    default_value: cash_flow
+    list_align: def
+  gvdm5isveu:
+    id: gvdm5isveu
+    name: >
+      请按本年累计数填列；另请按合并报表口径填列，如适用
+    type: puretext
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  gvdm675mk1:
+    id: gvdm675mk1
+    name: 利润表
+    type: data
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size: 10
+      layout_optgroup:
+      layout_label: 列表(new)
+      layout: data_list_easy
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max: 0
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size: 0
+      feed_mobile_page_size: 0
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      editlist: 否
+      editlist_new: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    ext:
+      mod: lirb
+      show_import: true
+  gvck9rkvj2:
+    id: gvck9rkvj2
+    name: 主营业务收入
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  operatingsr:
+    id: operatingsr
+    name: 营业收入
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    tips: 主营业务收入+其他业务收入
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 否
+      currency_symbol: 否
+  gvckc7exjz:
+    id: gvckc7exjz
+    name: 营业成本
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 否
+      currency_symbol: 否
+    width: 1
+  gvckjrmztl:
+    id: gvckjrmztl
+    name: 营业利润
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  gvfyyb3w9t:
+    id: gvfyyb3w9t
+    name: 净利润
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 否
+      currency_symbol: 否
+  gvih1vrlp2:
+    id: gvih1vrlp2
+    name: 数据情况说明
+    type: muti
+    width: 3
+    prompt: 如适用
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  gvdm7wke3g:
+    id: gvdm7wke3g
+    name: 现金流量表
+    type: section
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gvdm8folov:
+    id: gvdm8folov
+    name: >
+      请按本年累计数填列；另请按合并报表口径填列，如适用
+    type: puretext
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  gvdm90pib4:
+    id: gvdm90pib4
+    name: 现金流量表
+    type: data
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: xjllb
+      show_import: true
+    list_align: def
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size: 10
+      layout_optgroup:
+      layout_label: 列表(new)
+      layout: data_list_easy
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max: 0
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      editlist: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size: 0
+      feed_mobile_page_size: 0
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+  gvcls6qsbh:
+    id: gvcls6qsbh
+    name: 经营现金流量净额
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  gvdvjsp0px:
+    id: gvdvjsp0px
+    name: 投资现金流量净额
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  gvdvnxu14d:
+    id: gvdvnxu14d
+    name: 筹资现金流量净额
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  gvih1w4mj3:
+    id: gvih1w4mj3
+    name: 数据情况说明
+    type: muti
+    width: 3
+    prompt: 如适用
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  gvbdjpxlgg:
+    id: gvbdjpxlgg
+    name: 财务指标数据
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    list_align: def
+  gvg6942axu:
+    id: gvg6942axu
+    name: >
+      请按合并报表口径填列，如适用
+    type: puretext
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      tpl: '<p>请按合并报表口径填列，如适用</p>'
+    width: 1
+    list_align: def
+  gvdut7qyof:
+    id: gvdut7qyof
+    name: 财务指标数据
+    type: data
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: cwzbsj
+      show_import: true
+    props:
+      type_optgroup:
+      type_label: 模块
+      type: mod
+      data_source:
+      page_size: 10
+      layout_optgroup:
+      layout_label: 列表(new)
+      layout: data_list_easy
+      layout_mobile_optgroup:
+      layout_mobile_label:
+      layout_mobile:
+      data_list_card_title:
+      rel_display:
+      rel_display_max: 0
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      editlist: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_optgroup:
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_optgroup:
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_optgroup:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size: 0
+      feed_mobile_page_size: 0
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      auto_add_item:
+      editlist_add_position_optgroup:
+      editlist_add_position_label:
+      editlist_add_position:
+    list_align: def
+  gvduual3j4:
+    id: gvduual3j4
+    name: 当年累计研发投入
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  h6eb7meuh6:
+    id: h6eb7meuh6
+    name: '研究与试验发展（R&D）投入经费'
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    tips: >
+      今年以来累计值。包含与创新相关的固定资产投资和非固定资产投资。
+  gvduub6jsu:
+    id: gvduub6jsu
+    name: 企业产值合计
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  gvduubt0r2:
+    id: gvduubt0r2
+    name: 企业税收合计
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+  h6eb2dcfqh:
+    id: h6eb2dcfqh
+    name: 实际缴纳税收金额
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    tips: >
+      纳税金额为增值税、企业所得税、营业税金及附加等税种合计数。
+  gvduvmcfhv:
+    id: gvduvmcfhv
+    name: 民间资本总额
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 0
+    val_width: -1
+    list_align: def
+    width: 1
+    tips: '资产总额*民间资本持股比例。民间资本：指企业资产总额里面的民间资本。民间资本指民营企业（非国企，非政府，非外资）以及国内个人出资。'
+  gvih1wgoe5:
+    id: gvih1wgoe5
+    name: 数据情况说明
+    type: muti
+    width: 3
+    prompt: 如适用
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+  h6l7oqp0dt:
+    id: h6l7oqp0dt
+    name: 其他数据
+    type: tab
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  h6l8zbo0ej:
+    id: h6l8zbo0ej
+    name: 资产负债表
+    type: hidden
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  h6eauqmi9j:
+    id: h6eauqmi9j
+    name: 利润表
+    type: hidden
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  h6eayinl29:
+    id: h6eayinl29
+    name: 现金流量表
+    type: hidden
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  h6eb9e3hms:
+    id: h6eb9e3hms
+    name: 其他指标
+    type: hidden
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  h6ebakvgys:
+    id: h6ebakvgys
+    name: 政策引导数据（仅年度填报）
+    type: hidden
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  h6ebc147ee:
+    id: h6ebc147ee
+    name: 企业经营情况
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  h6eb1kt3n4:
+    id: h6eb1kt3n4
+    name: 主营业务1收入
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: 如无则填0
+    required: 1
+    default_value: 'null'
+  h6eb1pviwx:
+    id: h6eb1pviwx
+    name: 主营业务2收入
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: >
+      如无第二个主营业务则不用填写。
+    required: 1
+    default_value: 'null'
+  h6eb1t4gag:
+    id: h6eb1t4gag
+    name: 原材料成本
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    required: 1
+    default_value: 'null'
+  h6eb20orsi:
+    id: h6eb20orsi
+    name: 人工成本
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    required: 1
+    default_value: 'null'
+  h6eb2376ro:
+    id: h6eb2376ro
+    name: 房租成本
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    required: 1
+    default_value: 'null'
+  h6eb2bng4d:
+    id: h6eb2bng4d
+    name: 其他成本
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    required: 1
+    default_value: 'null'
+  h6eb2eeabh:
+    id: h6eb2eeabh
+    name: 获得政府补贴金额
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: >
+      请简要说明是何政策，金额分别为多少，如无则填0。
+    required: 1
+    default_value: 'null'
+  h6eb2esj1c:
+    id: h6eb2esj1c
+    name: 获得所得税收优惠金额
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: >
+      请简要说明是何政策，金额分别为多少，如无则填0。
+    required: 1
+    default_value: 'null'
+  h6eb2f8m9q:
+    id: h6eb2f8m9q
+    name: 获得其他政策支持金额
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: >
+      如获得奖励、退税、房租减免、个税减免等支持政策。如有请简要说明是何政策，金额分别为多少，如无则填0。
+    required: 1
+    default_value: 'null'
+  h6eb2g1p3w:
+    id: h6eb2g1p3w
+    name: 国内市场占有率（%）
+    type: percent
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: >
+      请估算当前在细分领域的市场占有率，请备注是何市场。如保密、未统计或其它情况，请在备注栏注明。
+    required: 1
+    default_value: 'null'
+  h6eb2gjs10:
+    id: h6eb2gjs10
+    name: 国内市场需求较上期相比
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 2
+    tips: >
+      填报格式如：上升X%/持平/下降X%
+    required: 1
+  h6eb2gyc1t:
+    id: h6eb2gyc1t
+    name: 全球市场占有率（%）
+    type: percent
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: >
+      请估算当前在细分领域的市场占有率，请备注是何市场。如保密、未统计或其它情况，请在备注栏注明。
+    required: 1
+    default_value: 'null'
+  h6eb2hhj0x:
+    id: h6eb2hhj0x
+    name: 全球市场需求较上期相比
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 2
+    tips: >
+      填报格式如：上升X%/持平/下降X%
+    required: 1
+  h6eb2jwkg4:
+    id: h6eb2jwkg4
+    name: 主要原材料的国产化率（%）
+    type: percent
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: >
+      请估算主要原材料在国内采购的比率（=1-进口原材料采购金额/原材料采购总金额），并在备注栏说明是何原材料。如不涉及、未统计或其他情况，请在备注栏说明。
+    required: 1
+    default_value: 'null'
+  h6eb2kh2bl:
+    id: h6eb2kh2bl
+    name: 企业当前最紧缺原材料
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: >
+      如不涉及原材料供应，请填写不涉及。如涉及原材料但不紧缺，请填写无。如存在紧缺情况，请在备注栏填写为何紧缺、紧缺程度、成本上升程度等。
+    required: 1
+  h6eb2kl156:
+    id: h6eb2kl156
+    name: 企业当前最紧缺设备
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: >
+      如不涉及设备，请填写不涉及。如涉及设备但不紧缺，请填写无。如存在紧缺情况，请在备注栏填写为何紧缺、紧缺程度、成本上升幅度等。
+    required: 1
+  h6eb2kp6wv:
+    id: h6eb2kp6wv
+    name: >
+      企业上游供应链稳定程度自评分
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: >
+      1-5分，认为当期供应链非常稳定为5分，供应链受冲击非常大为1分，不涉及供应链请填无。如自评分低于3分，或本期大幅下降，请简要说明供应链存在冲击的情况
+    required: 1
+  h6eb2ksz31:
+    id: h6eb2ksz31
+    name: >
+      企业所在产业链稳定程度自评分
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: >
+      1-5分，认为企业产品产业链非常稳定为5分，“断链”现象严重为1分，不涉及产业链请填无。如自评分低于3分，或本期大幅下降，请简要说明产业链存在的问题
+    required: 1
+  h6eb2kw0kx:
+    id: h6eb2kw0kx
+    name: 企业当前信心指数
+    type: text
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: >
+      1-5分，认为非常有信心为5，非常没信心为1分。
+    required: 1
+  h6ed7roca3:
+    id: h6ed7roca3
+    name: 备注
+    type: muti
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    required: 1
+  h6ebd16tju:
+    id: h6ebd16tju
+    name: 企业就业结构
+    type: hidden
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  h6ebdl3j29:
+    id: h6ebdl3j29
+    name: 企业投融资情况
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  h6eb4i7s6k:
+    id: h6eb4i7s6k
+    name: 新增股权融资金额（元）
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: 以签订协议为准，如无则填0。
+    required: 1
+    default_value: 'null'
+  h6eb4io1ae:
+    id: h6eb4io1ae
+    name: 创投基金投资额（元）
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: 以签订协议为准，如无则填0。
+    required: 1
+    default_value: 'null'
+  h6eb4j7y1a:
+    id: h6eb4j7y1a
+    name: 市场化创投基金投资额（元）
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: 以签订协议为准，如无则填0。
+    required: 1
+    default_value: 'null'
+  h6eb4jslzt:
+    id: h6eb4jslzt
+    name: 政府引导基金投资额（元）
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: 以签订协议为准，如无则填0。
+    required: 1
+    default_value: 'null'
+  h6eb4kgz04:
+    id: h6eb4kgz04
+    name: 国有基金投资额（元）
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: 以签订协议为准，如无则填0。
+    required: 1
+    default_value: 'null'
+  h6eb4l3lgh:
+    id: h6eb4l3lgh
+    name: 证券资本市场融资额（元）
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: 以签订协议为准，如无则填0。
+    required: 1
+    default_value: 'null'
+  h6eb4lk6xl:
+    id: h6eb4lk6xl
+    name: 其他股权方式融资额（元）
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: 以签订协议为准，如无则填0。
+    required: 1
+    default_value: 'null'
+  h6eb4m2i2w:
+    id: h6eb4m2i2w
+    name: 新增借款金额（元）
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    required: 1
+    default_value: 'null'
+  h6eb4mxc5f:
+    id: h6eb4mxc5f
+    name: 新到账银行贷款额（元）
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: >
+      当期实际提款到账的贷款。如无则填0。
+    required: 1
+    default_value: 'null'
+  h6eb6midnp:
+    id: h6eb6midnp
+    name: 平均贷款期限（月）
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: 如无则填0。
+    ext:
+      unit: 月
+    required: 1
+    default_value: 'null'
+  h6eb6ne4cg:
+    id: h6eb6ne4cg
+    name: 平均贷款利率（%）
+    type: percent
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: 如无则填0。
+    required: 1
+    default_value: 'null'
+  h6eb6nvh7l:
+    id: h6eb6nvh7l
+    name: 新增其他借款金额（元）
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: >
+      请在备注栏说明是何种方式、期限和金额。
+    required: 1
+    default_value: 'null'
+  h6eb6obs2n:
+    id: h6eb6obs2n
+    name: 新增发行债券金额（元）
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    required: 1
+    default_value: 'null'
+  h6eb6orkkd:
+    id: h6eb6orkkd
+    name: 新增其他方式融资金额（元）
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    required: 1
+    default_value: 'null'
+  h6eb7kdcvg:
+    id: h6eb7kdcvg
+    name: 企业新增投资（元）
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    tips: 请按实际支付的金额填写。
+    required: 1
+    default_value: 'null'
+  h6eb7l2gft:
+    id: h6eb7l2gft
+    name: 其中固定资产投资（元）
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    required: 1
+    default_value: 'null'
+  h6ebe765s1:
+    id: h6ebe765s1
+    name: 企业创新能力
+    type: hidden
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  h6ebewt3ay:
+    id: h6ebewt3ay
+    name: 企业预期
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  h6eb85xw5e:
+    id: h6eb85xw5e
+    name: 预计下一季度营业收入（元）
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    required: 1
+    default_value: 'null'
+  h6eb8oml42:
+    id: h6eb8oml42
+    name: 预计下一季度营业成本（元）
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    default_value: 'null'
+    required: 1
+  h6eb8p8uxm:
+    id: h6eb8p8uxm
+    name: 预计下一季度员工数量
+    type: currency
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    ext:
+      unit: 人
+    required: 1
+    default_value: 'null'
+  h6eb8pu6o2:
+    id: h6eb8pu6o2
+    name: 预计下一季度研发投入（元）
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+    required: 1
+    default_value: 'null'
+    props:
+      decimals: 2
+      view_decimals: 2
+      t_divide: 是
+      padding: 否
+      currency_symbol: 否
+  h6ebfhfprc:
+    id: h6ebfhfprc
+    name: >
+      企业希望政府关注和解决的问题
+    type: section
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 1
+  h6eb8qjaza:
+    id: h6eb8qjaza
+    name: 最希望政府关注哪些问题
+    type: muti
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 3
+    tips: >
+      如融资困难、人才招聘困难、产业链上下游协同不足、供应链不稳定、政策及市场环境的挑战等方面
+    required: 1
+  h6eb8r26od:
+    id: h6eb8r26od
+    name: 最希望政府如何解决这些问题
+    type: muti
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+    width: 3
+    required: 1
+  gv86nc9y2u:
+    id: gv86nc9y2u
+    name: 附件
+    type: tab
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    list_align: def
+  gvg5bxlll7:
+    id: gvg5bxlll7
+    name: 介绍文字
+    type: puretext
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      tpl: '<p><strong>有关文件上传注意事项：</strong></p><p><strong><br/></strong></p><p><strong>1. 上传顺序：</strong></p><p>    季度报表、审计报告：请按由远及近，从旧到新的时间顺序上传</p><p><strong>2. 上传内容：</strong></p><p>    季度报表：请上传Excel格式财务报表，含资产负债表、利润表、现金流量表</p><p>                      如临芯资本于本季度投资于贵司，请一并上传本季度及本年前几个季度的财务报表</p><p>    审计报告：请上传临芯资本投资贵司时前三年至上一年度审计报告</p><p>                      如有未经审计的年份，请上传年末未经审计的最终版本报表，确保资产负债表年末数为下一年度实际的年初数</p><p><strong>3. 命名方式示例：</strong></p><p>    财务报表：公司简称(中文)-财务报表-2021Q3</p><p>    合并报表：公司简称(中文)-合并报表-2021Q3</p><p>    母公司财务报表：公司简称(中文)-母公司财务报表-2021Q3</p><p>    审计报告：公司简称(中文)-审计报告-2021</p><p>    营业执照：公司简称(中文)-营业执照-颁发日期</p><p>    章       程：公司简称(中文)-章程-签署日期</p><p>    重要文件：公司简称(中文)-重要文件名称-日期</p><p><br/></p>'
+    width: 3
+    list_align: def
+  gv93goy4eq:
+    id: gv93goy4eq
+    name: 报表口径
+    type: select_new
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_optgroup:
+      type_label: 录入
+      type: raw
+      data_source: |
+        单体报表:单体报表
+        合并报表:合并报表
+      payload:
+      ignore_linkage: 否
+      multiple: 否
+      ajax: 否
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      export_import:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic: |
+        单体报表:
+          -gvbcsmkmm4
+        合并报表:
+          -gv93gpay9m
+          -gv86nd7y0r
+          -gv93gpo16g
+      tags_add_view:
+      list_color_label_optgroup:
+      list_color_label_label: 关闭
+      list_color_label: 'false'
+      list_color_label_ext:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis:
+      ellipsis_label:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    list_align: def
+  gv93gpay9m:
+    id: gv93gpay9m
+    name: 合并主体范围
+    type: text
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+  gvbcsmkmm4:
+    id: gvbcsmkmm4
+    name: 本季度财务报表
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    tips: '请上传Excel格式财务报表，含资产负债表、利润表、现金流量表<br/>如临芯资本于本季度投资于贵司，请一并上传本季度及本年前几个季度的财务报表'
+    props:
+      target:
+      target_label:
+      doc_type:
+      show_path: 否
+      choose: 否
+      up_folder:
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats: xls|xlsx
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+    list_align: def
+  gv86nd7y0r:
+    id: gv86nd7y0r
+    name: 本季度合并报表
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    tips: '请上传Excel格式财务报表，含资产负债表、利润表、现金流量表<br/>如临芯资本于本季度投资于贵司，请一并上传本季度及本年前几个季度的财务报表'
+    props:
+      target:
+      target_label:
+      doc_type:
+      show_path: 否
+      choose: 否
+      up_folder:
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats: xls|xlsx
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+    list_align: def
+  gv93gpo16g:
+    id: gv93gpo16g
+    name: 本季度母公司财务报表
+    type: upload
+    width: 3
+    tips: '请上传Excel格式财务报表，含资产负债表、利润表、现金流量表<br/>如临芯资本于本季度投资于贵司，请一并上传本季度及本年前几个季度的财务报表'
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      target:
+      target_label:
+      doc_type:
+      show_path: 否
+      choose: 否
+      up_folder:
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats: xls|xlsx
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+    list_align: def
+  gv93gq1yna:
+    id: gv93gq1yna
+    name: 历年审计报告
+    type: upload
+    width: 3
+    tips: '请上传临芯资本投资贵司时前三年至上一年度审计报告<br/>如有未经审计的年份，请上传年末未经审计的最终版本报表，确保资产负债表年末数为下一年度实际的年初数'
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      target:
+      target_label:
+      doc_type:
+      show_path: 否
+      choose: 否
+      up_folder:
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats: pdf|xls|xlsx
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  gv93gqfmue:
+    id: gv93gqfmue
+    name: 公司最新营业执照
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      target:
+      target_label:
+      doc_type:
+      show_path: 否
+      choose: 否
+      up_folder:
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats: pdf
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  gv93m4g5js:
+    id: gv93m4g5js
+    name: 公司最新章程
+    type: upload
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      target:
+      target_label:
+      doc_type:
+      show_path: 否
+      choose: 否
+      up_folder:
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats: pdf
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+  gvln9gerlq:
+    id: gvln9gerlq
+    name: 其他重要文件上传
+    type: upload
+    width: 3
+    tips: 如适用
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      target:
+      target_label:
+      doc_type:
+      show_path: 否
+      choose: 否
+      up_folder:
+      root_uid:
+      select: 否
+      select_hidden_upload: 否
+      select_root:
+      single: 否
+      hidden: 否
+      notify: 否
+      formats: pdf|xls|xlsx
+      checklist:
+      del_list: del_file
+      del_list_label:
+      flow_pre_upload: 否
+      max_file_size:
+      eid_link:
+      eid_link_up_folder:
+      eid_link_root_uid:
+      eid_link_select_root:
+    list_align: def
+  gvjmk2mg8h:
+    id: gvjmk2mg8h
+    name: 空一行
+    type: br
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+  gvjjzlc4ew:
+    id: gvjjzlc4ew
+    name: 文件上传说明
+    type: muti
+    width: 3
+    prompt: 如适用
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    list_align: def
+import: [ ]
+pre_order: [ ]
+bi:
+  counting: [ ]
+  condition: [ ]
+  monitor_condition: [ ]
+  monitor_update: [ ]
+  filter: [ ]

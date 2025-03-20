@@ -1,0 +1,28 @@
+---
+pass:
+  - 
+    condition:
+    func:
+      add_entity:
+        model: kd_tzgc_jtdsh
+        data:
+          name:name
+          name_label:name_label
+          hv22t0sco6:hv22t0sco6
+          hv22t0sco6_label:hv22t0sco6_label
+          hv22t1fcyr:hv22t1fcyr
+          hv22t396f8:hv22t396f8
+          hv22urz1m1:hv22urz1m1
+          hv22uymddd:hv22uymddd
+          hv22uymddd_label:hv22uymddd_label
+          hv22v9mbrt:hv22v9mbrt
+          hv22v9mbrt_label:hv22v9mbrt_label
+          hvi40vldd8:hvi40vldd8
+  - 
+    condition:
+    func:
+      update_entity:
+        target:
+        data:
+          company_state: 集团董事会
+          company_state_label: 集团董事会

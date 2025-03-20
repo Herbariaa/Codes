@@ -1,0 +1,396 @@
+---
+default_form:
+  - 
+addon_node_pre_approver:
+  - 
+  - 
+flow_finish_copy_to:
+  - 
+  - 
+autoskip:
+page_size:
+list_structure: [ ]
+search_item: [ ]
+js: |
+  var flowuid = $('form [name="eid"]').val();
+  if (!flowuid) {
+    flowuid = $('.flow_item').eq(0).find('.value').eq(0).attr('eid')
+  }
+  $.ajax({
+    type:'POST',
+    url:'?/service/vendor_bridge/'+websid+'/bhkc/get_flowtimearr',
+    data:{'eid':flowuid},
+    success:function(ret){
+      if (ret) {
+        for (var i = 0; i < ret.length; i++) {
+          if (ret[i].stepuuid != 'new') {
+            let flowjd = $('[data-step-uuid="'+ret[i].stepuuid+'"]');
+            let flowts = `<h3 class="flow-node-title" style="padding: 0px 12px 12px 12px!important;border: none;margin-top: -20px;">
+                <span class="flow-node-meta">审批时长:`+ret[i].time+`</span>
+            </h3>`;
+            flowjd.find('div').find('h3').eq(0).after(flowts)
+          }else{
+            let flowjd = $('.flow_item form').parents('.flow_item');
+            let flowts = `<h3 class="flow-node-title" style="padding: 0px 12px 12px 12px!important;border: none;margin-top: -20px;">
+                <span class="flow-node-meta">审批时长:`+ret[i].time+`</span>
+            </h3>`;
+            if (flowjd.find('div').find('h3').length>0) {
+              flowjd.find('div').find('h3').eq(0).after(flowts)
+            }else{
+              flowjd.children('div').children('div').after(flowts)
+            }
+          }
+        }
+      }
+    }
+  })
+pre_match_rule: [ ]
+ext:
+  reject_both: true
+  flow_index_extra:
+    gx7i0dte44:
+      company: company
+flow_end_hook: [ ]
+flow_title_field:
+privilege:
+  list:
+    - hxvmq0ospc
+    - usr_create
+    - approve
+    - copyto
+  detail:
+    - hxvmq0ospc
+    - usr_create
+    - approve
+    - copyto
+  delete:
+    - usr_create
+    - approve
+    - copyto
+  abolish:
+    - usr_create
+    - approve
+    - copyto
+  pdf_down:
+    - usr_create
+    - approve
+    - copyto
+comment:
+  target: _self
+  doctype:
+  up_folder:
+  root_uid:
+  eid_link:
+  formats:
+  flow_default_notify_optgroup:
+  flow_default_notify:
+    - 
+  flow_default_notify_label:
+    - 
+word_export:
+  word_custom_func:
+  word_export_name:
+  word_file:
+    - 
+  word_file_label:
+    - 
+item:
+  gx7i0dte44:
+    id: gx7i0dte44
+    name: 上传基金投后报告
+    path_name:
+    type:
+    form: dqbg_jj_form
+    approver_optgroup: 其他
+    approver_label:
+      - 所有人
+    approver:
+      - other;all;所有人
+    copyto_optgroup:
+    copyto:
+      - 
+    copyto_label:
+      - 
+    btn_setting:
+      commit: 1
+    co_sign_msg: 1
+    backToBackShowList_optgroup:
+    backToBackShowList:
+      - 
+    backToBackShowList_label:
+      - 
+    cosign_ypfj_optgroup:
+    cosign_ypfj:
+      - 
+    cosign_ypfj_label:
+      - 
+    obscureApprover:
+      - 
+    obscure_can_see:
+      - 
+    default_value:
+    ext:
+      executor_msgtpl: '【基金审批】{applyname}- 发起 -{fname}-【{companyd_label}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}-【{companyd_label}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}  【{companyd_label}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook:
+    path: [ ]
+    obscure_can_see_label:
+      - 
+    obscureApprover_label:
+      - 
+    next_step_assign:
+      approve: 0
+    co_sign: 0
+    back2back: 0
+    top_flow_msg: 0
+    cancel_top_flow_msg: 0
+    autoskip: 0
+    val_clear: 0
+    pdf_skip: 0
+    print_title_end: 0
+    print_hidden_content: 0
+    print_hidden_stitle: 0
+    view_able_after: 0
+    percentage_of_completion:
+    flow_obscure:
+  hxb4o83euj:
+    id: hxb4o83euj
+    name: 部门负责人审核
+    path_name:
+    type:
+    form: vote
+    approver_label:
+      - 部门主管
+    approver:
+      - other;leader;部门主管
+    copyto_label:
+      - 
+    copyto:
+      - 
+    co_sign: 0
+    back2back: 0
+    btn_setting:
+      approve: 1
+      reject: 1
+      addon_before: 1
+    co_sign_msg: 1
+    top_flow_msg: 0
+    cancel_top_flow_msg: 0
+    autoskip: 0
+    val_clear: 0
+    pdf_skip: 0
+    print_title_end: 0
+    print_hidden_content: 0
+    print_hidden_stitle: 0
+    next_step_assign:
+      approve: 1
+    view_able_after: 0
+    backToBackShowList:
+      - 
+    backToBackShowList_label:
+      - 
+    cosign_ypfj:
+      - 
+    cosign_ypfj_label:
+      - 
+    percentage_of_completion:
+    obscureApprover:
+      - 
+    obscureApprover_label:
+      - 
+    flow_obscure:
+    obscure_can_see:
+      - 
+    obscure_can_see_label:
+      - 
+    default_value:
+    ext:
+      executor_msgtpl: '【基金审批】{applyname}- 发起 -{fname}-【{companyd_label}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}-【{companyd_label}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}  【{companyd_label}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook: [ ]
+    path: [ ]
+  hxj8q9rcw5:
+    id: hxj8q9rcw5
+    name: 科创副总审核
+    path_name:
+    type:
+    form: vote
+    approver_label:
+      - 分管领导
+    approver:
+      - other;cantonal_leaders;分管领导
+    copyto_label:
+      - 
+    copyto:
+      - 
+    co_sign: 0
+    back2back: 0
+    btn_setting:
+      approve: 1
+      reject: 1
+      addon_before: 1
+    co_sign_msg: 1
+    top_flow_msg: 0
+    cancel_top_flow_msg: 0
+    autoskip: 0
+    val_clear: 0
+    pdf_skip: 0
+    print_title_end: 0
+    print_hidden_content: 0
+    print_hidden_stitle: 0
+    next_step_assign:
+      approve: 1
+    view_able_after: 0
+    backToBackShowList:
+      - 
+    backToBackShowList_label:
+      - 
+    cosign_ypfj:
+      - 
+    cosign_ypfj_label:
+      - 
+    percentage_of_completion:
+    obscureApprover:
+      - 
+    obscureApprover_label:
+      - 
+    flow_obscure:
+    obscure_can_see:
+      - 
+    obscure_can_see_label:
+      - 
+    default_value:
+    ext:
+      executor_msgtpl: '【基金审批】{applyname}- 发起 -{fname}-【{companyd_label}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}-【{companyd_label}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}  【{companyd_label}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook: [ ]
+    path: [ ]
+  hxb4o8gfpw:
+    id: hxb4o8gfpw
+    name: 科创总经理审核
+    path_name:
+    type:
+    form: vote
+    approver_label:
+      - 总经理
+    approver:
+      - structure;hxmj1f9gxh;
+    copyto_label:
+      - 
+    copyto:
+      - 
+    co_sign: 0
+    back2back: 0
+    btn_setting:
+      approve: 1
+      reject: 1
+      addon_before: 1
+    co_sign_msg: 1
+    top_flow_msg: 0
+    cancel_top_flow_msg: 0
+    autoskip: 0
+    val_clear: 0
+    pdf_skip: 0
+    print_title_end: 0
+    print_hidden_content: 0
+    print_hidden_stitle: 0
+    next_step_assign:
+      approve: 1
+    view_able_after: 0
+    backToBackShowList:
+      - 
+    backToBackShowList_label:
+      - 
+    cosign_ypfj:
+      - 
+    cosign_ypfj_label:
+      - 
+    percentage_of_completion:
+    obscureApprover:
+      - 
+    obscureApprover_label:
+      - 
+    flow_obscure:
+    obscure_can_see:
+      - 
+    obscure_can_see_label:
+      - 
+    default_value:
+    ext:
+      executor_msgtpl: '【基金审批】{applyname}- 发起 -{fname}-【{companyd_label}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}-【{companyd_label}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}  【{companyd_label}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook: [ ]
+    path: [ ]
+  hxb4o8vezz:
+    id: hxb4o8vezz
+    name: 执行董事审核
+    path_name:
+    type:
+    form: vote
+    approver_label:
+      - 执行董事
+    approver:
+      - structure;hxmj12eoo4;
+    copyto_label:
+      - 
+    copyto:
+      - 
+    co_sign: 0
+    back2back: 0
+    btn_setting:
+      approve: 1
+      reject: 1
+      addon_before: 1
+    co_sign_msg: 1
+    top_flow_msg: 0
+    cancel_top_flow_msg: 0
+    autoskip: 0
+    val_clear: 0
+    pdf_skip: 0
+    print_title_end: 0
+    print_hidden_content: 0
+    print_hidden_stitle: 0
+    next_step_assign:
+      approve: 1
+    view_able_after: 0
+    backToBackShowList:
+      - 
+    backToBackShowList_label:
+      - 
+    cosign_ypfj:
+      - 
+    cosign_ypfj_label:
+      - 
+    percentage_of_completion:
+    obscureApprover:
+      - 
+    obscureApprover_label:
+      - 
+    flow_obscure:
+    obscure_can_see:
+      - 
+    obscure_can_see_label:
+      - 
+    default_value:
+    ext:
+      executor_msgtpl: '【基金审批】{applyname}- 发起 -{fname}-【{companyd_label}】-{fnextstep_name}'
+      copyto_msgtpl: '【抄送】{applyname}- 发起 -{fname}-【{companyd_label}】-{fnextstep_name}'
+      mysq_msgtpl: "{icon_form}{fname} {icon_user}{fnextstep_approve}  【{companyd_label}】<span class='layui-badge layui-bg-{color}'>{fnextstep_name}</span>"
+    hook:
+      pass:
+        - 
+          condition:
+          func:
+            update_entity:
+              target: company
+              data:
+                state: 入库
+                state_label: 入库
+                flow_cq: 结束
+    path: [ ]
+msgtpl: [ ]
+obscureApprover: false

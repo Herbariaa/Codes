@@ -1,0 +1,2123 @@
+<style>
+    .heat_map_of_fund_table .table-container {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+}
+
+.heat_map_of_fund_table table {
+    width: max-content;
+    min-width: 100%;
+    display: inline-block;
+}
+
+.heat_map_of_fund_table table.dataTable tbody td:first-child,.heat_map_of_fund_table td {
+    text-align: right !important;
+}
+
+.heat_map_of_fund_table .row-weight td {
+    font-weight: bold !important;
+    //font-size: 18px;
+}
+
+.heat_map_of_fund_table th {
+    text-align: center !important;
+    font-weight: bold !important;
+}
+
+.heat_map_of_fund_table th.fixed-column,
+  .heat_map_of_fund_table td.fixed-column {
+    left: 0;
+    position: sticky;
+    background-color: #f9f9f9;
+    z-index: 1;
+    font-weight: bold !important;
+}
+
+.heat_map_of_fund_table .layui-table {
+    background-color: var(--background-color);
+}
+
+.heat_map_of_fund_chart .echarts_body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+}
+
+.heat_map_of_fund_chart .echarts_body .tuli_box {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.heat_map_of_fund_chart .tuli_box_p {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.heat_map_of_fund_chart .echarts_body .tuli_box #project_amount,.heat_map_of_fund_chart .echarts_body .tuli_box #number_of_items {
+    width: 100%;
+    height: 500px;
+}
+
+.heat_map_of_fund_chart .tuli_box_p p {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    width: 50%;
+}
+</style>
+<style>
+    .heat_map_of_type .layui-form-select {
+    display: none;
+}
+
+.heat_map_of_type.pepm-table,.heat_map_of_type .pepm-table {
+    width: 50%;
+    float: right;
+    background: unset !important;
+}
+
+.heat_map_of_type .pepm-table .label {
+    background: unset !important;
+}
+
+.heat_map_of_type .pepm-table .value {
+    background: #eff1f7 !important;
+}
+
+.heat_map_of_type .select2-container {
+    background: #fff !important;
+}
+</style>
+<div class="heat_map_of_type pepm-table"></div>
+<script>
+    $(function() {
+        $("#heat_map_of_type").on("change", function(e) {
+            var type = $(this).val();
+            //change_content(type);
+        });
+    });
+    //change_content('quarter');
+    function change_content(type) {
+        layer.msg('切换中,请稍等', {
+            icon: 16,
+            time: false,
+            shade: [0.3, '#000'],
+        });
+        $.ajax({
+            url: '?/heat_map_of_fund/content/' + type,
+            type: 'post',
+            data: {},
+            success: function(res) {
+                $('.heat_map_of_content').html(res.html);
+                layer.closeAll();
+            }
+        });
+    }
+</script>
+<div class="heat_map_of_content">
+    <div class="heat_map_of_fund_chart">
+        <div class="tuli_box_p">
+            <p>季度新增项目金额</p>
+            <p>季度新增项目数量</p>
+        </div>
+        <div class="echarts_body">
+            <div class="tuli_box">
+                <div class="tuli" id="project_amount" _echarts_instance_="ec_1740042444884" style="-webkit-tap-highlight-color: transparent; user-select: none; position: relative;">
+                    <div style="position: relative; width: 1110px; height: 500px; padding: 0px; margin: 0px; border-width: 0px; cursor: default;">
+                        <canvas data-zr-dom-id="zr_0" width="1110" height="500" style="position: absolute; left: 0px; top: 0px; width: 1110px; height: 500px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas>
+                    </div>
+                    <div style="position: absolute; display: none; border-style: solid; white-space: nowrap; z-index: 9999999; transition: left 0.4s cubic-bezier(0.23, 1, 0.32, 1), top 0.4s cubic-bezier(0.23, 1, 0.32, 1); background-color: rgba(50, 50, 50, 0.7); border-width: 0px; border-color: rgb(51, 51, 51); border-radius: 4px; color: rgb(255, 255, 255); font: 14px / 21px sans-serif; padding: 5px; left: 486px; top: 148px; pointer-events: none;">2017 Q1
+                        <br><span style="display:inline-block;margin-right:5px;border-radius:10px;width:10px;height:10px;background-color:#06ACBC;"></span>上海医药: 0.00
+                        <br><span style="display:inline-block;margin-right:5px;border-radius:10px;width:10px;height:10px;background-color:#1F87B0;"></span>上药集团: 0.00
+                        <br><span style="display:inline-block;margin-right:5px;border-radius:10px;width:10px;height:10px;background-color:#51638B;"></span>上实发展: 0.00
+                        <br><span style="display:inline-block;margin-right:5px;border-radius:10px;width:10px;height:10px;background-color:#15CDAC;"></span>上实城开: 0.00
+                        <br><span style="display:inline-block;margin-right:5px;border-radius:10px;width:10px;height:10px;background-color:#92E88A;"></span>上实环境: 0.00
+                        <br><span style="display:inline-block;margin-right:5px;border-radius:10px;width:10px;height:10px;background-color:#C7DA5E;"></span>沪宁高速: 0.00
+                        <br><span style="display:inline-block;margin-right:5px;border-radius:10px;width:10px;height:10px;background-color:#F0DD98;"></span>其他: 0.00
+                        <br><span style="display:inline-block;margin-right:5px;border-radius:10px;width:10px;height:10px;background-color:#EC7728;"></span>平均投资金额: 0.00</div>
+                </div>
+            </div>
+            <div class="tuli_box">
+                <div class="tuli" id="number_of_items" _echarts_instance_="ec_1740042444885" style="-webkit-tap-highlight-color: transparent; user-select: none; position: relative;">
+                    <div style="position: relative; width: 1110px; height: 500px; padding: 0px; margin: 0px; border-width: 0px;">
+                        <canvas data-zr-dom-id="zr_0" width="1110" height="500" style="position: absolute; left: 0px; top: 0px; width: 1110px; height: 500px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="heat_map_of_fund_table">
+        <div class="table-container">
+            <table class="datatables layui-table dataTable">
+                <thead>
+                    <tr role="row">
+                        <th class="fixed-column">季度</th>
+                        <th colspan="2">2024 Q3</th>
+                        <th colspan="2">2024 Q2</th>
+                        <th colspan="2">2024 Q1</th>
+                        <th colspan="2">2023 Q4</th>
+                        <th colspan="2">2023 Q3</th>
+                        <th colspan="2">2023 Q2</th>
+                        <th colspan="2">2023 Q1</th>
+                        <th colspan="2">2022 Q4</th>
+                        <th colspan="2">2022 Q3</th>
+                        <th colspan="2">2022 Q2</th>
+                        <th colspan="2">2022 Q1</th>
+                        <th colspan="2">2021 Q4</th>
+                        <th colspan="2">2021 Q3</th>
+                        <th colspan="2">2021 Q2</th>
+                        <th colspan="2">2021 Q1</th>
+                    </tr>
+                    <tr role="row">
+                        <th class="fixed-column">二级企业名称</th>
+                        <th>新增拟投资金额（万元）</th>
+                        <th>新增项目数量</th>
+                        <th>新增拟投资金额（万元）</th>
+                        <th>新增项目数量</th>
+                        <th>新增拟投资金额（万元）</th>
+                        <th>新增项目数量</th>
+                        <th>新增拟投资金额（万元）</th>
+                        <th>新增项目数量</th>
+                        <th>新增拟投资金额（万元）</th>
+                        <th>新增项目数量</th>
+                        <th>新增拟投资金额（万元）</th>
+                        <th>新增项目数量</th>
+                        <th>新增拟投资金额（万元）</th>
+                        <th>新增项目数量</th>
+                        <th>新增拟投资金额（万元）</th>
+                        <th>新增项目数量</th>
+                        <th>新增拟投资金额（万元）</th>
+                        <th>新增项目数量</th>
+                        <th>新增拟投资金额（万元）</th>
+                        <th>新增项目数量</th>
+                        <th>新增拟投资金额（万元）</th>
+                        <th>新增项目数量</th>
+                        <th>新增拟投资金额（万元）</th>
+                        <th>新增项目数量</th>
+                        <th>新增拟投资金额（万元）</th>
+                        <th>新增项目数量</th>
+                        <th>新增拟投资金额（万元）</th>
+                        <th>新增项目数量</th>
+                        <th>新增拟投资金额（万元）</th>
+                        <th>新增项目数量</th>
+                </thead>
+                <tbody>
+                    <tr class="row-weight">
+                        <td class="fixed-column" rowspan="2" style="text-align: center !important;">上海医药</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>30,000.00</td>
+                        <td>1.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <td>-100.00%</td>
+                        <td>-100.00%</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr class="row-weight">
+                        <td class="fixed-column" rowspan="2" style="text-align: center !important;">上药集团</td>
+                        <td>5,000.00</td>
+                        <td>30.00</td>
+                        <td>160,376.09</td>
+                        <td>16.00</td>
+                        <td>331,326.36</td>
+                        <td>35.00</td>
+                        <td>305,211.82</td>
+                        <td>37.00</td>
+                        <td>506,177.55</td>
+                        <td>20.00</td>
+                        <td>333,127.00</td>
+                        <td>17.00</td>
+                        <td>275,705.14</td>
+                        <td>14.00</td>
+                        <td>1,212,403.44</td>
+                        <td>22.00</td>
+                        <td>319,006.37</td>
+                        <td>16.00</td>
+                        <td>591,567.80</td>
+                        <td>19.00</td>
+                        <td>624,638.52</td>
+                        <td>21.00</td>
+                        <td>1,064,952.58</td>
+                        <td>20.00</td>
+                        <td>29,900.00</td>
+                        <td>4.00</td>
+                        <td>116,350.00</td>
+                        <td>4.00</td>
+                        <td>45,000.00</td>
+                        <td>3.00</td>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <td>-96.88%</td>
+                        <td>87.50%</td>
+                        <td>-51.60%</td>
+                        <td>-54.29%</td>
+                        <td>8.56%</td>
+                        <td>-5.41%</td>
+                        <td>-39.70%</td>
+                        <td>85.00%</td>
+                        <td>51.95%</td>
+                        <td>17.65%</td>
+                        <td>20.83%</td>
+                        <td>21.43%</td>
+                        <td>-77.26%</td>
+                        <td>-36.36%</td>
+                        <td>280.06%</td>
+                        <td>37.50%</td>
+                        <td>-46.07%</td>
+                        <td>-15.79%</td>
+                        <td>-5.29%</td>
+                        <td>-9.52%</td>
+                        <td>-41.35%</td>
+                        <td>5.00%</td>
+                        <td>3,461.71%</td>
+                        <td>400.00%</td>
+                        <td>-74.30%</td>
+                        <td>0.00%</td>
+                        <td>158.56%</td>
+                        <td>33.33%</td>
+                        <td>-83.66%</td>
+                        <td>-66.67%</td>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr class="row-weight">
+                        <td class="fixed-column" rowspan="2" style="text-align: center !important;">上实发展</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>1.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>-100.00%</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr class="row-weight">
+                        <td class="fixed-column" rowspan="2" style="text-align: center !important;">上实城开</td>
+                        <td>0.00</td>
+                        <td>1.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>4.00</td>
+                        <td>0.00</td>
+                        <td>3.00</td>
+                        <td>0.00</td>
+                        <td>1.00</td>
+                        <td>0.00</td>
+                        <td>4.00</td>
+                        <td>0.00</td>
+                        <td>4.00</td>
+                        <td>0.00</td>
+                        <td>8.00</td>
+                        <td>120,000.00</td>
+                        <td>3.00</td>
+                        <td>0.00</td>
+                        <td>3.00</td>
+                        <td>0.00</td>
+                        <td>6.00</td>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>-100.00%</td>
+                        <td>&nbsp;</td>
+                        <td>33.33%</td>
+                        <td>&nbsp;</td>
+                        <td>200.00%</td>
+                        <td>&nbsp;</td>
+                        <td>-75.00%</td>
+                        <td>&nbsp;</td>
+                        <td>0.00%</td>
+                        <td>&nbsp;</td>
+                        <td>-50.00%</td>
+                        <td>-100.00%</td>
+                        <td>166.67%</td>
+                        <td>&nbsp;</td>
+                        <td>0.00%</td>
+                        <td>&nbsp;</td>
+                        <td>-50.00%</td>
+                        <td>&nbsp;</td>
+                        <td>-64.71%</td>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr class="row-weight">
+                        <td class="fixed-column" rowspan="2" style="text-align: center !important;">上实环境</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>10,000.00</td>
+                        <td>1.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>10,000.00</td>
+                        <td>1.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>10,000.00</td>
+                        <td>1.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>-100.00%</td>
+                        <td>-100.00%</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>-100.00%</td>
+                        <td>-100.00%</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>-100.00%</td>
+                        <td>-100.00%</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>-100.00%</td>
+                        <td>-100.00%</td>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr class="row-weight">
+                        <td class="fixed-column" rowspan="2" style="text-align: center !important;">沪宁高速</td>
+                        <td>0.00</td>
+                        <td>1.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>50,000.00</td>
+                        <td>1.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>50,000.00</td>
+                        <td>2.00</td>
+                        <td>50,000.00</td>
+                        <td>1.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>80,000.00</td>
+                        <td>2.00</td>
+                        <td>7,914.50</td>
+                        <td>1.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>160,000.00</td>
+                        <td>2.00</td>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>-100.00%</td>
+                        <td>-100.00%</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>-100.00%</td>
+                        <td>-100.00%</td>
+                        <td>0.00%</td>
+                        <td>100.00%</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>-100.00%</td>
+                        <td>-100.00%</td>
+                        <td>910.80%</td>
+                        <td>100.00%</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>-100.00%</td>
+                        <td>-100.00%</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr class="row-weight">
+                        <td class="fixed-column" rowspan="2" style="text-align: center !important;">其他</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>1.00</td>
+                        <td>0.00</td>
+                        <td>1.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>-100.00%</td>
+                        <td>&nbsp;</td>
+                        <td>0.00%</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr class="row-weight">
+                        <td class="fixed-column" rowspan="2" style="text-align: center !important;">合计</td>
+                        <td>5,000.00</td>
+                        <td>32.00</td>
+                        <td>190,376.09</td>
+                        <td>18.00</td>
+                        <td>331,326.36</td>
+                        <td>36.00</td>
+                        <td>305,211.82</td>
+                        <td>38.00</td>
+                        <td>506,177.55</td>
+                        <td>20.00</td>
+                        <td>383,127.00</td>
+                        <td>18.00</td>
+                        <td>285,705.14</td>
+                        <td>19.00</td>
+                        <td>1,212,403.44</td>
+                        <td>25.00</td>
+                        <td>379,006.37</td>
+                        <td>20.00</td>
+                        <td>641,567.80</td>
+                        <td>24.00</td>
+                        <td>624,638.52</td>
+                        <td>25.00</td>
+                        <td>1,154,952.58</td>
+                        <td>31.00</td>
+                        <td>157,814.50</td>
+                        <td>8.00</td>
+                        <td>116,350.00</td>
+                        <td>7.00</td>
+                        <td>205,000.00</td>
+                        <td>11.00</td>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>0.00%</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>0.00%</td>
+                        <td>&nbsp;</td>
+                        <td>0.00%</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>0.00%</td>
+                        <td>&nbsp;</td>
+                        <td>0.00%</td>
+                        <td>&nbsp;</td>
+                        <td>0.00%</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>-0.03%</td>
+                        <td>0.00%</td>
+                        <td>0.03%</td>
+                        <td>1.00%</td>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script>
+        var data = {
+            value: parse_json('{"上海医药":{"2024 Q3":{"amount":"0.00","number":"0.00"},"2024 Q2":{"amount":"30,000.00","number":"1.00"},"2024 Q1":{"amount":"0.00","number":"0.00"},"2023 Q4":{"amount":"0.00","number":"0.00"},"2023 Q3":{"amount":"0.00","number":"0.00"},"2023 Q2":{"amount":"0.00","number":"0.00"},"2023 Q1":{"amount":"0.00","number":"0.00"},"2022 Q4":{"amount":"0.00","number":"0.00"},"2022 Q3":{"amount":"0.00","number":"0.00"},"2022 Q2":{"amount":"0.00","number":"0.00"},"2022 Q1":{"amount":"0.00","number":"0.00"},"2021 Q4":{"amount":"0.00","number":"0.00"},"2021 Q3":{"amount":"0.00","number":"0.00"},"2021 Q2":{"amount":"0.00","number":"0.00"},"2021 Q1":{"amount":"0.00","number":"0.00"},"2020 Q4":{"amount":"0.00","number":"0.00"},"2020 Q3":{"amount":"0.00","number":"0.00"},"2020 Q2":{"amount":"0.00","number":"0.00"},"2020 Q1":{"amount":"0.00","number":"0.00"},"2019 Q4":{"amount":"0.00","number":"0.00"},"2019 Q3":{"amount":"0.00","number":"0.00"},"2019 Q2":{"amount":"0.00","number":"0.00"},"2019 Q1":{"amount":"59,540.00","number":"1.00"},"2018 Q4":{"amount":"0.00","number":"0.00"},"2018 Q3":{"amount":"0.00","number":"0.00"},"2018 Q2":{"amount":"0.00","number":"0.00"},"2018 Q1":{"amount":"0.00","number":"0.00"},"2017 Q4":{"amount":"0.00","number":"0.00"},"2017 Q3":{"amount":"0.00","number":"0.00"},"2017 Q2":{"amount":"0.00","number":"0.00"},"2017 Q1":{"amount":"0.00","number":"0.00"},"2016 Q4":{"amount":"0.00","number":"0.00"},"2016 Q3":{"amount":"0.00","number":"0.00"},"2016 Q1":{"amount":"0.00","number":"0.00"},"2014 Q4":{"amount":"0.00","number":"0.00"},"2014 Q3":{"amount":"0.00","number":"0.00"},"2013 Q4":{"amount":"0.00","number":"0.00"},"2013 Q3":{"amount":"0.00","number":"0.00"},"2013 Q2":{"amount":"0.00","number":"0.00"},"2012 Q3":{"amount":"0.00","number":"0.00"},"2012 Q2":{"amount":"0.00","number":"0.00"},"2012 Q1":{"amount":"0.00","number":"0.00"},"2011 Q4":{"amount":"0.00","number":"0.00"},"2011 Q1":{"amount":"0.00","number":"0.00"},"2010 Q3":{"amount":"0.00","number":"0.00"},"2003 Q4":{"amount":"0.00","number":"0.00"},"2003 Q3":{"amount":"0.00","number":"0.00"},"2003 Q2":{"amount":"0.00","number":"0.00"},"2002 Q4":{"amount":"0.00","number":"0.00"},"2002 Q1":{"amount":"0.00","number":"0.00"},"2001 Q4":{"amount":"0.00","number":"0.00"}},"上药集团":{"2024 Q3":{"amount":"5,000.00","number":"30.00"},"2024 Q2":{"amount":"160,376.09","number":"16.00"},"2024 Q1":{"amount":"331,326.36","number":"35.00"},"2023 Q4":{"amount":"305,211.82","number":"37.00"},"2023 Q3":{"amount":"506,177.55","number":"20.00"},"2023 Q2":{"amount":"333,127.00","number":"17.00"},"2023 Q1":{"amount":"275,705.14","number":"14.00"},"2022 Q4":{"amount":"1,212,403.44","number":"22.00"},"2022 Q3":{"amount":"319,006.37","number":"16.00"},"2022 Q2":{"amount":"591,567.80","number":"19.00"},"2022 Q1":{"amount":"624,638.52","number":"21.00"},"2021 Q4":{"amount":"1,064,952.58","number":"20.00"},"2021 Q3":{"amount":"29,900.00","number":"4.00"},"2021 Q2":{"amount":"116,350.00","number":"4.00"},"2021 Q1":{"amount":"45,000.00","number":"3.00"},"2020 Q4":{"amount":"275,376.65","number":"9.00"},"2020 Q3":{"amount":"252,134.31","number":"10.00"},"2020 Q2":{"amount":"663,270.00","number":"3.00"},"2020 Q1":{"amount":"92,587.54","number":"6.00"},"2019 Q4":{"amount":"534,367.61","number":"5.00"},"2019 Q3":{"amount":"73,439.92","number":"6.00"},"2019 Q2":{"amount":"385,769.20","number":"3.00"},"2019 Q1":{"amount":"344,697.40","number":"2.00"},"2018 Q4":{"amount":"35,000.00","number":"1.00"},"2018 Q3":{"amount":"20,000.00","number":"2.00"},"2018 Q2":{"amount":"11,000.00","number":"2.00"},"2018 Q1":{"amount":"50,000.00","number":"1.00"},"2017 Q4":{"amount":"13,000.00","number":"2.00"},"2017 Q3":{"amount":"0.00","number":"0.00"},"2017 Q2":{"amount":"36,500.00","number":"3.00"},"2017 Q1":{"amount":"0.00","number":"0.00"},"2016 Q4":{"amount":"0.00","number":"0.00"},"2016 Q3":{"amount":"0.00","number":"0.00"},"2016 Q1":{"amount":"0.00","number":"0.00"},"2014 Q4":{"amount":"0.00","number":"0.00"},"2014 Q3":{"amount":"0.00","number":"0.00"},"2013 Q4":{"amount":"0.00","number":"0.00"},"2013 Q3":{"amount":"0.00","number":"0.00"},"2013 Q2":{"amount":"0.00","number":"0.00"},"2012 Q3":{"amount":"0.00","number":"0.00"},"2012 Q2":{"amount":"0.00","number":"0.00"},"2012 Q1":{"amount":"0.00","number":"0.00"},"2011 Q4":{"amount":"0.00","number":"0.00"},"2011 Q1":{"amount":"0.00","number":"0.00"},"2010 Q3":{"amount":"0.00","number":"0.00"},"2003 Q4":{"amount":"0.00","number":"0.00"},"2003 Q3":{"amount":"0.00","number":"0.00"},"2003 Q2":{"amount":"0.00","number":"0.00"},"2002 Q4":{"amount":"0.00","number":"0.00"},"2002 Q1":{"amount":"0.00","number":"0.00"},"2001 Q4":{"amount":"0.00","number":"0.00"}},"上实发展":{"2024 Q3":{"amount":"0.00","number":"0.00"},"2024 Q2":{"amount":"0.00","number":"1.00"},"2024 Q1":{"amount":"0.00","number":"0.00"},"2023 Q4":{"amount":"0.00","number":"0.00"},"2023 Q3":{"amount":"0.00","number":"0.00"},"2023 Q2":{"amount":"0.00","number":"0.00"},"2023 Q1":{"amount":"0.00","number":"0.00"},"2022 Q4":{"amount":"0.00","number":"0.00"},"2022 Q3":{"amount":"0.00","number":"0.00"},"2022 Q2":{"amount":"0.00","number":"0.00"},"2022 Q1":{"amount":"0.00","number":"0.00"},"2021 Q4":{"amount":"0.00","number":"0.00"},"2021 Q3":{"amount":"0.00","number":"0.00"},"2021 Q2":{"amount":"0.00","number":"0.00"},"2021 Q1":{"amount":"0.00","number":"0.00"},"2020 Q4":{"amount":"0.00","number":"0.00"},"2020 Q3":{"amount":"0.00","number":"0.00"},"2020 Q2":{"amount":"0.00","number":"0.00"},"2020 Q1":{"amount":"0.00","number":"0.00"},"2019 Q4":{"amount":"0.00","number":"0.00"},"2019 Q3":{"amount":"0.00","number":"0.00"},"2019 Q2":{"amount":"0.00","number":"0.00"},"2019 Q1":{"amount":"0.00","number":"0.00"},"2018 Q4":{"amount":"0.00","number":"0.00"},"2018 Q3":{"amount":"0.00","number":"0.00"},"2018 Q2":{"amount":"0.00","number":"0.00"},"2018 Q1":{"amount":"0.00","number":"0.00"},"2017 Q4":{"amount":"0.00","number":"0.00"},"2017 Q3":{"amount":"0.00","number":"0.00"},"2017 Q2":{"amount":"0.00","number":"0.00"},"2017 Q1":{"amount":"0.00","number":"0.00"},"2016 Q4":{"amount":"0.00","number":"0.00"},"2016 Q3":{"amount":"0.00","number":"0.00"},"2016 Q1":{"amount":"0.00","number":"0.00"},"2014 Q4":{"amount":"0.00","number":"0.00"},"2014 Q3":{"amount":"0.00","number":"0.00"},"2013 Q4":{"amount":"0.00","number":"0.00"},"2013 Q3":{"amount":"0.00","number":"0.00"},"2013 Q2":{"amount":"0.00","number":"0.00"},"2012 Q3":{"amount":"0.00","number":"0.00"},"2012 Q2":{"amount":"0.00","number":"0.00"},"2012 Q1":{"amount":"0.00","number":"0.00"},"2011 Q4":{"amount":"0.00","number":"0.00"},"2011 Q1":{"amount":"0.00","number":"0.00"},"2010 Q3":{"amount":"0.00","number":"0.00"},"2003 Q4":{"amount":"0.00","number":"0.00"},"2003 Q3":{"amount":"0.00","number":"0.00"},"2003 Q2":{"amount":"0.00","number":"0.00"},"2002 Q4":{"amount":"0.00","number":"0.00"},"2002 Q1":{"amount":"0.00","number":"0.00"},"2001 Q4":{"amount":"0.00","number":"0.00"}},"上实城开":{"2024 Q3":{"amount":"0.00","number":"1.00"},"2024 Q2":{"amount":"0.00","number":"0.00"},"2024 Q1":{"amount":"0.00","number":"0.00"},"2023 Q4":{"amount":"0.00","number":"0.00"},"2023 Q3":{"amount":"0.00","number":"0.00"},"2023 Q2":{"amount":"0.00","number":"0.00"},"2023 Q1":{"amount":"0.00","number":"4.00"},"2022 Q4":{"amount":"0.00","number":"3.00"},"2022 Q3":{"amount":"0.00","number":"1.00"},"2022 Q2":{"amount":"0.00","number":"4.00"},"2022 Q1":{"amount":"0.00","number":"4.00"},"2021 Q4":{"amount":"0.00","number":"8.00"},"2021 Q3":{"amount":"120,000.00","number":"3.00"},"2021 Q2":{"amount":"0.00","number":"3.00"},"2021 Q1":{"amount":"0.00","number":"6.00"},"2020 Q4":{"amount":"0.00","number":"17.00"},"2020 Q3":{"amount":"0.00","number":"12.00"},"2020 Q2":{"amount":"0.00","number":"15.00"},"2020 Q1":{"amount":"0.00","number":"14.00"},"2019 Q4":{"amount":"0.00","number":"24.00"},"2019 Q3":{"amount":"0.00","number":"13.00"},"2019 Q2":{"amount":"0.00","number":"3.00"},"2019 Q1":{"amount":"0.00","number":"5.00"},"2018 Q4":{"amount":"0.00","number":"6.00"},"2018 Q3":{"amount":"0.00","number":"6.00"},"2018 Q2":{"amount":"0.00","number":"10.00"},"2018 Q1":{"amount":"0.00","number":"20.00"},"2017 Q4":{"amount":"0.00","number":"8.00"},"2017 Q3":{"amount":"0.00","number":"3.00"},"2017 Q2":{"amount":"0.00","number":"1.00"},"2017 Q1":{"amount":"0.00","number":"2.00"},"2016 Q4":{"amount":"0.00","number":"5.00"},"2016 Q3":{"amount":"0.00","number":"3.00"},"2016 Q1":{"amount":"0.00","number":"0.00"},"2014 Q4":{"amount":"0.00","number":"0.00"},"2014 Q3":{"amount":"0.00","number":"0.00"},"2013 Q4":{"amount":"0.00","number":"0.00"},"2013 Q3":{"amount":"0.00","number":"0.00"},"2013 Q2":{"amount":"0.00","number":"0.00"},"2012 Q3":{"amount":"0.00","number":"0.00"},"2012 Q2":{"amount":"0.00","number":"0.00"},"2012 Q1":{"amount":"0.00","number":"0.00"},"2011 Q4":{"amount":"0.00","number":"0.00"},"2011 Q1":{"amount":"0.00","number":"0.00"},"2010 Q3":{"amount":"0.00","number":"0.00"},"2003 Q4":{"amount":"0.00","number":"0.00"},"2003 Q3":{"amount":"0.00","number":"0.00"},"2003 Q2":{"amount":"0.00","number":"0.00"},"2002 Q4":{"amount":"0.00","number":"0.00"},"2002 Q1":{"amount":"0.00","number":"0.00"},"2001 Q4":{"amount":"0.00","number":"0.00"}},"上实环境":{"2024 Q3":{"amount":"0.00","number":"0.00"},"2024 Q2":{"amount":"0.00","number":"0.00"},"2024 Q1":{"amount":"0.00","number":"0.00"},"2023 Q4":{"amount":"0.00","number":"0.00"},"2023 Q3":{"amount":"0.00","number":"0.00"},"2023 Q2":{"amount":"0.00","number":"0.00"},"2023 Q1":{"amount":"10,000.00","number":"1.00"},"2022 Q4":{"amount":"0.00","number":"0.00"},"2022 Q3":{"amount":"10,000.00","number":"1.00"},"2022 Q2":{"amount":"0.00","number":"0.00"},"2022 Q1":{"amount":"0.00","number":"0.00"},"2021 Q4":{"amount":"10,000.00","number":"1.00"},"2021 Q3":{"amount":"0.00","number":"0.00"},"2021 Q2":{"amount":"0.00","number":"0.00"},"2021 Q1":{"amount":"0.00","number":"0.00"},"2020 Q4":{"amount":"16,600.00","number":"3.00"},"2020 Q3":{"amount":"0.00","number":"0.00"},"2020 Q2":{"amount":"15,000.00","number":"2.00"},"2020 Q1":{"amount":"0.00","number":"0.00"},"2019 Q4":{"amount":"0.00","number":"0.00"},"2019 Q3":{"amount":"0.00","number":"0.00"},"2019 Q2":{"amount":"0.00","number":"0.00"},"2019 Q1":{"amount":"48,340.00","number":"3.00"},"2018 Q4":{"amount":"0.00","number":"0.00"},"2018 Q3":{"amount":"34,500.00","number":"2.00"},"2018 Q2":{"amount":"0.00","number":"0.00"},"2018 Q1":{"amount":"0.00","number":"0.00"},"2017 Q4":{"amount":"0.00","number":"0.00"},"2017 Q3":{"amount":"0.00","number":"0.00"},"2017 Q2":{"amount":"32,000.00","number":"2.00"},"2017 Q1":{"amount":"0.00","number":"0.00"},"2016 Q4":{"amount":"30,000.00","number":"2.00"},"2016 Q3":{"amount":"10,500.00","number":"1.00"},"2016 Q1":{"amount":"25,000.00","number":"1.00"},"2014 Q4":{"amount":"10,000.00","number":"1.00"},"2014 Q3":{"amount":"10,000.00","number":"1.00"},"2013 Q4":{"amount":"10,000.00","number":"2.00"},"2013 Q3":{"amount":"9,750.00","number":"1.00"},"2013 Q2":{"amount":"10,000.00","number":"1.00"},"2012 Q3":{"amount":"0.00","number":"1.00"},"2012 Q2":{"amount":"0.00","number":"1.00"},"2012 Q1":{"amount":"0.00","number":"1.00"},"2011 Q4":{"amount":"0.00","number":"1.00"},"2011 Q1":{"amount":"10,000.00","number":"1.00"},"2010 Q3":{"amount":"0.00","number":"1.00"},"2003 Q4":{"amount":"0.00","number":"1.00"},"2003 Q3":{"amount":"0.00","number":"1.00"},"2003 Q2":{"amount":"0.00","number":"1.00"},"2002 Q4":{"amount":"20,000.00","number":"1.00"},"2002 Q1":{"amount":"1.40","number":"1.00"},"2001 Q4":{"amount":"0.00","number":"1.00"}},"沪宁高速":{"2024 Q3":{"amount":"0.00","number":"1.00"},"2024 Q2":{"amount":"0.00","number":"0.00"},"2024 Q1":{"amount":"0.00","number":"0.00"},"2023 Q4":{"amount":"0.00","number":"0.00"},"2023 Q3":{"amount":"0.00","number":"0.00"},"2023 Q2":{"amount":"50,000.00","number":"1.00"},"2023 Q1":{"amount":"0.00","number":"0.00"},"2022 Q4":{"amount":"0.00","number":"0.00"},"2022 Q3":{"amount":"50,000.00","number":"2.00"},"2022 Q2":{"amount":"50,000.00","number":"1.00"},"2022 Q1":{"amount":"0.00","number":"0.00"},"2021 Q4":{"amount":"80,000.00","number":"2.00"},"2021 Q3":{"amount":"7,914.50","number":"1.00"},"2021 Q2":{"amount":"0.00","number":"0.00"},"2021 Q1":{"amount":"160,000.00","number":"2.00"},"2020 Q4":{"amount":"0.00","number":"0.00"},"2020 Q3":{"amount":"0.00","number":"0.00"},"2020 Q2":{"amount":"0.00","number":"0.00"},"2020 Q1":{"amount":"0.00","number":"0.00"},"2019 Q4":{"amount":"0.00","number":"0.00"},"2019 Q3":{"amount":"0.00","number":"0.00"},"2019 Q2":{"amount":"0.00","number":"0.00"},"2019 Q1":{"amount":"0.00","number":"0.00"},"2018 Q4":{"amount":"0.00","number":"0.00"},"2018 Q3":{"amount":"0.00","number":"0.00"},"2018 Q2":{"amount":"0.00","number":"0.00"},"2018 Q1":{"amount":"0.00","number":"0.00"},"2017 Q4":{"amount":"0.00","number":"0.00"},"2017 Q3":{"amount":"0.00","number":"0.00"},"2017 Q2":{"amount":"0.00","number":"0.00"},"2017 Q1":{"amount":"0.00","number":"0.00"},"2016 Q4":{"amount":"0.00","number":"0.00"},"2016 Q3":{"amount":"0.00","number":"0.00"},"2016 Q1":{"amount":"0.00","number":"0.00"},"2014 Q4":{"amount":"0.00","number":"0.00"},"2014 Q3":{"amount":"0.00","number":"0.00"},"2013 Q4":{"amount":"0.00","number":"0.00"},"2013 Q3":{"amount":"0.00","number":"0.00"},"2013 Q2":{"amount":"0.00","number":"0.00"},"2012 Q3":{"amount":"0.00","number":"0.00"},"2012 Q2":{"amount":"0.00","number":"0.00"},"2012 Q1":{"amount":"0.00","number":"0.00"},"2011 Q4":{"amount":"0.00","number":"0.00"},"2011 Q1":{"amount":"0.00","number":"0.00"},"2010 Q3":{"amount":"0.00","number":"0.00"},"2003 Q4":{"amount":"0.00","number":"0.00"},"2003 Q3":{"amount":"0.00","number":"0.00"},"2003 Q2":{"amount":"0.00","number":"0.00"},"2002 Q4":{"amount":"0.00","number":"0.00"},"2002 Q1":{"amount":"0.00","number":"0.00"},"2001 Q4":{"amount":"0.00","number":"0.00"}},"其他":{"2024 Q3":{"amount":"0.00","number":"0.00"},"2024 Q2":{"amount":"0.00","number":"0.00"},"2024 Q1":{"amount":"0.00","number":"1.00"},"2023 Q4":{"amount":"0.00","number":"1.00"},"2023 Q3":{"amount":"0.00","number":"0.00"},"2023 Q2":{"amount":"0.00","number":"0.00"},"2023 Q1":{"amount":"0.00","number":"0.00"},"2022 Q4":{"amount":"0.00","number":"0.00"},"2022 Q3":{"amount":"0.00","number":"0.00"},"2022 Q2":{"amount":"0.00","number":"0.00"},"2022 Q1":{"amount":"0.00","number":"0.00"},"2021 Q4":{"amount":"0.00","number":"0.00"},"2021 Q3":{"amount":"0.00","number":"0.00"},"2021 Q2":{"amount":"0.00","number":"0.00"},"2021 Q1":{"amount":"0.00","number":"0.00"},"2020 Q4":{"amount":"0.00","number":"0.00"},"2020 Q3":{"amount":"0.00","number":"0.00"},"2020 Q2":{"amount":"0.00","number":"0.00"},"2020 Q1":{"amount":"0.00","number":"0.00"},"2019 Q4":{"amount":"0.00","number":"0.00"},"2019 Q3":{"amount":"0.00","number":"0.00"},"2019 Q2":{"amount":"0.00","number":"0.00"},"2019 Q1":{"amount":"0.00","number":"0.00"},"2018 Q4":{"amount":"0.00","number":"0.00"},"2018 Q3":{"amount":"0.00","number":"0.00"},"2018 Q2":{"amount":"0.00","number":"0.00"},"2018 Q1":{"amount":"0.00","number":"0.00"},"2017 Q4":{"amount":"0.00","number":"0.00"},"2017 Q3":{"amount":"0.00","number":"0.00"},"2017 Q2":{"amount":"0.00","number":"0.00"},"2017 Q1":{"amount":"0.00","number":"0.00"},"2016 Q4":{"amount":"0.00","number":"0.00"},"2016 Q3":{"amount":"0.00","number":"0.00"},"2016 Q1":{"amount":"0.00","number":"0.00"},"2014 Q4":{"amount":"0.00","number":"0.00"},"2014 Q3":{"amount":"0.00","number":"0.00"},"2013 Q4":{"amount":"0.00","number":"0.00"},"2013 Q3":{"amount":"0.00","number":"0.00"},"2013 Q2":{"amount":"0.00","number":"0.00"},"2012 Q3":{"amount":"0.00","number":"0.00"},"2012 Q2":{"amount":"0.00","number":"0.00"},"2012 Q1":{"amount":"0.00","number":"0.00"},"2011 Q4":{"amount":"0.00","number":"0.00"},"2011 Q1":{"amount":"0.00","number":"0.00"},"2010 Q3":{"amount":"0.00","number":"0.00"},"2003 Q4":{"amount":"0.00","number":"0.00"},"2003 Q3":{"amount":"0.00","number":"0.00"},"2003 Q2":{"amount":"0.00","number":"0.00"},"2002 Q4":{"amount":"0.00","number":"0.00"},"2002 Q1":{"amount":"0.00","number":"0.00"},"2001 Q4":{"amount":"0.00","number":"0.00"}}}'),
+            legend: parse_json('["上海医药","上药集团","上实发展","上实城开","上实环境","沪宁高速","其他"]'),
+            xAxis: parse_json('["2001 Q4","2002 Q1","2002 Q4","2003 Q2","2003 Q3","2003 Q4","2010 Q3","2011 Q1","2011 Q4","2012 Q1","2012 Q2","2012 Q3","2013 Q2","2013 Q3","2013 Q4","2014 Q3","2014 Q4","2016 Q1","2016 Q3","2016 Q4","2017 Q1","2017 Q2","2017 Q3","2017 Q4","2018 Q1","2018 Q2","2018 Q3","2018 Q4","2019 Q1","2019 Q2","2019 Q3","2019 Q4","2020 Q1","2020 Q2","2020 Q3","2020 Q4","2021 Q1","2021 Q2","2021 Q3","2021 Q4","2022 Q1","2022 Q2","2022 Q3","2022 Q4","2023 Q1","2023 Q2","2023 Q3","2023 Q4","2024 Q1","2024 Q2","2024 Q3"]'),
+            amount_lists: parse_json('[{"name":"上海医药","lists":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59540,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30000,0]},{"name":"上药集团","lists":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36500,0,13000,50000,11000,20000,35000,344697.4,385769.20300000004,73439.923,534367.6056,92587.54464000001,663270,252134.309,275376.64828,45000,116350,29900,1064952.58212,624638.52223,591567.7964,319006.36536,1212403.4358,275705.13834,333126.99957,506177.55241,305211.82032000006,331326.35683,160376.09092,5000]},{"name":"上实发展","lists":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},{"name":"上实城开","lists":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120000,0,0,0,0,0,0,0,0,0,0,0,0]},{"name":"上实环境","lists":[0,1.4,20000,0,0,0,0,10000,0,0,0,0,10000,9750,10000,10000,10000,25000,10500,30000,0,32000,0,0,0,0,34500,0,48340,0,0,0,0,15000,0,16600,0,0,0,10000,0,0,10000,0,10000,0,0,0,0,0,0]},{"name":"沪宁高速","lists":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,160000,0,7914.5,80000,0,50000,50000,0,0,50000,0,0,0,0,0]},{"name":"其他","lists":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}]'),
+            all_quarter_amount: parse_json('[0,0.19999999999999998,2857.1428571428573,0,0,0,0,1428.5714285714287,0,0,0,0,1428.5714285714287,1392.857142857143,1428.5714285714287,1428.5714285714287,1428.5714285714287,3571.4285714285716,1500,4285.714285714285,0,9785.714285714286,0,1857.142857142857,7142.857142857143,1571.4285714285713,7785.714285714285,5000,64653.91428571429,55109.88614285715,10491.41757142857,76338.22937142858,13226.792091428573,96895.71428571429,36019.187,41710.94975428572,29285.714285714286,16621.428571428572,22544.928571428572,164993.22601714285,89234.07460428572,91652.54234285714,54143.76648,173200.49082857143,40815.01976285714,54732.42851,72311.07891571429,43601.68861714286,47332.336690000004,27196.584417142854,714.2857142857143]'),
+            color: parse_json('["#06ACBC","#1F87B0","#51638B","#15CDAC","#92E88A","#C7DA5E","#F0DD98"]'),
+        }
+        console.log(data['color'])
+         var amount_lists = [];
+        var color = data.color;
+        data.amount_lists.forEach(function(item, index) {
+            var lists = [];
+            item.lists.forEach(function(item, index) {
+                lists.push(item.toFixed(2));
+            });
+            amount_lists.push({
+                name: item.name,
+                type: 'bar',
+                stack: 'amount',
+                data: lists,
+                itemStyle: {
+                    normal: {
+                        color: color[index]
+                    },
+                },
+            })
+        });
+        var lists = [];
+        data.all_quarter_amount.forEach(function(item, index) {
+            lists.push(item.toFixed(2));
+        });
+        amount_lists.push({
+            name: '平均投资金额',
+            type: 'line',
+            stack: 'line',
+            yAxisIndex: 1,
+            data: lists,
+            itemStyle: {
+                normal: {
+                    color: '#EC7728'
+                },
+            },
+        })
+        /*
+  amount_lists.push({
+    name: '投后基金数量',
+    type: 'line',
+    stack: 'line',
+    yAxisIndex: 2,
+    itemStyle: {
+      normal:{
+        color:'rgba(128, 128, 128, 0)',
+      },
+    },
+    data:data.touhou_fund_amount
+  });
+  */
+         // 指定图表的配置项和数据
+         var str_amount_option = {
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: { // 坐标轴指示器，坐标轴触发有效
+                    type: 'shadow' // 默认为直线，可选为：'line' | 'shadow'
+                }
+            },
+            legend: {
+                data: data.legend,
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '10%',
+                top: '18%',
+                containLabel: true
+            },
+            xAxis: [{
+                type: 'category',
+                data: data.xAxis
+            }],
+            yAxis: [{
+                type: 'value',
+                name: '金额（万）'
+            }, {
+                type: 'value',
+                name: '平均交易金额（万）',
+                axisLabel: {
+                    formatter: '{value}'
+                }
+            }, {
+                type: 'value',
+                axisLabel: {
+                    show: false // 设置 y 轴标签不显示
+                }
+            }, ],
+            dataZoom: [{
+                type: 'slider',
+                xAxisIndex: 0,
+                filterMode: 'empty'
+            }, {
+                start: 0,
+                end: 100,
+                handleIcon: 'M10.7,11.9v-1.3H9.3v1.3c-4.9,0.3-8.8,4.4-8.8,9.4c0,5,3.9,9.1,8.8,9.4v1.3h1.3v-1.3c4.9-0.3,8.8-4.4,8.8-9.4C19.5,16.3,15.6,12.2,10.7,11.9z M13.3,24.4H6.7V23h6.6V24.4z M13.3,19.6H6.7v-1.4h6.6V19.6z',
+                handleSize: '80%',
+                handleStyle: {
+                    color: '#fff',
+                    shadowBlur: 3,
+                    shadowColor: 'rgba(0, 0, 0, 0.6)',
+                    shadowOffsetX: 2,
+                    shadowOffsetY: 2
+                }
+            }],
+            series: amount_lists
+        };
+        var str_amount = echarts.init(document.getElementById("project_amount"));
+        str_amount.setOption(str_amount_option, true);
+        var data = {
+            value: parse_json('{"上海医药":{"2024 Q3":{"amount":"0.00","number":"0.00"},"2024 Q2":{"amount":"30,000.00","number":"1.00"},"2024 Q1":{"amount":"0.00","number":"0.00"},"2023 Q4":{"amount":"0.00","number":"0.00"},"2023 Q3":{"amount":"0.00","number":"0.00"},"2023 Q2":{"amount":"0.00","number":"0.00"},"2023 Q1":{"amount":"0.00","number":"0.00"},"2022 Q4":{"amount":"0.00","number":"0.00"},"2022 Q3":{"amount":"0.00","number":"0.00"},"2022 Q2":{"amount":"0.00","number":"0.00"},"2022 Q1":{"amount":"0.00","number":"0.00"},"2021 Q4":{"amount":"0.00","number":"0.00"},"2021 Q3":{"amount":"0.00","number":"0.00"},"2021 Q2":{"amount":"0.00","number":"0.00"},"2021 Q1":{"amount":"0.00","number":"0.00"},"2020 Q4":{"amount":"0.00","number":"0.00"},"2020 Q3":{"amount":"0.00","number":"0.00"},"2020 Q2":{"amount":"0.00","number":"0.00"},"2020 Q1":{"amount":"0.00","number":"0.00"},"2019 Q4":{"amount":"0.00","number":"0.00"},"2019 Q3":{"amount":"0.00","number":"0.00"},"2019 Q2":{"amount":"0.00","number":"0.00"},"2019 Q1":{"amount":"59,540.00","number":"1.00"},"2018 Q4":{"amount":"0.00","number":"0.00"},"2018 Q3":{"amount":"0.00","number":"0.00"},"2018 Q2":{"amount":"0.00","number":"0.00"},"2018 Q1":{"amount":"0.00","number":"0.00"},"2017 Q4":{"amount":"0.00","number":"0.00"},"2017 Q3":{"amount":"0.00","number":"0.00"},"2017 Q2":{"amount":"0.00","number":"0.00"},"2017 Q1":{"amount":"0.00","number":"0.00"},"2016 Q4":{"amount":"0.00","number":"0.00"},"2016 Q3":{"amount":"0.00","number":"0.00"},"2016 Q1":{"amount":"0.00","number":"0.00"},"2014 Q4":{"amount":"0.00","number":"0.00"},"2014 Q3":{"amount":"0.00","number":"0.00"},"2013 Q4":{"amount":"0.00","number":"0.00"},"2013 Q3":{"amount":"0.00","number":"0.00"},"2013 Q2":{"amount":"0.00","number":"0.00"},"2012 Q3":{"amount":"0.00","number":"0.00"},"2012 Q2":{"amount":"0.00","number":"0.00"},"2012 Q1":{"amount":"0.00","number":"0.00"},"2011 Q4":{"amount":"0.00","number":"0.00"},"2011 Q1":{"amount":"0.00","number":"0.00"},"2010 Q3":{"amount":"0.00","number":"0.00"},"2003 Q4":{"amount":"0.00","number":"0.00"},"2003 Q3":{"amount":"0.00","number":"0.00"},"2003 Q2":{"amount":"0.00","number":"0.00"},"2002 Q4":{"amount":"0.00","number":"0.00"},"2002 Q1":{"amount":"0.00","number":"0.00"},"2001 Q4":{"amount":"0.00","number":"0.00"}},"上药集团":{"2024 Q3":{"amount":"5,000.00","number":"30.00"},"2024 Q2":{"amount":"160,376.09","number":"16.00"},"2024 Q1":{"amount":"331,326.36","number":"35.00"},"2023 Q4":{"amount":"305,211.82","number":"37.00"},"2023 Q3":{"amount":"506,177.55","number":"20.00"},"2023 Q2":{"amount":"333,127.00","number":"17.00"},"2023 Q1":{"amount":"275,705.14","number":"14.00"},"2022 Q4":{"amount":"1,212,403.44","number":"22.00"},"2022 Q3":{"amount":"319,006.37","number":"16.00"},"2022 Q2":{"amount":"591,567.80","number":"19.00"},"2022 Q1":{"amount":"624,638.52","number":"21.00"},"2021 Q4":{"amount":"1,064,952.58","number":"20.00"},"2021 Q3":{"amount":"29,900.00","number":"4.00"},"2021 Q2":{"amount":"116,350.00","number":"4.00"},"2021 Q1":{"amount":"45,000.00","number":"3.00"},"2020 Q4":{"amount":"275,376.65","number":"9.00"},"2020 Q3":{"amount":"252,134.31","number":"10.00"},"2020 Q2":{"amount":"663,270.00","number":"3.00"},"2020 Q1":{"amount":"92,587.54","number":"6.00"},"2019 Q4":{"amount":"534,367.61","number":"5.00"},"2019 Q3":{"amount":"73,439.92","number":"6.00"},"2019 Q2":{"amount":"385,769.20","number":"3.00"},"2019 Q1":{"amount":"344,697.40","number":"2.00"},"2018 Q4":{"amount":"35,000.00","number":"1.00"},"2018 Q3":{"amount":"20,000.00","number":"2.00"},"2018 Q2":{"amount":"11,000.00","number":"2.00"},"2018 Q1":{"amount":"50,000.00","number":"1.00"},"2017 Q4":{"amount":"13,000.00","number":"2.00"},"2017 Q3":{"amount":"0.00","number":"0.00"},"2017 Q2":{"amount":"36,500.00","number":"3.00"},"2017 Q1":{"amount":"0.00","number":"0.00"},"2016 Q4":{"amount":"0.00","number":"0.00"},"2016 Q3":{"amount":"0.00","number":"0.00"},"2016 Q1":{"amount":"0.00","number":"0.00"},"2014 Q4":{"amount":"0.00","number":"0.00"},"2014 Q3":{"amount":"0.00","number":"0.00"},"2013 Q4":{"amount":"0.00","number":"0.00"},"2013 Q3":{"amount":"0.00","number":"0.00"},"2013 Q2":{"amount":"0.00","number":"0.00"},"2012 Q3":{"amount":"0.00","number":"0.00"},"2012 Q2":{"amount":"0.00","number":"0.00"},"2012 Q1":{"amount":"0.00","number":"0.00"},"2011 Q4":{"amount":"0.00","number":"0.00"},"2011 Q1":{"amount":"0.00","number":"0.00"},"2010 Q3":{"amount":"0.00","number":"0.00"},"2003 Q4":{"amount":"0.00","number":"0.00"},"2003 Q3":{"amount":"0.00","number":"0.00"},"2003 Q2":{"amount":"0.00","number":"0.00"},"2002 Q4":{"amount":"0.00","number":"0.00"},"2002 Q1":{"amount":"0.00","number":"0.00"},"2001 Q4":{"amount":"0.00","number":"0.00"}},"上实发展":{"2024 Q3":{"amount":"0.00","number":"0.00"},"2024 Q2":{"amount":"0.00","number":"1.00"},"2024 Q1":{"amount":"0.00","number":"0.00"},"2023 Q4":{"amount":"0.00","number":"0.00"},"2023 Q3":{"amount":"0.00","number":"0.00"},"2023 Q2":{"amount":"0.00","number":"0.00"},"2023 Q1":{"amount":"0.00","number":"0.00"},"2022 Q4":{"amount":"0.00","number":"0.00"},"2022 Q3":{"amount":"0.00","number":"0.00"},"2022 Q2":{"amount":"0.00","number":"0.00"},"2022 Q1":{"amount":"0.00","number":"0.00"},"2021 Q4":{"amount":"0.00","number":"0.00"},"2021 Q3":{"amount":"0.00","number":"0.00"},"2021 Q2":{"amount":"0.00","number":"0.00"},"2021 Q1":{"amount":"0.00","number":"0.00"},"2020 Q4":{"amount":"0.00","number":"0.00"},"2020 Q3":{"amount":"0.00","number":"0.00"},"2020 Q2":{"amount":"0.00","number":"0.00"},"2020 Q1":{"amount":"0.00","number":"0.00"},"2019 Q4":{"amount":"0.00","number":"0.00"},"2019 Q3":{"amount":"0.00","number":"0.00"},"2019 Q2":{"amount":"0.00","number":"0.00"},"2019 Q1":{"amount":"0.00","number":"0.00"},"2018 Q4":{"amount":"0.00","number":"0.00"},"2018 Q3":{"amount":"0.00","number":"0.00"},"2018 Q2":{"amount":"0.00","number":"0.00"},"2018 Q1":{"amount":"0.00","number":"0.00"},"2017 Q4":{"amount":"0.00","number":"0.00"},"2017 Q3":{"amount":"0.00","number":"0.00"},"2017 Q2":{"amount":"0.00","number":"0.00"},"2017 Q1":{"amount":"0.00","number":"0.00"},"2016 Q4":{"amount":"0.00","number":"0.00"},"2016 Q3":{"amount":"0.00","number":"0.00"},"2016 Q1":{"amount":"0.00","number":"0.00"},"2014 Q4":{"amount":"0.00","number":"0.00"},"2014 Q3":{"amount":"0.00","number":"0.00"},"2013 Q4":{"amount":"0.00","number":"0.00"},"2013 Q3":{"amount":"0.00","number":"0.00"},"2013 Q2":{"amount":"0.00","number":"0.00"},"2012 Q3":{"amount":"0.00","number":"0.00"},"2012 Q2":{"amount":"0.00","number":"0.00"},"2012 Q1":{"amount":"0.00","number":"0.00"},"2011 Q4":{"amount":"0.00","number":"0.00"},"2011 Q1":{"amount":"0.00","number":"0.00"},"2010 Q3":{"amount":"0.00","number":"0.00"},"2003 Q4":{"amount":"0.00","number":"0.00"},"2003 Q3":{"amount":"0.00","number":"0.00"},"2003 Q2":{"amount":"0.00","number":"0.00"},"2002 Q4":{"amount":"0.00","number":"0.00"},"2002 Q1":{"amount":"0.00","number":"0.00"},"2001 Q4":{"amount":"0.00","number":"0.00"}},"上实城开":{"2024 Q3":{"amount":"0.00","number":"1.00"},"2024 Q2":{"amount":"0.00","number":"0.00"},"2024 Q1":{"amount":"0.00","number":"0.00"},"2023 Q4":{"amount":"0.00","number":"0.00"},"2023 Q3":{"amount":"0.00","number":"0.00"},"2023 Q2":{"amount":"0.00","number":"0.00"},"2023 Q1":{"amount":"0.00","number":"4.00"},"2022 Q4":{"amount":"0.00","number":"3.00"},"2022 Q3":{"amount":"0.00","number":"1.00"},"2022 Q2":{"amount":"0.00","number":"4.00"},"2022 Q1":{"amount":"0.00","number":"4.00"},"2021 Q4":{"amount":"0.00","number":"8.00"},"2021 Q3":{"amount":"120,000.00","number":"3.00"},"2021 Q2":{"amount":"0.00","number":"3.00"},"2021 Q1":{"amount":"0.00","number":"6.00"},"2020 Q4":{"amount":"0.00","number":"17.00"},"2020 Q3":{"amount":"0.00","number":"12.00"},"2020 Q2":{"amount":"0.00","number":"15.00"},"2020 Q1":{"amount":"0.00","number":"14.00"},"2019 Q4":{"amount":"0.00","number":"24.00"},"2019 Q3":{"amount":"0.00","number":"13.00"},"2019 Q2":{"amount":"0.00","number":"3.00"},"2019 Q1":{"amount":"0.00","number":"5.00"},"2018 Q4":{"amount":"0.00","number":"6.00"},"2018 Q3":{"amount":"0.00","number":"6.00"},"2018 Q2":{"amount":"0.00","number":"10.00"},"2018 Q1":{"amount":"0.00","number":"20.00"},"2017 Q4":{"amount":"0.00","number":"8.00"},"2017 Q3":{"amount":"0.00","number":"3.00"},"2017 Q2":{"amount":"0.00","number":"1.00"},"2017 Q1":{"amount":"0.00","number":"2.00"},"2016 Q4":{"amount":"0.00","number":"5.00"},"2016 Q3":{"amount":"0.00","number":"3.00"},"2016 Q1":{"amount":"0.00","number":"0.00"},"2014 Q4":{"amount":"0.00","number":"0.00"},"2014 Q3":{"amount":"0.00","number":"0.00"},"2013 Q4":{"amount":"0.00","number":"0.00"},"2013 Q3":{"amount":"0.00","number":"0.00"},"2013 Q2":{"amount":"0.00","number":"0.00"},"2012 Q3":{"amount":"0.00","number":"0.00"},"2012 Q2":{"amount":"0.00","number":"0.00"},"2012 Q1":{"amount":"0.00","number":"0.00"},"2011 Q4":{"amount":"0.00","number":"0.00"},"2011 Q1":{"amount":"0.00","number":"0.00"},"2010 Q3":{"amount":"0.00","number":"0.00"},"2003 Q4":{"amount":"0.00","number":"0.00"},"2003 Q3":{"amount":"0.00","number":"0.00"},"2003 Q2":{"amount":"0.00","number":"0.00"},"2002 Q4":{"amount":"0.00","number":"0.00"},"2002 Q1":{"amount":"0.00","number":"0.00"},"2001 Q4":{"amount":"0.00","number":"0.00"}},"上实环境":{"2024 Q3":{"amount":"0.00","number":"0.00"},"2024 Q2":{"amount":"0.00","number":"0.00"},"2024 Q1":{"amount":"0.00","number":"0.00"},"2023 Q4":{"amount":"0.00","number":"0.00"},"2023 Q3":{"amount":"0.00","number":"0.00"},"2023 Q2":{"amount":"0.00","number":"0.00"},"2023 Q1":{"amount":"10,000.00","number":"1.00"},"2022 Q4":{"amount":"0.00","number":"0.00"},"2022 Q3":{"amount":"10,000.00","number":"1.00"},"2022 Q2":{"amount":"0.00","number":"0.00"},"2022 Q1":{"amount":"0.00","number":"0.00"},"2021 Q4":{"amount":"10,000.00","number":"1.00"},"2021 Q3":{"amount":"0.00","number":"0.00"},"2021 Q2":{"amount":"0.00","number":"0.00"},"2021 Q1":{"amount":"0.00","number":"0.00"},"2020 Q4":{"amount":"16,600.00","number":"3.00"},"2020 Q3":{"amount":"0.00","number":"0.00"},"2020 Q2":{"amount":"15,000.00","number":"2.00"},"2020 Q1":{"amount":"0.00","number":"0.00"},"2019 Q4":{"amount":"0.00","number":"0.00"},"2019 Q3":{"amount":"0.00","number":"0.00"},"2019 Q2":{"amount":"0.00","number":"0.00"},"2019 Q1":{"amount":"48,340.00","number":"3.00"},"2018 Q4":{"amount":"0.00","number":"0.00"},"2018 Q3":{"amount":"34,500.00","number":"2.00"},"2018 Q2":{"amount":"0.00","number":"0.00"},"2018 Q1":{"amount":"0.00","number":"0.00"},"2017 Q4":{"amount":"0.00","number":"0.00"},"2017 Q3":{"amount":"0.00","number":"0.00"},"2017 Q2":{"amount":"32,000.00","number":"2.00"},"2017 Q1":{"amount":"0.00","number":"0.00"},"2016 Q4":{"amount":"30,000.00","number":"2.00"},"2016 Q3":{"amount":"10,500.00","number":"1.00"},"2016 Q1":{"amount":"25,000.00","number":"1.00"},"2014 Q4":{"amount":"10,000.00","number":"1.00"},"2014 Q3":{"amount":"10,000.00","number":"1.00"},"2013 Q4":{"amount":"10,000.00","number":"2.00"},"2013 Q3":{"amount":"9,750.00","number":"1.00"},"2013 Q2":{"amount":"10,000.00","number":"1.00"},"2012 Q3":{"amount":"0.00","number":"1.00"},"2012 Q2":{"amount":"0.00","number":"1.00"},"2012 Q1":{"amount":"0.00","number":"1.00"},"2011 Q4":{"amount":"0.00","number":"1.00"},"2011 Q1":{"amount":"10,000.00","number":"1.00"},"2010 Q3":{"amount":"0.00","number":"1.00"},"2003 Q4":{"amount":"0.00","number":"1.00"},"2003 Q3":{"amount":"0.00","number":"1.00"},"2003 Q2":{"amount":"0.00","number":"1.00"},"2002 Q4":{"amount":"20,000.00","number":"1.00"},"2002 Q1":{"amount":"1.40","number":"1.00"},"2001 Q4":{"amount":"0.00","number":"1.00"}},"沪宁高速":{"2024 Q3":{"amount":"0.00","number":"1.00"},"2024 Q2":{"amount":"0.00","number":"0.00"},"2024 Q1":{"amount":"0.00","number":"0.00"},"2023 Q4":{"amount":"0.00","number":"0.00"},"2023 Q3":{"amount":"0.00","number":"0.00"},"2023 Q2":{"amount":"50,000.00","number":"1.00"},"2023 Q1":{"amount":"0.00","number":"0.00"},"2022 Q4":{"amount":"0.00","number":"0.00"},"2022 Q3":{"amount":"50,000.00","number":"2.00"},"2022 Q2":{"amount":"50,000.00","number":"1.00"},"2022 Q1":{"amount":"0.00","number":"0.00"},"2021 Q4":{"amount":"80,000.00","number":"2.00"},"2021 Q3":{"amount":"7,914.50","number":"1.00"},"2021 Q2":{"amount":"0.00","number":"0.00"},"2021 Q1":{"amount":"160,000.00","number":"2.00"},"2020 Q4":{"amount":"0.00","number":"0.00"},"2020 Q3":{"amount":"0.00","number":"0.00"},"2020 Q2":{"amount":"0.00","number":"0.00"},"2020 Q1":{"amount":"0.00","number":"0.00"},"2019 Q4":{"amount":"0.00","number":"0.00"},"2019 Q3":{"amount":"0.00","number":"0.00"},"2019 Q2":{"amount":"0.00","number":"0.00"},"2019 Q1":{"amount":"0.00","number":"0.00"},"2018 Q4":{"amount":"0.00","number":"0.00"},"2018 Q3":{"amount":"0.00","number":"0.00"},"2018 Q2":{"amount":"0.00","number":"0.00"},"2018 Q1":{"amount":"0.00","number":"0.00"},"2017 Q4":{"amount":"0.00","number":"0.00"},"2017 Q3":{"amount":"0.00","number":"0.00"},"2017 Q2":{"amount":"0.00","number":"0.00"},"2017 Q1":{"amount":"0.00","number":"0.00"},"2016 Q4":{"amount":"0.00","number":"0.00"},"2016 Q3":{"amount":"0.00","number":"0.00"},"2016 Q1":{"amount":"0.00","number":"0.00"},"2014 Q4":{"amount":"0.00","number":"0.00"},"2014 Q3":{"amount":"0.00","number":"0.00"},"2013 Q4":{"amount":"0.00","number":"0.00"},"2013 Q3":{"amount":"0.00","number":"0.00"},"2013 Q2":{"amount":"0.00","number":"0.00"},"2012 Q3":{"amount":"0.00","number":"0.00"},"2012 Q2":{"amount":"0.00","number":"0.00"},"2012 Q1":{"amount":"0.00","number":"0.00"},"2011 Q4":{"amount":"0.00","number":"0.00"},"2011 Q1":{"amount":"0.00","number":"0.00"},"2010 Q3":{"amount":"0.00","number":"0.00"},"2003 Q4":{"amount":"0.00","number":"0.00"},"2003 Q3":{"amount":"0.00","number":"0.00"},"2003 Q2":{"amount":"0.00","number":"0.00"},"2002 Q4":{"amount":"0.00","number":"0.00"},"2002 Q1":{"amount":"0.00","number":"0.00"},"2001 Q4":{"amount":"0.00","number":"0.00"}},"其他":{"2024 Q3":{"amount":"0.00","number":"0.00"},"2024 Q2":{"amount":"0.00","number":"0.00"},"2024 Q1":{"amount":"0.00","number":"1.00"},"2023 Q4":{"amount":"0.00","number":"1.00"},"2023 Q3":{"amount":"0.00","number":"0.00"},"2023 Q2":{"amount":"0.00","number":"0.00"},"2023 Q1":{"amount":"0.00","number":"0.00"},"2022 Q4":{"amount":"0.00","number":"0.00"},"2022 Q3":{"amount":"0.00","number":"0.00"},"2022 Q2":{"amount":"0.00","number":"0.00"},"2022 Q1":{"amount":"0.00","number":"0.00"},"2021 Q4":{"amount":"0.00","number":"0.00"},"2021 Q3":{"amount":"0.00","number":"0.00"},"2021 Q2":{"amount":"0.00","number":"0.00"},"2021 Q1":{"amount":"0.00","number":"0.00"},"2020 Q4":{"amount":"0.00","number":"0.00"},"2020 Q3":{"amount":"0.00","number":"0.00"},"2020 Q2":{"amount":"0.00","number":"0.00"},"2020 Q1":{"amount":"0.00","number":"0.00"},"2019 Q4":{"amount":"0.00","number":"0.00"},"2019 Q3":{"amount":"0.00","number":"0.00"},"2019 Q2":{"amount":"0.00","number":"0.00"},"2019 Q1":{"amount":"0.00","number":"0.00"},"2018 Q4":{"amount":"0.00","number":"0.00"},"2018 Q3":{"amount":"0.00","number":"0.00"},"2018 Q2":{"amount":"0.00","number":"0.00"},"2018 Q1":{"amount":"0.00","number":"0.00"},"2017 Q4":{"amount":"0.00","number":"0.00"},"2017 Q3":{"amount":"0.00","number":"0.00"},"2017 Q2":{"amount":"0.00","number":"0.00"},"2017 Q1":{"amount":"0.00","number":"0.00"},"2016 Q4":{"amount":"0.00","number":"0.00"},"2016 Q3":{"amount":"0.00","number":"0.00"},"2016 Q1":{"amount":"0.00","number":"0.00"},"2014 Q4":{"amount":"0.00","number":"0.00"},"2014 Q3":{"amount":"0.00","number":"0.00"},"2013 Q4":{"amount":"0.00","number":"0.00"},"2013 Q3":{"amount":"0.00","number":"0.00"},"2013 Q2":{"amount":"0.00","number":"0.00"},"2012 Q3":{"amount":"0.00","number":"0.00"},"2012 Q2":{"amount":"0.00","number":"0.00"},"2012 Q1":{"amount":"0.00","number":"0.00"},"2011 Q4":{"amount":"0.00","number":"0.00"},"2011 Q1":{"amount":"0.00","number":"0.00"},"2010 Q3":{"amount":"0.00","number":"0.00"},"2003 Q4":{"amount":"0.00","number":"0.00"},"2003 Q3":{"amount":"0.00","number":"0.00"},"2003 Q2":{"amount":"0.00","number":"0.00"},"2002 Q4":{"amount":"0.00","number":"0.00"},"2002 Q1":{"amount":"0.00","number":"0.00"},"2001 Q4":{"amount":"0.00","number":"0.00"}}}'),
+            legend: parse_json('["上海医药","上药集团","上实发展","上实城开","上实环境","沪宁高速","其他"]'),
+            xAxis: parse_json('["2001 Q4","2002 Q1","2002 Q4","2003 Q2","2003 Q3","2003 Q4","2010 Q3","2011 Q1","2011 Q4","2012 Q1","2012 Q2","2012 Q3","2013 Q2","2013 Q3","2013 Q4","2014 Q3","2014 Q4","2016 Q1","2016 Q3","2016 Q4","2017 Q1","2017 Q2","2017 Q3","2017 Q4","2018 Q1","2018 Q2","2018 Q3","2018 Q4","2019 Q1","2019 Q2","2019 Q3","2019 Q4","2020 Q1","2020 Q2","2020 Q3","2020 Q4","2021 Q1","2021 Q2","2021 Q3","2021 Q4","2022 Q1","2022 Q2","2022 Q3","2022 Q4","2023 Q1","2023 Q2","2023 Q3","2023 Q4","2024 Q1","2024 Q2","2024 Q3"]'),
+            number_lists: parse_json('[{"name":"上海医药","lists":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]},{"name":"上药集团","lists":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,2,1,2,2,1,2,3,6,5,6,3,10,9,3,4,4,20,21,19,16,22,14,17,20,37,35,16,30]},{"name":"上实发展","lists":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]},{"name":"上实城开","lists":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,5,2,1,3,8,20,10,6,6,5,3,13,24,14,15,12,17,6,3,3,8,4,4,1,3,4,0,0,0,0,0,1]},{"name":"上实环境","lists":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,2,0,2,0,0,0,0,2,0,3,0,0,0,0,2,0,3,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0]},{"name":"沪宁高速","lists":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,2,0,1,2,0,0,1,0,0,0,0,1]},{"name":"其他","lists":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0]}]'),
+            all_quarter_number: parse_json('[0.14285714285714285,0.14285714285714285,0.14285714285714285,0.14285714285714285,0.14285714285714285,0.14285714285714285,0.14285714285714285,0.14285714285714285,0.14285714285714285,0.14285714285714285,0.14285714285714285,0.14285714285714285,0.14285714285714285,0.14285714285714285,0.2857142857142857,0.14285714285714285,0.14285714285714285,0.14285714285714285,0.5714285714285714,1,0.2857142857142857,0.8571428571428571,0.42857142857142855,1.4285714285714286,3,1.7142857142857142,1.4285714285714286,1,1.5714285714285714,0.8571428571428571,2.7142857142857144,4.142857142857143,2.857142857142857,2.857142857142857,3.142857142857143,4.142857142857143,1.5714285714285714,1,1.1428571428571428,4.428571428571429,3.5714285714285716,3.4285714285714284,2.857142857142857,3.5714285714285716,2.7142857142857144,2.5714285714285716,2.857142857142857,5.428571428571429,5.142857142857143,2.5714285714285716,4.571428571428571]'),
+        }
+        var number_lists = [];
+        data.number_lists.forEach(function(item, index) {
+            var lists = [];
+            item.lists.forEach(function(item, index) {
+                lists.push(item.toFixed(2));
+            });
+            number_lists.push({
+                name: item.name,
+                type: 'bar',
+                stack: 'amount',
+                data: lists,
+                itemStyle: {
+                    normal: {
+                        color: color[index]
+                    },
+                },
+            })
+        });
+        var lists = [];
+        data.all_quarter_number.forEach(function(item, index) {
+            lists.push(item.toFixed(2));
+        });
+        number_lists.push({
+            name: '均值',
+            type: 'line',
+            stack: 'line',
+            yAxisIndex: 1,
+            data: lists,
+            itemStyle: {
+                normal: {
+                    color: '#EC7728'
+                },
+            },
+        })
+         console.log(number_lists)
+        /*
+  number_lists.push({
+    name: '投后基金数量',
+    type: 'scatter',
+    stack: 'scatter',
+    yAxisIndex: 2,
+    itemStyle: {
+      normal:{
+        color:'rgba(128, 128, 128, 0)',
+      },
+    },
+    data:data.touhou_fund_number
+  });
+  
+   */
+         // 指定图表的配置项和数据
+         var str_number_option = {
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: { // 坐标轴指示器，坐标轴触发有效
+                    type: 'shadow' // 默认为直线，可选为：'line' | 'shadow'
+                }
+            },
+            legend: {
+                data: data.legend,
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '10%',
+                top: '18%',
+                containLabel: true
+            },
+            xAxis: [{
+                type: 'category',
+                data: data.xAxis
+            }],
+            yAxis: [{
+                type: 'value',
+                name: '数量'
+            }, {
+                type: 'value',
+                name: '均值（个）',
+                axisLabel: {
+                    formatter: '{value}'
+                }
+            }, {
+                type: 'value',
+                axisLabel: {
+                    show: false // 设置 y 轴标签不显示
+                }
+            }],
+            dataZoom: [{
+                type: 'slider',
+                xAxisIndex: 0,
+                filterMode: 'empty'
+            }, {
+                start: 0,
+                end: 100,
+                handleIcon: 'M10.7,11.9v-1.3H9.3v1.3c-4.9,0.3-8.8,4.4-8.8,9.4c0,5,3.9,9.1,8.8,9.4v1.3h1.3v-1.3c4.9-0.3,8.8-4.4,8.8-9.4C19.5,16.3,15.6,12.2,10.7,11.9z M13.3,24.4H6.7V23h6.6V24.4z M13.3,19.6H6.7v-1.4h6.6V19.6z',
+                handleSize: '80%',
+                handleStyle: {
+                    color: '#fff',
+                    shadowBlur: 3,
+                    shadowColor: 'rgba(0, 0, 0, 0.6)',
+                    shadowOffsetX: 2,
+                    shadowOffsetY: 2
+                }
+            }],
+            series: number_lists,
+        };
+        var number_of_items_id = 'number_of_items';
+        var str_number = echarts.init(document.getElementById(number_of_items_id));
+        str_number.setOption(str_number_option, true);
+    </script>
+</div>

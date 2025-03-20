@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 ECharts -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+</head>
+<body style="height: 100%; margin: 0">
+    <!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+    <div id="main" style="height: 100%"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+
+        // 节点名对应的URL映射
+        var nodeUrls = {
+            '长期股权管理': 'https://dev.vc800.com/?/Direct_investment_label/&page=0&state=20',
+            '固定资产管理': 'https://dev.vc800.com/?/companyd_view_gd/&page=0&state=20',
+            '项目入库': 'https://dev.vc800.com/?/company_ruku/',
+            '拓展库管理': 'https://dev.vc800.com/?/companyd_view_tz/&page=0&state=20',
+            '立项项目库管理': 'https://dev.vc800.com/?/companyd',
+            // ... 添加其他节点对应的URL
+        };
+
+        // 指定树的节点数据
+        var data = {
+            name: 'flare',
+            children: [
+                {
+                    name: '项目库',
+                    children: [
+                        {
+                            name: '立项项目库管理',
+                            children: [
+                                { name: '长期股权管理', value: 721 },
+                                { name: '固定资产管理', value: 4294 }
+                            ]
+                        },
+                        {
+                            name: '拓展项目库管理',
+                            children: [
+                                { name: '项目入库', value: 721 },
+                                { name: '拓展库管理', value: 4294 }
+                            ]
+                        },
+                    ]
+                },
+                {
+                    name: 'display',
+                    children: [
+                        { name: 'DirtySprite', value: 8833 },
+                        { name: 'LineSprite', value: 1732 },
+                        { name: 'RectSprite', value: 3623 }
+                    ]
+                },
+                {
+                    name: 'flex',
+                    children: [{ name: 'FlareVis', value: 4116 }]
+                },
+                {
+                    name: 'query',
+                    children: [
+                        { name: 'AggregateExpression', value: 1616 },
+                        { name: 'And', value: 1027 },
+                        { name: 'Arithmetic', value: 3891 },
+                        // ... 其他节点
+                    ]
+                }
+                // ... 其他节点
+            ]
+        };
+
+        // 指定图表的配置项和数据
+        var option = {
+            tooltip: {
+                trigger: 'item',
+                triggerOn: 'mousemove'
+            },
+            series: [
+                {
+                    type: 'tree',
+                    id: 0,
+                    name: 'tree1',
+                    data: [data],
+                    top: '10%',
+                    left: '8%',
+                    bottom: '22%',
+                    right: '20%',
+                    symbolSize: 7,
+                    edgeShape: 'polyline',
+                    edgeForkPosition: '63%',
+                    initialTreeDepth: 3,
+                    lineStyle: {
+                        width: 2
+                    },
+                    label: {
+                        backgroundColor: '#fff',
+                        position: 'left',
+                        verticalAlign: 'middle',
+                        align: 'right',
+                        formatter: function (params) {
+                            // 为节点名添加链接
+                            var url = nodeUrls[params.name];
+                            return url ? '{a|' + params.name + '}' : params.name;
+                        },
+                        rich: {
+                            a: {
+                                color: '#0066cc',
+                                textDecoration: 'underline',
+                                cursor: 'pointer'
+                            }
+                        }
+                    },
+                    leaves: {
+                        label: {
+                            position: 'right',
+                            verticalAlign: 'middle',
+                            align: 'left'
+                        }
+                    },
+                    emphasis: {
+                        focus: 'descendant'
+                    },
+                    expandAndCollapse: true,
+                    animationDuration: 550,
+                    animationDurationUpdate: 750
+                }
+            ]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+
+        // 添加点击事件监听
+        myChart.on('click', function (params) {
+            // 检查点击的是否为节点名
+            if (params.componentType === 'series') {
+                // 获取节点名对应的URL
+                var url = nodeUrls[params.name];
+                if (url) {
+                    // 跳转到对应的URL
+                    window.open(url);
+                }
+            }
+        });
+    </script>
+</body>
+</html>

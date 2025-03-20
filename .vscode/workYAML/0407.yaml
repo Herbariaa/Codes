@@ -1,0 +1,509 @@
+---
+notify:
+  open: 1
+  url_template:
+diycol_pc:
+diycol_iphone:
+bi_counting:
+bi_condition:
+bi_filter:
+openlink: 0
+name_rule:
+monitor_condition:
+monitor_update:
+title_field:
+stepbar: [ ]
+dynform: [ ]
+collect: [ ]
+calc:
+  - '{company_deinterest}={company_sumexitprofit}-{company_payments}'
+  - '{company_allexitmoney}={company_principalmoney}+{company_sumexitprofit}'
+css:
+js: |
+  $(function(){
+      var click = 'date_huikuan';//日前选择
+      var year_text = 'huikuan_year';//年份
+      var quarter = 'huikuan_quarter';//季度
+      var month = 'huikuan_month';//月份
+  
+      $('#'+click).change(function(){
+        var date_on=new Date($(this).val());
+        var year = date_on.getFullYear();
+        var currMonth= date_on.getMonth()+1;
+        var currQuarter = Math.floor( ( currMonth % 3 == 0 ? ( currMonth / 3 ) : ( currMonth / 3 + 1 ) ) );
+        $('#'+year_text).val(year);
+        $('#'+month).val(currMonth);
+        $('#'+quarter).val('Q'+currQuarter);
+      });
+    });
+script:
+  add:
+    - 'jahg:cal_company_allcashflow|{eid}'
+  update:
+    - 'jahg:cal_company_allcashflow|{eid}'
+  del:
+    - 'jahg:cal_company_allcashflow|{eid}'
+ext: [ ]
+sms_template: [ ]
+openlink_title:
+openlink_button:
+email_notify:
+  - 
+email_notify_tem:
+openlink_content:
+pre_commit_content:
+tab_listen_key:
+tab_listen_rule: [ ]
+def_submit_btn_text:
+submit_redirect: 0
+submit_redirect_url:
+word_export:
+  word_custom_func:
+  word_export_name:
+  word_file:
+    - 
+  word_file_label:
+    - 
+api_address:
+api_list_key:
+api_request_key:
+api_response_key:
+api_display: match
+comment:
+  target: _self
+  doctype:
+  up_folder:
+  root_uid:
+  eid_link:
+  formats:
+  position: 1
+  attached_mod:
+  field_newest:
+  field_count:
+notify_default:
+inherit_priv:
+privilege:
+  list:
+  import:
+  export:
+  detail:
+  edit:
+  delete:
+  docx:
+  pdf:
+  history:
+  openlink:
+diycol: 1
+diycol_back_list:
+list_count_block_fields:
+order_priority:
+page_size:
+fixed_col:
+fixed_col_mobile:
+addon_url:
+list_style: list_ajax
+link_type: canvas
+list_count: top
+list_style_mobile: list_mobile
+py_search: no_more
+secondary_link_type: modal
+diycard_config: [ ]
+button_config: [ ]
+feed_tpl:
+feed_mobile_tpl:
+feed_tpl_css:
+feed_tpl_js:
+css_config:
+js_config:
+merged_cell_key:
+merged_cell_list:
+merge_exclude_code:
+list_img_name:
+list_img_img:
+list_img_date:
+list_img_content:
+super_object:
+replace_comment_update_col:
+replace_comment_max_col:
+replace_comment_notify: 3
+created_sth:
+filter:
+always_show:
+filter_mobile:
+item:
+  company_company:
+    id: company_company
+    name: 已投项目
+    type: select_new
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_label: 模块
+      type: mod
+      data_source: company_company
+      payload:
+      multiple: 否
+      ajax: 是
+      tags: 否
+      check_priv: 否
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis:
+      ellipsis_label:
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    required: 1
+    ext:
+      mod: company_company
+      set_options:
+        fill_label:
+          investment_subject: investment_subject
+    index: 1
+    fill_label: 1
+  investment_subject:
+    id: investment_subject
+    name: 投资主体
+    type: select_new
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    props:
+      type_optgroup:
+      type_label: 模块(分组)
+      type: mod_group
+      data_source: |
+        直投基金:
+          mod:directfof
+        股权母基金:
+          mod:fof
+      payload:
+      multiple: 否
+      ajax: 是
+      tags: 否
+      check_priv: 否
+      sort_order_optgroup:
+      sort_order_label:
+      sort_order:
+      user_list: 否
+      label:
+      open_type_optgroup:
+      open_type_label:
+      open_type:
+      link_base:
+      empty_val:
+      data_source_name: 否
+      ignore_pinyin_search: 否
+      dynamic:
+      select_all: 否
+      import_autoadd: 否
+      import_rule:
+      ellipsis_optgroup:
+      ellipsis_label: 关闭
+      ellipsis: off
+      trigger_with_change: 否
+      rel_sort_number: 否
+      rel_sort_custon:
+    width: 1
+    list_align: def
+  date_huikuan:
+    id: date_huikuan
+    listed: 1
+    name: 回款时间
+    type: datepicker
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    required: 1
+    list_align: def
+  huikuan_month:
+    id: huikuan_month
+    name: 回款月份
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 1
+    list_align: def
+  huikuan_quarter:
+    id: huikuan_quarter
+    name: 回款季度
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 1
+    list_align: def
+  huikuan_year:
+    id: huikuan_year
+    name: 回款年度
+    type: text
+    width: 1
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: 1
+    list_align: def
+  company_allexitmoney:
+    id: company_allexitmoney
+    listed: 1
+    name: 分配金额总计
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    counter: sum
+    tips: =本金部分总计+收益部分总计
+    props:
+      decimals: 2
+      t_divide: 是
+      padding: 否
+      currency_symbol: 否
+  company_principalmoney:
+    id: company_principalmoney
+    listed: 1
+    name: 本金部分总计
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    counter: sum
+  company_sumexitprofit:
+    id: company_sumexitprofit
+    listed: 1
+    name: 收益部分总计
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    counter: sum
+    list_align: def
+  company_payments:
+    id: company_payments
+    listed: 1
+    name: 后续缴款利息
+    type: yuan
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    counter: sum
+  company_deinterest:
+    id: company_deinterest
+    listed: 1
+    name: 扣除缴款后收益
+    type: yuan
+    tips: =收益部分总计-后续缴款利息
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+    counter: sum
+  gtjjsdp9vb:
+    id: gtjjsdp9vb
+    name: 说明
+    type: muti
+    width: 3
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    listed: 1
+  gtjjsp8fqn:
+    id: gtjjsp8fqn
+    name: 附件
+    type: upload
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+  gp34wklkz9:
+    id: gp34wklkz9
+    name: 回款明细
+    type: hidden
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    width: 1
+  gp34x1yfqu:
+    id: gp34x1yfqu
+    name: 回款明细
+    type: hidden
+    num_range:
+      range: default
+      start:
+      end:
+      contain: all
+    label_width: 1
+    val_width: def
+    ext:
+      mod: company_cashflow
+      show_count: true
+      show_filter: true
+    width: 1
+    props:
+      type_label: 模块
+      type: mod
+      data_source:
+      rel_del_ignore: 否
+      page_size: 0
+      layout_label:
+      layout:
+      layout_mobile_label:
+      layout_mobile:
+      rel_display:
+      rel_display_max: 0
+      download_no_space: 否
+      use_top_scroll_bar: 否
+      editlist: 否
+      view_page_add: 否
+      view_page_edit: 否
+      link_type_label:
+      link_type:
+      show_checkbox: 否
+      feed_more_label:
+      feed_more:
+      feed_more_mobile_label:
+      feed_more_mobile:
+      feed_page_size: 0
+      feed_mobile_page_size: 0
+      feed_tpl:
+      feed_mobile_tpl:
+      feed_tpl_css:
+      feed_tpl_js:
+      check_require_flag: 否
+      auto_add_item:
+    index: 1
+
+import: [ ]
+pre_order: [ ]
+bi:
+  counting: [ ]
+  condition: [ ]
+  monitor_condition: [ ]
+  monitor_update: [ ]
+  filter: [ ]
+
+
+
+
+
+fund:
+  - "out_manager_main.dinvest_fund_n = count,name,{manage_jiancheng}  equal {eid}"
+  - "pfund.inv_exit = sum,money,{cash_type}  equal '总现金流入'"
+
+
+---
+fund:
+  - out_manager_main.dinvest_fund_n = count
+
+
+
+out_manager_main:
+  - out_manager_main.dinvest_fund_n=collect,fund.name
+  - out_manager_main.total_cost=sum,financing.actual_amount
+
+
+---
+out_manager_main:
+  - >
+    out_manager_main.dinvest_fund_n=count,fof
+  - >
+    out_manager_main.sub_fund_n=count,fund
+  - >
+    out_manager_main.sub_managers_n=count
+
+
+
+fof:
+  - >
+    out_manager_main.dinvest_fund_n=count,,{manage_jiancheng} equal {eid}
+fund:
+  - >
+    out_manager_main.sub_fund_n=count,,{manage_jiancheng} equal {eid}
+out_manager:
+  - >
+    out_manager_main.sub_managers_n=count,,{manage_jiancheng} equal {eid}
+
+
+
+fof:
+  - >
+    out_manager_main.dinvest_fund_n=count
+fund:
+  - >
+    out_manager_main.sub_fund_n=count
+out_manager:
+  - >
+    out_manager_main.sub_managers_n=count

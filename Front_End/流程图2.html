@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .flowchart {
+            position: relative;
+            min-height: 600px;
+            padding: 40px;
+            background: white;
+        }
+
+        /* 节点通用样式 */
+        .node {
+            position: absolute;
+            width: 160px;
+            padding: 12px;
+            background: #ffeded;
+            border: 2px solid #ff4444;
+            border-radius: 6px;
+            text-align: center;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+
+        /* 流程线样式 */
+        .connector {
+            position: absolute;
+            background: #ff4444;
+        }
+
+        /* 条件分支样式 */
+        .condition {
+            position: absolute;
+            color: #ff4444;
+            font-size: 12px;
+            background: white;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+
+        /* 状态样式 */
+        .completed {
+            background: #771526 !important;
+            border-color: #28a745 !important;
+        }
+        .current {
+            background: #e96571 !important;
+            border-color: #ffc107 !important;
+        }
+    </style>
+</head>
+<body>
+
+<div class="data-wrap" 
+     data-key="shenbaojindu" 
+     data-val="国资委前报告/前备案" 
+     data-type="select_new">
+</div>
+
+<div class="flowchart">
+    <!-- 第一层级 -->
+    <div class="node" style="top: 20px; left: 300px;">投资决策主体</div>
+    
+    <!-- 第二层级 -->
+    <div class="node" style="top: 120px; left: 100px;">集团总裁办公会</div>
+    <div class="node" style="top: 120px; left: 500px;">集团执董会</div>
+    
+    <!-- 第三层级 -->
+    <div class="node" style="top: 240px; left: 100px;">重大项目联审</div>
+    <div class="node" style="top: 240px; left: 500px;">经济行为决策</div>
+    
+    <!-- 第四层级 -->
+    <div class="node" style="top: 360px; left: 300px;">国资委前报告/前备案</div>
+    
+    <!-- 最终节点 -->
+    <div class="node" style="top: 480px; left: 300px;">投资实施（投中管理）</div>
+
+    <!-- 流程线 -->
+    <div class="connector" style="top: 60px; left: 365px; width: 2px; height: 60px;"></div>
+    
+    <!-- 分支线 -->
+    <div class="connector" style="top: 145px; left: 365px; width: 2px; height: 40px;"></div>
+    <div class="connector" style="top: 180px; left: 365px; transform: rotate(-45deg); width: 140px; height: 2px;"></div>
+    <div class="connector" style="top: 180px; left: 365px; transform: rotate(45deg); width: 140px; height: 2px;"></div>
+
+    <!-- 条件文字 -->
+    <div class="condition" style="top: 170px; left: 280px;">是</div>
+    <div class="condition" style="top: 170px; left: 400px;">否</div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // 获取当前阶段
+    const currentStage = document.querySelector('[data-key="shenbaojindu"]').dataset.val;
+    
+    // 流程节点关系映射
+    const flowMap = {
+        "集团总裁办公会": ["重大项目联审"],
+        "集团执董会": ["经济行为决策"],
+        "重大项目联审": ["国资委前报告/前备案"],
+        "经济行为决策": ["国资委前报告/前备案"],
+        "国资委前报告/前备案": ["投资实施（投中管理）"]
+    };
+
+    // 标记当前节点和路径
+    document.querySelectorAll('.node').forEach(node => {
+        if (node.textContent === currentStage) {
+            node.classList.add('current');
+            markPredecessors(node);
+        }
+    });
+
+    // 回溯标记前置节点
+    function markPredecessors(currentNode) {
+        const currentText = currentNode.textContent.trim();
+        Object.entries(flowMap).forEach(([source, targets]) => {
+            if (targets.includes(currentText)) {
+                const predNode = [...document.querySelectorAll('.node')]
+                    .find(n => n.textContent.trim() === source);
+                if (predNode && !predNode.classList.contains('completed')) {
+                    predNode.classList.add('completed');
+                    markPredecessors(predNode);
+                }
+            }
+        });
+    }
+});
+</script>
+
+</body>
+</html>
